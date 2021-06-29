@@ -1,6 +1,8 @@
-# suobset.github.io
+# suobset
+###### hello. i'm kush.
 
 This domain will act as my personal website and blog. Everything will be built from scratch. Until the website is done, this space (the README of this <a href="https://github.com/suobset/suobset.github.io">Github Repository</a>) will be used to host all blog posts. 
+<hr>
 
 ## Espresso Depresso
 ##### 30th June, 2021
@@ -27,3 +29,4 @@ The inspiration for this project comes from two main places: a need for a person
 Mr. Yoshinori is a 51 year old resident of Japan who has been running Alf’s Room since 1996-ish. The website, which I first saw through a Nick Robinson video, consists of various “rooms” or pages that showcase different interests of Mr. Yoshinori. It ranges from his travel entries to specific interests, and goes beyond to even capturing insignificant details of his everyday life: such as the one time some plants disappeared from a train station. All these topics are presented by the website’s mascot: Alf. Each post has a discussion section and the like, and while witnessing it all (albeit, in Google translated Japanese to English), it struck that this concept is exactly what I needed. Stories, no matter how deep or insignificant, told through a perspective on a medium.
 
 This is the medium, and this is my story. WIP, but getting there.
+<hr>
