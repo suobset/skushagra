@@ -1,4 +1,18 @@
-# suobset
+# kush s. | @suobset
+personal website build speedrun any%.
+
+start time: 
+
+* 1/13/2021 0053 hrs. 
+* unix time: (0d1642053223 || 0b1100001110111111011111001100111).
+
+end time:
+
+* tba
+* unix time: (tba)
+
+godspeed.
+<!--
 ###### hello. i'm kush.
 
 This domain will act as my personal website and blog. Everything will be built from scratch. Until the website is done, this space (the README of this <a href="https://github.com/suobset/suobset.github.io">Github Repository</a>) will be used to host all blog posts. 
@@ -30,3 +44,4 @@ Mr. Yoshinori is a 51 year old resident of Japan who has been running Alf’s Ro
 
 This is the medium, and this is my story. WIP, but getting there.
 <hr>
+-->
