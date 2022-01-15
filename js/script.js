@@ -41,7 +41,6 @@ $(function(){
 			$(this).addClass('active');
 			portfolio.shuffle('shuffle', groupName );
 		});
-		
 	});
 	
 	/*=========================================================================
