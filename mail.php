@@ -22,15 +22,15 @@
 		$data['error'] = 'The message field is required!';
 	}else{
 		
-		$formcontent="From: $name\nSubject: $subject\nEmail: $email\nMessage: $message";
+		$form-content="From: $name\nSubject: $subject\nEmail: $email\nMessage: $message";
 		
 		
 		//Place your Email Here
 		$recipient = "kushagra2410@gmail.com";
 		
-		$mailheader = "From: $email \r\n";
+		$mail-header = "From: $email \r\n";
 		
-		if( mail($recipient, $name, $formcontent, $mailheader) == false ){
+		if( mail($recipient, $name, $form-content, $mail-header) == false ){
 			$data['error'] = 'Sorry, an error occured!';
 		}else{
 			$data['error'] = false;
