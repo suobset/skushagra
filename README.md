@@ -6,10 +6,14 @@ start time:
 * 1/13/2021 0053 hrs. 
 * unix time: (0d1642053223 || 0b1100001110111111011111001100111).
 
-end time:
+end time (draft 1):
 
-* tba
-* unix time: (tba)
+* 1/16/2021 0513 hrs
+* unix time: (0d1642328012 || 0b1100001111000111110111111001100)
+
+languages: html, css, javascript, jquery, php
+
+tools: webstorm, github pages, godaddy (domain management & dns), github desktop, zsh (to check domain status)
 
 godspeed.
 <!--
