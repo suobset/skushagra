@@ -96,7 +96,8 @@ body.border-dark .menu-btn > .lines > span{
 	transition:width .6s cubic-bezier(.785,.135,.15,.86);
 	overflow:hidden;
 }
-.menu:hover,
+/*changed :hover to :focus, added attribute tabindex in menu hyperlink in index.html to make it work with Chromium and WebKit based browsers. Read More: https://github.com/suobset/skushagra/issues/1*/
+.menu:focus,
 .menu-btn:focus + .menu{
 	width:300px;
 }
