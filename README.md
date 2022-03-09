@@ -1,4 +1,11 @@
-# kush s. | @suobset
+# Kushagra Srivastava | @suobset
+
+## Source Code for Personal Website
+
+This repository contains the source code for my Personal Website 
+
+<hr>
+
 personal website build speedrun any%.
 
 start time: 
