@@ -31,7 +31,20 @@
 /*=======================================================
 	General Styles
 =======================================================*/
+
+/* Roboto and Lora from Google, in case Jetbrains Mono acts up */
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700,300,100|Lora:400,400italic,700,700italic);
+
+/* Adding JetBrains Mono to Website */
+@font-face {
+    font-family: 'jetbrainsMono';
+    src: url('https://skushagra.com/fonts/jetbrainsMono/jetbrainsmonowght-webfont.woff2') format('woff2'),
+         url('https://skushagra.com/fonts/jetbrainsMono/jetbrainsmonowght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body, html{
 	height:100%;
 	width:100%;
@@ -39,7 +52,7 @@ body, html{
 body{
 	position:relative;
 	overflow:hidden;
-	font-family: Lora, serif;
+	font-family: Lora, serif; 
 	background:#F0F0F0 !important;
 }
 *{
@@ -52,7 +65,7 @@ body{
 .btn-custom,
 .menu-items > li > a,
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Roboto Mono', sans-serif;
+	font-family: jetbrainsMono, sans-serif; /*Maybe add 'Roboto Mono' if needed */
 }
 .color{
 	color:#303F9F;
