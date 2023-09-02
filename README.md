@@ -2,6 +2,10 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+<b>If you're seeing this page as a regular visitor, the website is currenty under maintainance</b>
+
+Visit an [archived](https://suobset.github.io/archive/web_v2/) version of the old website.
+
 ### Installation
 
 ```
