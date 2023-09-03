@@ -40,10 +40,10 @@ jobs:
           user_email: kushagra2410@gmail.com
 
       # Add CNAME to gh-pages branch
-      - name: Create CNAME file on gh-pages branch
-        run: |
-          git checkout gh-pages
-          echo "skushagra.com" > CNAME
-          git add CNAME
-          git commit -m "Add CNAME file"
-          git push origin gh-pages
+      # - name: Create CNAME file on gh-pages branch
+      #   run: |
+      #     git checkout gh-pages
+      #     echo "skushagra.com" > CNAME
+      #     git add CNAME
+      #     git commit -m "Add CNAME file"
+      #     git push origin gh-pages
