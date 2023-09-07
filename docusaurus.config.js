@@ -88,28 +88,44 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Site Highlights',
             items: [
               {
-                label: 'Tutorial',
+                label: 'About Me + Everything',
                 to: '/docs/intro',
               },
-            ],
+              {
+              	label: 'iCons Projects',
+              	to: '/docs/icons'
+              },
+              {
+              	label: 'Blog',
+              	to: '/blog',
+              },
+              {
+              	label: 'Resume',
+              	to: '/docs/resume',
+              }
+            ],           
           },
           {
-            title: 'Community',
+            title: 'On the web',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/suobset/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/suobset',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+              	label: 'ORCiD',
+              	href: 'https://orcid.org/0000-0003-0656-5478'
+              },
+              {
+                label: 'Miscellaneous',
+                to: '/docs/links',
               },
             ],
           },
@@ -117,17 +133,20 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                html: `<a href='https://fsf.org'><img src='https://static.fsf.org/nosvn/associate/crm/6091180.png'></img></a>`,
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Source Code for this site',
+                href: 'https://github.com/suobset/skushagra',
+              },
+              {
+              	label: 'Built with Docusaurus',
+              	href: 'https://docusaurus.io',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2019-${new Date().getFullYear()} Kushagra Srivastava`,
       },
       prism: {
         theme: lightCodeTheme,

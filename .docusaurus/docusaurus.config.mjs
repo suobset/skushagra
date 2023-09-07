@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "If you are seeing this page as a regular visitor, it is currently under maintainance",
+  "title": "Kushagra Srivastava",
+  "tagline": "I like devising solutions to real-world problems in an effective and efficient manner.",
   "favicon": "img/favicon.ico",
   "url": "https://skushagra.com",
   "baseUrl": "/",
@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/cypher/Documents/skushagra/sidebars.js",
+          "sidebarPath": "/home/suobset/GitHub/skushagra/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,7 +34,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/home/cypher/Documents/skushagra/src/css/custom.css"
+          "customCss": "/home/suobset/GitHub/skushagra/src/css/custom.css"
         }
       }
     ]
@@ -42,10 +42,10 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "Kush S.",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/logo.png"
       },
       "items": [
         {
@@ -71,28 +71,44 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Site Highlights",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "About Me + Everything",
               "to": "/docs/intro"
+            },
+            {
+              "label": "iCons Projects",
+              "to": "/docs/icons"
+            },
+            {
+              "label": "Blog",
+              "to": "/blog"
+            },
+            {
+              "label": "Resume",
+              "to": "/docs/resume"
             }
           ]
         },
         {
-          "title": "Community",
+          "title": "On the web",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "LinkedIn",
+              "href": "https://www.linkedin.com/in/suobset/"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "label": "GitHub",
+              "href": "https://github.com/suobset"
             },
             {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "label": "ORCiD",
+              "href": "https://orcid.org/0000-0003-0656-5478"
+            },
+            {
+              "label": "Miscellaneous",
+              "to": "/docs/links"
             }
           ]
         },
@@ -100,17 +116,20 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
-              "to": "/blog"
+              "html": "<a href='https://fsf.org'><img src='https://static.fsf.org/nosvn/associate/crm/6091180.png'></img></a>"
             },
             {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "label": "Source Code for this site",
+              "href": "https://github.com/suobset/skushagra"
+            },
+            {
+              "label": "Built with Docusaurus",
+              "href": "https://docusaurus.io"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2019-2023 Kushagra Srivastava"
     },
     "prism": {
       "theme": {
