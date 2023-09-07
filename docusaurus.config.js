@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'If you are seeing this page as a regular visitor, it is currently under maintainance',
+  title: 'Kushagra Srivastava',
+  tagline: 'I like devising solutions to real-world problems in an effective and efficient manner.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,10 +64,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Kush S.',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {

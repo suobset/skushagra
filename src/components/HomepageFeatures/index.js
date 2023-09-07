@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'UMass iCons + U.S. DOE TOP',
+    Svg: require('@site/static/img/iCons-nogo.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Collaborating with a team of 6 on "The Opportunity Project" by <a href="https://icons.cns.umass.edu">UMass iCons</a> + <a href="https://www.energy.gov/">U.S. Department of Energy</a>: a creative research endeavour which takes students from multiple universities and pairs them with industry experts to help in data collection and visualization.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'CICS Honors Thesis',
+    Svg: require('@site/static/img/cics.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Currently working with Prof. <a href="https://www.cics.umass.edu/people/chiu-joe">Joe Chiu</a> and Prof. <a href="https://www.cics.umass.edu/faculty/directory/richards_tim">Tim Richards</a> on my Honors Thesis pertaining to analysis of different programming languages at the Operating Systems level.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'LinKaGe Lab @ Smith College',
+    Svg: require('@site/static/img/smith.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Working as a Research Assistant at the <a href="https://linkage.cs.umass.edu">LinKaGe Lab</a> under <a href="https://www.smith.edu/academics/faculty/ileana-streinu">Dr. Ileana Streinu</a>. Currently focusing on upkeep and development of different systems and software used by the lab.
       </>
     ),
   },
@@ -53,10 +50,13 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <p>The following is the personal website of Kush Srivastava: undergraduate CompSci major at UMass Amherst, graduating 2024. This homepage will cover the highlights of projects that I am working on currently. Complete details on everything that I am working on can be accessed via the <a href="./docs/intro">About</a> page. I also <a href="./blog">write stuff on here occassionally</a>.</p>
+        <p>The reason behind creating this website has changed over the years: this domain went from being a website in High School teaching music to others, to being a portfolio website, to now furthering that and making this a repository for almost everything I do: creatively and professionally. I had created the last version of this website during Winter 2021, and that version over time felt constraining and in need of an overhaul. I might keep using this home page area for such musings.</p>
+        <p>Currently, my main focus are in these endeavours:</p>
         <div className="row">
-          {FeatureList.map((props, idx) => (
+         {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
-          ))}
+          ))} 
         </div>
       </div>
     </section>
