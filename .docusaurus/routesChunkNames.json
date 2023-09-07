@@ -42,7 +42,7 @@
       "plugin": "plugin---docusaurus-debug-061-60e"
     }
   },
-  "/blog-5f2": {
+  "/blog-519": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---bloge-43-97a"
@@ -50,16 +50,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "content---blog-297-016"
       },
       {
-        "content": "content---blogf-4-f-cd7"
-      },
-      {
-        "content": "content---blog-871-381"
-      },
-      {
-        "content": "content---blog-925-e00"
+        "content": "content---blog-40-f-97b"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
@@ -71,29 +65,13 @@
     },
     "archive": "archive---blog-archiveb-2-f-393"
   },
-  "/blog/first-blog-post-1ff": {
+  "/blog/liminal spaces art of appreciating-73f": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "plugin": "plugin---bloge-43-97a"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-first-blog-poste-27-4a1"
-  },
-  "/blog/long-blog-post-100": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "plugin": "plugin---bloge-43-97a"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-long-blog-post-736-bc7"
-  },
-  "/blog/mdx-blog-post-169": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "plugin": "plugin---bloge-43-97a"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-mdx-blog-post-593-37b"
+    "content": "content---blog-liminal-spaces-art-of-appreciating-669-d33"
   },
   "/blog/tags-cff": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
@@ -103,7 +81,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/docusaurus-d40": {
+  "/blog/tags/aesthetics-457": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-43-97a"
@@ -111,22 +89,27 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-766-e3c"
-      },
+        "content": "content---blog-297-016"
+      }
+    ],
+    "tag": "tag---blog-tags-aestheticse-31-80a",
+    "listMetadata": "listMetadata---blog-tags-aesthetics-803-c77"
+  },
+  "/blog/tags/docusaurus-0c4": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---bloge-43-97a"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
       {
-        "content": "content---blogf-4-f-cd7"
-      },
-      {
-        "content": "content---blog-871-381"
-      },
-      {
-        "content": "content---blog-925-e00"
+        "content": "content---blog-40-f-97b"
       }
     ],
     "tag": "tag---blog-tags-docusaurusa-80-728",
     "listMetadata": "listMetadata---blog-tags-docusaurus-608-c09"
   },
-  "/blog/tags/facebook-c38": {
+  "/blog/tags/facebook-eed": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-43-97a"
@@ -134,13 +117,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "content---blog-40-f-97b"
       }
     ],
     "tag": "tag---blog-tags-facebook-031-c52",
     "listMetadata": "listMetadata---blog-tags-facebook-096-d31"
   },
-  "/blog/tags/hello-966": {
+  "/blog/tags/hello-10d": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-43-97a"
@@ -148,16 +131,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-766-e3c"
-      },
-      {
-        "content": "content---blog-871-381"
+        "content": "content---blog-40-f-97b"
       }
     ],
     "tag": "tag---blog-tags-hello-30-a-bed",
     "listMetadata": "listMetadata---blog-tags-hello-664-70a"
   },
-  "/blog/tags/hola-86b": {
+  "/blog/tags/life-96e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-43-97a"
@@ -165,19 +145,47 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-925-e00"
+        "content": "content---blog-297-016"
       }
     ],
-    "tag": "tag---blog-tags-holae-16-18a",
-    "listMetadata": "listMetadata---blog-tags-hola-4-c-9-a24"
+    "tag": "tag---blog-tags-life-976-34c",
+    "listMetadata": "listMetadata---blog-tags-lifebf-5-233"
   },
-  "/blog/welcome-b78": {
+  "/blog/tags/liminal-space-b54": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---bloge-43-97a"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-297-016"
+      }
+    ],
+    "tag": "tag---blog-tags-liminal-space-5-b-8-ad1",
+    "listMetadata": "listMetadata---blog-tags-liminal-space-9-c-0-a1d"
+  },
+  "/blog/tags/nostalgia-a30": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---bloge-43-97a"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-297-016"
+      }
+    ],
+    "tag": "tag---blog-tags-nostalgiab-7-d-66c",
+    "listMetadata": "listMetadata---blog-tags-nostalgiae-06-33b"
+  },
+  "/blog/welcome-bc6": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "plugin": "plugin---bloge-43-97a"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-welcomed-9-f-ffb"
+    "content": "content---blog-welcome-5-bb-f73"
   },
   "/markdown-page-35d": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",

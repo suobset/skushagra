@@ -1,0 +1,55 @@
+{
+  "permalink": "/blog/liminal spaces art of appreciating",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-30-liminal-spaces-art-of-appreciating/index.md",
+  "source": "@site/blog/2023-08-30-liminal-spaces-art-of-appreciating/index.md",
+  "title": "Liminal Spaces: the art of being in, and appreciating the in-between.",
+  "description": "Originally published by me on Medium",
+  "date": "2023-08-30T00:00:00.000Z",
+  "formattedDate": "August 30, 2023",
+  "tags": [
+    {
+      "label": "Aesthetics",
+      "permalink": "/blog/tags/aesthetics"
+    },
+    {
+      "label": "Liminal Space",
+      "permalink": "/blog/tags/liminal-space"
+    },
+    {
+      "label": "Life",
+      "permalink": "/blog/tags/life"
+    },
+    {
+      "label": "Nostalgia",
+      "permalink": "/blog/tags/nostalgia"
+    }
+  ],
+  "readingTime": 11.05,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "liminal spaces art of appreciating",
+    "title": "Liminal Spaces: the art of being in, and appreciating the in-between.",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "Aesthetics",
+      "Liminal Space",
+      "Life",
+      "Nostalgia"
+    ]
+  },
+  "nextItem": {
+    "title": "A New Dawn",
+    "permalink": "/blog/welcome"
+  }
+}

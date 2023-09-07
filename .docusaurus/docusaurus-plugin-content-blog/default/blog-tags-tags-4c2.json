@@ -1,5 +1,25 @@
 [
   {
+    "label": "Aesthetics",
+    "permalink": "/blog/tags/aesthetics",
+    "count": 1
+  },
+  {
+    "label": "Liminal Space",
+    "permalink": "/blog/tags/liminal-space",
+    "count": 1
+  },
+  {
+    "label": "Life",
+    "permalink": "/blog/tags/life",
+    "count": 1
+  },
+  {
+    "label": "Nostalgia",
+    "permalink": "/blog/tags/nostalgia",
+    "count": 1
+  },
+  {
     "label": "facebook",
     "permalink": "/blog/tags/facebook",
     "count": 1
@@ -7,16 +27,11 @@
   {
     "label": "hello",
     "permalink": "/blog/tags/hello",
-    "count": 2
+    "count": 1
   },
   {
     "label": "docusaurus",
     "permalink": "/blog/tags/docusaurus",
-    "count": 4
-  },
-  {
-    "label": "hola",
-    "permalink": "/blog/tags/hola",
     "count": 1
   }
 ]

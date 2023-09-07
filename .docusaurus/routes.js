@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '5f2'),
+    component: ComponentCreator('/blog', '519'),
     exact: true
   },
   {
@@ -48,18 +48,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '1ff'),
-    exact: true
-  },
-  {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '100'),
-    exact: true
-  },
-  {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '169'),
+    path: '/blog/liminal spaces art of appreciating',
+    component: ComponentCreator('/blog/liminal spaces art of appreciating', '73f'),
     exact: true
   },
   {
@@ -68,28 +58,43 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/aesthetics',
+    component: ComponentCreator('/blog/tags/aesthetics', '457'),
+    exact: true
+  },
+  {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'd40'),
+    component: ComponentCreator('/blog/tags/docusaurus', '0c4'),
     exact: true
   },
   {
     path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', 'c38'),
+    component: ComponentCreator('/blog/tags/facebook', 'eed'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '966'),
+    component: ComponentCreator('/blog/tags/hello', '10d'),
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '86b'),
+    path: '/blog/tags/life',
+    component: ComponentCreator('/blog/tags/life', '96e'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/liminal-space',
+    component: ComponentCreator('/blog/tags/liminal-space', 'b54'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/nostalgia',
+    component: ComponentCreator('/blog/tags/nostalgia', 'a30'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'b78'),
+    component: ComponentCreator('/blog/welcome', 'bc6'),
     exact: true
   },
   {
