@@ -1,0 +1,22 @@
+{
+  "unversionedId": "resume/one",
+  "id": "resume/one",
+  "title": "one",
+  "description": "Ls",
+  "source": "@site/docs/resume/one.md",
+  "sourceDirName": "resume",
+  "slug": "/resume/one",
+  "permalink": "/docs/resume/one",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/resume/one.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resume",
+    "permalink": "/docs/category/resume"
+  }
+}

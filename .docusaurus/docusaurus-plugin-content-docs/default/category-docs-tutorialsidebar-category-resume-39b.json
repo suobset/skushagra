@@ -1,0 +1,16 @@
+{
+  "title": "Resume",
+  "description": "Current Resume",
+  "slug": "/category/resume",
+  "permalink": "/docs/category/resume",
+  "navigation": {
+    "previous": {
+      "title": "About Me",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "one",
+      "permalink": "/docs/resume/one"
+    }
+  }
+}

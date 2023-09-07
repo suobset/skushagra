@@ -1,8 +1,8 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "About Me",
+  "description": "Hi, I am Kushagra Srivastava. I am currently a Junior CompSci Major (BS, Hons.) at the Manning College of Information and Computer Sciences. My current specilizations lie in Systems Design and Architecture, as well as in Artificial Intelligence and Machine Learning. More specifically, I use ML Models to predict and extrapolate upon the performance metrics of different compilers to assess weak points of different programming languages.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Tutorial - Basics",
-    "permalink": "/docs/category/tutorial---basics"
+    "title": "Resume",
+    "permalink": "/docs/resume"
   }
 }

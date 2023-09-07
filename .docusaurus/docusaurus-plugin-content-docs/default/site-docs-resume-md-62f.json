@@ -1,0 +1,23 @@
+{
+  "unversionedId": "resume",
+  "id": "resume",
+  "title": "Resume",
+  "description": "The following is my current Resume. A",
+  "source": "@site/docs/resume.md",
+  "sourceDirName": ".",
+  "slug": "/resume",
+  "permalink": "/docs/resume",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/resume.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "About Me",
+    "permalink": "/docs/intro"
+  }
+}
