@@ -16,8 +16,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "research/icons",
+              "path": "/docs/research/icons",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "resume",
               "path": "/docs/resume",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/research",
+              "path": "/docs/category/research",
               "sidebar": "tutorialSidebar"
             }
           ],

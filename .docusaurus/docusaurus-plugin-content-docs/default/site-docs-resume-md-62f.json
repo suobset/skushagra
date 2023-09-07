@@ -2,7 +2,7 @@
   "unversionedId": "resume",
   "id": "resume",
   "title": "Resume",
-  "description": "The following is my current Resume. A",
+  "description": "The following is my current Resume. A PDF Version is available for download as well here",
   "source": "@site/docs/resume.md",
   "sourceDirName": ".",
   "slug": "/resume",
@@ -19,5 +19,9 @@
   "previous": {
     "title": "About Me",
     "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Research",
+    "permalink": "/docs/category/research"
   }
 }

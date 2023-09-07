@@ -43,10 +43,33 @@
               }
             },
             {
+              "unversionedId": "research/icons",
+              "id": "research/icons",
+              "title": "iCons",
+              "description": "This is a repository to hold all Research Work I have done under the Integrated Concentration in Science (iCons) Program along with the College of Natural Sciences at University of Massachusetts, Amherst.",
+              "source": "@site/docs/research/icons.md",
+              "sourceDirName": "research",
+              "slug": "/research/icons",
+              "permalink": "/docs/research/icons",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/research/icons.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Research",
+                "permalink": "/docs/category/research"
+              }
+            },
+            {
               "unversionedId": "resume",
               "id": "resume",
               "title": "Resume",
-              "description": "The following is my current Resume. A",
+              "description": "The following is my current Resume. A PDF Version is available for download as well here",
               "source": "@site/docs/resume.md",
               "sourceDirName": ".",
               "slug": "/resume",
@@ -63,6 +86,10 @@
               "previous": {
                 "title": "About Me",
                 "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Research",
+                "permalink": "/docs/category/research"
               }
             }
           ],
@@ -76,6 +103,24 @@
               {
                 "type": "doc",
                 "id": "resume"
+              },
+              {
+                "type": "category",
+                "label": "Research",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "research/icons"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "A central repository containing all my research projects",
+                  "slug": "/category/research",
+                  "permalink": "/docs/category/research"
+                }
               }
             ]
           }

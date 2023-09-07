@@ -20,6 +20,21 @@
         "label": "Resume",
         "href": "/docs/resume",
         "docId": "resume"
+      },
+      {
+        "type": "category",
+        "label": "Research",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "iCons",
+            "href": "/docs/research/icons",
+            "docId": "research/icons"
+          }
+        ],
+        "href": "/docs/category/research"
       }
     ]
   },
@@ -30,10 +45,16 @@
       "description": "Hi, I am Kushagra Srivastava. I am currently a Junior CompSci Major (BS, Hons.) at the Manning College of Information and Computer Sciences. My current specilizations lie in Systems Design and Architecture, as well as in Artificial Intelligence and Machine Learning. More specifically, I use ML Models to predict and extrapolate upon the performance metrics of different compilers to assess weak points of different programming languages.",
       "sidebar": "tutorialSidebar"
     },
+    "research/icons": {
+      "id": "research/icons",
+      "title": "iCons",
+      "description": "This is a repository to hold all Research Work I have done under the Integrated Concentration in Science (iCons) Program along with the College of Natural Sciences at University of Massachusetts, Amherst.",
+      "sidebar": "tutorialSidebar"
+    },
     "resume": {
       "id": "resume",
       "title": "Resume",
-      "description": "The following is my current Resume. A",
+      "description": "The following is my current Resume. A PDF Version is available for download as well here",
       "sidebar": "tutorialSidebar"
     }
   }

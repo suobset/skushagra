@@ -1,0 +1,16 @@
+{
+  "title": "Research",
+  "description": "A central repository containing all my research projects",
+  "slug": "/category/research",
+  "permalink": "/docs/category/research",
+  "navigation": {
+    "previous": {
+      "title": "Resume",
+      "permalink": "/docs/resume"
+    },
+    "next": {
+      "title": "iCons",
+      "permalink": "/docs/research/icons"
+    }
+  }
+}

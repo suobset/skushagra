@@ -98,7 +98,7 @@ const config = {
               },
               {
               	label: 'iCons Projects',
-              	to: '/docs/icons'
+              	to: '/docs/research/icons'
               },
               {
               	label: 'Blog',

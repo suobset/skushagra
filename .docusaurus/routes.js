@@ -104,11 +104,23 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '138'),
+    component: ComponentCreator('/docs', '37f'),
     routes: [
+      {
+        path: '/docs/category/research',
+        component: ComponentCreator('/docs/category/research', '60f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro', 'aed'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/research/icons',
+        component: ComponentCreator('/docs/research/icons', '518'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
