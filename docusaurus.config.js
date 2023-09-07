@@ -74,12 +74,14 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'About Me',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/docs/resume', label: 'Resume', position: 'left'},
+          {to: '/docs/research', label: 'Research', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'mailto:hello@skushagra.com',
+            label: 'Contact',
             position: 'right',
           },
         ],
@@ -120,8 +122,10 @@ const config = {
                 href: 'https://github.com/suobset',
               },
               {
-              	label: 'ORCiD',
-              	href: 'https://orcid.org/0000-0003-0656-5478'
+              	html: `<a href="https://orcid.org/0000-0003-0656-5478">
+				Kush S. ORCiD
+              	<img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+              	</a>`,
               },
               {
                 label: 'Miscellaneous',
