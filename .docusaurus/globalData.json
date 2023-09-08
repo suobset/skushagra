@@ -16,8 +16,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "links",
+              "path": "/docs/links",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "research/CICS",
+              "path": "/docs/research/CICS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "research/icons",
               "path": "/docs/research/icons",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "research/ongoing",
+              "path": "/docs/research/ongoing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "research/projects",
+              "path": "/docs/research/projects",
               "sidebar": "tutorialSidebar"
             },
             {

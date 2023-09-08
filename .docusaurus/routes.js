@@ -104,7 +104,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '37f'),
+    component: ComponentCreator('/docs', '785'),
     routes: [
       {
         path: '/docs/category/research',
@@ -119,8 +119,32 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/links',
+        component: ComponentCreator('/docs/links', '336'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/research/CICS',
+        component: ComponentCreator('/docs/research/CICS', '7ab'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/research/icons',
         component: ComponentCreator('/docs/research/icons', '518'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/research/ongoing',
+        component: ComponentCreator('/docs/research/ongoing', 'cc0'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/research/projects',
+        component: ComponentCreator('/docs/research/projects', '0ed'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

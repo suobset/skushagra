@@ -65,7 +65,7 @@ export default {
           "position": "left"
         },
         {
-          "to": "/docs/research",
+          "to": "/docs/category/research",
           "label": "Research",
           "position": "left"
         },

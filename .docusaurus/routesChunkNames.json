@@ -194,7 +194,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-37f": {
+  "/docs-785": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsc-38-5ef"
@@ -209,9 +209,25 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
+  "/docs/links-336": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linksff-3-cac"
+  },
+  "/docs/research/CICS-7ab": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-research-cics-362-53e"
+  },
   "/docs/research/icons-518": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-research-iconsc-48-c1f"
+  },
+  "/docs/research/ongoing-cc0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-research-ongoing-97-d-99e"
+  },
+  "/docs/research/projects-0ed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-research-projects-248-226"
   },
   "/docs/resume-cbf": {
     "__comp": "__comp---theme-doc-item-178-a40",

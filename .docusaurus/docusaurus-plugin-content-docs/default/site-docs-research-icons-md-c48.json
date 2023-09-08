@@ -19,5 +19,9 @@
   "previous": {
     "title": "Research",
     "permalink": "/docs/category/research"
+  },
+  "next": {
+    "title": "CICS Projects",
+    "permalink": "/docs/research/CICS"
   }
 }

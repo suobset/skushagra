@@ -1,0 +1,27 @@
+{
+  "unversionedId": "research/ongoing",
+  "id": "research/ongoing",
+  "title": "Ongoing Projects",
+  "description": "This page holds all my ongoing projects and endeavours. This page will remain under development for a bit (EST Time of completion: Saturday, September 8 2023).",
+  "source": "@site/docs/research/ongoing.md",
+  "sourceDirName": "research",
+  "slug": "/research/ongoing",
+  "permalink": "/docs/research/ongoing",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/research/ongoing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Projects (& Competitions)",
+    "permalink": "/docs/research/projects"
+  },
+  "next": {
+    "title": "Links",
+    "permalink": "/docs/links"
+  }
+}

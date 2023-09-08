@@ -78,7 +78,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/docs/resume', label: 'Resume', position: 'left'},
-          {to: '/docs/research', label: 'Research', position: 'left'},
+          {to: '/docs/category/research', label: 'Research', position: 'left'},
           {
             href: 'mailto:hello@skushagra.com',
             label: 'Contact',
