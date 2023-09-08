@@ -12,7 +12,7 @@ I am also working at the LinKaGe Lab at Smith College, under the guidance of Dr.
 
 I also am a member of the UMass Amherst Integrated Concentration in Sciences Program. My work mainly revolves in the application of my knowledge in Software and Web Development, as well as in Data Science and Machine Learning, to create visualizations and better methodoligies to convey research problems to a general-audience. Often, I also work on Data Crunching, Extrapolation, and making real-time deductions.
 
-A full list of my experiences is linked under the resume section of my website. Moreover, current projects that I am working on can be found in the [Ongoing Projects](/docs/projects/ongoing) section of the website.
+A full list of my experiences is linked under the resume section of my website. Moreover, current projects that I am working on can be found in the [Ongoing Projects](/docs/research/ongoing) section of the website.
 
 * Name: Kushagra Srivastava
 * Major: BS (Hons.) in Computer Science (Expected May 2024)
