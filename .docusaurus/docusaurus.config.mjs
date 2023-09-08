@@ -26,8 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/suobset/GitHub/skushagra/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "/home/suobset/GitHub/skushagra/sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
