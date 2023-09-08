@@ -8,11 +8,19 @@ This is a repository to hold my projects/competitions outside of CICS. However, 
 
 ## ASA Five-College Datafest
 
-Won "Best in show" (1st place) in the [ASA Five College DataFest](https://www.science.smith.edu/datafest/). Collaborated in a team of 6 (Clara Li, Nikki Lin, Quinn White, Rose Porta, Kushagra Srivastava) to create an analysis of consumer data provided by a certain legal firm. We had a 3-fold approach, wherein I contributed towards the text wrangling/NLP stuff. 
+Spring 2023: Won "Best in show" (1st place) in the [ASA Five College DataFest](https://www.science.smith.edu/datafest/). Collaborated in a team of 6 (Clara Li, Nikki Lin, Quinn White, Rose Porta, Kushagra Srivastava) to create an analysis of consumer data provided by a certain legal firm. We had a 3-fold approach, wherein I contributed towards the text wrangling/NLP stuff. 
 
-## model-mavericks-2023
+This was the first ASA Five-College DataFest team which was inter-college (Smith College and UMass Amherst). We were able to synthesize our university's main teaching aspects into our final product, thus making it an inter-disciplinary win :)
+
+### Overview
+
+Without giving away to much data due to its sensitive nature (we had to sign a contract): we essentially received a relative database wherein communications between consumers and a legal firm were recorded, along with other details on consumer actions with the firm. We were to analyze this data and determine how to equip people employed to better serve the consumer needs. 
+
+### model-mavericks-2023
 
 <a href="https://www.science.smith.edu/datafest/2023/04/10/recap-from-the-2023-asa-five-college-datafest/">Link to official report on the event standings</a>
+
+[Link to GitHub Repository](https://github.com/suobset/model-mavericks/2023)
 
 - `GLM.Rmd`: all R code for logistic regression model.
 - `GLM.html`: knitted output of`GLM.Rmd`.
@@ -24,7 +32,7 @@ Won "Best in show" (1st place) in the [ASA Five College DataFest](https://www.sc
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QDSUwycH-MI?si=AX_6OSPzKJ2-OXnt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Web App made by Krishna Kumar, Nhi Ha, and I for HackUMass IX. [Linked here](https://github.com/suobset/MoodMusic).
+Fall 2021: Web App made by Krishna Kumar, Nhi Ha, and I for HackUMass IX. [Linked here](https://github.com/suobset/MoodMusic).
 
 <a href = "https://youtu.be/QDSUwycH-MI">YouTube Video Submission</a>
 
@@ -87,7 +95,7 @@ This project is being judged live.
 
 ## HackUMass VIII: Dermsafe
 
-HackUMass VIII Project, [linked here](https://github.com/suobset/hackUmass-VIII-proj-DermSafe).
+Fall 2020: HackUMass VIII Project, [linked here](https://github.com/suobset/hackUmass-VIII-proj-DermSafe).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4e5O1B0_a2k?si=0hi55TKalJENF5Jn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -99,15 +107,6 @@ As time was a major constraint for this event, this particular application only 
 
 The project is originally forked from <a href="https://github.com/MRauf1/Skin-Cancer-Detector">this repository</a>, where a basic Skin Cancer Detector had been initially created. Our team repaired the project, and used it as our own canvas, heavily modified it, as well as added various features of our own to compliment and extend upon the original application.
 
-### Table of Contents:
-1. [Overview](#Overview)
-2. [Background](#Background)
-3. [How it Works](#how-it-works)
-4. [How to Use](#using)
-5. [Contribute](#contribute)
-6. [Future Improvements](#future)
-7. [Support](#support)
-8. [License](#license)
 
 ### Background: <a name="Background"></a>
 
