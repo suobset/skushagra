@@ -131,8 +131,8 @@ export default {
               "href": "https://github.com/suobset/skushagra"
             },
             {
-              "label": "Built with Docusaurus",
-              "href": "https://docusaurus.io"
+              "label": "Archive",
+              "to": "/archive"
             }
           ]
         }

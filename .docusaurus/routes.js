@@ -38,6 +38,11 @@ export default [
     exact: true
   },
   {
+    path: '/archive',
+    component: ComponentCreator('/archive', 'c63'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', '519'),
     exact: true

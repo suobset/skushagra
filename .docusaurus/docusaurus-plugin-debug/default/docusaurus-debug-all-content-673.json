@@ -547,6 +547,16 @@
   "docusaurus-plugin-content-pages": {
     "default": [
       {
+        "type": "mdx",
+        "permalink": "/archive",
+        "source": "@site/src/pages/archive.md",
+        "title": "Archive for this website",
+        "description": "This page will be used to store archives of this website.",
+        "frontMatter": {
+          "title": "Archive for this website"
+        }
+      },
+      {
         "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"

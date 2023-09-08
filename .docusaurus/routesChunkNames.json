@@ -42,6 +42,13 @@
       "plugin": "plugin---docusaurus-debug-061-60e"
     }
   },
+  "/archive-c63": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-page-9-d-1-f10"
+    },
+    "content": "content---archivee-27-594"
+  },
   "/blog-519": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
