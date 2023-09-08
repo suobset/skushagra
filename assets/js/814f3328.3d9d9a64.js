@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkskushagra=self.webpackChunkskushagra||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Liminal Spaces: the art of being in, and appreciating the in-between.","permalink":"/blog/liminal spaces art of appreciating"},{"title":"A New Dawn","permalink":"/blog/welcome"}]}')}}]);
