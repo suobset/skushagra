@@ -139,6 +139,9 @@ const config = {
                 html: `<a href='https://fsf.org'><img src='https://static.fsf.org/nosvn/associate/crm/6091180.png'></img></a>`,
               },
               {
+                html: `<a href="https://www.eff.org/join"><img src="https://www.eff.org/files/eff-join1.png" alt="Join EFF!" border="0"></a>`
+              },
+              {
                 label: 'Source Code for this site',
                 href: 'https://github.com/suobset/skushagra',
               },
