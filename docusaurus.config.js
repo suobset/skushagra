@@ -106,7 +106,11 @@ const config = {
               {
               	label: 'Resume',
               	to: '/docs/resume',
-              }
+              },
+              {
+              	label: 'Archive',
+              	to: '/archive',
+              },
             ],           
           },
           {
@@ -130,6 +134,10 @@ const config = {
                 label: 'Miscellaneous',
                 to: '/docs/links',
               },
+              {
+                label: 'Source Code for this site',
+                href: 'https://github.com/suobset/skushagra',
+              },
             ],
           },
           {
@@ -140,14 +148,6 @@ const config = {
               },
               {
                 html: `<a href="https://www.eff.org/join"><img src="https://www.eff.org/files/eff-join1.png" alt="Join EFF!" border="0"></a>`
-              },
-              {
-                label: 'Source Code for this site',
-                href: 'https://github.com/suobset/skushagra',
-              },
-              {
-              	label: 'Archive',
-              	to: '/archive',
               },
             ],
           },
