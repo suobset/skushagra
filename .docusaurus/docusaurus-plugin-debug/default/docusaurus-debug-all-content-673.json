@@ -13,9 +13,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/suobset/GitHub/skushagra/sidebars.js",
-          "contentPath": "/home/suobset/GitHub/skushagra/docs",
-          "contentPathLocalized": "/home/suobset/GitHub/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/cypher/Documents/skushagra/sidebars.js",
+          "contentPath": "/home/cypher/Documents/skushagra/docs",
+          "contentPathLocalized": "/home/cypher/Documents/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "intro",
