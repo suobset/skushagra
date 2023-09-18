@@ -26,14 +26,14 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/cypher/Documents/skushagra/sidebars.js"
+          "sidebarPath": "/home/suobset/skushagra/sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/home/cypher/Documents/skushagra/src/css/custom.css"
+          "customCss": "/home/suobset/skushagra/src/css/custom.css"
         }
       }
     ]
@@ -135,7 +135,7 @@ export default {
               "html": "<a href='https://fsf.org'><img src='https://static.fsf.org/nosvn/associate/crm/6091180.png'></img></a>"
             },
             {
-              "html": "<a href=\"https://www.eff.org/\"><img src=\"https://www.eff.org/files/2022/11/28/eff-2023-member-member.png\" alt=\"Join EFF!\" border=\"0\" style=\"width: 18%; height: auto;\"></a>"
+              "html": "<a href=\"https://www.eff.org/\"><img src=\"https://www.eff.org/files/2022/11/28/eff-2023-member-member.png\" alt=\"Join EFF!\" border=\"0\" style=\"width: 25%; height: 25%;\"></a>"
             }
           ]
         }

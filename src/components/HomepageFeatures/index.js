@@ -4,11 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'UMass iCons + U.S. DOE TOP',
-    Svg: require('@site/static/img/iCons-nogo.svg').default,
+    title: 'U.S. Census + UMass iCons TOP',
+    Svg: require('@site/static/img/uscb-2.svg').default,
     description: (
       <>
-        Collaborating with a team of 6 on "The Opportunity Project" by <a href="https://icons.cns.umass.edu">UMass iCons</a> + <a href="https://www.energy.gov/">U.S. Department of Energy</a>: a creative research endeavour which takes students from multiple universities and pairs them with industry experts to help in data collection and visualization.
+        Collaborating with a team of 6 on the <a href="https://opportunity.census.gov/">"The Opportunity Project"</a> by <a href="https://icons.cns.umass.edu">UMass iCons</a> + <a href="https://www.census.gov/">U.S. Census Bureau</a>: a creative research endeavour which takes students from multiple universities and pairs them with industry experts to help in data collection and visualization. 
       </>
     ),
   },
