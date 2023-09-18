@@ -51,3 +51,5 @@ Currently working as a Software Dev. and System Specialist at [LinKaGe Lab](http
 - Optimizing systems and server-side code to ensure the lab's software works efficiently, as well as ensuring upkeep and security.
 
 - Porting legacy software to modern frameworks.
+
+![Smith LinKage Lab](./assets/smith-linkage.jpeg)
