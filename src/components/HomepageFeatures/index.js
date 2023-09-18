@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/uscb-2.svg').default,
     description: (
       <>
-        Collaborating with a team of 6 on the <a href="https://opportunity.census.gov/">"The Opportunity Project"</a> by <a href="https://icons.cns.umass.edu">UMass iCons</a> + <a href="https://www.census.gov/">U.S. Census Bureau</a>: a creative research endeavour which takes students from multiple universities and pairs them with industry experts to help in data collection and visualization. 
+        Collaborating with a team of 6 <a href="https://icons.cns.umass.edu">UMass iCons</a> students (myself included) on the <a href="https://opportunity.census.gov/">"The Opportunity Project"</a> by <a href="https://www.census.gov/">U.S. Census Bureau</a>. Project proposal and guidelines by <a href="https://energy.gov">U.S. Department of Energy</a>.
       </>
     ),
   },
@@ -51,9 +51,8 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <p>The following is the personal website of Kush Srivastava: undergraduate CompSci major at UMass Amherst, graduating 2024. This homepage will cover the highlights of projects that I am working on currently. Complete details on everything that I am working on can be accessed via the <a href="./docs/intro">About</a> page. I also <a href="./blog">write stuff on here occassionally</a>.</p>
-        <p>The reason behind creating this website has changed over the years: this domain went from being a website in High School teaching music to others, to being a portfolio website, to now furthering that and making this a repository for almost everything I do: creatively and professionally. I had created the last version of <a href="./archive">this website during Winter 2021</a>, and that version over time felt constraining and in need of an overhaul. I might keep using this home page area for such musings.</p>
-        <p>I also decided to do this entire revamp starting Thursday September 7, 2023. Hence, some parts of this new redesigned website are still incomplete. I hope to get everything in here by Saturday September 9, 2023.</p>
-        <p>Currently, my main focus are in these endeavours:</p>
+        <p>The reason behind creating this website has changed over the years: this domain went from being a website in High School teaching music to others, to being a portfolio website, to now furthering that and making this a repository for almost everything I do: creatively and professionally. I had created the last version of <a href="./archive">this website during Winter 2021</a>, and that version over time felt constraining when it came to housing a full repository of everything I do (and not just a portfolio). I might keep using this home page area for such musings.</p>
+        <p>Currently, my main focus are in these endeavours; in-depth details and other current projects can be found under the <a href="./docs/research/ongoing">Research</a> page:</p>
         <div className="row">
          {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

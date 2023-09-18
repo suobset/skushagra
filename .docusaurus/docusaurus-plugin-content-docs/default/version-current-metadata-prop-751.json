@@ -47,7 +47,7 @@
           },
           {
             "type": "link",
-            "label": "Ongoing Projects",
+            "label": "Ongoing",
             "href": "/docs/research/ongoing",
             "docId": "research/ongoing"
           }
@@ -89,8 +89,8 @@
     },
     "research/ongoing": {
       "id": "research/ongoing",
-      "title": "Ongoing Projects",
-      "description": "This page holds all my ongoing projects and endeavours. This page will remain under development for a bit (EST Time of completion: Saturday, September 8 2023).",
+      "title": "Ongoing",
+      "description": "This page holds all my ongoing projects and endeavours. Primarily, the heirarchy will be divided into different institutions of affiliation, in no particular order. This will be the forever evolving page, and projects that are over will be placed in their respective pages (or new pages will be created) in the sidebar.",
       "sidebar": "tutorialSidebar"
     },
     "research/projects": {
