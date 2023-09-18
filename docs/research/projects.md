@@ -26,7 +26,7 @@ Without giving away to much data due to its sensitive nature (we had to sign a c
 - `GLM.html`: knitted output of`GLM.Rmd`.
 - `textWrangling.ipynb`: python notebook with text analysis.
 
-![Ceremony](./datafest.jpg)
+![Ceremony](./assets/datafest.jpg)
 
 ## HackUMass IX: MoodMusic
 

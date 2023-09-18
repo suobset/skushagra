@@ -73,7 +73,7 @@ but is implemented for a modern RISC-V multiprocessor using ANSI C.
 
 The following was done as a project under the Honors Colloq. for CompSci 311 under [Prof. Marius Minea](https://www.cics.umass.edu/people/minea-marius). I had also attempted to make a Java implementation of the same, but due to time constraints and it being a 1-credit course, opted to use pseudocode instead.
 
-![Image 1](./H311.png)
+![Image 1](./assets/H311.png)
 
 ## CICS 256: Tilting-ball game
 

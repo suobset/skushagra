@@ -8,7 +8,7 @@ This page holds all my ongoing projects and endeavours. This page will remain un
 
 ## CICS Honors Thesis
 
-![Poster](./SysLab.png)
+![Poster](./assets/SysLab.png)
 
 ## UMass iConS + U.S. DOE TOP
 
