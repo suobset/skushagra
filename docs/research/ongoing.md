@@ -53,3 +53,25 @@ Currently working as a Software Dev. and System Specialist at [LinKaGe Lab](http
 - Porting legacy software to modern frameworks.
 
 ![Smith LinKage Lab](./assets/smith-linkage.jpeg)
+
+## Personal Projects
+
+This section holds personal projects: anything that I am investing time in, but for the pursuit of knowledge and self-fulfillment/happiness/mainly because programming is my hobby as well. 
+
+Projects mentioned are outside of the regular stuff that maintainance of this site entails, and the [Blog](/blog) that I am writing on this site as well. The projects below are some that I have been doing/wanted to do for a very long time now, and I just find them interesting.
+
+I will probably keep writing about these, amongst other things, on the aforementioned blog still.
+
+### the finechive.
+
+I am attempting to curate a personal archival, similar to [Internet Archive](https://archive.org/) but one that is curated to me, and my experiences, and things that I want to record. Mainly serving as a personal vanity project, this pseudo life-log is probably just a present to future me from past me. The finechive will be a sub-website built into this website.
+
+Akin to writing a book, but also not really. 
+
+### Personal Operating System From Scratch
+
+Rosaceae was a project that started out as a fork of MIT PDOS xv6, but now I have taken it as a challenge to write my own Operating System. More info on this soon, so far I do have a working bootloader that loads Ubuntu on an [old laptop.](https://suobset.github.io/oldLaptop)
+
+<!-- ### Grad School Applications -->
+<!--  -->
+<!-- I am currently drafting my Statement of Purpose and the like. I will put more info soon, but essentially my interests lie in the intersection of "Systems Design and Architecture" (Operating Systems, Compilers, Networks) and "Machine Learning" (Natural Language Processing, Tinkering with different models...mainly use as a tool to streamline metrics I get from research on Compilers). I am also interested in other CS fields such as Computational Geometry, Computer Vision, and the like. -->
