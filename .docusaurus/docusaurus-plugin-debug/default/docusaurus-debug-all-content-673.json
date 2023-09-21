@@ -13,9 +13,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/suobset/skushagra/sidebars.js",
-          "contentPath": "/home/suobset/skushagra/docs",
-          "contentPathLocalized": "/home/suobset/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/suobset/GitHub/skushagra/sidebars.js",
+          "contentPath": "/home/suobset/GitHub/skushagra/docs",
+          "contentPathLocalized": "/home/suobset/GitHub/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "intro",
@@ -563,12 +563,12 @@
       },
       {
         "type": "mdx",
-        "permalink": "/markdown-page",
-        "source": "@site/src/pages/markdown-page.md",
-        "title": "Markdown page example",
-        "description": "You don't need React to write simple standalone pages.",
+        "permalink": "/finechive/",
+        "source": "@site/src/pages/finechive/index.md",
+        "title": "The Finechive - An Archival project by Kush S.",
+        "description": "Banner",
         "frontMatter": {
-          "title": "Markdown page example"
+          "title": "The Finechive - An Archival project by Kush S."
         }
       }
     ]

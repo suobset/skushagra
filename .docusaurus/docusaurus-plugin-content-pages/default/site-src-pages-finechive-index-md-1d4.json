@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/finechive/",
+  "source": "@site/src/pages/finechive/index.md",
+  "title": "The Finechive - An Archival project by Kush S.",
+  "description": "Banner",
+  "frontMatter": {
+    "title": "The Finechive - An Archival project by Kush S."
+  }
+}

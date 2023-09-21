@@ -1,0 +1,9 @@
+{
+  "type": "mdx",
+  "permalink": "/finechive",
+  "source": "@site/src/pages/finechive.md",
+  "description": "Banner",
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}

@@ -26,14 +26,14 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/suobset/skushagra/sidebars.js"
+          "sidebarPath": "/home/suobset/GitHub/skushagra/sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/home/suobset/skushagra/src/css/custom.css"
+          "customCss": "/home/suobset/GitHub/skushagra/src/css/custom.css"
         }
       }
     ]
