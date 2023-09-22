@@ -32,6 +32,8 @@ As part of conducting the Honors Thesis research in an interactive way, and faci
 
 Currently collaborating with a team of 6 (Suhani Chawla, Sarojini Torchon, Anvitha Ramachandran, Gabrielle Walczak, Jose Cruz, and I) on a dataset provided by the [U.S. Department of Energy](https://energy.gov/) to improve energy access in minority households.
 
+[Featured in UMass Amherst News](https://www.umass.edu/news/article/us-census-bureau-recruits-umass-icons-program-students-work-equitable-access)
+
 ![Team Picture](./assets/top-students.jpg)
 
 ### iCons 4
