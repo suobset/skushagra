@@ -1,21 +1,24 @@
-# A Small Note on the FSF Badge in the Footer
+# FSF Membership Badge Disclaimer:
 
-I am a passionate advocate for libre software and a believer in its power to foster freedom, privacy, and collaboration, in line with the principles of the Free Software Foundation (FSF). However, the keyword to be noted is "principles", not people. I do not want to associate myself with any leading members of the FSF, or really anything outside the [4 essential freedoms](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms).
+I proudly display my FSF membership badge on my website as a dedicated advocate for libre software. I firmly believe in its capacity to champion freedom, privacy, and collaboration, aligning seamlessly with the core principles of the [Free Software Foundation (FSF)](https://fsf.org). However, it is paramount to emphasize that my allegiance is firmly rooted in these principles, not tied to specific individuals. I do not seek association with prominent figures within the FSF or anything beyond the essential tenets encapsulated by the four fundamental freedoms.
 
-That being said, a small note on rms:
+**On Richard Stallman (rms):**
 
-Just gonna mention that it can be hard to separate the art from the artist: I’ve appreciated his stance on Libre Software (even though the stretch on Open Source is a bit too much), and tbh him being super stringent did lead to the initial takeoff of GNU/Linux as we know of it today. Did he make absolutely garbage remarks on almost everything else?? Yes. Do I “look up to him” as some sort of a hero?? No. Does this invalidate his contributions for GNU and Libre Software? Nope. (even though Hurd never came to be)
+Navigating the realm of contributions and contributors can be complex. I value rms' unwavering commitment to libre software, even though his emphasis on it may seem excessive at times, particularly when considering that Open Source software (which is distinct from free software) has provided a valuable middle ground. His stringent approach played a pivotal role in the initial ascent of GNU/Linux as we know it today, and he continues to make strides in ensuring more accessible software reaches everyone, from developers to users. However, I am acutely aware of his controversial history. **Under no circumstances do I endorse his viewpoints beyond the realm of libre software (GNU and FSF)**.
 
-My only concern is his continued association with the FSF, despite the entire community voting him out in 2019. It’s hard for even the FSF to drive their point home to the general public (and tbh other software folks too) when such a controversial figure maintains a board position. I really support the Free Software Movement (even though open source is a great middle ground), but rms remains a controversial individual, and I am well aware of that. 
+It is imperative to acknowledge that despite his significant contributions, controversies and criticisms have persisted alongside rms. A pressing concern is his ongoing affiliation with the FSF, despite the community's decision to remove him in 2019. Maintaining a board position can present challenges in effectively conveying the FSF's mission to the broader public and the wider software community. While I remain an unwavering supporter of the Free Software Movement and deeply value rms' contributions to the FSF, GNU/Linux, and the propagation of Free (as in freedom) Software, I am aware of rms' controversial history and positions, with which I do not align.
 
-Regardless, I appreciate what he’s done for the GNU project, FSF, and remain wary of literally everything else he’s said and controversies he’s been in. I do not associate myself with his views on the world, or really much outside the FSF.
+**Wishing rms Well:**
 
-Battling cancer, however, is difficult for any individual, and I wish him a speedy recovery.
+It is essential to bear in mind that battling cancer presents formidable challenges for anyone, and I extend my heartfelt best wishes for his swift recovery.
 
-As mentioned before, the only reason I support the FSF is due to their unwavering support for Libre Software, that maintain the 4 essential freedoms listed below:
+**Final Thoughts:**
 
+In conclusion, my support for the FSF is grounded in their unwavering dedication to libre software and the preservation of the [four essential freedoms](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms):
 
-*    The freedom to run the program as you wish, for any purpose (freedom 0).
-*    The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
-*    The freedom to redistribute copies so you can help others (freedom 2).
-*    The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
+0. The freedom to run the program as you wish, for any purpose (freedom 0).
+1. The freedom to study how the program works and adapt it to meet your computing needs (freedom 1). Access to the source code is a prerequisite for this.
+2. The freedom to distribute copies to assist others (freedom 2).
+3. The freedom to distribute copies of your modified versions to others (freedom 3). This empowers you to offer the entire community an opportunity to benefit from your enhancements. Access to the source code is a prerequisite for this.
+
+My unwavering commitment to these principles underscores my dedication to the cause of libre software, unaffected by external factors.
