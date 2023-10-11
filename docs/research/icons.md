@@ -71,6 +71,10 @@ A group project to map the Boston T and judge it's accessibility. The project us
 
 <a href="https://icons.cns.umass.edu/innovation-portal/2124-mapping-transportation-accessibility-in-boston">Official UMass Entry (iCons Innovation Portal)</a>
 
+![Team](./assets/iCons2-MoS-Team.jpg)
+
+L to R: Kush Srivastava, Gabby Walczak, Jack Minella, Cleo Hein, Yi Ding
+
 ![qq4](https://user-images.githubusercontent.com/73229775/175076186-ed74c7d2-7555-4e8f-bf40-5cb81c8f5b48.png)
 
 <a href="https://suobset.github.io/iCons/iCons2-MoS/index.html">Here is the Website with the Map and scores</a>
