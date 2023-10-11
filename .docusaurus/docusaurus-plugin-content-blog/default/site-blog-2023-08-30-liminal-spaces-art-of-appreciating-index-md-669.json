@@ -1,6 +1,5 @@
 {
   "permalink": "/blog/liminal spaces art of appreciating",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-30-liminal-spaces-art-of-appreciating/index.md",
   "source": "@site/blog/2023-08-30-liminal-spaces-art-of-appreciating/index.md",
   "title": "Liminal Spaces: the art of being in, and appreciating the in-between.",
   "description": "Originally published by me on Medium",
@@ -47,6 +46,10 @@
       "Life",
       "Nostalgia"
     ]
+  },
+  "prevItem": {
+    "title": "The Finechive: A Digital Garden and Archive of My Experiences",
+    "permalink": "/blog/the finechive"
   },
   "nextItem": {
     "title": "A New Dawn",

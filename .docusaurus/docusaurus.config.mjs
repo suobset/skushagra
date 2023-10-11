@@ -26,14 +26,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/suobset/GitHub/skushagra/sidebars.js"
+          "sidebarPath": "/home/suobset/Documents/skushagra/sidebars.js"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showReadingTime": true
         },
         "theme": {
-          "customCss": "/home/suobset/GitHub/skushagra/src/css/custom.css"
+          "customCss": "/home/suobset/Documents/skushagra/src/css/custom.css"
         }
       }
     ]
@@ -55,7 +54,7 @@ export default {
         },
         {
           "to": "/blog",
-          "label": "Blog",
+          "label": "Finechive",
           "position": "left"
         },
         {
@@ -91,7 +90,7 @@ export default {
               "to": "/docs/research/icons"
             },
             {
-              "label": "Blog",
+              "label": "Finechive",
               "to": "/blog"
             },
             {
@@ -133,6 +132,10 @@ export default {
           "items": [
             {
               "html": "<a href='https://fsf.org'><img src='https://static.fsf.org/nosvn/associate/crm/6091180.png'></img></a>"
+            },
+            {
+              "label": "Disclaimer on FSF",
+              "to": "/disclaimer_fsf"
             },
             {
               "html": "<a href=\"https://www.eff.org/\"><img src=\"https://www.eff.org/files/2022/11/28/eff-2023-member-member.png\" alt=\"Join EFF!\" border=\"0\" style=\"width: 25%; height: 25%;\"></a>"

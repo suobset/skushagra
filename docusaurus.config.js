@@ -47,8 +47,6 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -75,7 +73,7 @@ const config = {
             position: 'left',
             label: 'About Me',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Finechive', position: 'left'},
           {to: '/docs/resume', label: 'Resume', position: 'left'},
           {to: '/docs/category/research', label: 'Research', position: 'left'},
           {
@@ -100,7 +98,7 @@ const config = {
               	to: '/docs/research/icons'
               },
               {
-              	label: 'Blog',
+              	label: 'Finechive',
               	to: '/blog',
               },
               {

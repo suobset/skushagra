@@ -43,3 +43,39 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+# Installing Node.js 18 with NVM
+
+Follow these steps to install Node Version Manager (NVM), use it to install Node.js 18, and set it as the default version.
+
+**1. Install NVM:**
+
+Open your terminal and run the following command to install NVM:
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+```
+
+**2. Close and Reopen Your Terminal:**
+
+After installing NVM, you might need to close and reopen your terminal, or run the following command to start a new shell session:
+
+```bash
+source ~/.bashrc
+```
+
+**3. Install npm**
+
+This will download and install Node.js 18. It may take a few minutes depending on your internet connection.
+
+```bash
+nvm install 18
+```
+
+**4. Set nodejs 18 as default**
+
+This will make Node.js 18 your default version.
+
+```bash
+nvm alias default 18
+```

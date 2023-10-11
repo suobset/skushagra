@@ -13,9 +13,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/suobset/GitHub/skushagra/sidebars.js",
-          "contentPath": "/home/suobset/GitHub/skushagra/docs",
-          "contentPathLocalized": "/home/suobset/GitHub/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/suobset/Documents/skushagra/sidebars.js",
+          "contentPath": "/home/suobset/Documents/skushagra/docs",
+          "contentPathLocalized": "/home/suobset/Documents/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "intro",
@@ -248,10 +248,62 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "the finechive",
+          "metadata": {
+            "permalink": "/blog/the finechive",
+            "source": "@site/blog/2023-10-10-the-finechive/index.md",
+            "title": "The Finechive: A Digital Garden and Archive of My Experiences",
+            "description": "Welcome",
+            "date": "2023-10-10T00:00:00.000Z",
+            "formattedDate": "October 10, 2023",
+            "tags": [
+              {
+                "label": "Personal",
+                "permalink": "/blog/tags/personal"
+              },
+              {
+                "label": "Website",
+                "permalink": "/blog/tags/website"
+              },
+              {
+                "label": "Life",
+                "permalink": "/blog/tags/life"
+              }
+            ],
+            "readingTime": 3.73,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Kushagra Srivastava",
+                "title": "I write, code, and create. Sometimes all at the same time.",
+                "url": "https://skushagra.com",
+                "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+                "key": "suobset"
+              }
+            ],
+            "frontMatter": {
+              "slug": "the finechive",
+              "title": "The Finechive: A Digital Garden and Archive of My Experiences",
+              "authors": [
+                "suobset"
+              ],
+              "tags": [
+                "Personal",
+                "Website",
+                "Life"
+              ]
+            },
+            "nextItem": {
+              "title": "Liminal Spaces: the art of being in, and appreciating the in-between.",
+              "permalink": "/blog/liminal spaces art of appreciating"
+            }
+          },
+          "content": "## ![Welcome](./finechive-banner.png)\n\nI think I have always had an identity crisis when it comes to the concept of blogging. On one hand, I find it to be one of the most approachable mediums on the Internet, far more accessible than making videos or fancy schmancy websites. On the other hand, how do you get consistency when it comes to writing down your thoughts?\n\nSee, the main issue when it coes to writing down \"blog content\" is that I am not a writer, nor do I have enough time to actually sit down and think of new ideas. Writing things down occurs to me sporadically: sometimes there exist things that move me to such an extent that I am compelled to write down about them. It is a fine method of doing this, especially since I am not doing this professionally, but it leaves a lot of consistency to be desired and ideas to be explored. \n\nOver the years, the concept of writing down things on the Internet has not been the same for me. Under the [Archive](./archive) page of this URL, you'll notice my previous attempts at this medium in 2017, along with another following in 2019 (which was not under this URL). It started off as a place for me to vent, and quickly moved into a text-based form of vlogging (or rather, we came back full circle on methods-of-describing-your-life). Quite honestly, I do not think that both of these intents are something that I'd be comfortable sharing at this point, or matters that anyone will want to read about.\n\nI want my blog as an area to communicate on ideas, as opposed to daily occurrings. However, I also do not want to trap myself into only communicating about a specific subject matter. I want this space to flourish as a means for me to be able to communicate whatever it is that inspires me at a certain given moment, while also giving me enough creative freedom to write down abut daily occurrences shoulod something inspiring happen. Essentially, I need an archive. \n\nIt was about 2 days ago when upon researching into this concept, I came across the idea of a \"Digital Garden\". While the concept itself was born in the 90s, digital gardens have superseded the concept of \"Personal Websites\" into spaces that give one the flexibility to put down their thoughts on, and nurture over time. Just like the concept of a real garden, with enough time and nurturing (in the form of putting down thoughts and ideas), you can create your own digital garden as a manifestation of your ideas. The whole thing has a [subreddit](https://www.reddit.com/r/DigitalGardens/) as well :)\n\nThus, I am in the process of converting this space into a Digital Garden, as opposed to a blog. \n\n## The story behind Finechive\n\nAs a name, finechive = fine + archive, i.e. an archive of all the fine things in life. In practicality, the Finechive was a project that I wanted to start about a month ago: an archive of all digital media that I found valuable enough to preserve. There were just 2 issues with that concept:\n\n1. Copyright laws would prevent me from hosting any forms of media.\n2. [The Internet Archive](https://archive.org) already does an excellent job of maintaining an archive, and I'd actually encourage you to check them out and donate if possible. \n\nThus, the entire project has been revamped into creating a so-called \"archive of my mind\". I will try toput down many of my thoughts and outlooks into here, without trying to worry too much about consistency. That being said, the current iteration of finechive has some issues that I would like to resolve.\n\n* No information is stored into your brain as is; rather, all information is linked to one another in some way or the other. I would love to try and create a graph that can showcase all the ideas and thoughts I have written down here, and what/how they're linked to each other.\n* The blog format can hinder hierarchy and organization. This is something that I'd try to fix. \n\nHowever, I see these issues as mainly optional. For now, I will just keep on writing here as usual, and soon see if there is any organization that is needed to be done (or if the blog format is working out well). I will attempt to write here twice every week, also attaching pictures taken by me throughout the week.\n\nUntil next time."
+        },
+        {
           "id": "liminal spaces art of appreciating",
           "metadata": {
             "permalink": "/blog/liminal spaces art of appreciating",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-30-liminal-spaces-art-of-appreciating/index.md",
             "source": "@site/blog/2023-08-30-liminal-spaces-art-of-appreciating/index.md",
             "title": "Liminal Spaces: the art of being in, and appreciating the in-between.",
             "description": "Originally published by me on Medium",
@@ -299,6 +351,10 @@
                 "Nostalgia"
               ]
             },
+            "prevItem": {
+              "title": "The Finechive: A Digital Garden and Archive of My Experiences",
+              "permalink": "/blog/the finechive"
+            },
             "nextItem": {
               "title": "A New Dawn",
               "permalink": "/blog/welcome"
@@ -310,7 +366,6 @@
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2022-10-01-welcome/index.md",
             "source": "@site/blog/2022-10-01-welcome/index.md",
             "title": "A New Dawn",
             "description": "The most difficult part of starting a new journey is taking that first step.",
@@ -364,6 +419,7 @@
       "blogListPaginated": [
         {
           "items": [
+            "the finechive",
             "liminal spaces art of appreciating",
             "welcome"
           ],
@@ -372,13 +428,84 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 2,
+            "totalCount": 3,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
       "blogTags": {
+        "/blog/tags/personal": {
+          "label": "Personal",
+          "items": [
+            "the finechive"
+          ],
+          "permalink": "/blog/tags/personal",
+          "pages": [
+            {
+              "items": [
+                "the finechive"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/personal",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/website": {
+          "label": "Website",
+          "items": [
+            "the finechive"
+          ],
+          "permalink": "/blog/tags/website",
+          "pages": [
+            {
+              "items": [
+                "the finechive"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/website",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/life": {
+          "label": "Life",
+          "items": [
+            "the finechive",
+            "liminal spaces art of appreciating"
+          ],
+          "permalink": "/blog/tags/life",
+          "pages": [
+            {
+              "items": [
+                "the finechive",
+                "liminal spaces art of appreciating"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/life",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
         "/blog/tags/aesthetics": {
           "label": "Aesthetics",
           "items": [
@@ -415,29 +542,6 @@
               ],
               "metadata": {
                 "permalink": "/blog/tags/liminal-space",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/life": {
-          "label": "Life",
-          "items": [
-            "liminal spaces art of appreciating"
-          ],
-          "permalink": "/blog/tags/life",
-          "pages": [
-            {
-              "items": [
-                "liminal spaces art of appreciating"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/life",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -557,19 +661,17 @@
         }
       },
       {
+        "type": "mdx",
+        "permalink": "/disclaimer_fsf",
+        "source": "@site/src/pages/disclaimer_fsf.md",
+        "title": "FSF Membership Badge Disclaimer:",
+        "description": "I proudly display my FSF membership badge on my website as a dedicated advocate for libre software, championing freedom, privacy, and collaboration, in line with the principles of the Free Software Foundation (FSF). However, my allegiance lies with these principles, not with individuals. I do not seek association with prominent figures within the FSF or anything beyond the essential tenets encapsulated by the four fundamental freedoms.",
+        "frontMatter": {}
+      },
+      {
         "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
-      },
-      {
-        "type": "mdx",
-        "permalink": "/finechive/",
-        "source": "@site/src/pages/finechive/index.md",
-        "title": "The Finechive - An Archival project by Kush S.",
-        "description": "Banner",
-        "frontMatter": {
-          "title": "The Finechive - An Archival project by Kush S."
-        }
       }
     ]
   },

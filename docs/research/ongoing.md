@@ -36,11 +36,23 @@ Currently collaborating with a team of 6 (Suhani Chawla, Sarojini Torchon, Anvit
 
 ![Team Picture](./assets/top-students.jpg)
 
+#### Media Updates
+
+This project has apparently garnered a lot of traction across various UMass websites. Here is a record of all of them:
+
+* [UMass News](https://www.umass.edu/news/article/us-census-bureau-recruits-umass-icons-program-students-work-equitable-access)
+* [UMass College of Natural Sciences](https://icons.cns.umass.edu/news-events/news/us-census-bureau-topteam)
+* [UMass Manning CICS + CICS Highlights](https://www.cics.umass.edu/news/us-census-bureau-recruits-cics-students-work-equitable-access-electrical-power)
+
 ### iCons 4
 
 iCons 4 is a supplementary class that follows the same timeline as the Honors Thesis. The main aim is to communicate about your project to a non-scientific audience first, and then to a scientific audience in the second half. We use a digital medium to communicate the importance of the project, expectations, and how this may help the end user. 
 
-I plan to create a website for the same, but do not know much yet. Details will be added as they unfold. 
+I plan to create a website for the same, but do not know much yet. Updates will be added as they unfold. 
+
+#### Update: Test Website
+
+[Link to project](https://suobset.github.io/iCons/iCons4). As of October 9, 2023, it houses a dummy Docusaurus init template website.
 
 ## Smith College
 
@@ -63,12 +75,6 @@ This section holds personal projects: anything that I am investing time in, but 
 Projects mentioned are outside of the regular stuff that maintainance of this site entails, and the [Blog](/blog) that I am writing on this site as well. The projects below are some that I have been doing/wanted to do for a very long time now, and I just find them interesting.
 
 I will probably keep writing about these, amongst other things, on the aforementioned blog still.
-
-### the finechive.
-
-I am attempting to curate a personal archival, similar to [Internet Archive](https://archive.org/) but one that is curated to me, and my experiences, and things that I want to record. Mainly serving as a personal vanity project, this pseudo life-log is probably just a present to future me from past me. The finechive will be a sub-website built into this website.
-
-Akin to writing a book, but also not really. 
 
 ### Personal Operating System From Scratch
 

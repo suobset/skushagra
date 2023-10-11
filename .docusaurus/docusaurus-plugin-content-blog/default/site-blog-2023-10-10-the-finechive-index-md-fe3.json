@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/the finechive",
+  "source": "@site/blog/2023-10-10-the-finechive/index.md",
+  "title": "The Finechive: A Digital Garden and Archive of My Experiences",
+  "description": "Welcome",
+  "date": "2023-10-10T00:00:00.000Z",
+  "formattedDate": "October 10, 2023",
+  "tags": [
+    {
+      "label": "Personal",
+      "permalink": "/blog/tags/personal"
+    },
+    {
+      "label": "Website",
+      "permalink": "/blog/tags/website"
+    },
+    {
+      "label": "Life",
+      "permalink": "/blog/tags/life"
+    }
+  ],
+  "readingTime": 3.73,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "the finechive",
+    "title": "The Finechive: A Digital Garden and Archive of My Experiences",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "Personal",
+      "Website",
+      "Life"
+    ]
+  },
+  "nextItem": {
+    "title": "Liminal Spaces: the art of being in, and appreciating the in-between.",
+    "permalink": "/blog/liminal spaces art of appreciating"
+  }
+}
