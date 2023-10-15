@@ -14,7 +14,7 @@ The default for [https://suobset.github.io/iCons](https://suobset.github.io/iCon
 
 The monorepo for my iCons projects remains [GH/suobset/iCons](https://github/suobset/iCons) with refs to other repositories for single projects in the monorepo itself, or this webpage.
 
-Moreover, ongoing projects are now linked under the aptly-named [Ongoing Projects](./ongoing) page in the website.
+Moreover, ongoing projects are now linked under the aptly-named [Ongoing Projects](../research/ongoing) page in the website.
 
 #### March 9, 2023
 
