@@ -11,6 +11,26 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "finechive/CICS",
+              "path": "/docs/finechive/CICS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "finechive/icons",
+              "path": "/docs/finechive/icons",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "finechive/ongoing",
+              "path": "/docs/finechive/ongoing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "finechive/projects",
+              "path": "/docs/finechive/projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
@@ -18,6 +38,11 @@
             {
               "id": "links",
               "path": "/docs/links",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "orgs",
+              "path": "/docs/orgs",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -48,6 +73,11 @@
             {
               "id": "/category/research",
               "path": "/docs/category/research",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/the-finechive",
+              "path": "/docs/category/the-finechive",
               "sidebar": "tutorialSidebar"
             }
           ],

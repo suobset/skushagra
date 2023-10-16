@@ -18,5 +18,9 @@
   "previous": {
     "title": "Ongoing",
     "permalink": "/docs/research/ongoing"
+  },
+  "next": {
+    "title": "Organizations I Support",
+    "permalink": "/docs/orgs"
   }
 }

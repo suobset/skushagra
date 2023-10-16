@@ -1,0 +1,22 @@
+{
+  "unversionedId": "finechive/ongoing",
+  "id": "finechive/ongoing",
+  "title": "Ongoing",
+  "description": "This page holds all my ongoing projects and endeavours. Primarily, the heirarchy will be divided into different institutions of affiliation, in no particular order. This will be the forever evolving page, and projects that are over will be placed in their respective pages (or new pages will be created) in the sidebar.",
+  "source": "@site/docs/finechive/ongoing.md",
+  "sourceDirName": "finechive",
+  "slug": "/finechive/ongoing",
+  "permalink": "/docs/finechive/ongoing",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Projects (& Competitions)",
+    "permalink": "/docs/finechive/projects"
+  }
+}

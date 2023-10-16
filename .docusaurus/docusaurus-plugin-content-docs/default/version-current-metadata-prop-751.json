@@ -59,10 +59,73 @@
         "label": "Links",
         "href": "/docs/links",
         "docId": "links"
+      },
+      {
+        "type": "link",
+        "label": "Organizations I Support",
+        "href": "/docs/orgs",
+        "docId": "orgs"
+      },
+      {
+        "type": "category",
+        "label": "the Finechive.",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "iCons",
+            "href": "/docs/finechive/icons",
+            "docId": "finechive/icons"
+          },
+          {
+            "type": "link",
+            "label": "CICS Projects",
+            "href": "/docs/finechive/CICS",
+            "docId": "finechive/CICS"
+          },
+          {
+            "type": "link",
+            "label": "Projects (& Competitions)",
+            "href": "/docs/finechive/projects",
+            "docId": "finechive/projects"
+          },
+          {
+            "type": "link",
+            "label": "Ongoing",
+            "href": "/docs/finechive/ongoing",
+            "docId": "finechive/ongoing"
+          }
+        ],
+        "href": "/docs/category/the-finechive"
       }
     ]
   },
   "docs": {
+    "finechive/CICS": {
+      "id": "finechive/CICS",
+      "title": "CICS Projects",
+      "description": "This is a repository to hold all my completed projects and/or research work done under UMass CICS. They have been listed in backwards chronological order.",
+      "sidebar": "tutorialSidebar"
+    },
+    "finechive/icons": {
+      "id": "finechive/icons",
+      "title": "iCons",
+      "description": "This is a repository to hold all Research Work I have done under the Integrated Concentration in Science (iCons) Program along with the College of Natural Sciences at University of Massachusetts, Amherst.",
+      "sidebar": "tutorialSidebar"
+    },
+    "finechive/ongoing": {
+      "id": "finechive/ongoing",
+      "title": "Ongoing",
+      "description": "This page holds all my ongoing projects and endeavours. Primarily, the heirarchy will be divided into different institutions of affiliation, in no particular order. This will be the forever evolving page, and projects that are over will be placed in their respective pages (or new pages will be created) in the sidebar.",
+      "sidebar": "tutorialSidebar"
+    },
+    "finechive/projects": {
+      "id": "finechive/projects",
+      "title": "Projects (& Competitions)",
+      "description": "This is a repository to hold my projects/competitions outside of CICS. However, most of them were still done under or via my CICS affiliation.",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "About Me",
@@ -73,6 +136,12 @@
       "id": "links",
       "title": "Links",
       "description": "This page just holds links to everything else I do on the web.",
+      "sidebar": "tutorialSidebar"
+    },
+    "orgs": {
+      "id": "orgs",
+      "title": "Organizations I Support",
+      "description": "The below is a list of some non-profit organizations that I either support, or am a member of. I have listed some that I am not supporting financially as of now, but have listed them here for outreach. I have also tried to explain my reasoning behind my support for each of them.",
       "sidebar": "tutorialSidebar"
     },
     "research/CICS": {

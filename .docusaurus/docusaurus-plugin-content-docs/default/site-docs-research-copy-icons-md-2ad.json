@@ -1,0 +1,26 @@
+{
+  "unversionedId": "research (copy)/icons",
+  "id": "research (copy)/icons",
+  "title": "iCons",
+  "description": "This is a repository to hold all Research Work I have done under the Integrated Concentration in Science (iCons) Program along with the College of Natural Sciences at University of Massachusetts, Amherst.",
+  "source": "@site/docs/research (copy)/icons.md",
+  "sourceDirName": "research (copy)",
+  "slug": "/research (copy)/icons",
+  "permalink": "/docs/research (copy)/icons",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Research",
+    "permalink": "/docs/category/research-1"
+  },
+  "next": {
+    "title": "CICS Projects",
+    "permalink": "/docs/research (copy)/CICS"
+  }
+}

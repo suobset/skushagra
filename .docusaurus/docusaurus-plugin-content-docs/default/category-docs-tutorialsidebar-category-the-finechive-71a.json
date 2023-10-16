@@ -1,0 +1,16 @@
+{
+  "title": "the Finechive.",
+  "description": "A central repository containing all my research projects. They are also listed in my ORCiD and LinkedIn, albeit probably not as comprehensive as this.",
+  "slug": "/category/the-finechive",
+  "permalink": "/docs/category/the-finechive",
+  "navigation": {
+    "previous": {
+      "title": "Organizations I Support",
+      "permalink": "/docs/orgs"
+    },
+    "next": {
+      "title": "iCons",
+      "permalink": "/docs/finechive/icons"
+    }
+  }
+}

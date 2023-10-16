@@ -1,0 +1,26 @@
+{
+  "unversionedId": "the Finechive./icons",
+  "id": "the Finechive./icons",
+  "title": "iCons",
+  "description": "This is a repository to hold all Research Work I have done under the Integrated Concentration in Science (iCons) Program along with the College of Natural Sciences at University of Massachusetts, Amherst.",
+  "source": "@site/docs/the Finechive./icons.md",
+  "sourceDirName": "the Finechive.",
+  "slug": "/the Finechive./icons",
+  "permalink": "/docs/the Finechive./icons",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "the Finechive.",
+    "permalink": "/docs/category/the-finechive"
+  },
+  "next": {
+    "title": "CICS Projects",
+    "permalink": "/docs/the Finechive./CICS"
+  }
+}

@@ -243,7 +243,7 @@
     },
     "content": "content---disclaimer-fsf-15-f-735"
   },
-  "/docs-19a": {
+  "/docs-419": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-14-d-84d"
@@ -254,6 +254,26 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-research-3-b-4-844"
   },
+  "/docs/category/the-finechive-a52": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-the-finechiveeda-b6c"
+  },
+  "/docs/finechive/CICS-938": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-finechive-cic-sd-53-5f9"
+  },
+  "/docs/finechive/icons-c55": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-finechive-icons-23-a-1ea"
+  },
+  "/docs/finechive/ongoing-190": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-finechive-ongoing-235-2e2"
+  },
+  "/docs/finechive/projects-7cc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-finechive-projects-2-ff-163"
+  },
   "/docs/intro-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
@@ -261,6 +281,10 @@
   "/docs/links-336": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-linksff-3-cac"
+  },
+  "/docs/orgs-9df": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-orgs-49-b-07d"
   },
   "/docs/research/CICS-7ab": {
     "__comp": "__comp---theme-doc-item-178-a40",

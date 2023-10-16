@@ -1,0 +1,26 @@
+{
+  "unversionedId": "the Finechive./projects",
+  "id": "the Finechive./projects",
+  "title": "Projects (& Competitions)",
+  "description": "This is a repository to hold my projects/competitions outside of CICS. However, most of them were still done under or via my CICS affiliation.",
+  "source": "@site/docs/the Finechive./projects.md",
+  "sourceDirName": "the Finechive.",
+  "slug": "/the Finechive./projects",
+  "permalink": "/docs/the Finechive./projects",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CICS Projects",
+    "permalink": "/docs/the Finechive./CICS"
+  },
+  "next": {
+    "title": "Ongoing",
+    "permalink": "/docs/the Finechive./ongoing"
+  }
+}

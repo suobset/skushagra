@@ -94,25 +94,17 @@ const config = {
                 to: '/docs/intro',
               },
               {
-              	label: 'iCons Projects',
-              	to: '/docs/research/icons'
-              },
-              {
               	label: 'Finechive',
               	to: '/blog',
               },
-              {
-              	label: 'Resume',
-              	to: '/docs/resume',
-              },
-              {
-              	label: 'Archive',
-              	to: '/archive',
-              },
+		    {
+			    label: 'Research',
+			    to: '/docs/category/research',
+		    },
             ],           
           },
           {
-            title: 'On the web',
+            title: 'Code/Research',
             items: [
               {
                 label: 'LinkedIn',
@@ -123,31 +115,25 @@ const config = {
                 href: 'https://github.com/suobset',
               },
               {
-              	html: `<a href="https://orcid.org/0000-0003-0656-5478">
+		      html: `<a href="https://orcid.org/0000-0003-0656-5478" style="color: #FFFFFF;">
 				Kush S. ORCiD
               	<img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
               	</a>`,
               },
-              {
-                label: 'Miscellaneous',
-                to: '/docs/links',
-              },
-              {
-                label: 'Source Code for this site',
-                href: 'https://github.com/suobset/skushagra',
-              },
             ],
           },
           {
-            title: 'More',
+            title: 'On the Web',
             items: [
               {
-                html: `<a href='https://fsf.org'><img src='https://static.fsf.org/nosvn/associate/crm/6091180.png'></img></a>`,
+		      label: 'Threads',
+		      href: 'https://threads.net/@suobset',
               },
-              { label: 'Disclaimer on FSF',
-                to: '/disclaimer_fsf'},
+              { label: 'GitHub',
+                href: 'https://github.com/suobset'},
               {
-                html: `<a href="https://www.eff.org/"><img src="https://www.eff.org/files/2022/11/28/eff-2023-member-member.png" alt="Join EFF!" border="0" style="width: 25%; height: 25%;"></a>`
+		      label: 'Everything Else',
+		      to: '/docs/links',
               },
             ],
           },

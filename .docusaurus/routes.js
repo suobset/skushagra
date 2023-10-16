@@ -124,11 +124,41 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '19a'),
+    component: ComponentCreator('/docs', '419'),
     routes: [
       {
         path: '/docs/category/research',
         component: ComponentCreator('/docs/category/research', '60f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/the-finechive',
+        component: ComponentCreator('/docs/category/the-finechive', 'a52'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/finechive/CICS',
+        component: ComponentCreator('/docs/finechive/CICS', '938'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/finechive/icons',
+        component: ComponentCreator('/docs/finechive/icons', 'c55'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/finechive/ongoing',
+        component: ComponentCreator('/docs/finechive/ongoing', '190'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/finechive/projects',
+        component: ComponentCreator('/docs/finechive/projects', '7cc'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -141,6 +171,12 @@ export default [
       {
         path: '/docs/links',
         component: ComponentCreator('/docs/links', '336'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/orgs',
+        component: ComponentCreator('/docs/orgs', '9df'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

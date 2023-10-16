@@ -1,0 +1,26 @@
+{
+  "unversionedId": "research (copy)/CICS",
+  "id": "research (copy)/CICS",
+  "title": "CICS Projects",
+  "description": "This is a repository to hold all my completed projects and/or research work done under UMass CICS. They have been listed in backwards chronological order.",
+  "source": "@site/docs/research (copy)/CICS.md",
+  "sourceDirName": "research (copy)",
+  "slug": "/research (copy)/CICS",
+  "permalink": "/docs/research (copy)/CICS",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "iCons",
+    "permalink": "/docs/research (copy)/icons"
+  },
+  "next": {
+    "title": "Projects (& Competitions)",
+    "permalink": "/docs/research (copy)/projects"
+  }
+}

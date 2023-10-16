@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orgs",
+  "id": "orgs",
+  "title": "Organizations I Support",
+  "description": "The below is a list of some non-profit organizations that I either support, or am a member of. I have listed some that I am not supporting financially as of now, but have listed them here for outreach. I have also tried to explain my reasoning behind my support for each of them.",
+  "source": "@site/docs/orgs.md",
+  "sourceDirName": ".",
+  "slug": "/orgs",
+  "permalink": "/docs/orgs",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Links",
+    "permalink": "/docs/links"
+  },
+  "next": {
+    "title": "the Finechive.",
+    "permalink": "/docs/category/the-finechive"
+  }
+}

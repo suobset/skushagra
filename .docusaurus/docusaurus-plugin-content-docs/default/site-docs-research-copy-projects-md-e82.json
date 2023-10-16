@@ -1,0 +1,26 @@
+{
+  "unversionedId": "research (copy)/projects",
+  "id": "research (copy)/projects",
+  "title": "Projects (& Competitions)",
+  "description": "This is a repository to hold my projects/competitions outside of CICS. However, most of them were still done under or via my CICS affiliation.",
+  "source": "@site/docs/research (copy)/projects.md",
+  "sourceDirName": "research (copy)",
+  "slug": "/research (copy)/projects",
+  "permalink": "/docs/research (copy)/projects",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CICS Projects",
+    "permalink": "/docs/research (copy)/CICS"
+  },
+  "next": {
+    "title": "Ongoing",
+    "permalink": "/docs/research (copy)/ongoing"
+  }
+}

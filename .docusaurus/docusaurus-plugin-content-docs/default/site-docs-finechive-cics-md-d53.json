@@ -1,0 +1,26 @@
+{
+  "unversionedId": "finechive/CICS",
+  "id": "finechive/CICS",
+  "title": "CICS Projects",
+  "description": "This is a repository to hold all my completed projects and/or research work done under UMass CICS. They have been listed in backwards chronological order.",
+  "source": "@site/docs/finechive/CICS.md",
+  "sourceDirName": "finechive",
+  "slug": "/finechive/CICS",
+  "permalink": "/docs/finechive/CICS",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "iCons",
+    "permalink": "/docs/finechive/icons"
+  },
+  "next": {
+    "title": "Projects (& Competitions)",
+    "permalink": "/docs/finechive/projects"
+  }
+}

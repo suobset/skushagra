@@ -18,6 +18,106 @@
           "contentPathLocalized": "/home/suobset/Documents/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "finechive/CICS",
+              "id": "finechive/CICS",
+              "title": "CICS Projects",
+              "description": "This is a repository to hold all my completed projects and/or research work done under UMass CICS. They have been listed in backwards chronological order.",
+              "source": "@site/docs/finechive/CICS.md",
+              "sourceDirName": "finechive",
+              "slug": "/finechive/CICS",
+              "permalink": "/docs/finechive/CICS",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "iCons",
+                "permalink": "/docs/finechive/icons"
+              },
+              "next": {
+                "title": "Projects (& Competitions)",
+                "permalink": "/docs/finechive/projects"
+              }
+            },
+            {
+              "unversionedId": "finechive/icons",
+              "id": "finechive/icons",
+              "title": "iCons",
+              "description": "This is a repository to hold all Research Work I have done under the Integrated Concentration in Science (iCons) Program along with the College of Natural Sciences at University of Massachusetts, Amherst.",
+              "source": "@site/docs/finechive/icons.md",
+              "sourceDirName": "finechive",
+              "slug": "/finechive/icons",
+              "permalink": "/docs/finechive/icons",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "the Finechive.",
+                "permalink": "/docs/category/the-finechive"
+              },
+              "next": {
+                "title": "CICS Projects",
+                "permalink": "/docs/finechive/CICS"
+              }
+            },
+            {
+              "unversionedId": "finechive/ongoing",
+              "id": "finechive/ongoing",
+              "title": "Ongoing",
+              "description": "This page holds all my ongoing projects and endeavours. Primarily, the heirarchy will be divided into different institutions of affiliation, in no particular order. This will be the forever evolving page, and projects that are over will be placed in their respective pages (or new pages will be created) in the sidebar.",
+              "source": "@site/docs/finechive/ongoing.md",
+              "sourceDirName": "finechive",
+              "slug": "/finechive/ongoing",
+              "permalink": "/docs/finechive/ongoing",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Projects (& Competitions)",
+                "permalink": "/docs/finechive/projects"
+              }
+            },
+            {
+              "unversionedId": "finechive/projects",
+              "id": "finechive/projects",
+              "title": "Projects (& Competitions)",
+              "description": "This is a repository to hold my projects/competitions outside of CICS. However, most of them were still done under or via my CICS affiliation.",
+              "source": "@site/docs/finechive/projects.md",
+              "sourceDirName": "finechive",
+              "slug": "/finechive/projects",
+              "permalink": "/docs/finechive/projects",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CICS Projects",
+                "permalink": "/docs/finechive/CICS"
+              },
+              "next": {
+                "title": "Ongoing",
+                "permalink": "/docs/finechive/ongoing"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "About Me",
@@ -59,6 +159,36 @@
               "previous": {
                 "title": "Ongoing",
                 "permalink": "/docs/research/ongoing"
+              },
+              "next": {
+                "title": "Organizations I Support",
+                "permalink": "/docs/orgs"
+              }
+            },
+            {
+              "unversionedId": "orgs",
+              "id": "orgs",
+              "title": "Organizations I Support",
+              "description": "The below is a list of some non-profit organizations that I either support, or am a member of. I have listed some that I am not supporting financially as of now, but have listed them here for outreach. I have also tried to explain my reasoning behind my support for each of them.",
+              "source": "@site/docs/orgs.md",
+              "sourceDirName": ".",
+              "slug": "/orgs",
+              "permalink": "/docs/orgs",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Links",
+                "permalink": "/docs/links"
+              },
+              "next": {
+                "title": "the Finechive.",
+                "permalink": "/docs/category/the-finechive"
               }
             },
             {
@@ -236,6 +366,40 @@
               {
                 "type": "doc",
                 "id": "links"
+              },
+              {
+                "type": "doc",
+                "id": "orgs"
+              },
+              {
+                "type": "category",
+                "label": "the Finechive.",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "finechive/icons"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "finechive/CICS"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "finechive/projects"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "finechive/ongoing"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "A central repository containing all my research projects. They are also listed in my ORCiD and LinkedIn, albeit probably not as comprehensive as this.",
+                  "slug": "/category/the-finechive",
+                  "permalink": "/docs/category/the-finechive"
+                }
               }
             ]
           }
