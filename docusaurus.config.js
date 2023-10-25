@@ -126,14 +126,12 @@ const config = {
             title: 'On the Web',
             items: [
               {
-		      label: 'Threads',
-		      href: 'https://threads.net/@suobset',
+		            label: 'Threads',
+		            href: 'https://threads.net/@suobset',
               },
-              { label: 'GitHub',
-                href: 'https://github.com/suobset'},
               {
-		      label: 'Everything Else',
-		      to: '/docs/links',
+		            label: 'Everything Else',
+		            to: '/docs/links',
               },
             ],
           },
