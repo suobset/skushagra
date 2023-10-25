@@ -1,0 +1,26 @@
+{
+  "unversionedId": "finechive/preface",
+  "id": "finechive/preface",
+  "title": "Preface",
+  "description": "",
+  "source": "@site/docs/finechive/preface.md",
+  "sourceDirName": "finechive",
+  "slug": "/finechive/preface",
+  "permalink": "/docs/finechive/preface",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "the Finechive.",
+    "permalink": "/docs/category/the-finechive"
+  },
+  "next": {
+    "title": "Table of Contents",
+    "permalink": "/docs/finechive/contents"
+  }
+}

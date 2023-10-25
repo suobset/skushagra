@@ -73,7 +73,7 @@ const config = {
             position: 'left',
             label: 'About Me',
           },
-          {to: '/blog', label: 'Finechive', position: 'left'},
+          {to: '/docs/category/the-finechive', label: 'Finechive', position: 'left'},
           {to: '/docs/resume', label: 'Resume', position: 'left'},
           {to: '/docs/category/research', label: 'Research', position: 'left'},
           {
@@ -95,7 +95,7 @@ const config = {
               },
               {
               	label: 'Finechive',
-              	to: '/blog',
+              	to: '/docs/category/the-finechive',
               },
 		    {
 			    label: 'Research',

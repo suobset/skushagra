@@ -53,7 +53,7 @@ export default {
           "label": "About Me"
         },
         {
-          "to": "/blog",
+          "to": "/docs/category/the-finechive",
           "label": "Finechive",
           "position": "left"
         },
@@ -87,7 +87,7 @@ export default {
             },
             {
               "label": "Finechive",
-              "to": "/blog"
+              "to": "/docs/category/the-finechive"
             },
             {
               "label": "Research",
@@ -117,10 +117,6 @@ export default {
             {
               "label": "Threads",
               "href": "https://threads.net/@suobset"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/suobset"
             },
             {
               "label": "Everything Else",

@@ -11,23 +11,23 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "finechive/CICS",
-              "path": "/docs/finechive/CICS",
+              "id": "finechive/blog",
+              "path": "/docs/finechive/blog",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "finechive/icons",
-              "path": "/docs/finechive/icons",
+              "id": "finechive/contents",
+              "path": "/docs/finechive/contents",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "finechive/ongoing",
-              "path": "/docs/finechive/ongoing",
+              "id": "finechive/now",
+              "path": "/docs/finechive/now",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "finechive/projects",
-              "path": "/docs/finechive/projects",
+              "id": "finechive/preface",
+              "path": "/docs/finechive/preface",
               "sidebar": "tutorialSidebar"
             },
             {

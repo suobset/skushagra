@@ -18,14 +18,36 @@
           "contentPathLocalized": "/workspaces/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "finechive/CICS",
-              "id": "finechive/CICS",
-              "title": "CICS Projects",
-              "description": "This is a repository to hold all my completed projects and/or research work done under UMass CICS. They have been listed in backwards chronological order.",
-              "source": "@site/docs/finechive/CICS.md",
+              "unversionedId": "finechive/blog",
+              "id": "finechive/blog",
+              "title": "Blog",
+              "description": "",
+              "source": "@site/docs/finechive/blog.md",
               "sourceDirName": "finechive",
-              "slug": "/finechive/CICS",
-              "permalink": "/docs/finechive/CICS",
+              "slug": "/finechive/blog",
+              "permalink": "/docs/finechive/blog",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Now",
+                "permalink": "/docs/finechive/now"
+              }
+            },
+            {
+              "unversionedId": "finechive/contents",
+              "id": "finechive/contents",
+              "title": "Table of Contents",
+              "description": "",
+              "source": "@site/docs/finechive/contents.md",
+              "sourceDirName": "finechive",
+              "slug": "/finechive/contents",
+              "permalink": "/docs/finechive/contents",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -35,23 +57,49 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "iCons",
-                "permalink": "/docs/finechive/icons"
+                "title": "Preface",
+                "permalink": "/docs/finechive/preface"
               },
               "next": {
-                "title": "Projects (& Competitions)",
-                "permalink": "/docs/finechive/projects"
+                "title": "Now",
+                "permalink": "/docs/finechive/now"
               }
             },
             {
-              "unversionedId": "finechive/icons",
-              "id": "finechive/icons",
-              "title": "iCons",
-              "description": "This is a repository to hold all Research Work I have done under the Integrated Concentration in Science (iCons) Program along with the College of Natural Sciences at University of Massachusetts, Amherst.",
-              "source": "@site/docs/finechive/icons.md",
+              "unversionedId": "finechive/now",
+              "id": "finechive/now",
+              "title": "Now",
+              "description": "",
+              "source": "@site/docs/finechive/now.md",
               "sourceDirName": "finechive",
-              "slug": "/finechive/icons",
-              "permalink": "/docs/finechive/icons",
+              "slug": "/finechive/now",
+              "permalink": "/docs/finechive/now",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Table of Contents",
+                "permalink": "/docs/finechive/contents"
+              },
+              "next": {
+                "title": "Blog",
+                "permalink": "/docs/finechive/blog"
+              }
+            },
+            {
+              "unversionedId": "finechive/preface",
+              "id": "finechive/preface",
+              "title": "Preface",
+              "description": "",
+              "source": "@site/docs/finechive/preface.md",
+              "sourceDirName": "finechive",
+              "slug": "/finechive/preface",
+              "permalink": "/docs/finechive/preface",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -65,56 +113,8 @@
                 "permalink": "/docs/category/the-finechive"
               },
               "next": {
-                "title": "CICS Projects",
-                "permalink": "/docs/finechive/CICS"
-              }
-            },
-            {
-              "unversionedId": "finechive/ongoing",
-              "id": "finechive/ongoing",
-              "title": "Ongoing",
-              "description": "This page holds all my ongoing projects and endeavours. Primarily, the heirarchy will be divided into different institutions of affiliation, in no particular order. This will be the forever evolving page, and projects that are over will be placed in their respective pages (or new pages will be created) in the sidebar.",
-              "source": "@site/docs/finechive/ongoing.md",
-              "sourceDirName": "finechive",
-              "slug": "/finechive/ongoing",
-              "permalink": "/docs/finechive/ongoing",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Projects (& Competitions)",
-                "permalink": "/docs/finechive/projects"
-              }
-            },
-            {
-              "unversionedId": "finechive/projects",
-              "id": "finechive/projects",
-              "title": "Projects (& Competitions)",
-              "description": "This is a repository to hold my projects/competitions outside of CICS. However, most of them were still done under or via my CICS affiliation.",
-              "source": "@site/docs/finechive/projects.md",
-              "sourceDirName": "finechive",
-              "slug": "/finechive/projects",
-              "permalink": "/docs/finechive/projects",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "CICS Projects",
-                "permalink": "/docs/finechive/CICS"
-              },
-              "next": {
-                "title": "Ongoing",
-                "permalink": "/docs/finechive/ongoing"
+                "title": "Table of Contents",
+                "permalink": "/docs/finechive/contents"
               }
             },
             {
@@ -379,24 +379,24 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "finechive/icons"
+                    "id": "finechive/preface"
                   },
                   {
                     "type": "doc",
-                    "id": "finechive/CICS"
+                    "id": "finechive/contents"
                   },
                   {
                     "type": "doc",
-                    "id": "finechive/projects"
+                    "id": "finechive/now"
                   },
                   {
                     "type": "doc",
-                    "id": "finechive/ongoing"
+                    "id": "finechive/blog"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "A central repository containing all my research projects. They are also listed in my ORCiD and LinkedIn, albeit probably not as comprehensive as this.",
+                  "description": "This is a Digital Garden. It is currently under construction, but you will see more content here soon.",
                   "slug": "/category/the-finechive",
                   "permalink": "/docs/category/the-finechive"
                 }

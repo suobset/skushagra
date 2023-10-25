@@ -1,6 +1,6 @@
 {
   "title": "the Finechive.",
-  "description": "A central repository containing all my research projects. They are also listed in my ORCiD and LinkedIn, albeit probably not as comprehensive as this.",
+  "description": "This is a Digital Garden. It is currently under construction, but you will see more content here soon.",
   "slug": "/category/the-finechive",
   "permalink": "/docs/category/the-finechive",
   "navigation": {
@@ -9,8 +9,8 @@
       "permalink": "/docs/orgs"
     },
     "next": {
-      "title": "iCons",
-      "permalink": "/docs/finechive/icons"
+      "title": "Preface",
+      "permalink": "/docs/finechive/preface"
     }
   }
 }

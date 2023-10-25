@@ -74,27 +74,27 @@
         "items": [
           {
             "type": "link",
-            "label": "iCons",
-            "href": "/docs/finechive/icons",
-            "docId": "finechive/icons"
+            "label": "Preface",
+            "href": "/docs/finechive/preface",
+            "docId": "finechive/preface"
           },
           {
             "type": "link",
-            "label": "CICS Projects",
-            "href": "/docs/finechive/CICS",
-            "docId": "finechive/CICS"
+            "label": "Table of Contents",
+            "href": "/docs/finechive/contents",
+            "docId": "finechive/contents"
           },
           {
             "type": "link",
-            "label": "Projects (& Competitions)",
-            "href": "/docs/finechive/projects",
-            "docId": "finechive/projects"
+            "label": "Now",
+            "href": "/docs/finechive/now",
+            "docId": "finechive/now"
           },
           {
             "type": "link",
-            "label": "Ongoing",
-            "href": "/docs/finechive/ongoing",
-            "docId": "finechive/ongoing"
+            "label": "Blog",
+            "href": "/docs/finechive/blog",
+            "docId": "finechive/blog"
           }
         ],
         "href": "/docs/category/the-finechive"
@@ -102,28 +102,28 @@
     ]
   },
   "docs": {
-    "finechive/CICS": {
-      "id": "finechive/CICS",
-      "title": "CICS Projects",
-      "description": "This is a repository to hold all my completed projects and/or research work done under UMass CICS. They have been listed in backwards chronological order.",
+    "finechive/blog": {
+      "id": "finechive/blog",
+      "title": "Blog",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "finechive/icons": {
-      "id": "finechive/icons",
-      "title": "iCons",
-      "description": "This is a repository to hold all Research Work I have done under the Integrated Concentration in Science (iCons) Program along with the College of Natural Sciences at University of Massachusetts, Amherst.",
+    "finechive/contents": {
+      "id": "finechive/contents",
+      "title": "Table of Contents",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "finechive/ongoing": {
-      "id": "finechive/ongoing",
-      "title": "Ongoing",
-      "description": "This page holds all my ongoing projects and endeavours. Primarily, the heirarchy will be divided into different institutions of affiliation, in no particular order. This will be the forever evolving page, and projects that are over will be placed in their respective pages (or new pages will be created) in the sidebar.",
+    "finechive/now": {
+      "id": "finechive/now",
+      "title": "Now",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "finechive/projects": {
-      "id": "finechive/projects",
-      "title": "Projects (& Competitions)",
-      "description": "This is a repository to hold my projects/competitions outside of CICS. However, most of them were still done under or via my CICS affiliation.",
+    "finechive/preface": {
+      "id": "finechive/preface",
+      "title": "Preface",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

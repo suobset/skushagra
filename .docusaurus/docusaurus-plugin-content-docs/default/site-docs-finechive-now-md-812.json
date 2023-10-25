@@ -1,0 +1,26 @@
+{
+  "unversionedId": "finechive/now",
+  "id": "finechive/now",
+  "title": "Now",
+  "description": "",
+  "source": "@site/docs/finechive/now.md",
+  "sourceDirName": "finechive",
+  "slug": "/finechive/now",
+  "permalink": "/docs/finechive/now",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Table of Contents",
+    "permalink": "/docs/finechive/contents"
+  },
+  "next": {
+    "title": "Blog",
+    "permalink": "/docs/finechive/blog"
+  }
+}
