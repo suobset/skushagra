@@ -49,13 +49,16 @@
     },
     "content": "content---archivee-27-594"
   },
-  "/blog-02c": {
+  "/blog-98a": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-708-79c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogd-6-e-e40"
+      },
       {
         "content": "content---blog-7-ed-862"
       },
@@ -75,6 +78,14 @@
     },
     "archive": "archive---blog-archiveb-2-f-393"
   },
+  "/blog/dc-the-opportunity-project-317": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-708-79c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-dc-the-opportunity-projectf-54-a5c"
+  },
   "/blog/liminal spaces art of appreciating-ba0": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -90,6 +101,20 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
+  },
+  "/blog/tags/academia-265": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-708-79c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-6-e-e40"
+      }
+    ],
+    "tag": "tag---blog-tags-academia-5-ca-4d2",
+    "listMetadata": "listMetadata---blog-tags-academia-330-5d0"
   },
   "/blog/tags/aesthetics-499": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -147,13 +172,30 @@
     "tag": "tag---blog-tags-hello-30-a-bed",
     "listMetadata": "listMetadata---blog-tags-hello-664-70a"
   },
-  "/blog/tags/life-c0c": {
+  "/blog/tags/i-cons-af6": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-708-79c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogd-6-e-e40"
+      }
+    ],
+    "tag": "tag---blog-tags-i-cons-55-f-3f2",
+    "listMetadata": "listMetadata---blog-tags-i-cons-4-f-7-242"
+  },
+  "/blog/tags/life-c54": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-708-79c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-6-e-e40"
+      },
       {
         "content": "content---blog-7-ed-862"
       },

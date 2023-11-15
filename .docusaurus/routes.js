@@ -44,12 +44,17 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '02c'),
+    component: ComponentCreator('/blog', '98a'),
     exact: true
   },
   {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive', '679'),
+    exact: true
+  },
+  {
+    path: '/blog/dc-the-opportunity-project',
+    component: ComponentCreator('/blog/dc-the-opportunity-project', '317'),
     exact: true
   },
   {
@@ -60,6 +65,11 @@ export default [
   {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags', 'c9f'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/academia',
+    component: ComponentCreator('/blog/tags/academia', '265'),
     exact: true
   },
   {
@@ -83,8 +93,13 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/i-cons',
+    component: ComponentCreator('/blog/tags/i-cons', 'af6'),
+    exact: true
+  },
+  {
     path: '/blog/tags/life',
-    component: ComponentCreator('/blog/tags/life', 'c0c'),
+    component: ComponentCreator('/blog/tags/life', 'c54'),
     exact: true
   },
   {
