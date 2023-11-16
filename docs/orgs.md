@@ -10,7 +10,7 @@ The below is a list of some non-profit organizations that I either support, or a
   src="//static.fsf.org/nosvn/banners/202311fundraiser/" scrolling="no">
 </iframe>
 
-![FSF](https://static.fsf.org/nosvn/associate/crm/6091180.png) <a href="https://www.eff.org"><img src="https://www.eff.org/files/2022/11/28/eff-2023-member-member.png" alt="EFF" width="150"/></a><a href="https://www.gnu.org/"><img src="https://static.fsf.org/nosvn/images/badges/powered_ascii_gray-bg.png" alt="Powered by GNU" width="150" /></a> <a href="https://www.thetrevorproject.org/"><img src="https://www.thetrevorproject.org/wp-content/uploads/2021/09/METADATA_IMG_ORANGE-BG.jpg" alt="Trevor Project" width="150" /></a>
+![FSF](https://static.fsf.org/nosvn/associate/crm/6091180.png) <a href="https://www.eff.org"><img src="https://www.eff.org/files/2022/11/28/eff-2023-member-member.png" alt="EFF" width="150"/></a><a href="https://www.gnu.org/"><img src="./assets/ASA_Logo.png" alt="American Statistical Association" width="150" /></a> <a href="https://www.thetrevorproject.org/"><img src="https://www.thetrevorproject.org/wp-content/uploads/2021/09/METADATA_IMG_ORANGE-BG.jpg" alt="Trevor Project" width="150" /></a>
 
 Join the [FSF](https://fsf.org). The Free Software Foundation (FSF) is at the forefront of advocating for open-source software and the principles of software freedom. Their mission aligns with my belief in the importance of transparency, user control, and the sharing of knowledge. By supporting the FSF, I contribute to the development and promotion of free and open-source software, ensuring that technology remains accessible to all. 
 
@@ -18,7 +18,7 @@ Join the [FSF](https://fsf.org). The Free Software Foundation (FSF) is at the fo
 
 Join the [EFF](https://eff.org). Support Free Speech, Digital Privacy, and technology innovation through Libre + Open Source. The Electronic Frontier Foundation (EFF) is dedicated to defending civil liberties in the digital world. They champion free speech, digital privacy, and technology innovation, which are vital in our modern society. By supporting the EFF, I stand up for the protection of online rights, privacy, and the free exchange of ideas in an age of increasing digital surveillance and censorship.
 
-[Debian](https://www.debian.org/) + [Trisquel](https://trisquel.info/)
+Become a member of the [American Statistical Association (ASA)](https://amstat.org). The ASA stands as a cornerstone for advancing the field of statistics and promoting the significance of data-driven decision-making. Joining the ASA allows me to be part of a community that shares a dedication to elevating the standards of statistical practice and fostering a deeper understanding of the role statistics plays in shaping our world. The ASA has provided immense networking, learning, and growth opportunities. I am currently a member of the ASA through winning the [ASA Five-College DataFest 2023](https://skushagra.com/docs/research/projects#asa-five-college-datafest).
 
 Support [The Trevor Project](https://www.thetrevorproject.org/), and their mission to crerate a safer & better world for future generations. The Trevor Project is an organization dedicated to providing crisis intervention and suicide prevention services for LGBTQ+ youth. Their work is crucial in creating a more inclusive and accepting society, where young people can thrive without fear of discrimination or exclusion.
 
