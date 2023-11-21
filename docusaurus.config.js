@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Kushagra Srivastava',
-  tagline: 'I like devising solutions to real-world problems in an effective and efficient manner.',
+  tagline: 'Operating Systems & Compilers Programmer | Undergrad',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

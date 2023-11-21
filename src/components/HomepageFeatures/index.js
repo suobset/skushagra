@@ -50,8 +50,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <p><b>This Website is currently under renovation.</b> Expect repetitions and some broken links, trying to build a digital garden. ETA 10/20 :D</p>
-        <p>The following is the personal website of Kush Srivastava: undergraduate CompSci major at UMass Amherst, graduating 2024. This homepage will cover the highlights of projects that I am working on currently. Complete details on everything that I am working on can be accessed via the <a href="./docs/intro">About</a> page. I also <a href="./blog">write stuff on here occassionally</a>.</p>
+        <p>The following is the personal website of Kush Srivastava: undergraduate CompSci major at UMass Amherst, graduating 2024. This homepage will cover the highlights of projects that I am working on currently. Complete details on everything that I am working on can be accessed via the <a href="./docs/intro">About</a> page. This is <a href="./docs/category/finechive">also my creative outlet</a>.</p>
         <p>The reason behind creating this website has changed over the years: this domain went from being a website in High School teaching music to others, to being a <a href="./archive">portfolio website</a>, to now furthering that and making this a repository for almost everything I do: creatively and professionally. The current version of this website is also <a href="https://en.wikipedia.org/wiki/Lynx_(web_browser)">Lynx Compatible</a>. The site logo is my first computer, circa 2013, and is what got me into my career today.</p>
         <p>Currently, my main focus are in these endeavours; in-depth details and other current projects can be found under the <a href="./docs/research/ongoing">Research</a> page:</p>
         <div className="row">

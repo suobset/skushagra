@@ -13,15 +13,15 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/workspaces/skushagra/sidebars.js",
-          "contentPath": "/workspaces/skushagra/docs",
-          "contentPathLocalized": "/workspaces/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/suobset/skushagra/sidebars.js",
+          "contentPath": "/home/suobset/skushagra/docs",
+          "contentPathLocalized": "/home/suobset/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "finechive/blog",
               "id": "finechive/blog",
               "title": "Blog",
-              "description": "",
+              "description": "Sometimes, ideas strike and I write about them under this blog :)",
               "source": "@site/docs/finechive/blog.md",
               "sourceDirName": "finechive",
               "slug": "/finechive/blog",
@@ -37,13 +37,17 @@
               "previous": {
                 "title": "Now",
                 "permalink": "/docs/finechive/now"
+              },
+              "next": {
+                "title": "Photography",
+                "permalink": "/docs/finechive/photography"
               }
             },
             {
               "unversionedId": "finechive/contents",
               "id": "finechive/contents",
               "title": "Table of Contents",
-              "description": "",
+              "description": "Since this is a wiki inside of a wiki, I felt that it would be a nice to maintain a table of centents, such that everything can be organized into relevant subheadings.",
               "source": "@site/docs/finechive/contents.md",
               "sourceDirName": "finechive",
               "slug": "/finechive/contents",
@@ -69,7 +73,7 @@
               "unversionedId": "finechive/now",
               "id": "finechive/now",
               "title": "Now",
-              "description": "",
+              "description": "A space to jot down what I am up to currently. Think of it as a mini-journal/todo notes space :)",
               "source": "@site/docs/finechive/now.md",
               "sourceDirName": "finechive",
               "slug": "/finechive/now",
@@ -92,10 +96,36 @@
               }
             },
             {
+              "unversionedId": "finechive/photography",
+              "id": "finechive/photography",
+              "title": "Photography",
+              "description": "A continuously-evolving space with my photos. All photos are released under Creative Commons 4.0 Under Attribution for personal usage. For business inquiries, please contact me here: hello@skushagra.com",
+              "source": "@site/docs/finechive/photography.md",
+              "sourceDirName": "finechive",
+              "slug": "/finechive/photography",
+              "permalink": "/docs/finechive/photography",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Blog",
+                "permalink": "/docs/finechive/blog"
+              },
+              "next": {
+                "title": "Software Config",
+                "permalink": "/docs/finechive/tech-config"
+              }
+            },
+            {
               "unversionedId": "finechive/preface",
               "id": "finechive/preface",
               "title": "Preface",
-              "description": "",
+              "description": "Finechive Banner",
               "source": "@site/docs/finechive/preface.md",
               "sourceDirName": "finechive",
               "slug": "/finechive/preface",
@@ -115,6 +145,28 @@
               "next": {
                 "title": "Table of Contents",
                 "permalink": "/docs/finechive/contents"
+              }
+            },
+            {
+              "unversionedId": "finechive/tech-config",
+              "id": "finechive/tech-config",
+              "title": "Software Config",
+              "description": "This is a repository of all software I use, hopefully with reasoning behind them.",
+              "source": "@site/docs/finechive/tech-config.md",
+              "sourceDirName": "finechive",
+              "slug": "/finechive/tech-config",
+              "permalink": "/docs/finechive/tech-config",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Photography",
+                "permalink": "/docs/finechive/photography"
               }
             },
             {
@@ -392,11 +444,19 @@
                   {
                     "type": "doc",
                     "id": "finechive/blog"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "finechive/photography"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "finechive/tech-config"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "This is a Digital Garden. It is currently under construction, but you will see more content here soon.",
+                  "description": "This is a Digital Garden. Please read the preface to learn more :) (tl;dr: an experimental, non career-related space)",
                   "slug": "/category/the-finechive",
                   "permalink": "/docs/category/the-finechive"
                 }

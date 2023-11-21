@@ -2,7 +2,7 @@
   "unversionedId": "finechive/blog",
   "id": "finechive/blog",
   "title": "Blog",
-  "description": "",
+  "description": "Sometimes, ideas strike and I write about them under this blog :)",
   "source": "@site/docs/finechive/blog.md",
   "sourceDirName": "finechive",
   "slug": "/finechive/blog",
@@ -18,5 +18,9 @@
   "previous": {
     "title": "Now",
     "permalink": "/docs/finechive/now"
+  },
+  "next": {
+    "title": "Photography",
+    "permalink": "/docs/finechive/photography"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "finechive/photography",
+  "id": "finechive/photography",
+  "title": "Photography",
+  "description": "A continuously-evolving space with my photos. All photos are released under Creative Commons 4.0 Under Attribution for personal usage. For business inquiries, please contact me here: hello@skushagra.com",
+  "source": "@site/docs/finechive/photography.md",
+  "sourceDirName": "finechive",
+  "slug": "/finechive/photography",
+  "permalink": "/docs/finechive/photography",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Blog",
+    "permalink": "/docs/finechive/blog"
+  },
+  "next": {
+    "title": "Software Config",
+    "permalink": "/docs/finechive/tech-config"
+  }
+}

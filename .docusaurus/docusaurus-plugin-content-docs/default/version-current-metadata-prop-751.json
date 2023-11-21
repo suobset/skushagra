@@ -95,6 +95,18 @@
             "label": "Blog",
             "href": "/docs/finechive/blog",
             "docId": "finechive/blog"
+          },
+          {
+            "type": "link",
+            "label": "Photography",
+            "href": "/docs/finechive/photography",
+            "docId": "finechive/photography"
+          },
+          {
+            "type": "link",
+            "label": "Software Config",
+            "href": "/docs/finechive/tech-config",
+            "docId": "finechive/tech-config"
           }
         ],
         "href": "/docs/category/the-finechive"
@@ -105,25 +117,37 @@
     "finechive/blog": {
       "id": "finechive/blog",
       "title": "Blog",
-      "description": "",
+      "description": "Sometimes, ideas strike and I write about them under this blog :)",
       "sidebar": "tutorialSidebar"
     },
     "finechive/contents": {
       "id": "finechive/contents",
       "title": "Table of Contents",
-      "description": "",
+      "description": "Since this is a wiki inside of a wiki, I felt that it would be a nice to maintain a table of centents, such that everything can be organized into relevant subheadings.",
       "sidebar": "tutorialSidebar"
     },
     "finechive/now": {
       "id": "finechive/now",
       "title": "Now",
-      "description": "",
+      "description": "A space to jot down what I am up to currently. Think of it as a mini-journal/todo notes space :)",
+      "sidebar": "tutorialSidebar"
+    },
+    "finechive/photography": {
+      "id": "finechive/photography",
+      "title": "Photography",
+      "description": "A continuously-evolving space with my photos. All photos are released under Creative Commons 4.0 Under Attribution for personal usage. For business inquiries, please contact me here: hello@skushagra.com",
       "sidebar": "tutorialSidebar"
     },
     "finechive/preface": {
       "id": "finechive/preface",
       "title": "Preface",
-      "description": "",
+      "description": "Finechive Banner",
+      "sidebar": "tutorialSidebar"
+    },
+    "finechive/tech-config": {
+      "id": "finechive/tech-config",
+      "title": "Software Config",
+      "description": "This is a repository of all software I use, hopefully with reasoning behind them.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

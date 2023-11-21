@@ -2,7 +2,7 @@
   "unversionedId": "finechive/contents",
   "id": "finechive/contents",
   "title": "Table of Contents",
-  "description": "",
+  "description": "Since this is a wiki inside of a wiki, I felt that it would be a nice to maintain a table of centents, such that everything can be organized into relevant subheadings.",
   "source": "@site/docs/finechive/contents.md",
   "sourceDirName": "finechive",
   "slug": "/finechive/contents",

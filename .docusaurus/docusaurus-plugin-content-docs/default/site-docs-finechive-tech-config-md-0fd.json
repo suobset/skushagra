@@ -1,0 +1,22 @@
+{
+  "unversionedId": "finechive/tech-config",
+  "id": "finechive/tech-config",
+  "title": "Software Config",
+  "description": "This is a repository of all software I use, hopefully with reasoning behind them.",
+  "source": "@site/docs/finechive/tech-config.md",
+  "sourceDirName": "finechive",
+  "slug": "/finechive/tech-config",
+  "permalink": "/docs/finechive/tech-config",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Photography",
+    "permalink": "/docs/finechive/photography"
+  }
+}

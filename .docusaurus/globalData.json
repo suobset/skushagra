@@ -26,8 +26,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "finechive/photography",
+              "path": "/docs/finechive/photography",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "finechive/preface",
               "path": "/docs/finechive/preface",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "finechive/tech-config",
+              "path": "/docs/finechive/tech-config",
               "sidebar": "tutorialSidebar"
             },
             {

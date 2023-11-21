@@ -2,7 +2,7 @@
   "unversionedId": "finechive/now",
   "id": "finechive/now",
   "title": "Now",
-  "description": "",
+  "description": "A space to jot down what I am up to currently. Think of it as a mini-journal/todo notes space :)",
   "source": "@site/docs/finechive/now.md",
   "sourceDirName": "finechive",
   "slug": "/finechive/now",
