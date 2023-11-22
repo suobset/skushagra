@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Table of Contents
 
-Since this is a wiki inside of a wiki, I felt that it would be a nice to maintain a table of centents, such that everything can be organized into relevant subheadings. 
+Since this is a wiki inside of a wiki, I felt that it would be a nice to maintain a table of contents, such that everything can be organized into relevant subheadings. 
 
 ## Meta
 
@@ -20,3 +20,10 @@ Stuff on the Finechive itself:
 Any forms of creative outlets. 
 
 * [Photography](./photography): pictures I've taken :D
+* [Scripting Shenanigans](./scripting-shenanigans): Random (mainly Python) Scripts to do a whole bunch of things
+
+## Workflow
+
+Stuff that I use and do to get stuff done
+
+* [Software Config](./tech-config): Software I use

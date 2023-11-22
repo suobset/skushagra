@@ -36,6 +36,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "finechive/scripting-shenanigans",
+              "path": "/docs/finechive/scripting-shenanigans",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "finechive/tech-config",
               "path": "/docs/finechive/tech-config",
               "sidebar": "tutorialSidebar"

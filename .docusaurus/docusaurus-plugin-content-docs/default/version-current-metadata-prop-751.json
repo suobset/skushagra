@@ -107,6 +107,12 @@
             "label": "Software Config",
             "href": "/docs/finechive/tech-config",
             "docId": "finechive/tech-config"
+          },
+          {
+            "type": "link",
+            "label": "Scripting Shenanigans",
+            "href": "/docs/finechive/scripting-shenanigans",
+            "docId": "finechive/scripting-shenanigans"
           }
         ],
         "href": "/docs/category/the-finechive"
@@ -123,7 +129,7 @@
     "finechive/contents": {
       "id": "finechive/contents",
       "title": "Table of Contents",
-      "description": "Since this is a wiki inside of a wiki, I felt that it would be a nice to maintain a table of centents, such that everything can be organized into relevant subheadings.",
+      "description": "Since this is a wiki inside of a wiki, I felt that it would be a nice to maintain a table of contents, such that everything can be organized into relevant subheadings.",
       "sidebar": "tutorialSidebar"
     },
     "finechive/now": {
@@ -142,6 +148,12 @@
       "id": "finechive/preface",
       "title": "Preface",
       "description": "Finechive Banner",
+      "sidebar": "tutorialSidebar"
+    },
+    "finechive/scripting-shenanigans": {
+      "id": "finechive/scripting-shenanigans",
+      "title": "Scripting Shenanigans",
+      "description": "My favourite scripting language is Python, only because how simple, yet powerful the whole thing is. From creating ML scripts, Data Visualizations, Native Programs...to creating a GNU GDB helper to trace x86 Assembly, change OS files, or just break your system...Python is flexible enough to go from Bash Scripting paradigms to full-blown programming language.",
       "sidebar": "tutorialSidebar"
     },
     "finechive/tech-config": {

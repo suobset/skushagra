@@ -18,5 +18,9 @@
   "previous": {
     "title": "Photography",
     "permalink": "/docs/finechive/photography"
+  },
+  "next": {
+    "title": "Scripting Shenanigans",
+    "permalink": "/docs/finechive/scripting-shenanigans"
   }
 }

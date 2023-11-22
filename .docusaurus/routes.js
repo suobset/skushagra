@@ -139,7 +139,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '312'),
+    component: ComponentCreator('/docs', 'c2e'),
     routes: [
       {
         path: '/docs/category/research',
@@ -180,6 +180,12 @@ export default [
       {
         path: '/docs/finechive/preface',
         component: ComponentCreator('/docs/finechive/preface', 'c21'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/finechive/scripting-shenanigans',
+        component: ComponentCreator('/docs/finechive/scripting-shenanigans', 'd3f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
