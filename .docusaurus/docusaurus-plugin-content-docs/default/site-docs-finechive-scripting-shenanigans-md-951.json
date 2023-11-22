@@ -18,5 +18,9 @@
   "previous": {
     "title": "Software Config",
     "permalink": "/docs/finechive/tech-config"
+  },
+  "next": {
+    "title": "Travel Map",
+    "permalink": "/docs/finechive/travel-map"
   }
 }

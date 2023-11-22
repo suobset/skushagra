@@ -113,6 +113,12 @@
             "label": "Scripting Shenanigans",
             "href": "/docs/finechive/scripting-shenanigans",
             "docId": "finechive/scripting-shenanigans"
+          },
+          {
+            "type": "link",
+            "label": "Travel Map",
+            "href": "/docs/finechive/travel-map",
+            "docId": "finechive/travel-map"
           }
         ],
         "href": "/docs/category/the-finechive"
@@ -160,6 +166,12 @@
       "id": "finechive/tech-config",
       "title": "Software Config",
       "description": "This is a repository of all software I use, hopefully with reasoning behind them.",
+      "sidebar": "tutorialSidebar"
+    },
+    "finechive/travel-map": {
+      "id": "finechive/travel-map",
+      "title": "Travel Map",
+      "description": "Travel map about wherever I have been around the world, minus date/time and incriminating details.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

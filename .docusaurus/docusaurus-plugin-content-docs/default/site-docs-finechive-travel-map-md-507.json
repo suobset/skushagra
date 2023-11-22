@@ -1,0 +1,22 @@
+{
+  "unversionedId": "finechive/travel-map",
+  "id": "finechive/travel-map",
+  "title": "Travel Map",
+  "description": "Travel map about wherever I have been around the world, minus date/time and incriminating details.",
+  "source": "@site/docs/finechive/travel-map.md",
+  "sourceDirName": "finechive",
+  "slug": "/finechive/travel-map",
+  "permalink": "/docs/finechive/travel-map",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scripting Shenanigans",
+    "permalink": "/docs/finechive/scripting-shenanigans"
+  }
+}
