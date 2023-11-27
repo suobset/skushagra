@@ -22,6 +22,12 @@ Any forms of creative outlets.
 * [Photography](./photography): pictures I've taken :D
 * [Scripting Shenanigans](./scripting-shenanigans): Random (mainly Python) Scripts to do a whole bunch of things
 
+### Code/Creative
+
+Intersection of Code and Creative Stuff
+
+* [SaberStat](./saberstat): Live LightSaber Battle Hits/Miss Counter
+
 ## Workflow
 
 Stuff that I use and do to get stuff done
