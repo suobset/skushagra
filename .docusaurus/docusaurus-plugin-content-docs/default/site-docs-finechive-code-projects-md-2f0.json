@@ -1,0 +1,26 @@
+{
+  "unversionedId": "finechive/code-projects",
+  "id": "finechive/code-projects",
+  "title": "Finechive Code Projects",
+  "description": "About Code Projects here vs. under Research.",
+  "source": "@site/docs/finechive/code-projects.md",
+  "sourceDirName": "finechive",
+  "slug": "/finechive/code-projects",
+  "permalink": "/docs/finechive/code-projects",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Blog",
+    "permalink": "/docs/finechive/blog"
+  },
+  "next": {
+    "title": "Photography",
+    "permalink": "/docs/finechive/photography"
+  }
+}

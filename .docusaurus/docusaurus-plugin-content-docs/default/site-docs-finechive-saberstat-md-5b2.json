@@ -1,0 +1,26 @@
+{
+  "unversionedId": "finechive/saberstat",
+  "id": "finechive/saberstat",
+  "title": "SaberStat",
+  "description": "Frank and I at Worcester Dining, UMass Amherst",
+  "source": "@site/docs/finechive/saberstat.md",
+  "sourceDirName": "finechive",
+  "slug": "/finechive/saberstat",
+  "permalink": "/docs/finechive/saberstat",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scripting Shenanigans",
+    "permalink": "/docs/finechive/scripting-shenanigans"
+  },
+  "next": {
+    "title": "Rosaceae",
+    "permalink": "/docs/finechive/rosaceae"
+  }
+}

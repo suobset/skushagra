@@ -1,0 +1,22 @@
+{
+  "unversionedId": "finechive/rosaceae",
+  "id": "finechive/rosaceae",
+  "title": "Rosaceae",
+  "description": "A completely built-from-scratch Operating System. More details here soon.",
+  "source": "@site/docs/finechive/rosaceae.md",
+  "sourceDirName": "finechive",
+  "slug": "/finechive/rosaceae",
+  "permalink": "/docs/finechive/rosaceae",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SaberStat",
+    "permalink": "/docs/finechive/saberstat"
+  }
+}

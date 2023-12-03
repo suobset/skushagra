@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # Software Config
@@ -18,6 +18,8 @@ I tinker a lot with [Trisquel](https://trisquel.org), a fully-free (as in freedo
 
 Windows is a fallback, and also the only stable OS on a Microsoft Surface. Though, it only acts as a host for a Debian WSL as of now.
 
+[Alpine](https://alpine.org) has my heart as a no-nonsense small OS. It runs beautifully on any hardware I have tried it on.
+
 ## Code Editors
 
 Sorted by frequency: high to low | I live in the CLI mostly so this is like 80% Vim and 20% everything else :')
@@ -28,6 +30,12 @@ Sorted by frequency: high to low | I live in the CLI mostly so this is like 80% 
 * JetBrains: Rare, but super complex projects have really benefitted from the strong debugger, language-oriented IDEs, and refactoring capabilities. 
 * RStudio: I have a total of 2 projects on R. RStudio is really powerful for what it does, and has a genuinely very shallow learning curve (at least relatively). Good editor, I am just not the target demographic.
 
-## Photography
+## Languages
 
+I do low level systems stuff mainly. I am highly familiar with GNU CoreUtils, and the GDB debugger. I love Valgrind as well, the stack traces and memory visualizations are honestly a godsend. I mainly use C++, though am opening up to RUST as well.
 
+As mentioned in [Scriting Shenanigans](./scripting-shenanigans), Python is my go to for any scripts or hobby programs.
+
+I used to code for Android, but have stopped doing so lately. 
+
+Apart from that, I mainly do Web Dev as a means for end-user application dev (such as [ASSERT](https://suobset.github.io/assert), or this website). I have experience with PHP, HTML/CSS, JavaScript, Node, React, SQL and MongoDB, Flask, and continuously keep learning new technologies. I love the web due to its open nature, and the ability to adapt to any system regardless.

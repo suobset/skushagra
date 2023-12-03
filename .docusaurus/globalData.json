@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "finechive/code-projects",
+              "path": "/docs/finechive/code-projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "finechive/contents",
               "path": "/docs/finechive/contents",
               "sidebar": "tutorialSidebar"
@@ -36,6 +41,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "finechive/rosaceae",
+              "path": "/docs/finechive/rosaceae",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "finechive/saberstat",
+              "path": "/docs/finechive/saberstat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "finechive/scripting-shenanigans",
               "path": "/docs/finechive/scripting-shenanigans",
               "sidebar": "tutorialSidebar"
@@ -43,11 +58,6 @@
             {
               "id": "finechive/tech-config",
               "path": "/docs/finechive/tech-config",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "finechive/travel-map",
-              "path": "/docs/finechive/travel-map",
               "sidebar": "tutorialSidebar"
             },
             {

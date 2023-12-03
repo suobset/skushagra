@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 # Scripting Shenanigans 
@@ -11,6 +11,8 @@ Thus, whenever ideas strike, I turn to Python to bring them to life. Least effor
 However, sometimes you just have to use the best tool for the job. Some of them are in alternate languages, just because it's the easiest given that language.
 
 This is a page to store these scripts, Python or otherwise. All scripts under this page are under the MIT License.
+
+Disclaimer: Please Read [About Code Projects in the Finechive](./code-projects) for more info.
 
 ## MIT License
 

@@ -98,6 +98,12 @@
           },
           {
             "type": "link",
+            "label": "Finechive Code Projects",
+            "href": "/docs/finechive/code-projects",
+            "docId": "finechive/code-projects"
+          },
+          {
+            "type": "link",
             "label": "Photography",
             "href": "/docs/finechive/photography",
             "docId": "finechive/photography"
@@ -116,9 +122,15 @@
           },
           {
             "type": "link",
-            "label": "Travel Map",
-            "href": "/docs/finechive/travel-map",
-            "docId": "finechive/travel-map"
+            "label": "SaberStat",
+            "href": "/docs/finechive/saberstat",
+            "docId": "finechive/saberstat"
+          },
+          {
+            "type": "link",
+            "label": "Rosaceae",
+            "href": "/docs/finechive/rosaceae",
+            "docId": "finechive/rosaceae"
           }
         ],
         "href": "/docs/category/the-finechive"
@@ -130,6 +142,12 @@
       "id": "finechive/blog",
       "title": "Blog",
       "description": "Sometimes, ideas strike and I write about them under this blog :)",
+      "sidebar": "tutorialSidebar"
+    },
+    "finechive/code-projects": {
+      "id": "finechive/code-projects",
+      "title": "Finechive Code Projects",
+      "description": "About Code Projects here vs. under Research.",
       "sidebar": "tutorialSidebar"
     },
     "finechive/contents": {
@@ -156,6 +174,18 @@
       "description": "Finechive Banner",
       "sidebar": "tutorialSidebar"
     },
+    "finechive/rosaceae": {
+      "id": "finechive/rosaceae",
+      "title": "Rosaceae",
+      "description": "A completely built-from-scratch Operating System. More details here soon.",
+      "sidebar": "tutorialSidebar"
+    },
+    "finechive/saberstat": {
+      "id": "finechive/saberstat",
+      "title": "SaberStat",
+      "description": "Frank and I at Worcester Dining, UMass Amherst",
+      "sidebar": "tutorialSidebar"
+    },
     "finechive/scripting-shenanigans": {
       "id": "finechive/scripting-shenanigans",
       "title": "Scripting Shenanigans",
@@ -166,12 +196,6 @@
       "id": "finechive/tech-config",
       "title": "Software Config",
       "description": "This is a repository of all software I use, hopefully with reasoning behind them.",
-      "sidebar": "tutorialSidebar"
-    },
-    "finechive/travel-map": {
-      "id": "finechive/travel-map",
-      "title": "Travel Map",
-      "description": "Travel map about wherever I have been around the world, minus date/time and incriminating details.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

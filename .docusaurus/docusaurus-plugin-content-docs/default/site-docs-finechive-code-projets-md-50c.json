@@ -1,0 +1,19 @@
+{
+  "unversionedId": "finechive/code-projets",
+  "id": "finechive/code-projets",
+  "title": "code-projets",
+  "description": "",
+  "source": "@site/docs/finechive/code-projets.md",
+  "sourceDirName": "finechive",
+  "slug": "/finechive/code-projets",
+  "permalink": "/docs/finechive/code-projets",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SaberStat",
+    "permalink": "/docs/finechive/saberstat"
+  }
+}

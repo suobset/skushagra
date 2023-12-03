@@ -285,7 +285,7 @@
     },
     "content": "content---disclaimer-fsf-15-f-735"
   },
-  "/docs-6f5": {
+  "/docs-c03": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-6-ad-c31"
@@ -304,6 +304,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-finechive-blog-7-e-2-228"
   },
+  "/docs/finechive/code-projects-dc8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-finechive-code-projects-2-f-0-d9b"
+  },
   "/docs/finechive/contents-875": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-finechive-contentsae-1-66f"
@@ -320,6 +324,14 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-finechive-prefacea-7-e-ad7"
   },
+  "/docs/finechive/rosaceae-0a6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-finechive-rosaceae-6-f-5-149"
+  },
+  "/docs/finechive/saberstat-928": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-finechive-saberstat-5-b-2-2e9"
+  },
   "/docs/finechive/scripting-shenanigans-d3f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-finechive-scripting-shenanigans-951-8e6"
@@ -327,10 +339,6 @@
   "/docs/finechive/tech-config-3a4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-finechive-tech-config-0-fd-1fa"
-  },
-  "/docs/finechive/travel-map-c00": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-finechive-travel-map-507-92b"
   },
   "/docs/intro-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",

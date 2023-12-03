@@ -10,9 +10,9 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 7,
+  "sidebarPosition": 8,
   "frontMatter": {
-    "sidebar_position": 7
+    "sidebar_position": 8
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -20,7 +20,7 @@
     "permalink": "/docs/finechive/tech-config"
   },
   "next": {
-    "title": "Travel Map",
-    "permalink": "/docs/finechive/travel-map"
+    "title": "SaberStat",
+    "permalink": "/docs/finechive/saberstat"
   }
 }

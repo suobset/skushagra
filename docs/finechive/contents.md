@@ -14,6 +14,7 @@ Stuff on the Finechive itself:
 * [Table of Contents](./contents) (it's recursive self-loopin' time)
 * [Now](./now): current ambitions, and stuff that I'm up to
 * [Blog](./blog): Uncategorized, non-wiki, bursts of ideas, and everything else
+* [FC Code Projects](./code-projects): **Disclaimer** on code projects that I upload here, vs. under the [Research](/docs/category/research) tab of this website. 
 
 ## Creative
 

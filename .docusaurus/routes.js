@@ -139,7 +139,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '6f5'),
+    component: ComponentCreator('/docs', 'c03'),
     routes: [
       {
         path: '/docs/category/research',
@@ -156,6 +156,12 @@ export default [
       {
         path: '/docs/finechive/blog',
         component: ComponentCreator('/docs/finechive/blog', 'd13'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/finechive/code-projects',
+        component: ComponentCreator('/docs/finechive/code-projects', 'dc8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -184,6 +190,18 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/finechive/rosaceae',
+        component: ComponentCreator('/docs/finechive/rosaceae', '0a6'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/finechive/saberstat',
+        component: ComponentCreator('/docs/finechive/saberstat', '928'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/finechive/scripting-shenanigans',
         component: ComponentCreator('/docs/finechive/scripting-shenanigans', 'd3f'),
         exact: true,
@@ -192,12 +210,6 @@ export default [
       {
         path: '/docs/finechive/tech-config',
         component: ComponentCreator('/docs/finechive/tech-config', '3a4'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/finechive/travel-map',
-        component: ComponentCreator('/docs/finechive/travel-map', 'c00'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
