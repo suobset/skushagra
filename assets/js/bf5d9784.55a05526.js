@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkskushagra=self.webpackChunkskushagra||[]).push([[9827],{475:s=>{s.exports=JSON.parse('{"permalink":"/blog/tags/life","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

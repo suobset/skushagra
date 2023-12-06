@@ -4,10 +4,20 @@
         <title>Kushagra Srivastava Blog</title>
         <link>https://skushagra.com/blog</link>
         <description>Kushagra Srivastava Blog</description>
-        <lastBuildDate>Tue, 31 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Debugxiety]]></title>
+            <link>https://skushagra.com/blog/debugxiety</link>
+            <guid>https://skushagra.com/blog/debugxiety</guid>
+            <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><code>(noun) /dɪˌbʌɡzaɪ.əti/</code></p><p>Definition: The apprehensive and uneasy feeling experienced by a programmer when faced with the prospect of executing or testing code, particularly after investing a significant amount of time in its creation, due to the anticipation of potential errors, bugs, or the need for extensive debugging.</p><p>Example: Sarah hesitated to run the program she had been tirelessly working on for days, overcome by a wave of debugxiety as she feared encountering unforeseen issues that might demand prolonged debugging sessions.</p><p>Etymology: Blend of "debugging" and "anxiety."</p>]]></content:encoded>
+            <category>Code</category>
+            <category>Academia</category>
+            <category>Life</category>
+        </item>
         <item>
             <title><![CDATA[Unexpected Opportunities: Washington D.C. 2023]]></title>
             <link>https://skushagra.com/blog/dc-the-opportunity-project</link>
