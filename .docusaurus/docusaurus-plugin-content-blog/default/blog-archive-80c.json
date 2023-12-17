@@ -1,6 +1,59 @@
 {
   "blogPosts": [
     {
+      "id": "debugxiety",
+      "metadata": {
+        "permalink": "/blog/debugxiety",
+        "source": "@site/blog/2023-12-05-debugxiety/index.md",
+        "title": "Debugxiety",
+        "description": "",
+        "date": "2023-12-05T00:00:00.000Z",
+        "formattedDate": "December 5, 2023",
+        "tags": [
+          {
+            "label": "Code",
+            "permalink": "/blog/tags/code"
+          },
+          {
+            "label": "Academia",
+            "permalink": "/blog/tags/academia"
+          },
+          {
+            "label": "Life",
+            "permalink": "/blog/tags/life"
+          }
+        ],
+        "readingTime": 0.43,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Kushagra Srivastava",
+            "title": "I write, code, and create. Sometimes all at the same time.",
+            "url": "https://skushagra.com",
+            "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+            "key": "suobset"
+          }
+        ],
+        "frontMatter": {
+          "slug": "debugxiety",
+          "title": "Debugxiety",
+          "authors": [
+            "suobset"
+          ],
+          "tags": [
+            "Code",
+            "Academia",
+            "Life"
+          ]
+        },
+        "nextItem": {
+          "title": "Unexpected Opportunities: Washington D.C. 2023",
+          "permalink": "/blog/dc-the-opportunity-project"
+        }
+      },
+      "content": "```(noun) /dɪˌbʌɡzaɪ.əti/```\r\n\r\nDefinition: The apprehensive and uneasy feeling experienced by a programmer when faced with the prospect of executing or testing code, particularly after investing a significant amount of time in its creation, due to the anticipation of potential errors, bugs, or the need for extensive debugging.\r\n\r\nExample: Sarah hesitated to run the program she had been tirelessly working on for days, overcome by a wave of debugxiety as she feared encountering unforeseen issues that might demand prolonged debugging sessions.\r\n\r\nEtymology: Blend of \"debugging\" and \"anxiety.\""
+    },
+    {
       "id": "dc-the-opportunity-project",
       "metadata": {
         "permalink": "/blog/dc-the-opportunity-project",
@@ -45,6 +98,10 @@
             "iCons",
             "Life"
           ]
+        },
+        "prevItem": {
+          "title": "Debugxiety",
+          "permalink": "/blog/debugxiety"
         },
         "nextItem": {
           "title": "The Finechive: A Digital Garden and Archive of My Experiences",

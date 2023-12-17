@@ -49,13 +49,16 @@
     },
     "content": "content---archivee-27-594"
   },
-  "/blog-ad0": {
+  "/blog-8c6": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-178-6f4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogef-3-eef"
+      },
       {
         "content": "content---blogd-6-e-e40"
       },
@@ -86,6 +89,14 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-dc-the-opportunity-projectf-54-a5c"
   },
+  "/blog/debugxiety-800": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-178-6f4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-debugxiety-456-cf6"
+  },
   "/blog/liminal spaces art of appreciating-afe": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -102,13 +113,16 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/academia-856": {
+  "/blog/tags/academia-fd6": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-178-6f4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogef-3-eef"
+      },
       {
         "content": "content---blogd-6-e-e40"
       }
@@ -129,6 +143,20 @@
     ],
     "tag": "tag---blog-tags-aestheticse-31-80a",
     "listMetadata": "listMetadata---blog-tags-aesthetics-803-c77"
+  },
+  "/blog/tags/code-e25": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-178-6f4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogef-3-eef"
+      }
+    ],
+    "tag": "tag---blog-tags-code-4-f-0-b7b",
+    "listMetadata": "listMetadata---blog-tags-code-69-e-752"
   },
   "/blog/tags/docusaurus-b57": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -186,13 +214,16 @@
     "tag": "tag---blog-tags-i-cons-55-f-3f2",
     "listMetadata": "listMetadata---blog-tags-i-cons-4-f-7-242"
   },
-  "/blog/tags/life-10b": {
+  "/blog/tags/life-4df": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-178-6f4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogef-3-eef"
+      },
       {
         "content": "content---blogd-6-e-e40"
       },

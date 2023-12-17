@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Debugxiety",
+      "permalink": "/blog/debugxiety"
+    },
+    {
       "title": "Unexpected Opportunities: Washington D.C. 2023",
       "permalink": "/blog/dc-the-opportunity-project"
     },

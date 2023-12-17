@@ -42,6 +42,10 @@
       "Life"
     ]
   },
+  "prevItem": {
+    "title": "Debugxiety",
+    "permalink": "/blog/debugxiety"
+  },
   "nextItem": {
     "title": "The Finechive: A Digital Garden and Archive of My Experiences",
     "permalink": "/blog/the finechive"

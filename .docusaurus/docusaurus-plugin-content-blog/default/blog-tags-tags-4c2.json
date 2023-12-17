@@ -1,18 +1,23 @@
 [
   {
+    "label": "Code",
+    "permalink": "/blog/tags/code",
+    "count": 1
+  },
+  {
     "label": "Academia",
     "permalink": "/blog/tags/academia",
-    "count": 1
+    "count": 2
+  },
+  {
+    "label": "Life",
+    "permalink": "/blog/tags/life",
+    "count": 4
   },
   {
     "label": "iCons",
     "permalink": "/blog/tags/i-cons",
     "count": 1
-  },
-  {
-    "label": "Life",
-    "permalink": "/blog/tags/life",
-    "count": 3
   },
   {
     "label": "Personal",
