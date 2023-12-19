@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "On Childhood Dreams",
+      "permalink": "/blog/dreaming"
+    },
+    {
       "title": "Debugxiety",
       "permalink": "/blog/debugxiety"
     },
@@ -16,10 +20,6 @@
     {
       "title": "Liminal Spaces: the art of being in, and appreciating the in-between.",
       "permalink": "/blog/liminal spaces art of appreciating"
-    },
-    {
-      "title": "A New Dawn",
-      "permalink": "/blog/welcome"
     }
   ]
 }

@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '8c6'),
+    component: ComponentCreator('/blog', '55c'),
     exact: true
   },
   {
@@ -60,6 +60,11 @@ export default [
   {
     path: '/blog/debugxiety',
     component: ComponentCreator('/blog/debugxiety', '800'),
+    exact: true
+  },
+  {
+    path: '/blog/dreaming',
+    component: ComponentCreator('/blog/dreaming', 'a08'),
     exact: true
   },
   {
@@ -88,6 +93,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/dictionary',
+    component: ComponentCreator('/blog/tags/dictionary', 'd06'),
+    exact: true
+  },
+  {
     path: '/blog/tags/docusaurus',
     component: ComponentCreator('/blog/tags/docusaurus', 'b57'),
     exact: true
@@ -103,13 +113,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/hobbies',
+    component: ComponentCreator('/blog/tags/hobbies', '284'),
+    exact: true
+  },
+  {
     path: '/blog/tags/i-cons',
     component: ComponentCreator('/blog/tags/i-cons', '6a2'),
     exact: true
   },
   {
     path: '/blog/tags/life',
-    component: ComponentCreator('/blog/tags/life', '4df'),
+    component: ComponentCreator('/blog/tags/life', 'e4f'),
     exact: true
   },
   {

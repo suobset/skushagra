@@ -592,6 +592,54 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "dreaming",
+          "metadata": {
+            "permalink": "/blog/dreaming",
+            "source": "@site/blog/2023-12-18-dreaming/index.md",
+            "title": "On Childhood Dreams",
+            "description": "I often like to mention how my career today started off as a childhood dream. While this is not false, coming here meant giving up on a different dream.",
+            "date": "2023-12-18T00:00:00.000Z",
+            "formattedDate": "December 18, 2023",
+            "tags": [
+              {
+                "label": "Life",
+                "permalink": "/blog/tags/life"
+              },
+              {
+                "label": "Hobbies",
+                "permalink": "/blog/tags/hobbies"
+              }
+            ],
+            "readingTime": 0.885,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Kushagra Srivastava",
+                "title": "I write, code, and create. Sometimes all at the same time.",
+                "url": "https://skushagra.com",
+                "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+                "key": "suobset"
+              }
+            ],
+            "frontMatter": {
+              "slug": "dreaming",
+              "title": "On Childhood Dreams",
+              "authors": [
+                "suobset"
+              ],
+              "tags": [
+                "Life",
+                "Hobbies"
+              ]
+            },
+            "nextItem": {
+              "title": "Debugxiety",
+              "permalink": "/blog/debugxiety"
+            }
+          },
+          "content": "I often like to mention how my career today started off as a childhood dream. While this is not false, coming here meant giving up on a different dream. \n\nI had always been passionate about music, and specifically creating music. However, I was never able to afford the equipment required to pursue this passion. As a result, my primary form of expressing artistic creativity went towards Code.\n\nI still think of programming as a form of art, for all intents and purposes. You are given a blank canvas, in the form of whatever device the user has...and you can design experiences of any kinds and forms. Ranging from Video Games to Websites to apps that help in the everyday, coding is a form of art, and one of the few that enables the consumer to interact with it as well, instead of just looking at it.\n\nHowever, I am at a point where I want to rekindle the music side of things. Hence, I am purchasing a DAW and getting on to it.\n\nUntil next time :)"
+        },
+        {
           "id": "debugxiety",
           "metadata": {
             "permalink": "/blog/debugxiety",
@@ -612,6 +660,10 @@
               {
                 "label": "Life",
                 "permalink": "/blog/tags/life"
+              },
+              {
+                "label": "Dictionary",
+                "permalink": "/blog/tags/dictionary"
               }
             ],
             "readingTime": 0.43,
@@ -634,8 +686,13 @@
               "tags": [
                 "Code",
                 "Academia",
-                "Life"
+                "Life",
+                "Dictionary"
               ]
+            },
+            "prevItem": {
+              "title": "On Childhood Dreams",
+              "permalink": "/blog/dreaming"
             },
             "nextItem": {
               "title": "Unexpected Opportunities: Washington D.C. 2023",
@@ -877,6 +934,7 @@
       "blogListPaginated": [
         {
           "items": [
+            "dreaming",
             "debugxiety",
             "dc-the-opportunity-project",
             "the finechive",
@@ -888,13 +946,67 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 5,
+            "totalCount": 6,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
       "blogTags": {
+        "/blog/tags/life": {
+          "label": "Life",
+          "items": [
+            "dreaming",
+            "debugxiety",
+            "dc-the-opportunity-project",
+            "the finechive",
+            "liminal spaces art of appreciating"
+          ],
+          "permalink": "/blog/tags/life",
+          "pages": [
+            {
+              "items": [
+                "dreaming",
+                "debugxiety",
+                "dc-the-opportunity-project",
+                "the finechive",
+                "liminal spaces art of appreciating"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/life",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 5,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/hobbies": {
+          "label": "Hobbies",
+          "items": [
+            "dreaming"
+          ],
+          "permalink": "/blog/tags/hobbies",
+          "pages": [
+            {
+              "items": [
+                "dreaming"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hobbies",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
         "/blog/tags/code": {
           "label": "Code",
           "items": [
@@ -943,29 +1055,23 @@
             }
           ]
         },
-        "/blog/tags/life": {
-          "label": "Life",
+        "/blog/tags/dictionary": {
+          "label": "Dictionary",
           "items": [
-            "debugxiety",
-            "dc-the-opportunity-project",
-            "the finechive",
-            "liminal spaces art of appreciating"
+            "debugxiety"
           ],
-          "permalink": "/blog/tags/life",
+          "permalink": "/blog/tags/dictionary",
           "pages": [
             {
               "items": [
-                "debugxiety",
-                "dc-the-opportunity-project",
-                "the finechive",
-                "liminal spaces art of appreciating"
+                "debugxiety"
               ],
               "metadata": {
-                "permalink": "/blog/tags/life",
+                "permalink": "/blog/tags/dictionary",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
-                "totalCount": 4,
+                "totalCount": 1,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }

@@ -17,6 +17,10 @@
     {
       "label": "Life",
       "permalink": "/blog/tags/life"
+    },
+    {
+      "label": "Dictionary",
+      "permalink": "/blog/tags/dictionary"
     }
   ],
   "readingTime": 0.43,
@@ -39,8 +43,13 @@
     "tags": [
       "Code",
       "Academia",
-      "Life"
+      "Life",
+      "Dictionary"
     ]
+  },
+  "prevItem": {
+    "title": "On Childhood Dreams",
+    "permalink": "/blog/dreaming"
   },
   "nextItem": {
     "title": "Unexpected Opportunities: Washington D.C. 2023",

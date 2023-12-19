@@ -2,7 +2,7 @@
 slug: 'debugxiety'
 title: 'Debugxiety'
 authors: [suobset]
-tags: ['Code', 'Academia', 'Life']
+tags: ['Code', 'Academia', 'Life', 'Dictionary']
 ---
 
 # Debugxiety

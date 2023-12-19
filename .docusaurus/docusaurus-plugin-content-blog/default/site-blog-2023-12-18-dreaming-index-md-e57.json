@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/dreaming",
+  "source": "@site/blog/2023-12-18-dreaming/index.md",
+  "title": "On Childhood Dreams",
+  "description": "I often like to mention how my career today started off as a childhood dream. While this is not false, coming here meant giving up on a different dream.",
+  "date": "2023-12-18T00:00:00.000Z",
+  "formattedDate": "December 18, 2023",
+  "tags": [
+    {
+      "label": "Life",
+      "permalink": "/blog/tags/life"
+    },
+    {
+      "label": "Hobbies",
+      "permalink": "/blog/tags/hobbies"
+    }
+  ],
+  "readingTime": 0.885,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "dreaming",
+    "title": "On Childhood Dreams",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "Life",
+      "Hobbies"
+    ]
+  },
+  "nextItem": {
+    "title": "Debugxiety",
+    "permalink": "/blog/debugxiety"
+  }
+}

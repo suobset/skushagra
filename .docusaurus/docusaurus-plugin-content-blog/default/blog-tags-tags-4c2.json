@@ -1,5 +1,15 @@
 [
   {
+    "label": "Life",
+    "permalink": "/blog/tags/life",
+    "count": 5
+  },
+  {
+    "label": "Hobbies",
+    "permalink": "/blog/tags/hobbies",
+    "count": 1
+  },
+  {
     "label": "Code",
     "permalink": "/blog/tags/code",
     "count": 1
@@ -10,9 +20,9 @@
     "count": 2
   },
   {
-    "label": "Life",
-    "permalink": "/blog/tags/life",
-    "count": 4
+    "label": "Dictionary",
+    "permalink": "/blog/tags/dictionary",
+    "count": 1
   },
   {
     "label": "iCons",
