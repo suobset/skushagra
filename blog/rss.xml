@@ -4,10 +4,20 @@
         <title>Kushagra Srivastava Blog</title>
         <link>https://skushagra.com/blog</link>
         <description>Kushagra Srivastava Blog</description>
-        <lastBuildDate>Tue, 05 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[On Childhood Dreams]]></title>
+            <link>https://skushagra.com/blog/dreaming</link>
+            <guid>https://skushagra.com/blog/dreaming</guid>
+            <pubDate>Mon, 18 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[I often like to mention how my career today started off as a childhood dream. While this is not false, coming here meant giving up on a different dream.]]></description>
+            <content:encoded><![CDATA[<p>I often like to mention how my career today started off as a childhood dream. While this is not false, coming here meant giving up on a different dream. </p><p>I had always been passionate about music, and specifically creating music. However, I was never able to afford the equipment required to pursue this passion. As a result, my primary form of expressing artistic creativity went towards Code.</p><p>I still think of programming as a form of art, for all intents and purposes. You are given a blank canvas, in the form of whatever device the user has...and you can design experiences of any kinds and forms. Ranging from Video Games to Websites to apps that help in the everyday, coding is a form of art, and one of the few that enables the consumer to interact with it as well, instead of just looking at it.</p><p>However, I am at a point where I want to rekindle the music side of things. Hence, I am purchasing a DAW and getting on to it.</p><p>Until next time :)</p>]]></content:encoded>
+            <category>Life</category>
+            <category>Hobbies</category>
+        </item>
         <item>
             <title><![CDATA[Debugxiety]]></title>
             <link>https://skushagra.com/blog/debugxiety</link>
@@ -17,6 +27,7 @@
             <category>Code</category>
             <category>Academia</category>
             <category>Life</category>
+            <category>Dictionary</category>
         </item>
         <item>
             <title><![CDATA[Unexpected Opportunities: Washington D.C. 2023]]></title>
