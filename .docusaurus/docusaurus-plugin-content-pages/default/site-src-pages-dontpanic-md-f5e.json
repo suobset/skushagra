@@ -1,0 +1,9 @@
+{
+  "type": "mdx",
+  "permalink": "/dontpanic",
+  "source": "@site/src/pages/dontpanic.md",
+  "title": "Don't Panic",
+  "frontMatter": {
+    "title": "Don't Panic"
+  }
+}

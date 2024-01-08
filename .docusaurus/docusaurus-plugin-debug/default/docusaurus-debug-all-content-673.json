@@ -13,9 +13,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/suobset/skushagra/sidebars.js",
-          "contentPath": "/home/suobset/skushagra/docs",
-          "contentPathLocalized": "/home/suobset/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/suobset/Documents/skushagra/sidebars.js",
+          "contentPath": "/home/suobset/Documents/skushagra/docs",
+          "contentPathLocalized": "/home/suobset/Documents/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "finechive/blog",
@@ -1310,9 +1310,28 @@
         "frontMatter": {}
       },
       {
+        "type": "mdx",
+        "permalink": "/dontpanic",
+        "source": "@site/src/pages/dontpanic.md",
+        "title": "Don't Panic",
+        "frontMatter": {
+          "title": "Don't Panic"
+        }
+      },
+      {
         "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/v4u",
+        "source": "@site/src/pages/v4u.md",
+        "title": "V4U Radio Website Meetings",
+        "description": "This page is to keep track of meetings for the V4U Radio revamp project.",
+        "frontMatter": {
+          "title": "V4U Radio Website Meetings"
+        }
       }
     ]
   },

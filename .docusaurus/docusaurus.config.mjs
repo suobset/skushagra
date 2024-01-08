@@ -5,7 +5,7 @@
  */
 export default {
   "title": "Kushagra Srivastava",
-  "tagline": "Operating Systems & Compilers Programmer | Undergrad",
+  "tagline": "Operating Systems & Compilers Programmer | AI/ML Specialization",
   "favicon": "img/favicon.ico",
   "url": "https://skushagra.com",
   "baseUrl": "/",
@@ -26,13 +26,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/suobset/skushagra/sidebars.js"
+          "sidebarPath": "/home/suobset/Documents/skushagra/sidebars.js"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/home/suobset/skushagra/src/css/custom.css"
+          "customCss": "/home/suobset/Documents/skushagra/src/css/custom.css"
         }
       }
     ]
@@ -121,11 +121,15 @@ export default {
             {
               "label": "Everything Else",
               "to": "/docs/links"
+            },
+            {
+              "label": "Don't Panic",
+              "to": "/dontpanic"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2019-2023 Kushagra Srivastava"
+      "copyright": "Copyright © 2019-2024 Kushagra Srivastava"
     },
     "prism": {
       "theme": {

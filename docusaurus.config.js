@@ -133,6 +133,10 @@ const config = {
 		            label: 'Everything Else',
 		            to: '/docs/links',
               },
+              {
+                label: `Don't Panic`,
+                to: '/dontpanic'
+              },
             ],
           },
         ],
