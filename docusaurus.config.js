@@ -135,7 +135,7 @@ const config = {
               },
               {
                 label: `Don't Panic`,
-                to: '/dontpanic'
+                to: '/dontpanic',
               },
             ],
           },

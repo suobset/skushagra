@@ -58,6 +58,9 @@ export default function HomepageFeatures() {
             <Feature key={idx} {...props} />
           ))} 
         </div>
+        <div className={styles.iframeContainer}>
+          I am currently battling Docusaurus in the alignment of this Webring; will be fixed soon :) <iframe src="https://suobset.github.io/finechive-helper/umaring" width="100%" height="28px"></iframe>
+        </div>
       </div>
     </section>
   );

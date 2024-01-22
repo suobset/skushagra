@@ -1,6 +1,8 @@
 .features {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 2rem 0;
   width: 100%;
 }
@@ -8,4 +10,9 @@
 .featureSvg {
   height: 200px;
   width: 200px;
+}
+
+/* Add this style for the iframe */
+iframe {
+  margin-top: 20px; /* Adjust the margin as needed */
 }
