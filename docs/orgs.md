@@ -6,10 +6,6 @@ sidebar_position: 5
 
 The below is a list of some non-profit organizations that I either support, or am a member of. I have listed some that I am not supporting financially as of now, but have listed them here for outreach. I have also tried to explain my reasoning behind my support for each of them. 
 
-<iframe width="100%" title="FSF Fundraiser Banner"
-  src="//static.fsf.org/nosvn/banners/202311fundraiser/" scrolling="no">
-</iframe>
-
 ![FSF](https://static.fsf.org/nosvn/associate/crm/6091180.png) <a href="https://www.eff.org"><img src="https://www.eff.org/files/2022/11/28/eff-2023-member-member.png" alt="EFF" width="150"/></a><a href="https://www.gnu.org/"><img src="https://www.amstat.org/images/default-source/amstat-images/asalogoa706b328a9d643a885ee7678a4b26513.png" alt="American Statistical Association" width="150" /></a> <a href="https://www.thetrevorproject.org/"><img src="https://www.thetrevorproject.org/wp-content/uploads/2021/09/METADATA_IMG_ORANGE-BG.jpg" alt="Trevor Project" width="150" /></a>
 
 Join the [FSF](https://fsf.org). The Free Software Foundation (FSF) is at the forefront of advocating for open-source software and the principles of software freedom. Their mission aligns with my belief in the importance of transparency, user control, and the sharing of knowledge. By supporting the FSF, I contribute to the development and promotion of free and open-source software, ensuring that technology remains accessible to all. 
