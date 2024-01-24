@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'U.S. Census + UMass iCons TOP',
-    Svg: require('@site/static/img/uscb-2.svg').default,
+    Svg: require('@site/static/img/iCons-nogo.svg').default,
     description: (
       <>
         Collaborating with a team of 6 <a href="https://icons.cns.umass.edu">UMass iCons</a> students (myself included) on the <a href="https://opportunity.census.gov/">"The Opportunity Project"</a> by <a href="https://www.census.gov/">U.S. Census Bureau</a>. Project proposal and guidelines by <a href="https://energy.gov">U.S. Department of Energy</a>.
