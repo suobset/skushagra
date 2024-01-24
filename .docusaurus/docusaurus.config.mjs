@@ -26,13 +26,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/workspaces/skushagra/sidebars.js"
+          "sidebarPath": "/home/suobset/Documents/skushagra/sidebars.js"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/workspaces/skushagra/src/css/custom.css"
+          "customCss": "/home/suobset/Documents/skushagra/src/css/custom.css"
         }
       }
     ]
