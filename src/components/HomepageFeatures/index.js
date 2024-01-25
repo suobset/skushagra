@@ -52,7 +52,7 @@ export default function HomepageFeatures() {
   useEffect(() => {
     const fetchWebringData = async () => {
       try {
-        const response = await fetch('https://umaring.hamy.cc/kush'); // Replace 'kush' with your actual ID
+        const response = await fetch('https://umaring.hamy.cc/kush');
         if (!response.ok) {
           throw new Error('Failed to fetch webring data');
         }
