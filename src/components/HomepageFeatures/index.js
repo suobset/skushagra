@@ -80,7 +80,7 @@ export default function HomepageFeatures() {
         </div>
         <div className={styles.iframeContainer}>
           {webringData && (
-            <div>
+            <div className={styles.centeredLinks}>
               <a href={webringData.prev.url} target="_blank" rel="noopener noreferrer">{webringData.prev.name}</a>
               {' <- '}
               <a href="https://github.com/umaring/umaring">UMass Webring</a>

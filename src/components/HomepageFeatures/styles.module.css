@@ -16,3 +16,8 @@
 iframe {
   margin-top: 20px; /* Adjust the margin as needed */
 }
+
+.centeredLinks {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
