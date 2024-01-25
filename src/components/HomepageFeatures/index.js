@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
@@ -32,7 +32,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -47,6 +47,26 @@ function Feature({Svg, title, description}) {
 }
 
 export default function HomepageFeatures() {
+  const [webringData, setWebringData] = useState(null);
+
+  useEffect(() => {
+    const fetchWebringData = async () => {
+      try {
+        const response = await fetch('https://umaring.hamy.cc/kush'); // Replace 'kush' with your actual ID
+        if (!response.ok) {
+          throw new Error('Failed to fetch webring data');
+        }
+
+        const data = await response.json();
+        setWebringData(data);
+      } catch (error) {
+        console.error('Error fetching webring data:', error);
+      }
+    };
+
+    fetchWebringData();
+  }, []);
+
   return (
     <section className={styles.features}>
       <div className="container">
@@ -54,12 +74,20 @@ export default function HomepageFeatures() {
         <p>The reason behind creating this website has changed over the years: this domain went from being a website in High School teaching music to others, to being a <a href="./archive">portfolio website</a>, to now furthering that and making this a repository for almost everything I do: creatively and professionally. The current version of this website is also <a href="https://en.wikipedia.org/wiki/Lynx_(web_browser)">Lynx Compatible</a>. The site logo is my first computer, circa 2013, and is what got me into my career today.</p>
         <p>Currently, my main focus are in these endeavours; in-depth details and other current projects can be found under the <a href="./docs/research/ongoing">Research</a> page:</p>
         <div className="row">
-         {FeatureList.map((props, idx) => (
+          {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
-          ))} 
+          ))}
         </div>
         <div className={styles.iframeContainer}>
-          I am currently battling Docusaurus in the alignment of this Webring; will be fixed soon :) <iframe src="https://suobset.github.io/finechive-helper/umaring" width="100%" height="28px"></iframe>
+          {webringData && (
+            <div>
+              <a href={webringData.prev.url} target="_blank" rel="noopener noreferrer">{webringData.prev.name}</a>
+              {' <- '}
+              <a href="https://github.com/umaring/umaring">UMass Webring</a>
+              {' -> '}
+              <a href={webringData.next.url} target="_blank" rel="noopener noreferrer">{webringData.next.name}</a>
+            </div>
+          )}
         </div>
       </div>
     </section>
