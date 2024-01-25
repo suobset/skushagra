@@ -168,11 +168,6 @@ export default [
     exact: true
   },
   {
-    path: '/v4u',
-    component: ComponentCreator('/v4u', 'e65'),
-    exact: true
-  },
-  {
     path: '/docs',
     component: ComponentCreator('/docs', 'b8f'),
     routes: [

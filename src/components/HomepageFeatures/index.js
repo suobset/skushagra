@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/iCons-nogo.svg').default,
     description: (
       <>
-        Collaborating with a team of 6 <a href="https://icons.cns.umass.edu">UMass iCons</a> students (myself included) on the <a href="https://opportunity.census.gov/">"The Opportunity Project"</a> by <a href="https://www.census.gov/">U.S. Census Bureau</a>. Project proposal and guidelines by <a href="https://energy.gov">U.S. Department of Energy</a>.
+        Collaborating with a team of 6 <a href="https://icons.cns.umass.edu">UMass iCons</a> students on the <a href="https://opportunity.census.gov/">"U.S. Census Opportunity Project"</a>. Currently user-testing <a href="https://suobset.github.io/assert">ASSERT</a>: a GIS tool to provide aid to people overburdned by electrical outages.
       </>
     ),
   },
