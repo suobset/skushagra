@@ -1,18 +1,23 @@
 [
   {
-    "label": "Life",
-    "permalink": "/blog/tags/life",
-    "count": 5
+    "label": "Code",
+    "permalink": "/blog/tags/code",
+    "count": 2
+  },
+  {
+    "label": "Open Source",
+    "permalink": "/blog/tags/open-source",
+    "count": 1
   },
   {
     "label": "Hobbies",
     "permalink": "/blog/tags/hobbies",
-    "count": 1
+    "count": 2
   },
   {
-    "label": "Code",
-    "permalink": "/blog/tags/code",
-    "count": 1
+    "label": "Life",
+    "permalink": "/blog/tags/life",
+    "count": 5
   },
   {
     "label": "Academia",

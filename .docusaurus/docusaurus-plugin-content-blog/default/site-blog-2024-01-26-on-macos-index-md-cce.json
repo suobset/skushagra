@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/on-macos-and-libre-software",
+  "source": "@site/blog/2024-01-26-on-macos/index.md",
+  "title": "The Eternal Battle Between Libre Source Ideology, and the Macintosh",
+  "description": "Even though I am not exactly there yet, I often like to classify myself as a Libre Source Developer. Let's get into this terminology first.",
+  "date": "2024-01-26T00:00:00.000Z",
+  "formattedDate": "January 26, 2024",
+  "tags": [
+    {
+      "label": "Code",
+      "permalink": "/blog/tags/code"
+    },
+    {
+      "label": "Open Source",
+      "permalink": "/blog/tags/open-source"
+    },
+    {
+      "label": "Hobbies",
+      "permalink": "/blog/tags/hobbies"
+    }
+  ],
+  "readingTime": 3.745,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "on-macos-and-libre-software",
+    "title": "The Eternal Battle Between Libre Source Ideology, and the Macintosh",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "Code",
+      "Open Source",
+      "Hobbies"
+    ]
+  },
+  "nextItem": {
+    "title": "On Childhood Dreams",
+    "permalink": "/blog/dreaming"
+  }
+}
