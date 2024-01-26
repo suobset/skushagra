@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkskushagra=self.webpackChunkskushagra||[]).push([[6361],{2535:a=>{a.exports=JSON.parse('{"label":"Code","permalink":"/blog/tags/code","allTagsPath":"/blog/tags","count":2}')}}]);
