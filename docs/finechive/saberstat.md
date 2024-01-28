@@ -34,14 +34,14 @@ The Watch is still used for current sensor dev purposes, using Sensor Logger: an
 
 ![SensorLogger](./assets/saberstat-sensor-logger-choi.jpeg)
 
-The reason behind using SensorLogger in the Apple Watch was essentially to get a headstart on the code, withoout worrying too much about potential client-side issues. We can be assured about the data coming from SensorLogger, our current focus is to get the Math behind the tracking system working correctly, and tested in the real world.
+The reason behind using SensorLogger in the Apple Watch was essentially to get a headstart on the code, without worrying too much about potential client-side issues. We can be assured about the data coming from SensorLogger, our current focus is to get the Math behind the tracking system working correctly, and tested in the real world.
 
 Here's the code snippet for the UDP server:
 
 ```py
 # Code snippets from Python-based local
 # UDP server that handles POST requests 
-# for incooming JSON sensor data
+# for incoming JSON sensor data
 class Server(http.server.BaseHTTPRequestHandler):
     def _set_response(self):
         self.send_response(200)
@@ -68,11 +68,11 @@ Today marks the first day that Frank and I met up with lightsabers, after his re
 
 *We recorded a bunch of videos which will be uploaded once Frank edits them.*
 
-![Frank & me coollecting data](./assets/saberstat-datalog-1.png)
+![Frank & me collecting data](./assets/saberstat-datalog-1.png)
 
 For the time being, we both collected data using [Sensor Logger](https://www.tszheichoi.com/sensorlogger) on our Apple Watches using Sensor Logger as mentioned above.
 
-We did 4 rounds of lightsaber battles, data for which can be seen at [this commit](https://github.com/suobset/SaberStat/commit/5562d118da00b615497262defb0894187cb6fb38). For each of the logs, the watch's acceleration, gyroscope, gravity, and rotation data were logged on a millisecond basis. An example log has been reprooduced below:
+We did 4 rounds of lightsaber battles, data for which can be seen at [this commit](https://github.com/suobset/SaberStat/commit/5562d118da00b615497262defb0894187cb6fb38). For each of the logs, the watch's acceleration, gyroscope, gravity, and rotation data were logged on a millisecond basis. An example log has been reproduced below:
 
 ![Example Log](./assets/saberstat-initial-log-1.png)
 
@@ -80,7 +80,7 @@ Now, the problem at hand is to make sense of this data...by trying to calculate 
 
 Obviously, today's data is not the end-goal; this would need more real-world testing as we keep going. However, it is an excellent start, given we have 3 pairs of datasets and 1 independent dataset.
 
-The current iteration of SensorLogger has the ability to make HTTP POST requests, which makes for an ideal open system. We will be using SensorLogger in client devices until the Math has been worked out, then pivot to creating a standalone libre app that can be executed oon the exact codebase. SensorLogger is OSS as well, and can be easily replicated and tweaked for our purposes. 
+The current iteration of SensorLogger has the ability to make HTTP POST requests, which makes for an ideal open system. We will be using SensorLogger in client devices until the Math has been worked out, then pivot to creating a standalone libre app that can be executed on the exact codebase. SensorLogger is OSS as well, and can be easily replicated and tweaked for our purposes. 
 
 We are also creating a web-based frontend, with a script that reads the JSON data and charts it out. Here is a very early iteration, which will most definitely not work as of now:
 
