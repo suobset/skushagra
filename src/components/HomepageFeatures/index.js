@@ -83,11 +83,15 @@ export default function HomepageFeatures() {
             <div className={styles.centeredLinks}>
               <a href={webringData.prev.url} target="_blank" rel="noopener noreferrer">{webringData.prev.name}</a>
               {' <- '}
-              <a href="https://github.com/umaring/umaring">UMass Webring</a>
+              <a href="https://github.com/umaring/umaring">UMass Ring</a>
               {' -> '}
               <a href={webringData.next.url} target="_blank" rel="noopener noreferrer">{webringData.next.name}</a>
             </div>
           )}
+        </div>
+        <div className={styles.centeredLinks}>
+          <img src="https://suobset.github.io/finechive-helper/88x31/firefox.gif"></img><img src="https://suobset.github.io/finechive-helper/88x31/Mac.gif"></img><img src="https://suobset.github.io/finechive-helper/88x31/drm.gif"></img><img src="https://suobset.github.io/finechive-helper/88x31/github.gif"></img><img src="https://suobset.github.io/finechive-helper/88x31/umass.png"></img><img src="https://suobset.github.io/finechive-helper/88x31/gpl.gif"></img><img src="https://suobset.github.io/finechive-helper/88x31/lynx.gif"></img><img src="https://suobset.github.io/finechive-helper/88x31/noocookie.gif"></img><br />
+          <img src="https://suobset.github.io/finechive-helper/88x31/pride.gif"></img><img src="https://suobset.github.io/finechive-helper/88x31/ubuntu.gif"></img><img src="https://suobset.github.io/finechive-helper/88x31/vim.gif"></img><img src="https://suobset.github.io/finechive-helper/88x31/web3.gif"></img><img src="https://suobset.github.io/finechive-helper/88x31/ghPages.gif"></img><img src="https://suobset.github.io/finechive-helper/88x31/bi.png"></img>
         </div>
       </div>
     </section>
