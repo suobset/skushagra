@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
+const lightCodeTheme = require('prism-react-renderer/themes/vsLight');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -77,7 +77,7 @@ const config = {
           {to: '/docs/resume', label: 'Resume', position: 'left'},
           {to: '/docs/category/research', label: 'Research', position: 'left'},
           {
-            href: 'mailto:hello@skushagra.com',
+            href: 'mailto:ksrivastava@umass.edu',
             label: 'Contact',
             position: 'right',
           },
@@ -142,9 +142,13 @@ const config = {
         ],
         copyright: `Copyright © 2019-${new Date().getFullYear()} Kushagra Srivastava`,
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true, //Disable switching to dark mode, it never existed
+      },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        //darkTheme: darkCodeTheme,
       },
     }),
 };
