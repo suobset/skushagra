@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/source",
+  "source": "@site/src/pages/source.md",
+  "title": "Source for this Site",
+  "description": "This website uses Docusaurus, a static-site generator. The original source was licensed under MIT, with some components that would not work well under LibreJS, thus making it incompatible with certain systems and browsers.",
+  "frontMatter": {
+    "title": "Source for this Site"
+  }
+}

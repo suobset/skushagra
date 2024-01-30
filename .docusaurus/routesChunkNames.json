@@ -49,6 +49,13 @@
     },
     "content": "content---archivee-27-594"
   },
+  "/bestViewedByAnyBrowser-af8": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---archive-209-ac5"
+    },
+    "content": "content---best-viewed-by-any-browser-144-8e8"
+  },
   "/blog-9b2": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
@@ -395,6 +402,13 @@
       "plugin": "plugin---archive-209-ac5"
     },
     "content": "content---dontpanicf-5-e-9a2"
+  },
+  "/source-056": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---archive-209-ac5"
+    },
+    "content": "content---source-72-d-6e0"
   },
   "/docs-a33": {
     "__comp": "__comp---theme-doc-page-1-be-9be",

@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/bestViewedByAnyBrowser",
+  "source": "@site/src/pages/bestViewedByAnyBrowser.md",
+  "title": "This Website is Best Viewed on Any Browser. I mean it.",
+  "description": "\"Anyone who slaps a 'this page is best viewed with Browser X' label on a Web page appears to be yearning for the bad old days, before the Web, when you had very little chance of reading a document written on another computer, another word processor, or another network.\"",
+  "frontMatter": {
+    "title": "This Website is Best Viewed on Any Browser. I mean it."
+  }
+}

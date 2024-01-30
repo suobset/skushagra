@@ -43,6 +43,11 @@ export default [
     exact: true
   },
   {
+    path: '/bestViewedByAnyBrowser',
+    component: ComponentCreator('/bestViewedByAnyBrowser', 'af8'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', '9b2'),
     exact: true
@@ -175,6 +180,11 @@ export default [
   {
     path: '/dontpanic',
     component: ComponentCreator('/dontpanic', 'e77'),
+    exact: true
+  },
+  {
+    path: '/source',
+    component: ComponentCreator('/source', '056'),
     exact: true
   },
   {

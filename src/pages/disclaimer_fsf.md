@@ -2,6 +2,10 @@
 
 I proudly display my FSF membership badge on my website as a dedicated advocate for libre software, championing freedom, privacy, and collaboration, in line with the principles of the [Free Software Foundation (FSF)](https://fsf.org). However, **my allegiance lies with these principles, not with individuals**. I do not seek association with prominent figures within the FSF or anything beyond the essential tenets encapsulated by the [four fundamental freedoms](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms).
 
+This does mean that sometimes my viewpoints can misalign with that of the FSF. I believe that free software is any software that gives full freedom to the user to run as they wish. Crucially, the FSF believes that Free Software cannot be "shackled", i.e. it should run on GNU/Linux. This is something I do not agree with. If a software made for MacOS or Windows is libre under GPL3, it is libre, period. The software was created using that platform in mind, and still gives you the 4 freedoms as discussed. 
+
+Nevertheless, I support the FSF for their noble pursuit of making software more accessible, but do not agree on every aspect of discussion, and do not wish any association with prominent figures.
+
 **On Richard Stallman (rms):**
 
 I value rms' unwavering commitment to libre software, which played a pivotal role in the rise of GNU/Linux and the accessibility of libre software. While Open Source serves as a valuable middle ground, rms' dedication to Free/Libre software influenced both developers and users significantly.
