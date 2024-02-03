@@ -38,7 +38,7 @@ To combat this, the Free Software Foundation has a Firefox extension: [LibreJS](
 
 ![LibreJS Homepage](./assets/bestViewed/libreJS.jpeg)
 
-This current version  of Docusaurus that I am hosting is diffewrent than Meta's out-of-the-box version in 2 ways:
+This current version  of Docusaurus that I am hosting is different than Meta's out-of-the-box version in 2 ways:
 
 * It has been stripped of non-free JS in the static site generation, and is LibreJS compatible. The source code still may have non-free JS or dependencies, this is out of my control. However, the website you see does not have any non-free JS.
 * It is licensed under AGPLv3, while the original was licensed under MIT. However, I reserve the rights on my content, for the time being.
