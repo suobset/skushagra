@@ -5,26 +5,94 @@
  */
 
 /* You can override the default Infima variables here. */
+/* 90s Desktop Theme */
+
 :root {
-  --ifm-color-primary: #0055a4;
-  --ifm-color-primary-dark: #004885;
-  --ifm-color-primary-darker: #003e7d;
-  --ifm-color-primary-darkest: #003369;
-  --ifm-color-primary-light: #0074c1;
-  --ifm-color-primary-lighter: #007fca;
-  --ifm-color-primary-lightest: #0092e4;
+  --ifm-color-primary: #00bfff; /* Bright blue */
+  --ifm-color-primary-dark: #0055a4; /* Deep blue */
+  --ifm-color-primary-darker: #003e7d; /* Darker blue */
+  --ifm-color-primary-darkest: #003369; /* Darkest blue */
+  --ifm-color-primary-light: #add8e6; /* Light blue */
+  --ifm-color-primary-lighter: #bfefff; /* Lighter blue */
+  --ifm-color-primary-lightest: #bfefff; /* Lightest blue */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: #ffffff(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #0074a1;
-  --ifm-color-primary-dark: #005f84;
-  --ifm-color-primary-darker: #005578;
-  --ifm-color-primary-darkest: #00465b;
-  --ifm-color-primary-light: #0085b4;
-  --ifm-color-primary-lighter: #0090bd;
-  --ifm-color-primary-lightest: #00a7e3;
+  --ifm-color-primary: #4169e1; /* Royal blue */
+  --ifm-color-primary-dark: #000080; /* Navy blue */
+  --ifm-color-primary-darker: #000066; /* Dark navy blue */
+  --ifm-color-primary-darkest: #000033; /* Darkest navy blue */
+  --ifm-color-primary-light: #6495ed; /* Cornflower blue */
+  --ifm-color-primary-lighter: #87ceeb; /* Sky blue */
+  --ifm-color-primary-lightest: #87ceeb; /* Lightest sky blue */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background: linear-gradient(to bottom, #bfefff, #e6f7ff); /* Lighter blue to very light blue gradient */
+  color: #ffffff; /* Black text */
+  font-family: 'Courier New', monospace; /* Retro-style font */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Fixed height for the gradient background */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+  background: linear-gradient(to bottom, #000080, #000000); /* Blue to black gradient */
+  z-index: -1;
+}
+
+a.menu__link {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+a.table-of-contents__link {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+a.table-of-contents__link.toc-highlight.table-of-contents__link--active {
+  color: #0a98c8;
+}
+
+button{
+  filter:invert(100%);
+}
+
+button.clean-btn.navbar-sidebar__back {
+  color: #000000; /* Gets inverted under button */
+}
+
+path {
+  color: #000000; /* Gets inverted under li.breadcrumbs__item */
+}
+
+.pagination-nav__sublabel{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+li.breadcrumbs__item {
+  filter: invert(100%);
+}
+
+code {
+ color: #000000; /* White background on inline code, black text to read */
+}
+
+.navbar-sidebar__item.menu {
+  background: #000000;
+}
+
+/* Change black SVGs to white on homepage */
+svg {
+  filter: invert(100%);
 }
