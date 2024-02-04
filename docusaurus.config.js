@@ -145,7 +145,8 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © 2019-${new Date().getFullYear()} Kushagra Srivastava`,
+        copyright: `Copyright © 2019-${new Date().getFullYear()} Kushagra Srivastava <br />
+        All views expressed here are my own, and not representative of my organization or university.`,
       },
       colorMode: {
         defaultMode: 'light',
