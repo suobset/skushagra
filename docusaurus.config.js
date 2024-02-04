@@ -79,8 +79,13 @@ const config = {
           {
             href: 'mailto:ksrivastava@umass.edu',
             label: 'Contact',
-            position: 'right',
+            position: 'left',
           },
+          {
+            href: '/source',
+            label: 'Source',
+            position: 'right',
+          }
         ],
       },
       footer: {
@@ -148,7 +153,7 @@ const config = {
       },
       prism: {
         theme: lightCodeTheme,
-        //darkTheme: darkCodeTheme,
+        darkTheme: darkCodeTheme,
       },
     }),
 };
