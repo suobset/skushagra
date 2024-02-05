@@ -208,3 +208,130 @@ Again, this is a bodge. Good temporary solution, preferably go all the distance 
     }
 })();
 ```
+
+## Embeddings for UMaring
+
+I have recently joined the [UMass Webring](https://github.com/umaring/umaring) which consists of personal websites of UMass Students, Faculty, and anyone affiliated with the university under any domain. Some people rely on web development providers like Wix, or static site generators like Docusaurus to make and host their websites.
+
+UMaring works by embedding a webring script on your HTML file, and using your ID to provide the specific Webring links on your homepage (the page next to your website, and before your website). Here's the script from UMaring's website, which is added to your HTML file:
+
+```html
+<script id="umaring_js" src="https://umaring.hamy.cc/ring.js?id=ID"></script>
+<div id="umaring"></div>
+```
+
+### The Problem with Wix
+
+Wix takes any Embedded code, and puts it in an iframe (for reasons unknown to anyone but them). This means that clicking the links will open the next person's website in the iframe, and not in a tab/window (thus breaking the whole purpose).
+
+If you have a Wix website (or any website created by a "builder" that puts the aforementioned script in an iframe), use this incredibly simple script to ensure that links open in a new tab. We essentially grab the 'UMaring' div and dynamically modify the DOM by adding the ```target: _blank``` attribute, ensuring that links opens in a new tab.
+
+All you need to do is click the Embed Code Option in Wix when adding this element, and instead of the above 2 lines, add this chunk. Be sure to update your ID accordingly as well (the last 2 lines here are the same ones above).
+
+```html
+<!-- DOM Manipulation to have UMaring links open in a new tab -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const webringContainer = document.getElementById('umaring');
+        
+        if (webringContainer) {
+            webringContainer.addEventListener('click', (event) => {
+                const target = event.target;
+                
+                // Check if the clicked element is a link inside the umaring div
+                if (target.tagName === 'A' && target.closest('#umaring')) {
+                    event.preventDefault(); // Prevent the default link behavior
+                    window.open(target.href, '_blank'); // Open the link in a new tab
+                }
+            });
+        }
+    });
+</script>
+<!-- Update your ID here -->
+<script id="umaring_js" src="https://umaring.hamy.cc/ring.js?id=ID"></script>
+<div id="umaring"></div>
+```
+
+### The Problem with Docusaurus (or React, in general)
+
+React MDX does not behave well with HTML/JS scripts, at all. To have the Webring on this website, I pretty much had to build my own implementation using Hammy's API as mentioned in UMaring.
+
+Here is the main doc:
+
+<hr />
+
+**Building your own integration**
+
+Please integrate with the following API: GET https://umaring.hamy.cc/:id This will return a JSON object with the following format:
+
+```json
+{
+    "prev": {
+        "id":"usera",
+        "name":"User A",
+        "url":"https://usera.com"
+    },
+    "member": {
+        "id":"userb",
+        "name":"User b",
+        "url":"https://userb.com"
+    },
+    "next": {
+        "id":"userc",
+        "name":"User C",
+        "url":"https://userc.com"
+    }
+}
+```
+
+<hr />
+
+This website fetches this JSON on load, and then populates the Webring links. Here's my script for doing so:
+
+```js
+import React, { useState, useEffect } from 'react';
+
+export default function HomepageFeatures() {
+  const [webringData, setWebringData] = useState(null);
+
+  useEffect(() => {
+    const fetchWebringData = async () => {
+      try {
+        const response = await fetch('https://umaring.hamy.cc/kush');
+        if (!response.ok) {
+          throw new Error('Failed to fetch webring data');
+        }
+
+        const data = await response.json();
+        setWebringData(data);
+      } catch (error) {
+        console.error('Error fetching webring data:', error);
+      }
+    };
+
+    fetchWebringData();
+  }, []);
+
+  return (
+    <section className={styles.features}>
+      <div className="container">
+        <div className={styles.iframeContainer}>
+          {webringData && (
+            <div className={styles.centeredLinks}>
+              <a href={webringData.prev.url} target="_blank" rel="noopener noreferrer">{webringData.prev.name}</a>
+              {' <- '}
+              <a href="https://github.com/umaring/umaring">UMass Ring</a>
+              {' -> '}
+              <a href={webringData.next.url} target="_blank" rel="noopener noreferrer">{webringData.next.name}</a>
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
+  );
+}
+```
+
+The above is in the context of [Docusaurus](https://docusaurus.io), on the index.js page. In my homepage, it is implemented right alongside the other elements on that homepage, but it can also be independently implemented and referred to as an object. The process remains the same for all React MDX websites.
+
+If you're curious about what my actual homepage's code looks like, [here's a link](https://github.com/suobset/skushagra/blob/main/src/components/HomepageFeatures/index.js).

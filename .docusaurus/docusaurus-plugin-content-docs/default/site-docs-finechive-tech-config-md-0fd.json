@@ -2,7 +2,7 @@
   "unversionedId": "finechive/tech-config",
   "id": "finechive/tech-config",
   "title": "Software Config",
-  "description": "This is a repository of all software I use, hopefully with reasoning behind them.",
+  "description": "This is a repository of all software I use, hopefully with reasoning behind them. It is not yet complete, and will probably be ever-evolving.",
   "source": "@site/docs/finechive/tech-config.md",
   "sourceDirName": "finechive",
   "slug": "/finechive/tech-config",

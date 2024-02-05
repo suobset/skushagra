@@ -128,9 +128,9 @@
           },
           {
             "type": "link",
-            "label": "Rosaceae",
-            "href": "/docs/finechive/rosaceae",
-            "docId": "finechive/rosaceae"
+            "label": "MorbiOS",
+            "href": "/docs/finechive/morbios",
+            "docId": "finechive/morbios"
           }
         ],
         "href": "/docs/category/the-finechive"
@@ -156,6 +156,12 @@
       "description": "Since this is a wiki inside of a wiki, I felt that it would be a nice to maintain a table of contents, such that everything can be organized into relevant subheadings.",
       "sidebar": "tutorialSidebar"
     },
+    "finechive/morbios": {
+      "id": "finechive/morbios",
+      "title": "MorbiOS",
+      "description": "A completely built-from-scratch Operating System, in collaboration with @anvitha305. More details here soon.",
+      "sidebar": "tutorialSidebar"
+    },
     "finechive/now": {
       "id": "finechive/now",
       "title": "Now",
@@ -174,12 +180,6 @@
       "description": "Finechive Banner",
       "sidebar": "tutorialSidebar"
     },
-    "finechive/rosaceae": {
-      "id": "finechive/rosaceae",
-      "title": "Rosaceae",
-      "description": "A completely built-from-scratch Operating System. More details here soon.",
-      "sidebar": "tutorialSidebar"
-    },
     "finechive/saberstat": {
       "id": "finechive/saberstat",
       "title": "SaberStat",
@@ -195,7 +195,7 @@
     "finechive/tech-config": {
       "id": "finechive/tech-config",
       "title": "Software Config",
-      "description": "This is a repository of all software I use, hopefully with reasoning behind them.",
+      "description": "This is a repository of all software I use, hopefully with reasoning behind them. It is not yet complete, and will probably be ever-evolving.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

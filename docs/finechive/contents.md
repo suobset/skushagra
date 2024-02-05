@@ -28,6 +28,7 @@ Any forms of creative outlets.
 Intersection of Code and Creative Stuff
 
 * [SaberStat](./saberstat): Live LightSaber Battle Hits/Miss Counter
+* [MorbiOS](./morbios): RISC-V Operating System (under development)
 
 ## Workflow
 

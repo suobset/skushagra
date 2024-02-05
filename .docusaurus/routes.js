@@ -189,7 +189,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b8f'),
+    component: ComponentCreator('/docs', 'ae4'),
     routes: [
       {
         path: '/docs/category/research',
@@ -222,6 +222,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/finechive/morbios',
+        component: ComponentCreator('/docs/finechive/morbios', 'c34'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/finechive/now',
         component: ComponentCreator('/docs/finechive/now', '93d'),
         exact: true,
@@ -236,12 +242,6 @@ export default [
       {
         path: '/docs/finechive/preface',
         component: ComponentCreator('/docs/finechive/preface', 'c21'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/finechive/rosaceae',
-        component: ComponentCreator('/docs/finechive/rosaceae', '0a6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -96,6 +96,28 @@
               }
             },
             {
+              "unversionedId": "finechive/morbios",
+              "id": "finechive/morbios",
+              "title": "MorbiOS",
+              "description": "A completely built-from-scratch Operating System, in collaboration with @anvitha305. More details here soon.",
+              "source": "@site/docs/finechive/morbios.md",
+              "sourceDirName": "finechive",
+              "slug": "/finechive/morbios",
+              "permalink": "/docs/finechive/morbios",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "SaberStat",
+                "permalink": "/docs/finechive/saberstat"
+              }
+            },
+            {
               "unversionedId": "finechive/now",
               "id": "finechive/now",
               "title": "Now",
@@ -174,28 +196,6 @@
               }
             },
             {
-              "unversionedId": "finechive/rosaceae",
-              "id": "finechive/rosaceae",
-              "title": "Rosaceae",
-              "description": "A completely built-from-scratch Operating System. More details here soon.",
-              "source": "@site/docs/finechive/rosaceae.md",
-              "sourceDirName": "finechive",
-              "slug": "/finechive/rosaceae",
-              "permalink": "/docs/finechive/rosaceae",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 10,
-              "frontMatter": {
-                "sidebar_position": 10
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "SaberStat",
-                "permalink": "/docs/finechive/saberstat"
-              }
-            },
-            {
               "unversionedId": "finechive/saberstat",
               "id": "finechive/saberstat",
               "title": "SaberStat",
@@ -217,8 +217,8 @@
                 "permalink": "/docs/finechive/scripting-shenanigans"
               },
               "next": {
-                "title": "Rosaceae",
-                "permalink": "/docs/finechive/rosaceae"
+                "title": "MorbiOS",
+                "permalink": "/docs/finechive/morbios"
               }
             },
             {
@@ -251,7 +251,7 @@
               "unversionedId": "finechive/tech-config",
               "id": "finechive/tech-config",
               "title": "Software Config",
-              "description": "This is a repository of all software I use, hopefully with reasoning behind them.",
+              "description": "This is a repository of all software I use, hopefully with reasoning behind them. It is not yet complete, and will probably be ever-evolving.",
               "source": "@site/docs/finechive/tech-config.md",
               "sourceDirName": "finechive",
               "slug": "/finechive/tech-config",
@@ -571,7 +571,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "finechive/rosaceae"
+                    "id": "finechive/morbios"
                   }
                 ],
                 "link": {
