@@ -99,6 +99,11 @@ code {
   background: #000000;
 }
 
+blockquote {
+  color: #ffffffb9;
+}
+
+
 /* Change black SVGs to white on homepage */
 svg {
   filter: invert(100%);
