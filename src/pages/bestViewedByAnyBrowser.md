@@ -42,3 +42,9 @@ This current version  of Docusaurus that I am hosting is different than Meta's o
 
 * It has been stripped of non-free JS in the static site generation, and is LibreJS compatible. The source code still may have non-free JS or dependencies, this is out of my control. However, the website you see does not have any non-free JS.
 * It is licensed under AGPLv3, while the original was licensed under MIT. However, I reserve the rights on my content, for the time being.
+
+## iOS 6 (why)
+
+Well, technically yes. It just does not render the new background well, and resorts to displaying white text on a white background. Will build in a fallback mechanism for this.
+
+![iPod Touch 4th Gen with this website on Safari](./assets/bestViewed/iPodtouch.PNG)
