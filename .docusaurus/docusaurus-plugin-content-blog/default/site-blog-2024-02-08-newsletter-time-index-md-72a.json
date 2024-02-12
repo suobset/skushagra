@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/newsletter time",
+  "source": "@site/blog/2024-02-08-newsletter-time/index.md",
+  "title": "Introducing a Newsletter, sort of.",
+  "description": "Newsletter Banner",
+  "date": "2024-02-08T00:00:00.000Z",
+  "formattedDate": "February 8, 2024",
+  "tags": [
+    {
+      "label": "Newsletter",
+      "permalink": "/blog/tags/newsletter"
+    },
+    {
+      "label": "Personal",
+      "permalink": "/blog/tags/personal"
+    },
+    {
+      "label": "Website",
+      "permalink": "/blog/tags/website"
+    }
+  ],
+  "readingTime": 3.01,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "newsletter time",
+    "title": "Introducing a Newsletter, sort of.",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "Newsletter",
+      "Personal",
+      "Website"
+    ]
+  },
+  "nextItem": {
+    "title": "The Eternal Battle Between Libre Source Ideology, and the Macintosh",
+    "permalink": "/blog/on-macos-and-libre-software"
+  }
+}

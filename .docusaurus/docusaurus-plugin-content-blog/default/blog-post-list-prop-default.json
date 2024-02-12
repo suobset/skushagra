@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Introducing a Newsletter, sort of.",
+      "permalink": "/blog/newsletter time"
+    },
+    {
       "title": "The Eternal Battle Between Libre Source Ideology, and the Macintosh",
       "permalink": "/blog/on-macos-and-libre-software"
     },
@@ -16,10 +20,6 @@
     {
       "title": "Unexpected Opportunities: Washington D.C. 2023",
       "permalink": "/blog/dc-the-opportunity-project"
-    },
-    {
-      "title": "The Finechive: A Digital Garden and Archive of My Experiences",
-      "permalink": "/blog/the finechive"
     }
   ]
 }

@@ -42,6 +42,10 @@
       "Hobbies"
     ]
   },
+  "prevItem": {
+    "title": "Introducing a Newsletter, sort of.",
+    "permalink": "/blog/newsletter time"
+  },
   "nextItem": {
     "title": "On Childhood Dreams",
     "permalink": "/blog/dreaming"
