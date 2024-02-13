@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkskushagra=self.webpackChunkskushagra||[]).push([[5249],{3763:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/aesthetics","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"The Finechive Newsletter, by Kush S.","blogTitle":"Fineletters."}')}}]);
