@@ -1,9 +1,9 @@
 {
   "permalink": "/blog",
   "page": 1,
-  "postsPerPage": 10,
+  "postsPerPage": 8,
   "totalPages": 1,
   "totalCount": 8,
-  "blogDescription": "Blog",
-  "blogTitle": "Blog"
+  "blogDescription": "The Finechive Newsletter.",
+  "blogTitle": "Fineletters."
 }

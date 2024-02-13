@@ -11,6 +11,8 @@ tags: ['Newsletter', 'Personal', 'Website']
 
 This is more so a way to streamline my own thoughts and creative ideas, but I have decided to convert this blog space into somewhat of a newsletter. Here's why I say "sort of":
 
+<!-- truncate -->
+
 * For starters, I am not going to have an email functionality here. This is going to solely be a space for me to write down thoughts and convey them.
 * We are not trying to build an audience, just yet. We are trying to just create something special.
 * Threading (Tweeting on Threads) is not cutting it for me. That's too constraining. 

@@ -12,6 +12,8 @@ This is an attempt at documenting what has been long gone by, and yet seems comi
 
 This will also be an attempt to capture my version of that aesthetic.
 
+<!-- truncate -->
+
 <hr />
 
 ![Chapter 1](./1.webp)

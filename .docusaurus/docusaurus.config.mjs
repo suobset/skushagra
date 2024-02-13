@@ -26,13 +26,18 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/suobset/skushagra/sidebars.js"
+          "sidebarPath": "/home/suobset/Documents/skushagra/sidebars.js"
         },
         "blog": {
-          "showReadingTime": true
+          "showReadingTime": true,
+          "blogTitle": "Fineletters.",
+          "blogListComponent": "@theme/BlogListPage",
+          "blogDescription": "The Finechive Newsletter.",
+          "postsPerPage": "ALL",
+          "blogSidebarCount": 0
         },
         "theme": {
-          "customCss": "/home/suobset/skushagra/src/css/custom.css"
+          "customCss": "/home/suobset/Documents/skushagra/src/css/custom.css"
         }
       }
     ]
