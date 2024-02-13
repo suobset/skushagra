@@ -47,7 +47,7 @@ const config = {
           showReadingTime: true,
           blogTitle: 'Fineletters.',
           blogListComponent: '@theme/BlogListPage',
-          blogDescription: 'The Finechive Newsletter.',
+          blogDescription: 'The Finechive Newsletter, by Kush S.',
           postsPerPage: 'ALL',
           blogSidebarCount: 0,
         },
