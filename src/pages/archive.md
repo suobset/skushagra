@@ -68,6 +68,10 @@ The first major thing that I had done with this domain was to use it for teachin
 
 I have unfortunately lost the source code for this iteration. I will try to find it again. This domain was in hiatus from 2019 to 2021. 
 
+## 2018-2020: Minded Mindlessness
+
+Minded Mindlessness was a blogging project I did for a bit with a friend. I do not have the website with all the posts yet, but I will be linking what is remaining out of it. 
+
 ## 2017: The Kushagra Srivastava Blog
 
 [Visit](https://suobset.github.io/archive/suobset.blogspot.com/)

@@ -11,6 +11,8 @@ Even though I am not exactly there yet, I often like to classify myself as a Lib
 
 Libre Source, for the most part, is very much in parallels with Open Source Development: i.e., people can see the source of your code, fork it, compile it, and distribute it. There exist different licenses that lay down the permissions for what most users can do with it. The most popular, in the Open Source world, is the [MIT License](https://opensource.org/license/mit/)
 
+<!-- truncate -->
+
 ![MIT License](./mit.jpeg)
 
 Essentially, this is a "do whatever you want- including making this closed source- as long as you retain that copyright notice" license.

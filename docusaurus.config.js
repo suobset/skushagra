@@ -46,11 +46,10 @@ const config = {
         blog: {
           showReadingTime: true,
           blogTitle: 'Fineletters.',
-          blogDescription: 'The Finechive Newsletter.',
+          blogListComponent: '@theme/BlogListPage',
+          blogDescription: 'The Finechive Newsletter, by Kush S.',
           postsPerPage: 'ALL',
           blogSidebarCount: 0,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

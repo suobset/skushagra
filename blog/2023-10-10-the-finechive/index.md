@@ -9,6 +9,8 @@ tags: ['Personal', 'Website', 'Life']
 
 I think I have always had an identity crisis when it comes to the concept of blogging. On one hand, I find it to be one of the most approachable mediums on the Internet, far more accessible than making videos or fancy schmancy websites. On the other hand, how do you get consistency when it comes to writing down your thoughts?
 
+<!-- truncate -->
+
 See, the main issue when it coes to writing down "blog content" is that I am not a writer, nor do I have enough time to actually sit down and think of new ideas. Writing things down occurs to me sporadically: sometimes there exist things that move me to such an extent that I am compelled to write down about them. It is a fine method of doing this, especially since I am not doing this professionally, but it leaves a lot of consistency to be desired and ideas to be explored. 
 
 Over the years, the concept of writing down things on the Internet has not been the same for me. Under the [Archive](./archive) page of this URL, you'll notice my previous attempts at this medium in 2017, along with another following in 2019 (which was not under this URL). It started off as a place for me to vent, and quickly moved into a text-based form of vlogging (or rather, we came back full circle on methods-of-describing-your-life). Quite honestly, I do not think that both of these intents are something that I'd be comfortable sharing at this point, or matters that anyone will want to read about.
