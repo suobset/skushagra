@@ -24,7 +24,7 @@ Every other page in the Finechive is a project that has been going on, independe
 
 Ideas, on the other hand, come and go. Ideas cannot stick to a "Project" page, they need a medium of communication. I have tried blogging before, albeit have never been able to reach the heights of my high-school blog (which remains archived for the time being). 
 
-Pivoting to a separate problem, another issue I am having is managing my creative projects. I recently got into Digital Art, Djing, and Photography (as mentioned in [a previous Blog post](./dreaming)). While each of these are going to get their own pages in the Finechive, a newsletter also helps me keep myself in check, and convey the daily progress on these avenues without having to wait for sweeping changes to be made in this space.
+Pivoting to a separate problem, another issue I am having is managing my creative projects. I recently got into Digital Art, Djing, and Photography (as mentioned in [a previous Blog post](https://skushagra.com/blog/dreaming)). While each of these are going to get their own pages in the Finechive, a newsletter also helps me keep myself in check, and convey the daily progress on these avenues without having to wait for sweeping changes to be made in this space.
 
 Most importantly, it helps me have a big picture of where each of these new creative endeavours are headed to, so that the more sweeping changes on my actual archive make sense. The creative endeavours are basically classified as Sound, Indoor Creativity, and Outdoor Creativity, They will have their own pages, but also I will put stuff here.
 
