@@ -20,5 +20,3 @@ A full list of my experiences is linked under the resume section of my website. 
 * Specilizations: Artificial Intelligence, Machine Learning, Systems Design and Architecture, and Operating Systems.
 * Location: MA, United States | DXB, United Arab Emirates | DEL, India
 * Email: [hello@skushagra.com](mailto:hello@skushagra.com)
-
-This is a test statement, and should not come up.
