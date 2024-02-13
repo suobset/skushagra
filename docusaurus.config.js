@@ -45,6 +45,10 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogTitle: 'Fineletters.',
+          blogDescription: 'The Finechive Newsletter.',
+          postsPerPage: 'ALL',
+          blogSidebarCount: 0,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
