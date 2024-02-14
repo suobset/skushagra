@@ -1,5 +1,5 @@
 ---
-slug: 'liminal spaces art of appreciating'
+slug: 'liminal-spaces-art-of-appreciating'
 title: 'Liminal Spaces: the art of being in, and appreciating the in-between.'
 authors: [suobset]
 tags: ['Aesthetics', 'Liminal Space', 'Life', 'Nostalgia']
@@ -20,7 +20,7 @@ This will also be an attempt to capture my version of that aesthetic.
 
 The beginning of what would culminate into a series of developing multiple aspects into what my life would really turn out to be started right around the corner of me transitioning from my High School phase to my University phase; at a time when every single person on the planet was transitioning away from life as they had known into one that was being navigated in the midst of a global pandemic.
 
-See, change is difficult for people to grasp. While an inevitable construct, the human mind still oppposes change as it then has to deal with us fighting for our survival needs, and trying to make the best of whatever situation it is that is presented to us. For me, this was a period of change in three major ways: transitioning from school to university (essentially leaving life as I had known it for over 12 years), transitioning towards navigating a world with a surreal level of precaution, and transitioning to a new country altogether to study further.
+See, change is difficult for people to grasp. While an inevitable construct, the human mind still opposes change as it then has to deal with us fighting for our survival needs, and trying to make the best of whatever situation it is that is presented to us. For me, this was a period of change in three major ways: transitioning from school to university (essentially leaving life as I had known it for over 12 years), transitioning towards navigating a world with a surreal level of precaution, and transitioning to a new country altogether to study further.
 
 I come from a background wherein everything that I have experienced in life has been ephemeral, especially since my family worked a profession which required us getting transferred to multiple places. Hence, while transitioning in itself has not been too difficult for me: the uncertainty of the time, coupled with me having to do this on my own for once, proved me wrong for once.
 

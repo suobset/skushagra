@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Kushagra Srivastava',
-  tagline: 'Operating Systems & Compilers Programmer | AI/ML Specialization',
+  tagline: 'Operating Systems & Compilers Programmer | AI/ML Specialization (NLP)',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
