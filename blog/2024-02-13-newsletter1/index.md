@@ -107,7 +107,7 @@ The following are me just selecting most of the whole image (Ctrl + A messes hea
 
 > Invert
 
-![Pitch & Invert](./assets/pitch-invert.png)
+![Pitch](./assets/pitch.png)
 
 > Pitch & Invert on one section
 
