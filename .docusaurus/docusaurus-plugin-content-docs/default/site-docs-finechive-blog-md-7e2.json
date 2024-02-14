@@ -1,8 +1,8 @@
 {
   "unversionedId": "finechive/blog",
   "id": "finechive/blog",
-  "title": "Blog",
-  "description": "Sometimes, ideas strike and I write about them under this blog :)",
+  "title": "Fineletters.",
+  "description": "The Finechive Newsletter: a place for me to post more frequent updates, without being \"shackled\" by the constraints of updating any of these huge project files once in a while.",
   "source": "@site/docs/finechive/blog.md",
   "sourceDirName": "finechive",
   "slug": "/finechive/blog",

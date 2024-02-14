@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/newsletter1",
+  "source": "@site/blog/2024-02-13-newsletter1/index.md",
+  "title": "Dreamlike Uncanniness, and Data Bending",
+  "description": "i wonder where i'll float next",
+  "date": "2024-02-13T00:00:00.000Z",
+  "formattedDate": "February 13, 2024",
+  "tags": [
+    {
+      "label": "Newsletter",
+      "permalink": "/blog/tags/newsletter"
+    },
+    {
+      "label": "Open Source",
+      "permalink": "/blog/tags/open-source"
+    },
+    {
+      "label": "Aesthetics",
+      "permalink": "/blog/tags/aesthetics"
+    },
+    {
+      "label": "Art",
+      "permalink": "/blog/tags/art"
+    }
+  ],
+  "readingTime": 5.785,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "newsletter1",
+    "title": "Dreamlike Uncanniness, and Data Bending",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "Newsletter",
+      "Open Source",
+      "Aesthetics",
+      "Art"
+    ]
+  },
+  "nextItem": {
+    "title": "Introducing a Newsletter, sort of.",
+    "permalink": "/blog/newsletter time"
+  }
+}

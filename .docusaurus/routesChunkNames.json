@@ -56,13 +56,16 @@
     },
     "content": "content---best-viewed-by-any-browser-144-8e8"
   },
-  "/blog-e85": {
+  "/blog-857": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-90-e-1a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogbe-8-ca3"
+      },
       {
         "content": "content---bloga-02-5f4"
       },
@@ -121,13 +124,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-dreaminge-57-2ab"
   },
-  "/blog/liminal spaces art of appreciating-95d": {
+  "/blog/liminal-spaces-art-of-appreciating-69f": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "plugin": "plugin---blog-90-e-1a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-liminal-spaces-art-of-appreciating-669-d33"
+    "content": "content---blog-liminal-spaces-art-of-appreciating-669-4f2"
   },
   "/blog/newsletter time-7f0": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -136,6 +139,14 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-newsletter-time-72-a-1a2"
+  },
+  "/blog/newsletter1-794": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-90-e-1a1"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-newsletter-1484-414"
   },
   "/blog/on-macos-and-libre-software-dd5": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -170,7 +181,7 @@
     "tag": "tag---blog-tags-academia-5-ca-4d2",
     "listMetadata": "listMetadata---blog-tags-academia-330-5d0"
   },
-  "/blog/tags/aesthetics-a7d": {
+  "/blog/tags/aesthetics-e3e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-90-e-1a1"
@@ -178,11 +189,28 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
+        "content": "content---blogbe-8-ca3"
+      },
+      {
         "content": "content---blog-297-016"
       }
     ],
     "tag": "tag---blog-tags-aestheticse-31-80a",
     "listMetadata": "listMetadata---blog-tags-aesthetics-803-c77"
+  },
+  "/blog/tags/art-ff2": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-90-e-1a1"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogbe-8-ca3"
+      }
+    ],
+    "tag": "tag---blog-tags-art-78-d-052",
+    "listMetadata": "listMetadata---blog-tags-artf-43-29c"
   },
   "/blog/tags/code-e86": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -328,13 +356,16 @@
     "tag": "tag---blog-tags-liminal-space-5-b-8-ad1",
     "listMetadata": "listMetadata---blog-tags-liminal-space-9-c-0-a1d"
   },
-  "/blog/tags/newsletter-4aa": {
+  "/blog/tags/newsletter-329": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-90-e-1a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogbe-8-ca3"
+      },
       {
         "content": "content---bloga-02-5f4"
       }
@@ -356,13 +387,16 @@
     "tag": "tag---blog-tags-nostalgiab-7-d-66c",
     "listMetadata": "listMetadata---blog-tags-nostalgiae-06-33b"
   },
-  "/blog/tags/open-source-b1f": {
+  "/blog/tags/open-source-516": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-90-e-1a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogbe-8-ca3"
+      },
       {
         "content": "content---blog-56-c-2b4"
       }

@@ -2,6 +2,21 @@
   {
     "label": "Newsletter",
     "permalink": "/blog/tags/newsletter",
+    "count": 2
+  },
+  {
+    "label": "Open Source",
+    "permalink": "/blog/tags/open-source",
+    "count": 2
+  },
+  {
+    "label": "Aesthetics",
+    "permalink": "/blog/tags/aesthetics",
+    "count": 2
+  },
+  {
+    "label": "Art",
+    "permalink": "/blog/tags/art",
     "count": 1
   },
   {
@@ -18,11 +33,6 @@
     "label": "Code",
     "permalink": "/blog/tags/code",
     "count": 2
-  },
-  {
-    "label": "Open Source",
-    "permalink": "/blog/tags/open-source",
-    "count": 1
   },
   {
     "label": "Hobbies",
@@ -47,11 +57,6 @@
   {
     "label": "iCons",
     "permalink": "/blog/tags/i-cons",
-    "count": 1
-  },
-  {
-    "label": "Aesthetics",
-    "permalink": "/blog/tags/aesthetics",
     "count": 1
   },
   {
