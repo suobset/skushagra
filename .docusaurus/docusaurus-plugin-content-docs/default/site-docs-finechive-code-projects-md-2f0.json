@@ -2,7 +2,7 @@
   "unversionedId": "finechive/code-projects",
   "id": "finechive/code-projects",
   "title": "Finechive Code Projects",
-  "description": "About Code Projects here vs. under Research.",
+  "description": "About Code Projects listed here vs. listed under the Research tab.",
   "source": "@site/docs/finechive/code-projects.md",
   "sourceDirName": "finechive",
   "slug": "/finechive/code-projects",
@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Blog",
+    "title": "Fineletters.",
     "permalink": "/docs/finechive/blog"
   },
   "next": {

@@ -72,6 +72,10 @@ a.menu__link {
   font-weight: bold;
 }
 
+a.menu__link--active {
+  color: #0a98c8;
+}
+
 a.table-of-contents__link {
   color: #ffffff;
   font-weight: bold;

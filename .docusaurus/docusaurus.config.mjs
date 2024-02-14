@@ -5,7 +5,7 @@
  */
 export default {
   "title": "Kushagra Srivastava",
-  "tagline": "Operating Systems & Compilers Programmer | AI/ML Specialization",
+  "tagline": "Operating Systems & Compilers Programmer | AI/ML Specialization (NLP)",
   "favicon": "img/favicon.ico",
   "url": "https://skushagra.com",
   "baseUrl": "/",
@@ -32,7 +32,7 @@ export default {
           "showReadingTime": true,
           "blogTitle": "Fineletters.",
           "blogListComponent": "@theme/BlogListPage",
-          "blogDescription": "The Finechive Newsletter.",
+          "blogDescription": "The Finechive Newsletter, by Kush S.",
           "postsPerPage": "ALL",
           "blogSidebarCount": 0
         },

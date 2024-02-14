@@ -49,7 +49,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'e85'),
+    component: ComponentCreator('/blog', '857'),
     exact: true
   },
   {
@@ -73,13 +73,18 @@ export default [
     exact: true
   },
   {
-    path: '/blog/liminal spaces art of appreciating',
-    component: ComponentCreator('/blog/liminal spaces art of appreciating', '95d'),
+    path: '/blog/liminal-spaces-art-of-appreciating',
+    component: ComponentCreator('/blog/liminal-spaces-art-of-appreciating', '69f'),
     exact: true
   },
   {
     path: '/blog/newsletter time',
     component: ComponentCreator('/blog/newsletter time', '7f0'),
+    exact: true
+  },
+  {
+    path: '/blog/newsletter1',
+    component: ComponentCreator('/blog/newsletter1', '794'),
     exact: true
   },
   {
@@ -99,7 +104,12 @@ export default [
   },
   {
     path: '/blog/tags/aesthetics',
-    component: ComponentCreator('/blog/tags/aesthetics', 'a7d'),
+    component: ComponentCreator('/blog/tags/aesthetics', 'e3e'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/art',
+    component: ComponentCreator('/blog/tags/art', 'ff2'),
     exact: true
   },
   {
@@ -149,7 +159,7 @@ export default [
   },
   {
     path: '/blog/tags/newsletter',
-    component: ComponentCreator('/blog/tags/newsletter', '4aa'),
+    component: ComponentCreator('/blog/tags/newsletter', '329'),
     exact: true
   },
   {
@@ -159,7 +169,7 @@ export default [
   },
   {
     path: '/blog/tags/open-source',
-    component: ComponentCreator('/blog/tags/open-source', 'b1f'),
+    component: ComponentCreator('/blog/tags/open-source', '516'),
     exact: true
   },
   {

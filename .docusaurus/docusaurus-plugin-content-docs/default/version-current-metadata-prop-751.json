@@ -92,7 +92,7 @@
           },
           {
             "type": "link",
-            "label": "Blog",
+            "label": "Fineletters.",
             "href": "/docs/finechive/blog",
             "docId": "finechive/blog"
           },
@@ -140,14 +140,14 @@
   "docs": {
     "finechive/blog": {
       "id": "finechive/blog",
-      "title": "Blog",
-      "description": "Sometimes, ideas strike and I write about them under this blog :)",
+      "title": "Fineletters.",
+      "description": "The Finechive Newsletter: a place for me to post more frequent updates, without being \"shackled\" by the constraints of updating any of these huge project files once in a while.",
       "sidebar": "tutorialSidebar"
     },
     "finechive/code-projects": {
       "id": "finechive/code-projects",
       "title": "Finechive Code Projects",
-      "description": "About Code Projects here vs. under Research.",
+      "description": "About Code Projects listed here vs. listed under the Research tab.",
       "sidebar": "tutorialSidebar"
     },
     "finechive/contents": {
@@ -177,7 +177,7 @@
     "finechive/preface": {
       "id": "finechive/preface",
       "title": "Preface",
-      "description": "Finechive Banner",
+      "description": "This is a Digital Garden: a space for myself to publish any content that I would want to.",
       "sidebar": "tutorialSidebar"
     },
     "finechive/saberstat": {
