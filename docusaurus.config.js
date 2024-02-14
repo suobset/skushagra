@@ -79,10 +79,11 @@ const config = {
           {to: '/docs/category/the-finechive', label: 'Finechive', position: 'left'},
           {to: '/docs/resume', label: 'Resume', position: 'left'},
           {to: '/docs/category/research', label: 'Research', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'mailto:ksrivastava@umass.edu',
             label: 'Contact',
-            position: 'left',
+            position: 'right',
           },
           {
             href: '/source',
