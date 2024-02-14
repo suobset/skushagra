@@ -107,13 +107,29 @@ The following are me just selecting most of the whole image (Ctrl + A messes hea
 
 > Invert
 
-![Pitch & Invert](./assets/pitch-invert.png)
+![Pitch](./assets/pitch.png)
 
 > Pitch & Invert on one section
 
 ![Reverb](./assets/reverb.png)
 
 > Reverb
+
+![Everything](./assets/everything.png)
+
+> Everything I mentioned above
+
+A screenshot of Audacity for the last edit:
+
+![Audacity All](./assets/audacityAll.png)
+
+30 seconds to about a minute: Pitch Filter
+
+1 Minute to about 1:50: Reverb (the narrow audio wave)
+
+1:50 to 2:30: Echo with a decay factor of 0.25
+
+2:30 to end: Invert (quite literally inverts in the audio waveform as well)
 
 <hr />
 
