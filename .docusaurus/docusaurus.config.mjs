@@ -58,18 +58,13 @@ export default {
           "label": "About Me"
         },
         {
-          "to": "/docs/category/the-finechive",
-          "label": "Finechive",
-          "position": "left"
-        },
-        {
           "to": "/docs/resume",
           "label": "Resume",
           "position": "left"
         },
         {
           "to": "/docs/category/research",
-          "label": "Research",
+          "label": "Research & Ongoing",
           "position": "left"
         },
         {
@@ -78,8 +73,8 @@ export default {
           "position": "left"
         },
         {
-          "href": "/source",
-          "label": "Source",
+          "to": "/blog",
+          "label": "Blog",
           "position": "right"
         }
       ],
@@ -89,24 +84,57 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Site Highlights",
+          "title": "Research + Programming",
           "items": [
             {
-              "label": "About Me + Everything",
+              "label": "About Me",
               "to": "/docs/intro"
             },
+            {
+              "label": "Ongoing Projects",
+              "to": "/docs/research/ongoing"
+            },
+            {
+              "label": "iCons Research",
+              "to": "/docs/research/iCons"
+            },
+            {
+              "label": "Manning CICS Projects",
+              "to": "/docs/research/CICS"
+            },
+            {
+              "label": "Other Programming Projects",
+              "to": "/docs/research/projects"
+            }
+          ]
+        },
+        {
+          "title": "Creative + Hobby",
+          "items": [
             {
               "label": "Finechive",
               "to": "/docs/category/the-finechive"
             },
             {
-              "label": "Research",
-              "to": "/docs/category/research"
+              "label": "Fineletters",
+              "to": "/blog"
+            },
+            {
+              "label": "Photography & Digital Art",
+              "to": "/docs/finechive/photography"
+            },
+            {
+              "label": "Code (Hobby)",
+              "to": "/docs/finechive/code-projects"
+            },
+            {
+              "label": "Don't Panic",
+              "to": "/dontpanic"
             }
           ]
         },
         {
-          "title": "Code/Research",
+          "title": "On the Web",
           "items": [
             {
               "label": "LinkedIn",
@@ -118,12 +146,7 @@ export default {
             },
             {
               "html": "<a href=\"https://orcid.org/0000-0003-0656-5478\" style=\"color: #FFFFFF;\">\n\t\t\t\tKush S. ORCiD\n              \t<img alt=\"ORCID logo\" src=\"https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png\" width=\"16\" height=\"16\" />\n              \t</a>"
-            }
-          ]
-        },
-        {
-          "title": "On the Web",
-          "items": [
+            },
             {
               "label": "Threads",
               "href": "https://threads.net/@suobset"
@@ -131,10 +154,25 @@ export default {
             {
               "label": "Everything Else",
               "to": "/docs/links"
+            }
+          ]
+        },
+        {
+          "title": "Site Meta",
+          "items": [
+            {
+              "label": "Site Archive",
+              "to": "/archive"
             },
             {
-              "label": "Don't Panic",
-              "to": "/dontpanic"
+              "label": "Libre Source",
+              "to": "/source"
+            },
+            {
+              "html": "<a href=\"https://skushagra.com/docs/finechive/scripting-shenanigans#delcookies\"><img src=\"https://suobset.github.io/finechive-helper/88x31/noocookie.gif\"></img></a>"
+            },
+            {
+              "html": "<a href=\"bestViewedByAnyBrowser\"><img src=\"https://suobset.github.io/finechive-helper/88x31/lynx.gif\"></img></a>"
             }
           ]
         }
