@@ -49,7 +49,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '5b5'),
+    component: ComponentCreator('/blog', '7cc'),
     exact: true
   },
   {
@@ -85,6 +85,11 @@ export default [
   {
     path: '/blog/newsletter1',
     component: ComponentCreator('/blog/newsletter1', '4bd'),
+    exact: true
+  },
+  {
+    path: '/blog/newsletter2',
+    component: ComponentCreator('/blog/newsletter2', 'fd9'),
     exact: true
   },
   {
@@ -144,7 +149,12 @@ export default [
   },
   {
     path: '/blog/tags/i-cons',
-    component: ComponentCreator('/blog/tags/i-cons', '6a2'),
+    component: ComponentCreator('/blog/tags/i-cons', 'd9f'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/internet-wonders',
+    component: ComponentCreator('/blog/tags/internet-wonders', 'ebf'),
     exact: true
   },
   {
@@ -159,7 +169,7 @@ export default [
   },
   {
     path: '/blog/tags/newsletter',
-    component: ComponentCreator('/blog/tags/newsletter', '092'),
+    component: ComponentCreator('/blog/tags/newsletter', '692'),
     exact: true
   },
   {
@@ -169,7 +179,7 @@ export default [
   },
   {
     path: '/blog/tags/open-source',
-    component: ComponentCreator('/blog/tags/open-source', '853'),
+    component: ComponentCreator('/blog/tags/open-source', '596'),
     exact: true
   },
   {

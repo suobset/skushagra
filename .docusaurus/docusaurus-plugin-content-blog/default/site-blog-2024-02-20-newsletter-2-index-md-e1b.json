@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/newsletter2",
+  "source": "@site/blog/2024-02-20-newsletter2/index.md",
+  "title": "Climatech Wonders, and Chill Vibes.",
+  "description": "Newsletter 2 Welcome",
+  "date": "2024-02-20T00:00:00.000Z",
+  "formattedDate": "February 20, 2024",
+  "tags": [
+    {
+      "label": "Newsletter",
+      "permalink": "/blog/tags/newsletter"
+    },
+    {
+      "label": "Open Source",
+      "permalink": "/blog/tags/open-source"
+    },
+    {
+      "label": "iCons",
+      "permalink": "/blog/tags/i-cons"
+    },
+    {
+      "label": "Internet Wonders",
+      "permalink": "/blog/tags/internet-wonders"
+    }
+  ],
+  "readingTime": 1.195,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "newsletter2",
+    "title": "Climatech Wonders, and Chill Vibes.",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "Newsletter",
+      "Open Source",
+      "iCons",
+      "Internet Wonders"
+    ]
+  },
+  "nextItem": {
+    "title": "Dreamlike Uncanniness, and Data Bending",
+    "permalink": "/blog/newsletter1"
+  }
+}
