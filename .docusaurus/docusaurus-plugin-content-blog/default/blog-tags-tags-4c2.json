@@ -2,12 +2,22 @@
   {
     "label": "Newsletter",
     "permalink": "/blog/tags/newsletter",
-    "count": 2
+    "count": 3
   },
   {
     "label": "Open Source",
     "permalink": "/blog/tags/open-source",
+    "count": 3
+  },
+  {
+    "label": "iCons",
+    "permalink": "/blog/tags/i-cons",
     "count": 2
+  },
+  {
+    "label": "Internet Wonders",
+    "permalink": "/blog/tags/internet-wonders",
+    "count": 1
   },
   {
     "label": "Aesthetics",
@@ -52,11 +62,6 @@
   {
     "label": "Dictionary",
     "permalink": "/blog/tags/dictionary",
-    "count": 1
-  },
-  {
-    "label": "iCons",
-    "permalink": "/blog/tags/i-cons",
     "count": 1
   },
   {

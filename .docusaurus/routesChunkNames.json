@@ -56,13 +56,16 @@
     },
     "content": "content---best-viewed-by-any-browser-144-8e8"
   },
-  "/blog-5b5": {
+  "/blog-19e": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-178-6f4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-6-ab-20d"
+      },
       {
         "content": "content---blogbe-8-ca3"
       },
@@ -148,7 +151,15 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-newsletter-1484-414"
   },
-  "/blog/on-macos-and-libre-software-0e6": {
+  "/blog/newsletter2-61c": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-90-e-1a1"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-newsletter-2-e-1-b-b0a"
+  },
+  "/blog/on-macos-and-libre-software-dd5": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "plugin": "plugin---blog-178-6f4"
@@ -302,7 +313,7 @@
     "tag": "tag---blog-tags-hobbiesb-41-794",
     "listMetadata": "listMetadata---blog-tags-hobbies-2-c-8-637"
   },
-  "/blog/tags/i-cons-6a2": {
+  "/blog/tags/i-cons-0fa": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-178-6f4"
@@ -310,13 +321,30 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
+        "content": "content---blog-6-ab-20d"
+      },
+      {
         "content": "content---blogd-6-e-e40"
       }
     ],
     "tag": "tag---blog-tags-i-cons-55-f-3f2",
     "listMetadata": "listMetadata---blog-tags-i-cons-4-f-7-242"
   },
-  "/blog/tags/life-e4f": {
+  "/blog/tags/internet-wonders-cd7": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-90-e-1a1"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-6-ab-20d"
+      }
+    ],
+    "tag": "tag---blog-tags-internet-wonders-86-a-56d",
+    "listMetadata": "listMetadata---blog-tags-internet-wondersc-73-51c"
+  },
+  "/blog/tags/life-67c": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-178-6f4"
@@ -356,13 +384,16 @@
     "tag": "tag---blog-tags-liminal-space-5-b-8-ad1",
     "listMetadata": "listMetadata---blog-tags-liminal-space-9-c-0-a1d"
   },
-  "/blog/tags/newsletter-092": {
+  "/blog/tags/newsletter-db5": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-178-6f4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-6-ab-20d"
+      },
       {
         "content": "content---blogbe-8-ca3"
       },
@@ -387,13 +418,16 @@
     "tag": "tag---blog-tags-nostalgiab-7-d-66c",
     "listMetadata": "listMetadata---blog-tags-nostalgiae-06-33b"
   },
-  "/blog/tags/open-source-853": {
+  "/blog/tags/open-source-05f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-178-6f4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-6-ab-20d"
+      },
       {
         "content": "content---blogbe-8-ca3"
       },
