@@ -103,8 +103,6 @@ I use Ubuntu on a Microsoft Surface Laptop Go 2 (yes, that's a mouthful). It's e
 
 I do have a Gaming Laptop connected as a Desktop at all times for high-processing tasks. That is a 16GB DDR4, 11th Gen Core i7, and a 1660Ti GPU Dell G3 3500. This specific computer, however, [got Dell a lawsuit for a weak hinge design](https://www.reddit.com/r/Dell/comments/j4buk9/class_action_lawsuit_against_dell_dell_g3_hinge/), which I can attest for as someone who also has had hinge problems, despite proper care and usage. It overheats quite easily as well, and battery life is absolute garbage; but for someone who's always on the move...it is a better option than an actual desktop tower.
 
-I used to daily a 2017 MacBook Pro (the bad keyboard, thermal throttling generation). It served me decently, but died at the worst possible time (during data processing in an irl crunch for my [research at the time](https://suobset.github.io/iCons3)). I no longer have it.
-
 Outside of it, I use an iPad mini as my eBook reader and note taking device all the time. This device has saved me quite a lot in textbook money (paid for itself in a semester), and I also use it as a second display through RDP on GNOME (on Ubuntu).
 
 ![iPad + Surface](./assets/tech-config-setup.jpg)
