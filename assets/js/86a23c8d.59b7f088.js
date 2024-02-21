@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkskushagra=self.webpackChunkskushagra||[]).push([[6380],{9364:s=>{s.exports=JSON.parse('{"label":"Internet Wonders","permalink":"/blog/tags/internet-wonders","allTagsPath":"/blog/tags","count":1}')}}]);
