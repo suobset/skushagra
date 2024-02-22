@@ -4,10 +4,19 @@
         <title>Kushagra Srivastava Blog</title>
         <link>https://skushagra.com/blog</link>
         <description>Kushagra Srivastava Blog</description>
-        <lastBuildDate>Tue, 20 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Music, and the Memory Attachment Phenomenon]]></title>
+            <link>https://skushagra.com/blog/newsletter3</link>
+            <guid>https://skushagra.com/blog/newsletter3</guid>
+            <pubDate>Tue, 27 Feb 2024 00:00:00 GMT</pubDate>
+            <category>Newsletter</category>
+            <category>Life</category>
+            <category>Art</category>
+        </item>
         <item>
             <title><![CDATA[Climatech Wonders, and Chill Vibes.]]></title>
             <link>https://skushagra.com/blog/newsletter2</link>
