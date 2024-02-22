@@ -51,6 +51,16 @@ The following is what I use to facilitate my Photography.
 * Shotcut Video Editor: A Libre Video Editor which, again, rivals that of Adobe's offerings. Has a slight learning curve, but is immensely powerful, and handles a lot of Video Editing paradigms (transitions, fx, voice sampling, etc.) amazingly. I have had no complaints for my amateur Video Editing needs. [Website](https://shotcut.org/).
 * Canva: An online (proprietary) graphic designer. Used only when absolutely necessary. 
 
+## Office Work & typing documents
+
+Writing text-based files? Here's what I use:
+
+* [Libreoffice](https://www.libreoffice.org/): Licensed under MPL v2.0, Libreoffice is a Free and Open Source alternative to MS Office, compatible with the OpenDocument formats and the proprietary MS Office formats. LibreOffice is community driven with a governance model that ensures the software is accessible to all (along with source code, and rights to modify the same), transcending all language barriers and boundaries.
+* [Google Workspace](https://drive.google.com): Another Office suite, albeit used much less due to the proprietary nature. However, being in university, it is an absolutely crucial tool to enable collaboration and teamwork (multiple people can edit the same documents at the same time), while maintaining aceptable levels of privacy and security over documents.
+* [LaTeX](https://www.latex-project.org/): LaTeX i a typesetting language that creates some of the cleanest, crispiest documents ever to exist. While it is the standard for research papers and technical documentation, I have also been using it fo homework. Types in any language, including Math and Code. Can be whatever you want it to be.
+    * Want a quick way to try LaTeX? Try [Overleaf:](https://overleaf.com) a web-based LaTeX editor. 
+* [Markdown](https://www.markdownguide.org/): A quick and easy markup language that I use for quick notes, documentation, and even this entire website (including this webpage you're looking at). 
+
 ## Languages
 
 I do low level systems stuff mainly. I am highly familiar with GNU CoreUtils, and the GDB debugger. I love Valgrind as well, the stack traces and memory visualizations are honestly a godsend. I mainly use C++, though am opening up to RUST as well.
@@ -72,3 +82,9 @@ I used to daily a 2017 MacBook Pro (the bad keyboard, thermal throttling generat
 Outside of it, I use an iPad mini as my eBook reader and note taking device all the time. This device has saved me quite a lot in textbook money (paid for itself in a semester), and I also use it as a second display through RDP on GNOME (on Ubuntu).
 
 ![iPad + Surface](./assets/tech-config-setup.jpg)
+
+## Misc.
+
+* [Wireshark](https://www.wireshark.org/): Packet tracer and network protocol analyzer, used for analyzing networks. GPLv3'd at that :D
+* [GNS3](https://www.gns3.com/): Network systems virtualizing software. Libre software as well. 
+* [Virtualbox](https://www.virtualbox.org/): Virtualization Software. New project that will quickly get a file system spread? Just put it in a VM :)
