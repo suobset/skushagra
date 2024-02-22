@@ -66,11 +66,12 @@ Leaflet used in conjunction with Python or R.
 
 ## Debuggers
 
-Apart from the usual (pydebug for Python, or extensions for IDEs for different languages, or print statements :P), I do a lot of low-level code. Here is what helps me:
+Apart from the usual (extensions for IDEs for different languages, or print statements :P), I do a lot of low-level code. Here is what helps me:
 
 * [GNU GDB](https://www.sourceware.org/gdb/): The GNU Project Debugge, while meant for C/C++ initially, can really debug any language that builds debug flags for it. I use it for C++, RUST, x86 Asm, and some Python Bytecode too.
 * [Valgrind](https://valgrind.org/): Advanced debugger for C/C++ that maps out memory management, program flow, and overall functioning of computational resoures so that Segmentation Fault can be debugged quicker. 
     * Shouout to [Uma](https://www.linkedin.com/in/uma-p-24b78a156/) for introducing me to Valgrind back in CS 230 (Intro. to Systems)
+* [Pydebug](https://github.com/microsoft/debugpy): The essential Python Debugger.
 
 ## Server-side computation & Terminals
 
@@ -86,16 +87,6 @@ Does not fit in a pre-defined category but equally important.
 * [GNS3](https://www.gns3.com/): Network systems virtualizing software. Libre software as well. 
 * [Virtualbox](https://www.virtualbox.org/): Virtualization Software. New project that will quickly get a file system spread? Just put it in a VM :)
 * [Docker](https://www.docker.com/): Containerization Software to ensure similar debugging and execution experiences everywhere. Super useful when dealing with low-level code to ensure OS consistencies, or high-level code to plug-and-play different components. 
-
-## Office Work & typing documents
-
-Writing text-based files? Here's what I use:
-
-* [Libreoffice](https://www.libreoffice.org/): Licensed under MPL v2.0, Libreoffice is a Free and Open Source alternative to MS Office, compatible with the OpenDocument formats and the proprietary MS Office formats. LibreOffice is community driven with a governance model that ensures the software is accessible to all (along with source code, and rights to modify the same), transcending all language barriers and boundaries.
-* [Google Workspace](https://drive.google.com): Another Office suite, albeit used much less due to the proprietary nature. However, being in university, it is an absolutely crucial tool to enable collaboration and teamwork (multiple people can edit the same documents at the same time), while maintaining aceptable levels of privacy and security over documents.
-* [LaTeX](https://www.latex-project.org/): LaTeX i a typesetting language that creates some of the cleanest, crispiest documents ever to exist. While it is the standard for research papers and technical documentation, I have also been using it fo homework. Types in any language, including Math and Code. Can be whatever you want it to be.
-    * Want a quick way to try LaTeX? Try [Overleaf:](https://overleaf.com) a web-based LaTeX editor. 
-* [Markdown](https://www.markdownguide.org/): A quick and easy markup language that I use for quick notes, documentation, and even this entire website (including this webpage you're looking at). 
 
 ## Languages
 
@@ -116,9 +107,3 @@ I do have a Gaming Laptop connected as a Desktop at all times for high-processin
 Outside of it, I use an iPad mini as my eBook reader and note taking device all the time. This device has saved me quite a lot in textbook money (paid for itself in a semester), and I also use it as a second display through RDP on GNOME (on Ubuntu).
 
 ![iPad + Surface](./assets/tech-config-setup.jpg)
-
-## Misc.
-
-* [Wireshark](https://www.wireshark.org/): Packet tracer and network protocol analyzer, used for analyzing networks. GPLv3'd at that :D
-* [GNS3](https://www.gns3.com/): Network systems virtualizing software. Libre software as well. 
-* [Virtualbox](https://www.virtualbox.org/): Virtualization Software. New project that will quickly get a file system spread? Just put it in a VM :)
