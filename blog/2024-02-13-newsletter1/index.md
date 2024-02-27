@@ -5,15 +5,17 @@ authors: [suobset]
 tags: ['Newsletter', 'Open Source', 'Aesthetics', 'Art']
 ---
 
+![Finechive 1 Banner](./assets/newsletter1.png)
+
 > i wonder where i'll float next
 > 
 > -> xkcd 1
 
 This has been the most scary step I have taken, even though I have maintained this blog for a long time. It feels so weirdly amazing to stick to a schedule, it feels beautiful and scary.
 
-There have been quite a few times when I have talked about aesthetics, and I still believe that they are the best way to express myself. I have a [post here from last year diving into Liminal Spaces](/blog/liminal-spaces-art-of-appreciating), and to this day they capture the feeling of loneliness and eerieness perfectly. 
-
 <!-- truncate -->
+
+There have been quite a few times when I have talked about aesthetics, and I still believe that they are the best way to express myself. I have a [post here from last year diving into Liminal Spaces](/blog/liminal-spaces-art-of-appreciating), and to this day they capture the feeling of loneliness and eerieness perfectly. 
 
 A lot of the pictures I take pertain to outdoor Liminal Spaces. It is an interest that started during the Pandemic lockdowns, especially in a context where I was joining online Zoom meetings from the other corner of the globe. Going from interacting with over 15-20 people at a time on Discord to absolute silence at 4AM on the click of a button, I did not yet realize that I was living in a Liminal Space. 
 
