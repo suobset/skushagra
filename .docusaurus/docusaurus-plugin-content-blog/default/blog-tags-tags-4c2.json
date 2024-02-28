@@ -1,8 +1,18 @@
 [
   {
-    "label": "Newsletter",
+    "label": "newsletter",
     "permalink": "/blog/tags/newsletter",
+    "count": 4
+  },
+  {
+    "label": "academia",
+    "permalink": "/blog/tags/academia",
     "count": 3
+  },
+  {
+    "label": "life",
+    "permalink": "/blog/tags/life",
+    "count": 6
   },
   {
     "label": "Open Source",
@@ -47,16 +57,6 @@
   {
     "label": "Hobbies",
     "permalink": "/blog/tags/hobbies",
-    "count": 2
-  },
-  {
-    "label": "Life",
-    "permalink": "/blog/tags/life",
-    "count": 5
-  },
-  {
-    "label": "Academia",
-    "permalink": "/blog/tags/academia",
     "count": 2
   },
   {

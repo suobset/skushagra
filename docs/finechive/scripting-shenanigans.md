@@ -335,3 +335,5 @@ export default function HomepageFeatures() {
 The above is in the context of [Docusaurus](https://docusaurus.io), on the index.js page. In my homepage, it is implemented right alongside the other elements on that homepage, but it can also be independently implemented and referred to as an object. The process remains the same for all React MDX websites.
 
 If you're curious about what my actual homepage's code looks like, [here's a link](https://github.com/suobset/skushagra/blob/main/src/components/HomepageFeatures/index.js).
+
+## 

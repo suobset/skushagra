@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/newsletter3",
+  "source": "@site/blog/2024-02-27-newsletter3/index.md",
+  "title": "Career Optimism, and History.",
+  "description": "Grayson Hall, Newsletter 3 Image",
+  "date": "2024-02-27T00:00:00.000Z",
+  "formattedDate": "February 27, 2024",
+  "tags": [
+    {
+      "label": "newsletter",
+      "permalink": "/blog/tags/newsletter"
+    },
+    {
+      "label": "academia",
+      "permalink": "/blog/tags/academia"
+    },
+    {
+      "label": "life",
+      "permalink": "/blog/tags/life"
+    }
+  ],
+  "readingTime": 9.22,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "newsletter3",
+    "title": "Career Optimism, and History.",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "newsletter",
+      "academia",
+      "life"
+    ]
+  },
+  "nextItem": {
+    "title": "Climatech Wonders, and Chill Vibes.",
+    "permalink": "/blog/newsletter2"
+  }
+}
