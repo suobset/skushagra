@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/signup",
+  "source": "@site/src/pages/signup.md",
+  "title": "Fineletters Email Sign Up",
+  "description": "Loading…",
+  "frontMatter": {
+    "title": "Fineletters Email Sign Up"
+  }
+}

@@ -218,6 +218,11 @@ export default [
     exact: true
   },
   {
+    path: '/signup',
+    component: ComponentCreator('/signup', 'fcb'),
+    exact: true
+  },
+  {
     path: '/source',
     component: ComponentCreator('/source', '756'),
     exact: true

@@ -1753,6 +1753,16 @@
       },
       {
         "type": "mdx",
+        "permalink": "/signup",
+        "source": "@site/src/pages/signup.md",
+        "title": "Fineletters Email Sign Up",
+        "description": "Loading…",
+        "frontMatter": {
+          "title": "Fineletters Email Sign Up"
+        }
+      },
+      {
+        "type": "mdx",
         "permalink": "/source",
         "source": "@site/src/pages/source.md",
         "title": "Source for this Site",
