@@ -98,4 +98,6 @@ I am grateful to all the people that have helped me foster my love for research 
 
 I look forward to continuing my journey of understanding, implementing, and contributing to Systems Development. I am optimistic, albeit a little anxious. However, I am determined.
 
-This newsletter has been fun to write. 
+This newsletter has been fun to write. I'll close with a picture I took in Forza Horizon: a game that has been with me since Freshman Year of University.
+
+![Forza](./assets/FORZA.png)
