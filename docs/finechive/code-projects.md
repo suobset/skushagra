@@ -16,3 +16,5 @@ Here is the list of Finechive Hobby Programming Projects:
 * [MorbiOS](./morbios): RISC-V Operating System (under development)
 * [Scripting Shenanigans](./scripting-shenanigans): Random (mainly Python) Scripts to do a whole bunch of things
 * TBD: Voyager, a Git Client on Android.
+
+My other projects, such as Hackathons/Thesis Projects/Class Projects/Professional Work is listed under my website's [Research](https://skushagra.com/docs/category/research) section.
