@@ -10,6 +10,16 @@ I am a firm believer in free/libre and open source, but especially free/libre so
 
 Sometimes, I do have to resort to some proprietary software. In that case, I either look for an equivalent open-source alternative, try to see if a Linux version of that proprietary software exists, or (as a last resort) just use Windows. I use an iPhone 12 mini + Apple Watch combo, mainly due to convinience factor as of now.
 
+## Languages
+
+I do low level systems stuff mainly. I am highly familiar with GNU CoreUtils, and the GDB debugger. I love Valgrind as well, the stack traces and memory visualizations are honestly a godsend. I mainly use C++, though am opening up to RUST as well.
+
+As mentioned in [Scriting Shenanigans](./scripting-shenanigans), Python is my go to for any scripts or hobby programs. I have also programmed in R, MATLAB, Haskell, Java, Swift, and Kotlin (professionally and hobby).
+
+I love Bash Scripting and Vim Scripting for my own tinkering purposes. For my honors thesis, I have also worked on a lot of x86 Assembly directly (including writing, debugging, and converting). I have become pretty comfortable with these low-level languages, though I do learn something new everyday. 
+
+Apart from that, I mainly do Web Dev as a means for end-user application dev. I have experience with PHP, HTML/CSS, JavaScript, Node, React, SQL and MongoDB, Flask, Firebase, and continuously keep learning new technologies. I love the web due to its open nature, and the ability to adapt to any system regardless.
+
 ## Operating System
 
 On the stable "I-want-stuff-to-work" end of things, I have been a devout [Ubuntu](https://ubuntu.com) GNU/Linux user for the longest time now. I dabbled into Pop!_OS for a bit, but Ubuntu feels more stable and refined. Moreover, I spend most of my time in the terminal.
@@ -30,9 +40,10 @@ Sorted by frequency: high to low
 * [Jupyter](https://jupyter.org/): Data-based Python code, where an explanation & presentation of methods is absolutely crucial. Uses ```ipynb``` to split between Markdown cells or Python cells.
 * [Helix Editor](https://helix-editor.com/): A post-modern modal text editor. Really stupidly good at what it does, the only times I do not use it is when I need a Neovim plugin.
 * [VSCode](https://code.visualstudio.com/): Good extension market, has a vim plugin; I was on VSCodium up until very recently, need VSCode for Tunnels (more secure, and less fuzzy SSH alternative).
-* [JetBrains](https://www.jetbrains.com/): Rare, but super complex projects have really benefitted from the strong debugger, language-oriented IDEs, and refactoring capabilities. Is a memory hog though, so would recommend a high-spec computer.
+* [JetBrains](https://www.jetbrains.com/): Rare, but super complex projects have really benefitted from the strong debugger, language-oriented IDEs, and refactoring capabilities. Is a memory hog though, so would recommend a high-spec computer. This includes Android Studio.
 * [Spyder](https://www.spyder-ide.org/): Scientific computing in Python, having a variable explorer and data-exploration based features help a lot.
 * [RStudio](https://rstudio.com): I have a total of 2 projects on R. RStudio is really powerful for what it does, and has a genuinely very shallow learning curve (at least relatively). Good editor, I am just not the target demographic.
+* [MATLAB](https://www.mathworks.com/products/matlab.html): The only Engineering-oriented language I have used, check out my iCons 3 project: [The Cost of Control](https://skushagra.com/docs/research/iCons#icons-3-the-cost-of-control).
 
 ## Photo/Video/Graphic Editing
 
@@ -52,6 +63,7 @@ Writing text-based files? Here's what I use:
 * [LaTeX](https://www.latex-project.org/): LaTeX i a typesetting language that creates some of the cleanest, crispiest documents ever to exist. While it is the standard for research papers and technical documentation, I have also been using it fo homework. Types in any language, including Math and Code. Can be whatever you want it to be.
     * Want a quick way to try LaTeX? Try [Overleaf:](https://overleaf.com) a web-based LaTeX editor. 
 * [Markdown](https://www.markdownguide.org/): A quick and easy markup language that I use for quick notes, documentation, and even this entire website (including this webpage you're looking at). 
+* [Pandoc](https://pandoc.org/): A universal document converter that converts any format to any other format through a set of unique tools. Convert Markdown to PDF, Docx to OpenDoc, HTML to Markdown, etc.
 
 ## Geographic Information Systems
 
@@ -63,6 +75,17 @@ So far, I have done about 3 research projects regarding plotting and mapping dat
 In a way, I use QGIS for background researcgh and enjoy the freedom of manipulation and experimentation as a whole, then export the final data and use Leaflet to publish it on the web for everyone to see. 
 
 Leaflet used in conjunction with Python or R.
+
+## Bibliography Management Systems
+
+This pretty much depends on the nature of the project I am doing. There are 2 main options:
+
+* [Wikindx](https://wikindx.sourceforge.io/web/trunk/index.html): Libre Source Bibliography that is self-hosted and uses a MySQL database to store information. I use it locally hosted for my own research (since everything is local), and use a locally hosted version for the [LinKaGe Lab](http://linkage.cs.umass.edu) with multi-user support and web support.
+* [Zotero](https://zotero.org): Comes into play when I need to have shared bibliographies over the internet, mainly as a ease-of-use. Zotero was used in almost every iCons project listed. 
+
+Both of these options share a lot of similarities with each other, except that Zotero is paid for large storage solutions but shareable, while Wikindx is self-hosted and the only constraint is your own computer. 
+
+Legacy mention: [Aigaion](https://github.com/aigaion/aigaion) which was replaced by Wikindx. PHP underwent such drastic changes that Aigaion was rendered useless on anything above PHP version 5. 
 
 ## Debuggers
 
@@ -79,24 +102,29 @@ Apart from the usual (extensions for IDEs for different languages, or print stat
 * [GNU Bash](https://www.gnu.org/software/bash/): The most powerful CLI I have used, ever. Also really the one I have been used to, despite using Powershell considerably as well.
 * [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=US): Honestly the hands-down best solution on Windows, now the default in Windows 11. Tabbed terminals, each of which can wither Powershell on host or BASH/ZSH on a guest WSL instance.
 
-## Misc. Important Software 
+## Virtualization, Containerization, Sim/Emulation
 
 Does not fit in a pre-defined category but equally important.
 
 * [Wireshark](https://www.wireshark.org/): Packet tracer and network protocol analyzer, used for analyzing networks. GPLv3'd at that :D
-* [GNS3](https://www.gns3.com/): Network systems virtualizing software. Libre software as well. 
+* [GNS3](https://www.gns3.com/): Network systems virtualizing software. Libre software as well, works best on Linux with a minimum of 16GB RAM and on an x86 Architecture. 
 * [Virtualbox](https://www.virtualbox.org/): Virtualization Software. New project that will quickly get a file system spread? Just put it in a VM :)
 * [Docker](https://www.docker.com/): Containerization Software to ensure similar debugging and execution experiences everywhere. Super useful when dealing with low-level code to ensure OS consistencies, or high-level code to plug-and-play different components. 
+* [QEMU](https://qemu.org): Emulation for different hardware, including ARM, RISC-V, and x86. Used in the tinkering of MIT PDOS xv6, and in current MorbiOS development. 
 
-## Languages
+## Miscellaneous
 
-I do low level systems stuff mainly. I am highly familiar with GNU CoreUtils, and the GDB debugger. I love Valgrind as well, the stack traces and memory visualizations are honestly a godsend. I mainly use C++, though am opening up to RUST as well.
+* [KDE Connect](https://kdeconnect.kde.org/): Cross-platform continuity daemon for Linux, iOS, Android, macOS, and Windows. Basically make all your devices work with one another & not have file mess-ups or incompatibility issues.
+* [Figma](https://figma.com): Wireframing tool to chart out the behaviour of an application, or the base UI/UX before code. Helps you pln out the whole thing before starting the code out.
 
-As mentioned in [Scriting Shenanigans](./scripting-shenanigans), Python is my go to for any scripts or hobby programs.
+## Mobile
 
-I used to code for Android, but have stopped doing so lately. 
+A whole bunch of iOS Apps that I really love and help me be productive (on top of mobile versions of eveyrthing mentioned above):
 
-Apart from that, I mainly do Web Dev as a means for end-user application dev. I have experience with PHP, HTML/CSS, JavaScript, Node, React, SQL and MongoDB, Flask, and continuously keep learning new technologies. I love the web due to its open nature, and the ability to adapt to any system regardless.
+* [Working Copy](https://workingcopy.app/): An iOS Git Client that connects with GitHub, BitBucket, or your own Local/Remote Servers. Works seamlessly with the iOS Files and Cross-App as well.
+* [iSH](https://ish.app/): Alpine Linux Virtualized in a Sandboxed environment on iOS. Does everything you could possibly do in a shell, including creating and deploying local servers or using vim. 
+* [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios): The closest thing to "scripting" on iOS, Shortcuts is a drag-and-drop language to provide scripting, automation, and code tasks natively on iOS. Harnesses the full device capability: location, sensors, app actions, your own code, etc. I plan to get a page on the Finechive for sharing my own Device Automations.
+* [Chromatica](https://chromatica.app/): This is my primary professional camera on iOS. 
 
 ## Computer
 

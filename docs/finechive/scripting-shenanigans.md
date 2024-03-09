@@ -24,6 +24,35 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+## BibTeX Breaker
+
+One of the tasks I had at the [LinKaGe Lab](http://linkage.cs.umass.edu) pertained to creating a new web-based Bibliography, and import the entire corpus of LinKaGe Lab documents to the new bibliography system. I used [Wikindx](https://wikindx.sourceforge.io/web/trunk/index.html) for the storage management solution, but could not directly import the 45,000 line BibTeX file (memory overflow).
+
+The following is a Python Script that reads in a big BibTeX file, and breaks it down to 1000 + the location of the last close brace for the current entry each. 
+
+The big aspect of the code is to not break any entries, as they get lost. Once the 1000 lines have been reached, we need to find the last closing brace for the entry we are currently on, and cut the document there. 
+
+Regex to the rescue :)
+
+```py
+import re
+
+def split_bibtex(input_file, chunk_size):
+    with open(input_file, 'r', encoding='utf-8') as file:
+        content = file.read()
+
+    entries = re.split(r'(?=@\w+{)', content)[1:]
+
+    for i, chunk in enumerate(range(0, len(entries), chunk_size), start=1):
+        output_file = f'part_{i}.bib'
+        with open(output_file, 'w', encoding='utf-8') as file:
+            file.write('@comment{This file is part of the original BibTeX file.}\n\n')
+            file.write(''.join(['@'+entry for entry in entries[chunk:chunk+chunk_size]]))
+
+if __name__ == "__main__":
+    split_bibtex('yourfile.bib', 1000)
+```
+
 ## .ZoneIdentifier Deleter
 
 Don't you love the Windows-created ```.ZoneIdentifier``` spam that it uses to detect internet-downloaded things?? Well, when you move it to a UNIX system, these files serve no purpose (except to clog up your working directory, and spam when you try to ```ls```). 
@@ -335,5 +364,3 @@ export default function HomepageFeatures() {
 The above is in the context of [Docusaurus](https://docusaurus.io), on the index.js page. In my homepage, it is implemented right alongside the other elements on that homepage, but it can also be independently implemented and referred to as an object. The process remains the same for all React MDX websites.
 
 If you're curious about what my actual homepage's code looks like, [here's a link](https://github.com/suobset/skushagra/blob/main/src/components/HomepageFeatures/index.js).
-
-## 
