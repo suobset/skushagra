@@ -101,3 +101,5 @@ I look forward to continuing my journey of understanding, implementing, and cont
 This newsletter has been fun to write. I'll close with a picture I took in Forza Horizon: a game that has been with me since Freshman Year of University.
 
 ![Forza](./assets/FORZA.png)
+
+PS: No blog next week, due to midterms.
