@@ -2,7 +2,7 @@
 slug: "newsletter4"
 title: "Metamorphosis."
 authors: ['suobset']
-tags: ['newsletter', 'academia', 'life']
+tags: ['newsletter', 'academia', 'life', 'Open Source', 'Personal']
 ---
 
 # Metamorphosis
@@ -175,7 +175,7 @@ Utilizing GNU GDB as our debugging tool, we leverage the 1v1 binary compatibilit
 I found PyGDB, a Python Package that acts as an API to GDB and helps us extend the functionality. So here's how everything works at the end:
 
 * Compile each program till the Assembly
-* Assembly with GDB flags
+* Assemble with GDB flags
 * Start GDB, and my own Python program that notices each GDB step and notes down the execution state
 * Output this data to a file, and you have a trace :D
 
