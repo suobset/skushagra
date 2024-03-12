@@ -19,7 +19,7 @@
       "permalink": "/blog/tags/life"
     }
   ],
-  "readingTime": 9.22,
+  "readingTime": 9.375,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -41,6 +41,10 @@
       "academia",
       "life"
     ]
+  },
+  "prevItem": {
+    "title": "Metamorphosis.",
+    "permalink": "/blog/newsletter4"
   },
   "nextItem": {
     "title": "Climatech Wonders, and Chill Vibes.",

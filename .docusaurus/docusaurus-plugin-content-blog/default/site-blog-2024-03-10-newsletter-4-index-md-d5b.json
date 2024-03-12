@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/newsletter4",
+  "source": "@site/blog/2024-03-10-newsletter4/index.md",
+  "title": "Metamorphosis.",
+  "description": "Newsletter 4 Banner | Washington D.C.",
+  "date": "2024-03-10T00:00:00.000Z",
+  "formattedDate": "March 10, 2024",
+  "tags": [
+    {
+      "label": "newsletter",
+      "permalink": "/blog/tags/newsletter"
+    },
+    {
+      "label": "academia",
+      "permalink": "/blog/tags/academia"
+    },
+    {
+      "label": "life",
+      "permalink": "/blog/tags/life"
+    }
+  ],
+  "readingTime": 9.1,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "newsletter4",
+    "title": "Metamorphosis.",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "newsletter",
+      "academia",
+      "life"
+    ]
+  },
+  "nextItem": {
+    "title": "Career Optimism, and History.",
+    "permalink": "/blog/newsletter3"
+  }
+}
