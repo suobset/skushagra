@@ -17,6 +17,11 @@
   {
     "label": "Open Source",
     "permalink": "/blog/tags/open-source",
+    "count": 4
+  },
+  {
+    "label": "Personal",
+    "permalink": "/blog/tags/personal",
     "count": 3
   },
   {
@@ -38,11 +43,6 @@
     "label": "Art",
     "permalink": "/blog/tags/art",
     "count": 1
-  },
-  {
-    "label": "Personal",
-    "permalink": "/blog/tags/personal",
-    "count": 2
   },
   {
     "label": "Website",

@@ -17,6 +17,14 @@
     {
       "label": "life",
       "permalink": "/blog/tags/life"
+    },
+    {
+      "label": "Open Source",
+      "permalink": "/blog/tags/open-source"
+    },
+    {
+      "label": "Personal",
+      "permalink": "/blog/tags/personal"
     }
   ],
   "readingTime": 9.1,
@@ -39,7 +47,9 @@
     "tags": [
       "newsletter",
       "academia",
-      "life"
+      "life",
+      "Open Source",
+      "Personal"
     ]
   },
   "nextItem": {

@@ -52,7 +52,7 @@ export default function HomepageFeatures() {
   useEffect(() => {
     const fetchWebringData = async () => {
       try {
-        const response = await fetch('https://umaring.hamy.cc/kush');
+        const response = await fetch('https://umaring.mkr.cx/kush'); // This is where the URL is changed temporarily
         if (!response.ok) {
           throw new Error('Failed to fetch webring data');
         }
