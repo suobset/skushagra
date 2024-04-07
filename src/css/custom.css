@@ -32,14 +32,13 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #bfefff, #e6f7ff); /* Lighter blue to very light blue gradient */
-  color: #ffffff; /* Black text */
-  font-family: 'Courier New', monospace; /* Retro-style font */
+  color: #ffffff;
+  font-family: 'Roboto', monospace; /* Retro-style font */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Modern browsers supporting gradients */
-@supports (background: linear-gradient(to bottom, #000080, #000000)) {
+@supports (background: linear-gradient(to bottom, #000F4A, #000000)) {
   /* Fixed height for the gradient background */
   body::before {
     content: '';
@@ -48,7 +47,7 @@ body {
     left: 0;
     width: 100%;
     height: 100vh; /* Adjust the height as needed */
-    background: linear-gradient(to bottom, #000080, #000000); /* Blue to black gradient */
+    background: linear-gradient(to bottom, #000F4A, #000000); /* Blue to black gradient */
     z-index: -1;
   }
 }
