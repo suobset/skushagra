@@ -36,11 +36,17 @@ About every piece of software I use needs a very absolutely minimum of 8GB RAM, 
 
 Sorted by frequency: high to low 
 
+* [BBEdit](https://www.barebones.com/products/bbedit/): A macOS native Code Editor being developed for over 30 years. Super stable, packed with features, has a minor learning curve for the more advanced features that's worth it imo.
 * [Neovim](https://neovim.io/): a fork of vim with extended plugin support, and a more suistainable development model. 
 * [Jupyter](https://jupyter.org/): Data-based Python code, where an explanation & presentation of methods is absolutely crucial. Uses ```ipynb``` to split between Markdown cells or Python cells.
 * [Helix Editor](https://helix-editor.com/): A post-modern modal text editor. Really stupidly good at what it does, the only times I do not use it is when I need a Neovim plugin.
-* [VSCode](https://code.visualstudio.com/): Good extension market, has a vim plugin; I was on VSCodium up until very recently, need VSCode for Tunnels (more secure, and less fuzzy SSH alternative).
+* [VSCode](https://code.visualstudio.com/): Good extension market, has a vim plugin; I was on VSCodium up until very recently, need VSCode for Tunnels (more secure, and less fuzzy SSH alternative). I don't like the web app nature and padded mobile-UI buttons.
 * [JetBrains](https://www.jetbrains.com/): Rare, but super complex projects have really benefitted from the strong debugger, language-oriented IDEs, and refactoring capabilities. Is a memory hog though, so would recommend a high-spec computer. This includes Android Studio.
+
+### Retired
+
+I do not use these anymore, mainly because I don't have a reason to. However, I might come back to them if a project mandates. This is not to say that these are bad editors, I just don't need them as of now.
+
 * [Spyder](https://www.spyder-ide.org/): Scientific computing in Python, having a variable explorer and data-exploration based features help a lot.
 * [RStudio](https://rstudio.com): I have a total of 2 projects on R. RStudio is really powerful for what it does, and has a genuinely very shallow learning curve (at least relatively). Good editor, I am just not the target demographic.
 * [MATLAB](https://www.mathworks.com/products/matlab.html): The only Engineering-oriented language I have used, check out my iCons 3 project: [The Cost of Control](https://skushagra.com/docs/research/iCons#icons-3-the-cost-of-control).
@@ -128,10 +134,10 @@ A whole bunch of iOS Apps that I really love and help me be productive (on top o
 
 ## Computer
 
-I use Ubuntu on a Microsoft Surface Laptop Go 2 (yes, that's a mouthful). It's essentially a regular Surface Laptop, albeit with some underclocked specs in a smaller enclosure. It fares well for everything that I throw at it, and is super light and portable. Has a great keyboard, and a touchscreen. Only gripe would be lack of a backlit keyboard, and equivalently priced laptops having better specs.
+My main computer is a MacBook Pro currently. I like the UNIX-y nature, and it runs commercial products well. BBEdit, my favourite text editor, is Mac only as well.
 
-I do have a Gaming Laptop connected as a Desktop at all times for high-processing tasks. That is a 16GB DDR4, 11th Gen Core i7, and a 1660Ti GPU Dell G3 3500. This specific computer, however, [got Dell a lawsuit for a weak hinge design](https://www.reddit.com/r/Dell/comments/j4buk9/class_action_lawsuit_against_dell_dell_g3_hinge/), which I can attest for as someone who also has had hinge problems, despite proper care and usage. It overheats quite easily as well, and battery life is absolute garbage; but for someone who's always on the move...it is a better option than an actual desktop tower.
+For the pure Linux side of things, I use Ubuntu & Trisquel on a Microsoft Surface Laptop Go 2 (yes, that's a mouthful). It's essentially a regular Surface Laptop, albeit with some underclocked specs in a smaller enclosure. It fares well for everything that I throw at it, and is super light and portable. Has a great keyboard, and a touchscreen.
+
+I do have a Gaming Laptop connected as a Desktop at all times for high-processing tasks. It's basically a performance computation and NAS server; not really used on the go and mostly via SSH. That is a 16GB DDR4, 11th Gen Core i7, and a 1660Ti GPU Dell G3 3500. This specific computer, however, [got Dell a lawsuit for a weak hinge design](https://www.reddit.com/r/Dell/comments/j4buk9/class_action_lawsuit_against_dell_dell_g3_hinge/), which I can attest for as someone who also has had hinge problems, despite proper care and usage. It overheats quite easily as well, and battery life is absolute garbage; but for someone who's always on the move...it is a better option than an actual desktop tower.
 
 Outside of it, I use an iPad mini as my eBook reader and note taking device all the time. This device has saved me quite a lot in textbook money (paid for itself in a semester), and I also use it as a second display through RDP on GNOME (on Ubuntu).
-
-![iPad + Surface](./assets/tech-config-setup.jpg)
