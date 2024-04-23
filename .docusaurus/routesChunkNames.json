@@ -56,7 +56,7 @@
     },
     "content": "content---best-viewed-by-any-browser-144-8e8"
   },
-  "/blog-3ff": {
+  "/blog-313": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
@@ -77,30 +77,6 @@
       },
       {
         "content": "content---blogbe-8-ca3"
-      },
-      {
-        "content": "content---bloga-02-5f4"
-      },
-      {
-        "content": "content---blog-56-c-2b4"
-      },
-      {
-        "content": "content---bloga-91-db0"
-      },
-      {
-        "content": "content---blogef-3-eef"
-      },
-      {
-        "content": "content---blogd-6-e-e40"
-      },
-      {
-        "content": "content---blog-7-ed-862"
-      },
-      {
-        "content": "content---blog-297-016"
-      },
-      {
-        "content": "content---blog-40-f-97b"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
@@ -200,6 +176,50 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-on-macos-and-libre-softwarecce-ce6"
   },
+  "/blog/page/2-b80": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-9-cf-8b4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-page-2-a-02-c68"
+      },
+      {
+        "content": "content---blog-page-256-c-057"
+      },
+      {
+        "content": "content---blog-page-2-a-91-8db"
+      },
+      {
+        "content": "content---blog-page-2-ef-3-2e7"
+      },
+      {
+        "content": "content---blog-page-2-d-6-e-683"
+      }
+    ],
+    "metadata": "metadata---blog-page-28-eb-625"
+  },
+  "/blog/page/3-182": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-9-cf-8b4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-page-37-ed-ab0"
+      },
+      {
+        "content": "content---blog-page-3297-37c"
+      },
+      {
+        "content": "content---blog-page-340-f-48a"
+      }
+    ],
+    "metadata": "metadata---blog-page-3929-7ba"
+  },
   "/blog/tags-c39": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
@@ -222,10 +242,10 @@
         "content": "content---blog-166-926"
       },
       {
-        "content": "content---blogef-3-eef"
+        "content": "content---blog-page-2-ef-3-2e7"
       },
       {
-        "content": "content---blogd-6-e-e40"
+        "content": "content---blog-page-2-d-6-e-683"
       }
     ],
     "tag": "tag---blog-tags-academia-5-ca-4d2",
@@ -242,7 +262,7 @@
         "content": "content---blogbe-8-ca3"
       },
       {
-        "content": "content---blog-297-016"
+        "content": "content---blog-page-3297-37c"
       }
     ],
     "tag": "tag---blog-tags-aestheticse-31-80a",
@@ -270,10 +290,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-56-c-2b4"
+        "content": "content---blog-page-256-c-057"
       },
       {
-        "content": "content---blogef-3-eef"
+        "content": "content---blog-page-2-ef-3-2e7"
       }
     ],
     "tag": "tag---blog-tags-code-4-f-0-b7b",
@@ -287,7 +307,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogef-3-eef"
+        "content": "content---blog-page-2-ef-3-2e7"
       }
     ],
     "tag": "tag---blog-tags-dictionary-70-c-ae6",
@@ -301,7 +321,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-40-f-97b"
+        "content": "content---blog-page-340-f-48a"
       }
     ],
     "tag": "tag---blog-tags-docusaurusa-80-728",
@@ -315,7 +335,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-40-f-97b"
+        "content": "content---blog-page-340-f-48a"
       }
     ],
     "tag": "tag---blog-tags-facebook-031-c52",
@@ -329,7 +349,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-40-f-97b"
+        "content": "content---blog-page-340-f-48a"
       }
     ],
     "tag": "tag---blog-tags-hello-30-a-bed",
@@ -343,10 +363,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-56-c-2b4"
+        "content": "content---blog-page-256-c-057"
       },
       {
-        "content": "content---bloga-91-db0"
+        "content": "content---blog-page-2-a-91-8db"
       }
     ],
     "tag": "tag---blog-tags-hobbiesb-41-794",
@@ -363,7 +383,7 @@
         "content": "content---blog-6-ab-20d"
       },
       {
-        "content": "content---blogd-6-e-e40"
+        "content": "content---blog-page-2-d-6-e-683"
       }
     ],
     "tag": "tag---blog-tags-i-cons-55-f-3f2",
@@ -383,7 +403,7 @@
     "tag": "tag---blog-tags-internet-wonders-86-a-56d",
     "listMetadata": "listMetadata---blog-tags-internet-wondersc-73-51c"
   },
-  "/blog/tags/life-569": {
+  "/blog/tags/life-16c": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
@@ -400,23 +420,34 @@
         "content": "content---blog-166-926"
       },
       {
-        "content": "content---bloga-91-db0"
+        "content": "content---blog-page-2-a-91-8db"
       },
       {
-        "content": "content---blogef-3-eef"
-      },
-      {
-        "content": "content---blogd-6-e-e40"
-      },
-      {
-        "content": "content---blog-7-ed-862"
-      },
-      {
-        "content": "content---blog-297-016"
+        "content": "content---blog-page-2-ef-3-2e7"
       }
     ],
     "tag": "tag---blog-tags-life-976-34c",
     "listMetadata": "listMetadata---blog-tags-lifebf-5-233"
+  },
+  "/blog/tags/life/page/2-176": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-9-cf-8b4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-page-2-d-6-e-683"
+      },
+      {
+        "content": "content---blog-page-37-ed-ab0"
+      },
+      {
+        "content": "content---blog-page-3297-37c"
+      }
+    ],
+    "tag": "tag---blog-tags-life-page-2806-efb",
+    "listMetadata": "listMetadata---blog-tags-life-page-2324-ae1"
   },
   "/blog/tags/liminal-space-0a5": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -426,13 +457,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-297-016"
+        "content": "content---blog-page-3297-37c"
       }
     ],
     "tag": "tag---blog-tags-liminal-space-5-b-8-ad1",
     "listMetadata": "listMetadata---blog-tags-liminal-space-9-c-0-a1d"
   },
-  "/blog/tags/newsletter-071": {
+  "/blog/tags/newsletter-b6d": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
@@ -453,13 +484,24 @@
       },
       {
         "content": "content---blogbe-8-ca3"
-      },
-      {
-        "content": "content---bloga-02-5f4"
       }
     ],
     "tag": "tag---blog-tags-newsletterad-9-6ca",
     "listMetadata": "listMetadata---blog-tags-newsletter-0-f-4-99c"
+  },
+  "/blog/tags/newsletter/page/2-477": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-9-cf-8b4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-page-2-a-02-c68"
+      }
+    ],
+    "tag": "tag---blog-tags-newsletter-page-203-c-858",
+    "listMetadata": "listMetadata---blog-tags-newsletter-page-24-d-1-e57"
   },
   "/blog/tags/nostalgia-565": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -469,7 +511,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-297-016"
+        "content": "content---blog-page-3297-37c"
       }
     ],
     "tag": "tag---blog-tags-nostalgiab-7-d-66c",
@@ -495,7 +537,7 @@
         "content": "content---blogbe-8-ca3"
       },
       {
-        "content": "content---blog-56-c-2b4"
+        "content": "content---blog-page-256-c-057"
       }
     ],
     "tag": "tag---blog-tags-open-source-51-e-90d",
@@ -515,10 +557,10 @@
         "content": "content---blogcce-255"
       },
       {
-        "content": "content---bloga-02-5f4"
+        "content": "content---blog-page-2-a-02-c68"
       },
       {
-        "content": "content---blog-7-ed-862"
+        "content": "content---blog-page-37-ed-ab0"
       }
     ],
     "tag": "tag---blog-tags-personal-80-b-832",
@@ -532,10 +574,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---bloga-02-5f4"
+        "content": "content---blog-page-2-a-02-c68"
       },
       {
-        "content": "content---blog-7-ed-862"
+        "content": "content---blog-page-37-ed-ab0"
       }
     ],
     "tag": "tag---blog-tags-websitea-49-cdb",

@@ -49,7 +49,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '3ff'),
+    component: ComponentCreator('/blog', '313'),
     exact: true
   },
   {
@@ -110,6 +110,16 @@ export default [
   {
     path: '/blog/on-macos-and-libre-software',
     component: ComponentCreator('/blog/on-macos-and-libre-software', '225'),
+    exact: true
+  },
+  {
+    path: '/blog/page/2',
+    component: ComponentCreator('/blog/page/2', 'b80'),
+    exact: true
+  },
+  {
+    path: '/blog/page/3',
+    component: ComponentCreator('/blog/page/3', '182'),
     exact: true
   },
   {
@@ -174,7 +184,12 @@ export default [
   },
   {
     path: '/blog/tags/life',
-    component: ComponentCreator('/blog/tags/life', '569'),
+    component: ComponentCreator('/blog/tags/life', '16c'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/life/page/2',
+    component: ComponentCreator('/blog/tags/life/page/2', '176'),
     exact: true
   },
   {
@@ -184,7 +199,12 @@ export default [
   },
   {
     path: '/blog/tags/newsletter',
-    component: ComponentCreator('/blog/tags/newsletter', '071'),
+    component: ComponentCreator('/blog/tags/newsletter', 'b6d'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/newsletter/page/2',
+    component: ComponentCreator('/blog/tags/newsletter/page/2', '477'),
     exact: true
   },
   {

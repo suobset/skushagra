@@ -33,7 +33,7 @@ export default {
           "blogTitle": "Fineletters.",
           "blogListComponent": "@theme/BlogListPage",
           "blogDescription": "The Finechive Newsletter, by Kush S.",
-          "postsPerPage": "ALL",
+          "postsPerPage": 5,
           "blogSidebarCount": 0
         },
         "theme": {
