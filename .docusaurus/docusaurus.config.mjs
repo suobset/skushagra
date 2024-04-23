@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/suobset/Documents/skushagra/sidebars.js"
+          "sidebarPath": "/Users/kushagrasrivastava/Documents/skushagra/sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
@@ -37,7 +37,7 @@ export default {
           "blogSidebarCount": 0
         },
         "theme": {
-          "customCss": "/Users/suobset/Documents/skushagra/src/css/custom.css"
+          "customCss": "/Users/kushagrasrivastava/Documents/skushagra/src/css/custom.css"
         }
       }
     ]

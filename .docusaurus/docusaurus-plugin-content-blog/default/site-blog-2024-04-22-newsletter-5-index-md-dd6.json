@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/newsletter5",
+  "source": "@site/blog/2024-04-22-newsletter5/index.md",
+  "title": "Side Projects, Life Updates",
+  "description": "Banner Image: 2024 Solar Eclipse Gathering at UMass Amherst",
+  "date": "2024-04-22T00:00:00.000Z",
+  "formattedDate": "April 22, 2024",
+  "tags": [
+    {
+      "label": "newsletter",
+      "permalink": "/blog/tags/newsletter"
+    },
+    {
+      "label": "life",
+      "permalink": "/blog/tags/life"
+    },
+    {
+      "label": "Open Source",
+      "permalink": "/blog/tags/open-source"
+    },
+    {
+      "label": "Personal",
+      "permalink": "/blog/tags/personal"
+    }
+  ],
+  "readingTime": 9.245,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "newsletter5",
+    "title": "Side Projects, Life Updates",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "newsletter",
+      "life",
+      "Open Source",
+      "Personal"
+    ]
+  },
+  "nextItem": {
+    "title": "Metamorphosis.",
+    "permalink": "/blog/newsletter4"
+  }
+}

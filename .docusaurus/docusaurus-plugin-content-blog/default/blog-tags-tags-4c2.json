@@ -2,27 +2,27 @@
   {
     "label": "newsletter",
     "permalink": "/blog/tags/newsletter",
+    "count": 6
+  },
+  {
+    "label": "life",
+    "permalink": "/blog/tags/life",
+    "count": 8
+  },
+  {
+    "label": "Open Source",
+    "permalink": "/blog/tags/open-source",
     "count": 5
+  },
+  {
+    "label": "Personal",
+    "permalink": "/blog/tags/personal",
+    "count": 4
   },
   {
     "label": "academia",
     "permalink": "/blog/tags/academia",
     "count": 4
-  },
-  {
-    "label": "life",
-    "permalink": "/blog/tags/life",
-    "count": 7
-  },
-  {
-    "label": "Open Source",
-    "permalink": "/blog/tags/open-source",
-    "count": 4
-  },
-  {
-    "label": "Personal",
-    "permalink": "/blog/tags/personal",
-    "count": 3
   },
   {
     "label": "iCons",
