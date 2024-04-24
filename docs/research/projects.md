@@ -6,6 +6,8 @@ sidebar_position: 3
 
 This is a repository to hold my projects/competitions outside of CICS. However, most of them were still done under or via my CICS affiliation.
 
+Essentially, these are non-hobby (done for a official purpose) Projects that do not directly fall under one institution. I am counting competitions here as well. 
+
 ## ASA Five-College Datafest
 
 Spring 2023: Won "Best in show" (1st place) in the [ASA Five College DataFest](https://www.science.smith.edu/datafest/). Collaborated in a team of 6 (Clara Li, Nikki Lin, Quinn White, Rose Porta, Kushagra Srivastava) to create an analysis of consumer data provided by a certain legal firm. We had a 3-fold approach, wherein I contributed towards the text wrangling/NLP stuff. 
