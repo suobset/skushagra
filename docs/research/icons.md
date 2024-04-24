@@ -8,6 +8,20 @@ This is a repository to hold all Research Work I have done under the <b>Integrat
 
 ### UPDATES
 
+#### April 2024
+
+* Added The US Census Opportunity Project Files, data regarding [ASSERT](https://suobset.github.io/assert).
+
+The following is pertaining to iCons 4, which is not on the innovation portal. 
+
+##### iCons 4
+
+iCons 4 is a supplementary class that follows the same timeline as the Honors Thesis. The main aim is to communicate about your project to a non-scientific audience first, and then to a scientific audience in the second half. We use a digital medium to communicate the importance of the project, expectations, and how this may help the end user. 
+
+I plan to create a website for the same, but do not know much yet. Updates will be added as they unfold. 
+
+[Link to project](https://suobset.github.io/iCons/iCons4). As of October 9, 2023, it houses a dummy Docusaurus init template website.
+
 #### September 2023
 
 The default for [https://suobset.github.io/iCons](https://suobset.github.io/iCons) has been moved to this page. All iCons projects, however, remain under their respective domains so as to not break any links (on ORCiD, UMass iCons Innovation Portal, and this list). 
@@ -45,6 +59,24 @@ This page mainly serves as a means to collate all my projects and those links in
 <a href="https://icons.cns.umass.edu/innovation-portal/search?keywords=kushagra">Filtered list from the Innovation Portal, showcasing my projects</a>
 
 ![ss](https://user-images.githubusercontent.com/73229775/175075177-a9728232-a4e9-4c68-a60d-4ae02ba388eb.png)
+
+### U.S. Census: The Opportunity Project
+
+[The Opportunity Project](https://opportunity.census.gov/) is a unique research endeavour by the [Census Open Innovation Labs](https://coil.census.gov/) which prompts different universities to come up with digital tools built with the help of open government data. Students in each team are paired with industry experts, and follow a range of milestones [as described here](https://opportunity.census.gov/our-process/). The final product is digital (website, app, visualizations, etc.) aimed at different industry experts, which in-turn would help them solve the issue at hand.
+
+Currently collaborating with a team of 6 (Suhani Chawla, Sarojini Torchon, Anvitha Ramachandran, Gabrielle Walczak, Jose Cruz, and I) on a dataset provided by the [U.S. Department of Energy](https://energy.gov/) to improve energy access in minority households.
+
+[Featured in UMass Amherst News](https://www.umass.edu/news/article/us-census-bureau-recruits-umass-icons-program-students-work-equitable-access)
+
+![Team Picture](./assets/top-students.jpg)
+
+#### Media Updates
+
+This project has apparently garnered a lot of traction across various UMass websites. Here is a record of all of them:
+
+* [UMass News](https://www.umass.edu/news/article/us-census-bureau-recruits-umass-icons-program-students-work-equitable-access)
+* [UMass College of Natural Sciences](https://icons.cns.umass.edu/news-events/news/us-census-bureau-topteam)
+* [UMass Manning CICS + CICS Highlights](https://www.cics.umass.edu/news/us-census-bureau-recruits-cics-students-work-equitable-access-electrical-power)
 
 ### iCons 3: The Cost of Control
 

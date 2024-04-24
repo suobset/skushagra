@@ -6,6 +6,12 @@ sidebar_position: 2
 
 This is a repository to hold all my completed projects and/or research work done under [UMass CICS](https://cics.umass.edu). They have been listed in backwards chronological order. 
 
+## CICS SysLab
+
+As part of conducting the Honors Thesis research in an interactive way, and facilitating more Systems research on campus, I am also a member of the newly created CICS SysLab (website soon) by Prof. Joe Chiu and Prof. Tim Richards. Here's the first meeting, held Spring 2023:
+
+![SysLab](./assets/syslab-all.jpg)
+
 ## CS 326: MeetU
 
 Scheduling app made by Nhi Ha, James Leone, Yuni Jeong, and I: [linked here](https://github.com/suobset/meetu). Essentially a better version of When2Meet, with more features and better collaboration tools. 
