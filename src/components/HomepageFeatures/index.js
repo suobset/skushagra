@@ -4,20 +4,20 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'U.S. Census + UMass iCons TOP',
-    Svg: require('@site/static/img/iCons-nogo.svg').default,
+    title: 'CICS Honors Thesis (+ iCons)',
+    Svg: require('@site/static/img/cics.svg').default,
     description: (
       <>
-        Collaborating with a team of 6 <a href="https://icons.cns.umass.edu">UMass iCons</a> students on the <a href="https://opportunity.census.gov/">"U.S. Census Opportunity Project"</a>. Currently user-testing <a href="https://suobset.github.io/assert">ASSERT</a>: a GIS tool to provide aid to people overburdned by electrical outages.
+        Currently working with Prof. <a href="https://www.cics.umass.edu/people/chiu-joe">Joe Chiu</a> on my Honors Thesis pertaining to analysis of different programming languages at the Systems level (x86). Communicating to a wider audience under <a href="https://icons.cns.umass.edu/">UMass iCons</a>, via <a href="https://honorspaths.honors.umass.edu/massurc">MassURC</a>, Senior Expo., and Digital Means such as a <a href="https://tra86.skushagra.com/">website</a>.
       </>
     ),
   },
   {
-    title: 'CICS Honors Thesis',
-    Svg: require('@site/static/img/cics.svg').default,
+    title: 'Misc. Projects',
+    Svg: require('@site/static/img/finechive.svg').default,
     description: (
       <>
-        Currently working with Prof. <a href="https://www.cics.umass.edu/people/chiu-joe">Joe Chiu</a> and Prof. <a href="https://www.cics.umass.edu/faculty/directory/richards_tim">Tim Richards</a> on my Honors Thesis pertaining to analysis of different programming languages at the Operating Systems level.
+        Helping create a <a href="http://skushagra.com/blog/newsletter5#anna-biondos-low-carbon-concrete-project">Video Game</a> for Anna Biondo's LCC Project (iCons); Creating the <a href="https://tra86.skushagra.com/">tra86 toolchain</a> for Programming Language Analysis as an extension of Hons. Thesis; Creating <a href="https://skushagra.com/docs/finechive/morbios">MorbiOS</a> (RUST-based OS) as a hobby project w/ <a href="https://github.com/anvitha305">@anvitha305</a>.
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/smith.svg').default,
     description: (
       <>
-        Working as a Research Assistant at the <a href="https://linkage.cs.umass.edu">LinKaGe Lab</a> under <a href="https://www.smith.edu/academics/faculty/ileana-streinu">Dr. Ileana Streinu</a>. Currently focusing on upkeep and development of different systems and software used by the lab.
+        Working as a Research Assistant at the <a href="https://linkage.cs.umass.edu">LinKaGe Lab</a> under <a href="https://www.smith.edu/academics/faculty/ileana-streinu">Dr. Ileana Streinu</a>. Currently focusing on upkeep and development of different systems and software used by the lab: namely KINARI, Wikindx (formerly Aigaion), and Websites.
       </>
     ),
   },
