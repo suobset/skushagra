@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/finechive.svg').default,
     description: (
       <>
-        Helping create a <a href="http://skushagra.com/blog/newsletter5#anna-biondos-low-carbon-concrete-project">Video Game</a> for Anna Biondo's LCC Project (iCons); Creating the <a href="https://tra86.skushagra.com/">tra86 toolchain</a> for Programming Language Analysis as an extension of Hons. Thesis; Creating <a href="https://skushagra.com/docs/finechive/morbios">MorbiOS</a> (RUST-based OS) as a hobby project w/ <a href="https://github.com/anvitha305">@anvitha305</a>.
+        Helping create a <a href="http://skushagra.com/blog/newsletter5#anna-biondos-low-carbon-concrete-project">Video Game</a> for Anna Biondo's LCC Project (iCons); Creating the <a href="https://tra86.skushagra.com/">tra86 toolchain</a> for Programming Language Analysis as an extension of Hons. Thesis; Creating <a href="https://skushagra.com/docs/finechive/morbios">MorbiOS</a> (RUST-based OS) as a hobby project w/ <a href="https://github.com/anvitha305">Anvitha</a>.
       </>
     ),
   },
