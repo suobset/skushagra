@@ -248,6 +248,11 @@ export default [
     exact: true
   },
   {
+    path: '/myndlessness',
+    component: ComponentCreator('/myndlessness', '4d1'),
+    exact: true
+  },
+  {
     path: '/signup',
     component: ComponentCreator('/signup', '92c'),
     exact: true

@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/myndlessness",
+  "source": "@site/src/pages/myndlessness.md",
+  "title": "The Minded Mindlessness & TKS Archive",
+  "description": "This page contains, essentially, a table of contents for two of my earliest blogs: Minded Mindlessness, and The Kushagra Srivastava. The former was written on Wordpress, and the latter was written on Blogspot. In taking these backups, I used the `wget` tool to recursively download all the webpages, and hosted them myself on a GitHub Repository.",
+  "frontMatter": {
+    "title": "The Minded Mindlessness & TKS Archive"
+  }
+}

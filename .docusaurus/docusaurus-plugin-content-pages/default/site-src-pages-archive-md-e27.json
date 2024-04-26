@@ -2,9 +2,9 @@
   "type": "mdx",
   "permalink": "/archive",
   "source": "@site/src/pages/archive.md",
-  "title": "Archive for this website",
+  "title": "Archives for this website",
   "description": "This page will be used to store archives of this website.",
   "frontMatter": {
-    "title": "Archive for this website"
+    "title": "Archives for this website"
   }
 }

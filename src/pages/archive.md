@@ -1,8 +1,8 @@
 ---
-title: Archive for this website
+title: Archives for this website
 ---
 
-# Archive of this website
+# Archives of this website
 
 This page will be used to store archives of this website. 
 
@@ -19,6 +19,10 @@ The decision to use Docusaurus consists of the following:
 * Responsive design is built in, and was an Open Source codebase from the beginning.
 * Super customizable.
 
+The first version of this iteration looks like this, and can be accessed on [Internet Archive](https://web.archive.org/web/20231231085114/https://skushagra.com/). The reason I put this here is because of the drastic changes this format has gone/will go through (though past versions can also be accessed on the GH Repository Log). Initially this website had just minor modifications to the classic Docusaurus theme. 
+
+![Docusaurus Iteration 1](./assets/archive/docusaurus1.png)
+
 ## Winter 2021 - Fall 2023
 
 [Visit](https://suobset.github.io/archive/web_v2/)
@@ -31,7 +35,9 @@ It used bootstrap and jQuery for fast animations and feel. However, this was my 
 * Because of the above approach, inserting images, centered divs, or anything outside the norm of what could work on this template was near impossible. Hence, this website was a giant wall of text in a way.
 * Poor accessibility: since I was doing this ```index.html``` trickery, it could not be picked up well with accessibility readers and different devices with different screen sizes.
 
-Regardless, I am still super proud of this version, as it was made back when I did not know much myself.
+Regardless, I am still super proud of this version, as it was made back when I did not know much myself. A lot of people commented on how the animations looked like a slideshow, so I have aptly named this the ```gslide``` version.
+
+![Google Slides Looking Website](./assets/archive/gslide.png)
 
 ```Readme.md```
 
@@ -70,10 +76,24 @@ I have unfortunately lost the source code for this iteration. I will try to find
 
 ## 2018-2020: Minded Mindlessness
 
+[Visit](../myndlessness)
+
 Minded Mindlessness was a blogging project I did for a bit with a friend. I do not have the website with all the posts yet, but I will be linking what is remaining out of it. 
+
+**Update: April 2024**
+
+![Minded Mindlessness Homepage](./assets/archive/myndlessness.png)
+
+The current archive I have has links to Wordpress when it is exported (tbh I recursively wget'd the whole thing). Hence, it seems that I will have to create some form of a directory to see local copies of each post. Check [this out](../myndlessness) for those purposes.
 
 ## 2017: The Kushagra Srivastava Blog
 
-[Visit](https://suobset.github.io/archive/suobset.blogspot.com/)
+[Visit](../myndlessness)
+
+![TKS Blog Homepage](./assets/archive/tks.png)
 
 The following was a blog that I wrote briefly during 2017. I had this domain back then, but did not publish much here. This was all done using Blogspot (Google's Blogging Platform)
+
+**Update: April 2024**
+
+The current archive I have has links to Blogspot when it is exported (tbh I recursively wget'd the whole thing). Hence, it seems that I will have to create some form of a directory to see local copies of each post. Check [this out](../myndlessness) for those purposes.

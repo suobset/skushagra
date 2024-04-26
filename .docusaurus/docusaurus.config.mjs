@@ -177,7 +177,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2019-2024 Kushagra Srivastava <br />\n        All views expressed here are my own, and not representative of my organization or university."
+      "copyright": "Copyright © 2017-2024 Kushagra Srivastava <br />\n        All views expressed here are my own, and not representative of my organization or university."
     },
     "colorMode": {
       "defaultMode": "light",
