@@ -26,6 +26,14 @@ The poster below is outdated.
 
 ![Poster](./assets/SysLab.png)
 
+#### Tra86: The LLVM Compiler Performance Tracer
+
+As part of my thesis on comparing RUST and C++ Performance Metrics, I developed a whole range of scripts that would take a C++/RUST Project, Compile to Assembly, Assemble to Object File with Debugging Symbols, Link Header Files, Pass to GDB, and Trace Asm Calls as the program executes. After the tracing, it passes the trace output to another script for analyzing CPU performance. 
+
+Currently, this is only C++/RUST based and on the x86 platform. I am expanding this, since I believe that this could be extended for comparisons between any programming languages (or most). I also plan to create a UI for the whole thing allowing others to be able to use and contribute towards this project. 
+
+More details to be noted in my thesis, and at [https://tra86.skushagra.com](https://tra86.skushagra.com). Genuinely super excited to get this out in the world, this is my magnum opus currently: 
+
 ## Psivant Therapeutics 
 
 I am moving to Boston to work for Psivant Therapeutics as a Software/Systems Developer Intern. Specifically, I will be working on High Performance Computing frameworks such as [STORMM](https://github.com/psivant/stormm).
@@ -79,9 +87,3 @@ A first for me: but I (and [Anvitha Ramachandran](https://github.com/anvitha305)
 MorbiOS is a currently under-development RUST-based Operating System that Anvitha and I are developing, half as a joke and half to teach ourselves more in-depth about different Operating System paradigms and how does one even go about creating one. While we both have extensive Systems experience, them having created a [legv8sim](https://github.com/anvitha305/legv8sim) for their thesis and me having compared different programming languages on a low-level baseline, we both believe that this project would provide an immense learning opportunity that classes sometimes do not have time for. And above all, this is a hobby: we actually love doing this stuff.
 
 While there is not much out there: be on the lookout [here](https://skushagra.com/docs/finechive/morbios) for more updates to the project as they keep on coming. 
-
-#### Voyager: Android Git Client
-
-This exists only to solve a very niche problem of mine, but in my move to Android the biggest thing I miss is a git client, akin to Working Copy on iOS. Voyager is my way to solve this problem: it is a comprehensive git client on Android. 
-
-This project may take much longer, as it is only an interesting project (4th on the priority list). Regardless, it is very under development and you can tune in to updates [here](https://voyager.skushagra.com/).
