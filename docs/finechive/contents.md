@@ -12,7 +12,6 @@ Stuff on the Finechive itself:
 
 * [Preface](./preface): small paragraph on what this space is about
 * [Table of Contents](./contents) (it's recursive self-loopin' time)
-* [Now](./now): current ambitions, and stuff that I'm up to
 * [Blog](./blog): Uncategorized, non-wiki, bursts of ideas, and everything else
 * [FC Code Projects](./code-projects): **Disclaimer** on code projects that I upload here, vs. under the [Research](/docs/category/research) tab of this website. 
 
@@ -29,6 +28,7 @@ Intersection of Code and Creative Stuff
 
 * [SaberStat](./saberstat): Live LightSaber Battle Hits/Miss Counter
 * [MorbiOS](./morbios): RISC-V Operating System (under development)
+* [Apartment Pointer](./aptPoint): Quick Web App Script to pinpoint multiple markers on a map.
 
 ## Workflow
 
