@@ -28,6 +28,12 @@
         "docId": "ongoing"
       },
       {
+        "type": "link",
+        "label": "Work Experience",
+        "href": "/docs/experience",
+        "docId": "experience"
+      },
+      {
         "type": "category",
         "label": "Undergraduate",
         "collapsible": true,
@@ -216,6 +222,12 @@
     ]
   },
   "docs": {
+    "experience": {
+      "id": "experience",
+      "title": "Work Experience",
+      "description": "This page details professional work experience I have had. Industry related Research Work will be listed here (as applicable by laws/contracts), however Research Work during a specific time of my study at an institution will be listed in their respective tabs (for example: undergraduate research is listed in the `Undergraduate` tab).",
+      "sidebar": "tutorialSidebar"
+    },
     "finechive/aptPoint": {
       "id": "finechive/aptPoint",
       "title": "Apartment Pointer",

@@ -84,7 +84,7 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Research + Programming",
+          "title": "Official",
           "items": [
             {
               "label": "About Me",
@@ -95,7 +95,11 @@ export default {
               "to": "/docs/ongoing"
             },
             {
-              "label": "Undergraduate Work",
+              "label": "Work Experience",
+              "to": "/docs/experience"
+            },
+            {
+              "label": "Undergraduate",
               "to": "/docs/category/undergraduate"
             }
           ]

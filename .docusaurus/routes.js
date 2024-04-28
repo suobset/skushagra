@@ -264,7 +264,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e46'),
+    component: ComponentCreator('/docs', 'c56'),
     routes: [
       {
         path: '/docs/category/hobby',
@@ -275,6 +275,12 @@ export default [
       {
         path: '/docs/category/undergraduate',
         component: ComponentCreator('/docs/category/undergraduate', 'def'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/experience',
+        component: ComponentCreator('/docs/experience', '823'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
