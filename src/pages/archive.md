@@ -14,7 +14,7 @@ The decision to use Docusaurus consists of the following:
 
 * Focusing on my content, and not the layout
   * My previous website was one huge HTML file, with tons of obsfucated bootstrap code. This made upkeep slow, and I rarely changed any details on it.
-  * Docusaurus enables me to write my [Blog](blog), maintain the [Finechive](/docs/category/the-finechive), and add pages like this with extreme ease.
+  * Docusaurus enables me to write my [Blog](blog), maintain the [Finechive](/docs/category/hobby), and add pages like this with extreme ease.
   * Can bring new wacky ideas to life super quick, and not worry too much on design.
 * Responsive design is built in, and was an Open Source codebase from the beginning.
 * Super customizable.

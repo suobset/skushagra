@@ -13,7 +13,7 @@ Stuff on the Finechive itself:
 * [Preface](./preface): small paragraph on what this space is about
 * [Table of Contents](./contents) (it's recursive self-loopin' time)
 * [Blog](./blog): Uncategorized, non-wiki, bursts of ideas, and everything else
-* [FC Code Projects](./code-projects): **Disclaimer** on code projects that I upload here, vs. under the [Research](/docs/category/research) tab of this website. 
+* [FC Code Projects](./code-projects): **Disclaimer** on code projects that I upload here, vs. under the [Research](/docs/category/undergraduate) tab of this website. 
 
 ## Creative
 

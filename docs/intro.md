@@ -23,7 +23,7 @@ My Honors Thesis at UMass Amherst pertains to comparing performance metrics betw
 
 I also worked on establishing a Systems lab at Manning CICS, with Professor Meng-Chieh Chiu, Professor Tim Richards, and a select number of other students. I also was a member of the UMass Amherst Integrated Concentration in Sciences Program. My work mainly revolves in the application of my knowledge in Software and Web Development, as well as in Data Science and Machine Learning, to create visualizations and better methodoligies to convey research problems to a general-audience. Often, I also work on Data Crunching, Extrapolation, and making real-time deductions. My iCons profile can be accessed [here](https://icons.cns.umass.edu/student/profiles/kushagra-srivastava).
 
-A full list of my experiences is linked under the resume section of my website. Moreover, current projects that I am working on can be found in the [Ongoing Projects](/docs/research/ongoing) section of the website.
+A full list of my experiences is linked under the resume section of my website. Moreover, current projects that I am working on can be found in the [Ongoing Projects](/docs/ongoing) section of the website.
 
 * Name: Kushagra Srivastava
 * Major: BS (Hons.) in Computer Science (Expected May 2024)

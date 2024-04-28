@@ -2,7 +2,7 @@
   "unversionedId": "finechive/code-projects",
   "id": "finechive/code-projects",
   "title": "Finechive Code Projects",
-  "description": "About Code Projects listed here vs. listed under the Research tab.",
+  "description": "About Code Projects listed here vs. listed under the Undergraduate tab or rest of the site.",
   "source": "@site/docs/finechive/code-projects.md",
   "sourceDirName": "finechive",
   "slug": "/finechive/code-projects",

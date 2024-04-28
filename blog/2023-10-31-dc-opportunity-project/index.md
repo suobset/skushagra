@@ -9,13 +9,13 @@ tags: ['Academia', 'iCons', 'Life']
 
 While I have gotten this opportunity through an academic source, the contents of this blog do not reflect any of that. This blog is part of my "digital garden": a virtual space to collect raw thoughts as is. This is not a reflection of UMass Amherst, iCons, U.S. Census Dept, The Opportunity Project, and any/every organization mentioned. **This space only exists to collect personal thoughts, and is very informal, and not representative of any ideas, thoughts, or emotions behind anything**. 
 
-Visit the [Research](/docs/category/research) Page to learn more on the academic end of this project. That is where I document the crucial, tangible, proper outcomes of this project. 
+Visit the [Research](/docs/category/undergraduate) Page to learn more on the academic end of this project. That is where I document the crucial, tangible, proper outcomes of this project. 
 
 <!-- truncate -->
 
 Think of this blog as a personal virtual journal :)
 
-[The Opportunity Project](https://opportunity.census.gov) is a Project of the [U.S. Census Department](https://census.gov), which I have had the honor and privilege of participating in through the [Integrated Concentration in STEM at UMass Amherst](https://icons.cns.umass.edu). This is [my personal iCons Portfolio](/docs/research/iCons). All pictures are copyrighted by Kush S.
+[The Opportunity Project](https://opportunity.census.gov) is a Project of the [U.S. Census Department](https://census.gov), which I have had the honor and privilege of participating in through the [Integrated Concentration in STEM at UMass Amherst](https://icons.cns.umass.edu). This is [my personal iCons Portfolio](/docs/undergraduate/iCons). All pictures are copyrighted by Kush S.
 
 <hr />
 
