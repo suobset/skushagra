@@ -16,28 +16,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "finechive/aptPoint",
-              "path": "/docs/finechive/aptPoint",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "finechive/blog",
               "path": "/docs/finechive/blog",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "finechive/code-projects",
-              "path": "/docs/finechive/code-projects",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "finechive/contents",
-              "path": "/docs/finechive/contents",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "finechive/morbios",
-              "path": "/docs/finechive/morbios",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -51,18 +31,33 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "finechive/saberstat",
-              "path": "/docs/finechive/saberstat",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "finechive/scripting-shenanigans",
-              "path": "/docs/finechive/scripting-shenanigans",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "finechive/tech-config",
               "path": "/docs/finechive/tech-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "independent/aptPoint",
+              "path": "/docs/independent/aptPoint",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "independent/code-projects",
+              "path": "/docs/independent/code-projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "independent/morbios",
+              "path": "/docs/independent/morbios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "independent/saberstat",
+              "path": "/docs/independent/saberstat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "independent/scripting-shenanigans",
+              "path": "/docs/independent/scripting-shenanigans",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -173,6 +168,11 @@
             {
               "id": "/category/undergraduate",
               "path": "/docs/category/undergraduate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/independent-code--research",
+              "path": "/docs/category/independent-code--research",
               "sidebar": "tutorialSidebar"
             },
             {

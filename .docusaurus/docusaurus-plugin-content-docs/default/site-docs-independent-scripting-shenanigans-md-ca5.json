@@ -1,0 +1,26 @@
+{
+  "unversionedId": "independent/scripting-shenanigans",
+  "id": "independent/scripting-shenanigans",
+  "title": "Scripting Shenanigans",
+  "description": "My favourite scripting language is Python, only because how simple, yet powerful the whole thing is. From creating ML scripts, Data Visualizations, Native Programs...to creating a GNU GDB helper to trace x86 Assembly, change OS files, or just break your system...Python is flexible enough to go from Bash Scripting paradigms to full-blown programming language.",
+  "source": "@site/docs/independent/scripting-shenanigans.md",
+  "sourceDirName": "independent",
+  "slug": "/independent/scripting-shenanigans",
+  "permalink": "/docs/independent/scripting-shenanigans",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MorbiOS",
+    "permalink": "/docs/independent/morbios"
+  },
+  "next": {
+    "title": "SaberStat",
+    "permalink": "/docs/independent/saberstat"
+  }
+}

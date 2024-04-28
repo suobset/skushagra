@@ -264,11 +264,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'c56'),
+    component: ComponentCreator('/docs', '1b7'),
     routes: [
       {
         path: '/docs/category/hobby',
         component: ComponentCreator('/docs/category/hobby', 'bba'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/independent-code--research',
+        component: ComponentCreator('/docs/category/independent-code--research', '980'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -285,32 +291,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/finechive/aptPoint',
-        component: ComponentCreator('/docs/finechive/aptPoint', 'c75'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/finechive/blog',
         component: ComponentCreator('/docs/finechive/blog', 'd13'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/finechive/code-projects',
-        component: ComponentCreator('/docs/finechive/code-projects', 'dc8'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/finechive/contents',
-        component: ComponentCreator('/docs/finechive/contents', '875'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/finechive/morbios',
-        component: ComponentCreator('/docs/finechive/morbios', 'c34'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -327,20 +309,38 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/finechive/saberstat',
-        component: ComponentCreator('/docs/finechive/saberstat', '928'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/finechive/scripting-shenanigans',
-        component: ComponentCreator('/docs/finechive/scripting-shenanigans', 'd3f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/finechive/tech-config',
         component: ComponentCreator('/docs/finechive/tech-config', '3a4'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/independent/aptPoint',
+        component: ComponentCreator('/docs/independent/aptPoint', 'f29'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/independent/code-projects',
+        component: ComponentCreator('/docs/independent/code-projects', 'c61'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/independent/morbios',
+        component: ComponentCreator('/docs/independent/morbios', 'c88'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/independent/saberstat',
+        component: ComponentCreator('/docs/independent/saberstat', '884'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/independent/scripting-shenanigans',
+        component: ComponentCreator('/docs/independent/scripting-shenanigans', '931'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

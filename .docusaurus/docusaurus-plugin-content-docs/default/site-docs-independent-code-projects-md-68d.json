@@ -1,0 +1,26 @@
+{
+  "unversionedId": "independent/code-projects",
+  "id": "independent/code-projects",
+  "title": "Disclaimer",
+  "description": "About Code Projects listed here vs. listed under the Undergraduate tab or rest of the site.",
+  "source": "@site/docs/independent/code-projects.md",
+  "sourceDirName": "independent",
+  "slug": "/independent/code-projects",
+  "permalink": "/docs/independent/code-projects",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Independent Code & Research",
+    "permalink": "/docs/category/independent-code--research"
+  },
+  "next": {
+    "title": "MorbiOS",
+    "permalink": "/docs/independent/morbios"
+  }
+}

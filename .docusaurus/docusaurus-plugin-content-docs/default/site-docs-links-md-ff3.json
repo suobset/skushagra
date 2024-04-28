@@ -10,14 +10,14 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 8,
   "frontMatter": {
-    "sidebar_position": 6
+    "sidebar_position": 8
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Dermsafe",
-    "permalink": "/docs/undergraduate/dermsafe"
+    "title": "Software Config",
+    "permalink": "/docs/finechive/tech-config"
   },
   "next": {
     "title": "Organizations I Support",

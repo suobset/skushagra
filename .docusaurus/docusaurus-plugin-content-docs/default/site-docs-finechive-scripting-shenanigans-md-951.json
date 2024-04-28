@@ -10,17 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 7,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 7
+    "sidebar_position": 4
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Software Config",
-    "permalink": "/docs/finechive/tech-config"
+    "title": "Finechive Code Projects",
+    "permalink": "/docs/finechive/code-projects"
   },
   "next": {
-    "title": "SaberStat",
-    "permalink": "/docs/finechive/saberstat"
+    "title": "Photography",
+    "permalink": "/docs/finechive/photography"
   }
 }

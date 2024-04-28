@@ -634,7 +634,7 @@
     },
     "content": "content---source-72-d-6e0"
   },
-  "/docs-c56": {
+  "/docs-1b7": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-4-bf-9bb"
@@ -645,6 +645,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-hobbyb-97-b60"
   },
+  "/docs/category/independent-code--research-980": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-independent-code-research-789-97c"
+  },
   "/docs/category/undergraduate-def": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-undergraduatea-05-cde"
@@ -653,25 +657,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-experience-9-dc-187"
   },
-  "/docs/finechive/aptPoint-c75": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-finechive-apt-point-29-a-540"
-  },
   "/docs/finechive/blog-d13": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-finechive-blog-7-e-2-228"
-  },
-  "/docs/finechive/code-projects-dc8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-finechive-code-projects-2-f-0-d9b"
-  },
-  "/docs/finechive/contents-875": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-finechive-contentsae-1-66f"
-  },
-  "/docs/finechive/morbios-c34": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-finechive-morbiosf-56-b3a"
   },
   "/docs/finechive/photography-d13": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -681,17 +669,29 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-finechive-prefacea-7-e-ad7"
   },
-  "/docs/finechive/saberstat-928": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-finechive-saberstat-5-b-2-2e9"
-  },
-  "/docs/finechive/scripting-shenanigans-d3f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-finechive-scripting-shenanigans-951-8e6"
-  },
   "/docs/finechive/tech-config-3a4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-finechive-tech-config-0-fd-1fa"
+  },
+  "/docs/independent/aptPoint-f29": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-independent-apt-point-964-c44"
+  },
+  "/docs/independent/code-projects-c61": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-independent-code-projects-68-d-51a"
+  },
+  "/docs/independent/morbios-c88": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-independent-morbios-505-0aa"
+  },
+  "/docs/independent/saberstat-884": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-independent-saberstat-2-fc-f07"
+  },
+  "/docs/independent/scripting-shenanigans-931": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-independent-scripting-shenanigansca-5-fe5"
   },
   "/docs/intro-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",

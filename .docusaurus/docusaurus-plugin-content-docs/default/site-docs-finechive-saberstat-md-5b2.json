@@ -10,17 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 8,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 8
+    "sidebar_position": 3
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Scripting Shenanigans",
-    "permalink": "/docs/finechive/scripting-shenanigans"
+    "title": "Fineletters.",
+    "permalink": "/docs/finechive/blog"
   },
   "next": {
-    "title": "MorbiOS",
-    "permalink": "/docs/finechive/morbios"
+    "title": "Finechive Code Projects",
+    "permalink": "/docs/finechive/code-projects"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "title": "Independent",
+  "description": "Independent Code and Research Projects, not affiliated with any Institution or Work Experience. Mainly code, for now.",
+  "slug": "/category/independent",
+  "permalink": "/docs/category/independent",
+  "navigation": {
+    "previous": {
+      "title": "Dermsafe",
+      "permalink": "/docs/undergraduate/dermsafe"
+    },
+    "next": {
+      "title": "Disclaimer",
+      "permalink": "/docs/independent/code-projects"
+    }
+  }
+}

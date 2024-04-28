@@ -1,0 +1,26 @@
+{
+  "unversionedId": "independent/morbios",
+  "id": "independent/morbios",
+  "title": "MorbiOS",
+  "description": "A completely built-from-scratch Operating System, in collaboration with @anvitha305. More details here soon.",
+  "source": "@site/docs/independent/morbios.md",
+  "sourceDirName": "independent",
+  "slug": "/independent/morbios",
+  "permalink": "/docs/independent/morbios",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Disclaimer",
+    "permalink": "/docs/independent/code-projects"
+  },
+  "next": {
+    "title": "Scripting Shenanigans",
+    "permalink": "/docs/independent/scripting-shenanigans"
+  }
+}

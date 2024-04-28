@@ -10,17 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 3
+    "sidebar_position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Table of Contents",
-    "permalink": "/docs/finechive/contents"
+    "title": "Preface",
+    "permalink": "/docs/finechive/preface"
   },
   "next": {
-    "title": "Finechive Code Projects",
-    "permalink": "/docs/finechive/code-projects"
+    "title": "Photography",
+    "permalink": "/docs/finechive/photography"
   }
 }

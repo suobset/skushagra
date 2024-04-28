@@ -44,28 +44,6 @@
               }
             },
             {
-              "unversionedId": "finechive/aptPoint",
-              "id": "finechive/aptPoint",
-              "title": "Apartment Pointer",
-              "description": "Quick Web App built to pinpoint multiple locations on a given map, created mainly to make apartment hunting easier for myself.",
-              "source": "@site/docs/finechive/aptPoint.md",
-              "sourceDirName": "finechive",
-              "slug": "/finechive/aptPoint",
-              "permalink": "/docs/finechive/aptPoint",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 10,
-              "frontMatter": {
-                "sidebar_position": 10
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "MorbiOS",
-                "permalink": "/docs/finechive/morbios"
-              }
-            },
-            {
               "unversionedId": "finechive/blog",
               "id": "finechive/blog",
               "title": "Fineletters.",
@@ -74,58 +52,6 @@
               "sourceDirName": "finechive",
               "slug": "/finechive/blog",
               "permalink": "/docs/finechive/blog",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Table of Contents",
-                "permalink": "/docs/finechive/contents"
-              },
-              "next": {
-                "title": "Finechive Code Projects",
-                "permalink": "/docs/finechive/code-projects"
-              }
-            },
-            {
-              "unversionedId": "finechive/code-projects",
-              "id": "finechive/code-projects",
-              "title": "Finechive Code Projects",
-              "description": "About Code Projects listed here vs. listed under the Undergraduate tab or rest of the site.",
-              "source": "@site/docs/finechive/code-projects.md",
-              "sourceDirName": "finechive",
-              "slug": "/finechive/code-projects",
-              "permalink": "/docs/finechive/code-projects",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Fineletters.",
-                "permalink": "/docs/finechive/blog"
-              },
-              "next": {
-                "title": "Photography",
-                "permalink": "/docs/finechive/photography"
-              }
-            },
-            {
-              "unversionedId": "finechive/contents",
-              "id": "finechive/contents",
-              "title": "Table of Contents",
-              "description": "Since this is a wiki inside of a wiki, I felt that it would be a nice to maintain a table of contents, such that everything can be organized into relevant subheadings.",
-              "source": "@site/docs/finechive/contents.md",
-              "sourceDirName": "finechive",
-              "slug": "/finechive/contents",
-              "permalink": "/docs/finechive/contents",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -139,34 +65,8 @@
                 "permalink": "/docs/finechive/preface"
               },
               "next": {
-                "title": "Fineletters.",
-                "permalink": "/docs/finechive/blog"
-              }
-            },
-            {
-              "unversionedId": "finechive/morbios",
-              "id": "finechive/morbios",
-              "title": "MorbiOS",
-              "description": "A completely built-from-scratch Operating System, in collaboration with @anvitha305. More details here soon.",
-              "source": "@site/docs/finechive/morbios.md",
-              "sourceDirName": "finechive",
-              "slug": "/finechive/morbios",
-              "permalink": "/docs/finechive/morbios",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 9,
-              "frontMatter": {
-                "sidebar_position": 9
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "SaberStat",
-                "permalink": "/docs/finechive/saberstat"
-              },
-              "next": {
-                "title": "Apartment Pointer",
-                "permalink": "/docs/finechive/aptPoint"
+                "title": "Photography",
+                "permalink": "/docs/finechive/photography"
               }
             },
             {
@@ -181,14 +81,14 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 5
+                "sidebar_position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Finechive Code Projects",
-                "permalink": "/docs/finechive/code-projects"
+                "title": "Fineletters.",
+                "permalink": "/docs/finechive/blog"
               },
               "next": {
                 "title": "Software Config",
@@ -217,60 +117,8 @@
                 "permalink": "/docs/category/hobby"
               },
               "next": {
-                "title": "Table of Contents",
-                "permalink": "/docs/finechive/contents"
-              }
-            },
-            {
-              "unversionedId": "finechive/saberstat",
-              "id": "finechive/saberstat",
-              "title": "SaberStat",
-              "description": "Frank and I at Worcester Dining, UMass Amherst",
-              "source": "@site/docs/finechive/saberstat.md",
-              "sourceDirName": "finechive",
-              "slug": "/finechive/saberstat",
-              "permalink": "/docs/finechive/saberstat",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 8,
-              "frontMatter": {
-                "sidebar_position": 8
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Scripting Shenanigans",
-                "permalink": "/docs/finechive/scripting-shenanigans"
-              },
-              "next": {
-                "title": "MorbiOS",
-                "permalink": "/docs/finechive/morbios"
-              }
-            },
-            {
-              "unversionedId": "finechive/scripting-shenanigans",
-              "id": "finechive/scripting-shenanigans",
-              "title": "Scripting Shenanigans",
-              "description": "My favourite scripting language is Python, only because how simple, yet powerful the whole thing is. From creating ML scripts, Data Visualizations, Native Programs...to creating a GNU GDB helper to trace x86 Assembly, change OS files, or just break your system...Python is flexible enough to go from Bash Scripting paradigms to full-blown programming language.",
-              "source": "@site/docs/finechive/scripting-shenanigans.md",
-              "sourceDirName": "finechive",
-              "slug": "/finechive/scripting-shenanigans",
-              "permalink": "/docs/finechive/scripting-shenanigans",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {
-                "sidebar_position": 7
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Software Config",
-                "permalink": "/docs/finechive/tech-config"
-              },
-              "next": {
-                "title": "SaberStat",
-                "permalink": "/docs/finechive/saberstat"
+                "title": "Fineletters.",
+                "permalink": "/docs/finechive/blog"
               }
             },
             {
@@ -285,9 +133,9 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 6,
+              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_position": 6
+                "sidebar_position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -295,8 +143,138 @@
                 "permalink": "/docs/finechive/photography"
               },
               "next": {
+                "title": "Links",
+                "permalink": "/docs/links"
+              }
+            },
+            {
+              "unversionedId": "independent/aptPoint",
+              "id": "independent/aptPoint",
+              "title": "Apartment Pointer",
+              "description": "Quick Web App built to pinpoint multiple locations on a given map, created mainly to make apartment hunting easier for myself.",
+              "source": "@site/docs/independent/aptPoint.md",
+              "sourceDirName": "independent",
+              "slug": "/independent/aptPoint",
+              "permalink": "/docs/independent/aptPoint",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "SaberStat",
+                "permalink": "/docs/independent/saberstat"
+              },
+              "next": {
+                "title": "Hobby.",
+                "permalink": "/docs/category/hobby"
+              }
+            },
+            {
+              "unversionedId": "independent/code-projects",
+              "id": "independent/code-projects",
+              "title": "Disclaimer",
+              "description": "About Code Projects listed here vs. listed under the Undergraduate tab or rest of the site.",
+              "source": "@site/docs/independent/code-projects.md",
+              "sourceDirName": "independent",
+              "slug": "/independent/code-projects",
+              "permalink": "/docs/independent/code-projects",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Independent Code & Research",
+                "permalink": "/docs/category/independent-code--research"
+              },
+              "next": {
+                "title": "MorbiOS",
+                "permalink": "/docs/independent/morbios"
+              }
+            },
+            {
+              "unversionedId": "independent/morbios",
+              "id": "independent/morbios",
+              "title": "MorbiOS",
+              "description": "A completely built-from-scratch Operating System, in collaboration with @anvitha305. More details here soon.",
+              "source": "@site/docs/independent/morbios.md",
+              "sourceDirName": "independent",
+              "slug": "/independent/morbios",
+              "permalink": "/docs/independent/morbios",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Disclaimer",
+                "permalink": "/docs/independent/code-projects"
+              },
+              "next": {
                 "title": "Scripting Shenanigans",
-                "permalink": "/docs/finechive/scripting-shenanigans"
+                "permalink": "/docs/independent/scripting-shenanigans"
+              }
+            },
+            {
+              "unversionedId": "independent/saberstat",
+              "id": "independent/saberstat",
+              "title": "SaberStat",
+              "description": "Frank and I at Worcester Dining, UMass Amherst",
+              "source": "@site/docs/independent/saberstat.md",
+              "sourceDirName": "independent",
+              "slug": "/independent/saberstat",
+              "permalink": "/docs/independent/saberstat",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Scripting Shenanigans",
+                "permalink": "/docs/independent/scripting-shenanigans"
+              },
+              "next": {
+                "title": "Apartment Pointer",
+                "permalink": "/docs/independent/aptPoint"
+              }
+            },
+            {
+              "unversionedId": "independent/scripting-shenanigans",
+              "id": "independent/scripting-shenanigans",
+              "title": "Scripting Shenanigans",
+              "description": "My favourite scripting language is Python, only because how simple, yet powerful the whole thing is. From creating ML scripts, Data Visualizations, Native Programs...to creating a GNU GDB helper to trace x86 Assembly, change OS files, or just break your system...Python is flexible enough to go from Bash Scripting paradigms to full-blown programming language.",
+              "source": "@site/docs/independent/scripting-shenanigans.md",
+              "sourceDirName": "independent",
+              "slug": "/independent/scripting-shenanigans",
+              "permalink": "/docs/independent/scripting-shenanigans",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MorbiOS",
+                "permalink": "/docs/independent/morbios"
+              },
+              "next": {
+                "title": "SaberStat",
+                "permalink": "/docs/independent/saberstat"
               }
             },
             {
@@ -333,14 +311,14 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 6,
+              "sidebarPosition": 8,
               "frontMatter": {
-                "sidebar_position": 6
+                "sidebar_position": 8
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Dermsafe",
-                "permalink": "/docs/undergraduate/dermsafe"
+                "title": "Software Config",
+                "permalink": "/docs/finechive/tech-config"
               },
               "next": {
                 "title": "Organizations I Support",
@@ -385,18 +363,14 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 7,
+              "sidebarPosition": 9,
               "frontMatter": {
-                "sidebar_position": 7
+                "sidebar_position": 9
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Links",
                 "permalink": "/docs/links"
-              },
-              "next": {
-                "title": "Hobby.",
-                "permalink": "/docs/category/hobby"
               }
             },
             {
@@ -551,8 +525,8 @@
                 "permalink": "/docs/undergraduate/hydrogenBatteries"
               },
               "next": {
-                "title": "Links",
-                "permalink": "/docs/links"
+                "title": "Independent Code & Research",
+                "permalink": "/docs/category/independent-code--research"
               }
             },
             {
@@ -940,12 +914,38 @@
                 }
               },
               {
-                "type": "doc",
-                "id": "links"
-              },
-              {
-                "type": "doc",
-                "id": "orgs"
+                "type": "category",
+                "label": "Independent Code & Research",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "independent/code-projects"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "independent/morbios"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "independent/scripting-shenanigans"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "independent/saberstat"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "independent/aptPoint"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Independent Code and Research Projects, not affiliated with any Institution or Work Experience. Mainly code, for now.",
+                  "slug": "/category/independent-code--research",
+                  "permalink": "/docs/category/independent-code--research"
+                }
               },
               {
                 "type": "category",
@@ -959,15 +959,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "finechive/contents"
-                  },
-                  {
-                    "type": "doc",
                     "id": "finechive/blog"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "finechive/code-projects"
                   },
                   {
                     "type": "doc",
@@ -976,22 +968,6 @@
                   {
                     "type": "doc",
                     "id": "finechive/tech-config"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "finechive/scripting-shenanigans"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "finechive/saberstat"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "finechive/morbios"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "finechive/aptPoint"
                   }
                 ],
                 "link": {
@@ -1000,6 +976,14 @@
                   "slug": "/category/hobby",
                   "permalink": "/docs/category/hobby"
                 }
+              },
+              {
+                "type": "doc",
+                "id": "links"
+              },
+              {
+                "type": "doc",
+                "id": "orgs"
               }
             ]
           }

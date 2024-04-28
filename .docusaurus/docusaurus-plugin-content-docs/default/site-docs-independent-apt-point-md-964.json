@@ -1,0 +1,26 @@
+{
+  "unversionedId": "independent/aptPoint",
+  "id": "independent/aptPoint",
+  "title": "Apartment Pointer",
+  "description": "Quick Web App built to pinpoint multiple locations on a given map, created mainly to make apartment hunting easier for myself.",
+  "source": "@site/docs/independent/aptPoint.md",
+  "sourceDirName": "independent",
+  "slug": "/independent/aptPoint",
+  "permalink": "/docs/independent/aptPoint",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SaberStat",
+    "permalink": "/docs/independent/saberstat"
+  },
+  "next": {
+    "title": "Hobby.",
+    "permalink": "/docs/category/hobby"
+  }
+}

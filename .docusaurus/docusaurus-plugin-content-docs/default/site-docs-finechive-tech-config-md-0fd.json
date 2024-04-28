@@ -10,9 +10,9 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 6
+    "sidebar_position": 4
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -20,7 +20,7 @@
     "permalink": "/docs/finechive/photography"
   },
   "next": {
-    "title": "Scripting Shenanigans",
-    "permalink": "/docs/finechive/scripting-shenanigans"
+    "title": "Links",
+    "permalink": "/docs/links"
   }
 }

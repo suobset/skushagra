@@ -116,8 +116,8 @@ export default {
               "to": "/docs/finechive/photography"
             },
             {
-              "label": "Code (Hobby)",
-              "to": "/docs/finechive/code-projects"
+              "label": "Independent Code",
+              "to": "/docs/category/independent-code--research"
             },
             {
               "label": "Don't Panic",
