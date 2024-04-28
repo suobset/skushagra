@@ -14,7 +14,7 @@ Sometimes, I do have to resort to some proprietary software. In that case, I eit
 
 I do low level systems stuff mainly. I am highly familiar with GNU CoreUtils, and the GDB debugger. I love Valgrind as well, the stack traces and memory visualizations are honestly a godsend. I mainly use C++, though am opening up to RUST as well.
 
-As mentioned in [Scriting Shenanigans](./scripting-shenanigans), Python is my go to for any scripts or hobby programs. I have also programmed in R, MATLAB, Haskell, Java, Swift, and Kotlin (professionally and hobby).
+As mentioned in [Scriting Shenanigans](/docs/independent/scripting-shenanigans), Python is my go to for any scripts or hobby programs. I have also programmed in R, MATLAB, Haskell, Java, Swift, and Kotlin (professionally and hobby).
 
 I love Bash Scripting and Vim Scripting for my own tinkering purposes. For my honors thesis, I have also worked on a lot of x86 Assembly directly (including writing, debugging, and converting). I have become pretty comfortable with these low-level languages, though I do learn something new everyday. 
 
