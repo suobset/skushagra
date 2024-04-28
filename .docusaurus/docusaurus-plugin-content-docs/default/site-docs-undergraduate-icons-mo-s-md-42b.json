@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/iconsMoS",
+  "id": "undergraduate/iconsMoS",
+  "title": "Boston T Accessibility",
+  "description": "GIS Map",
+  "source": "@site/docs/undergraduate/iconsMoS.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/iconsMoS",
+  "permalink": "/docs/undergraduate/iconsMoS",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CS H311",
+    "permalink": "/docs/undergraduate/h311"
+  },
+  "next": {
+    "title": "Tilting-ball game",
+    "permalink": "/docs/undergraduate/tiltingBall"
+  }
+}

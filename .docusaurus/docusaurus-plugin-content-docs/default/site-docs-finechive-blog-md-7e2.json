@@ -10,14 +10,14 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 3
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Now",
-    "permalink": "/docs/finechive/now"
+    "title": "Table of Contents",
+    "permalink": "/docs/finechive/contents"
   },
   "next": {
     "title": "Finechive Code Projects",

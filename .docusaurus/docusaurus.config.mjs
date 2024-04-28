@@ -63,8 +63,8 @@ export default {
           "position": "left"
         },
         {
-          "to": "/docs/category/research",
-          "label": "Research & Ongoing",
+          "to": "/docs/ongoing",
+          "label": "Ongoing",
           "position": "left"
         },
         {
@@ -91,33 +91,21 @@ export default {
               "to": "/docs/intro"
             },
             {
-              "label": "Ongoing Projects",
-              "to": "/docs/research/ongoing"
+              "label": "Ongoing",
+              "to": "/docs/ongoing"
             },
             {
-              "label": "iCons Research",
-              "to": "/docs/research/iCons"
-            },
-            {
-              "label": "Manning CICS Projects",
-              "to": "/docs/research/CICS"
-            },
-            {
-              "label": "Other Programming Projects",
-              "to": "/docs/research/projects"
+              "label": "Undergraduate Work",
+              "to": "/docs/category/undergraduate"
             }
           ]
         },
         {
-          "title": "Creative + Hobby",
+          "title": "Creative",
           "items": [
             {
-              "label": "Finechive",
-              "to": "/docs/category/the-finechive"
-            },
-            {
-              "label": "Fineletters",
-              "to": "/blog"
+              "label": "Hobby Projects",
+              "to": "/docs/category/hobby"
             },
             {
               "label": "Photography & Digital Art",
@@ -146,10 +134,6 @@ export default {
             },
             {
               "html": "<a href=\"https://orcid.org/0000-0003-0656-5478\" style=\"color: #FFFFFF;\">\n\t\t\t\tKush S. ORCiD\n              \t<img alt=\"ORCID logo\" src=\"https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png\" width=\"16\" height=\"16\" />\n              \t</a>"
-            },
-            {
-              "label": "Threads",
-              "href": "https://threads.net/@suobset"
             },
             {
               "label": "Everything Else",

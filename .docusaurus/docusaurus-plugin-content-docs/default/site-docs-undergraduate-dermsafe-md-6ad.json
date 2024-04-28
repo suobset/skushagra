@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/dermsafe",
+  "id": "undergraduate/dermsafe",
+  "title": "Dermsafe",
+  "description": "Fall 2020: HackUMass VIII Project, linked here.",
+  "source": "@site/docs/undergraduate/dermsafe.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/dermsafe",
+  "permalink": "/docs/undergraduate/dermsafe",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hydrogen Battery Efficiency Viewer",
+    "permalink": "/docs/undergraduate/hydrogenBatteries"
+  },
+  "next": {
+    "title": "Links",
+    "permalink": "/docs/links"
+  }
+}

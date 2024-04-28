@@ -1,0 +1,26 @@
+{
+  "unversionedId": "ongoing",
+  "id": "ongoing",
+  "title": "Ongoing",
+  "description": "This page holds all my ongoing projects and endeavours. Primarily, the heirarchy will be divided into different institutions of affiliation, in no particular order. This will be the forever evolving page, and projects that are over will be placed in their respective pages (or new pages will be created) in the sidebar.",
+  "source": "@site/docs/ongoing.md",
+  "sourceDirName": ".",
+  "slug": "/ongoing",
+  "permalink": "/docs/ongoing",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resume",
+    "permalink": "/docs/resume"
+  },
+  "next": {
+    "title": "Undergraduate",
+    "permalink": "/docs/category/undergraduate"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/assert",
+  "id": "undergraduate/assert",
+  "title": "ASSERT",
+  "description": "Assert Home",
+  "source": "@site/docs/undergraduate/assert.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/assert",
+  "permalink": "/docs/undergraduate/assert",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "tra86: CICS Honors Thesis",
+    "permalink": "/docs/undergraduate/tra86"
+  },
+  "next": {
+    "title": "Five-College Datafest",
+    "permalink": "/docs/undergraduate/datafest"
+  }
+}

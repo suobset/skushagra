@@ -77,7 +77,7 @@ const config = {
             label: 'About Me',
           },
           {to: '/docs/resume', label: 'Resume', position: 'left'},
-          {to: '/docs/category/research', label: 'Research & Ongoing', position: 'left'},
+          {to: '/docs/ongoing', label: 'Ongoing', position: 'left'},
           {
             href: 'mailto:ksrivastava@umass.edu',
             label: 'Contact',
@@ -97,33 +97,21 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Ongoing Projects',
-                to: '/docs/research/ongoing',
+                label: 'Ongoing',
+                to: '/docs/ongoing',
               },
               {
-                label: 'iCons Research',
-                to: '/docs/research/iCons',
-              },
-              {
-                label: 'Manning CICS Projects',
-                to: '/docs/research/CICS',
-              },
-              {
-                label: 'Other Programming Projects',
-                to: '/docs/research/projects',
+                label: 'Undergraduate Work',
+                to: '/docs/category/undergraduate',
               },
             ],           
           },
           {
-            title: 'Creative + Hobby',
+            title: 'Creative',
             items: [
               {
-                label: 'Finechive',
-                to: '/docs/category/the-finechive',
-              },
-              {
-                label: 'Fineletters',
-                to: '/blog',
+                label: 'Hobby Projects',
+                to: '/docs/category/hobby',
               },
               {
                 label: 'Photography & Digital Art',
@@ -155,10 +143,6 @@ const config = {
 				Kush S. ORCiD
               	<img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
               	</a>`,
-              },
-              {
-		            label: 'Threads',
-		            href: 'https://threads.net/@suobset',
               },
               {
 		            label: 'Everything Else',

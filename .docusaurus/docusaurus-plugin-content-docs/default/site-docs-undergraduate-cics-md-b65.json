@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/CICS",
+  "id": "undergraduate/CICS",
+  "title": "Manning CICS",
+  "description": "CICS Academic Projects Repository, done for a specific class.",
+  "source": "@site/docs/undergraduate/CICS.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/CICS",
+  "permalink": "/docs/undergraduate/CICS",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "iCons",
+    "permalink": "/docs/undergraduate/icons"
+  },
+  "next": {
+    "title": "CICS Competitions and Other Projects",
+    "permalink": "/docs/undergraduate/projects"
+  }
+}

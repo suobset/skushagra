@@ -10,14 +10,14 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 5,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 5
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Ongoing",
-    "permalink": "/docs/research/ongoing"
+    "title": "Dermsafe",
+    "permalink": "/docs/undergraduate/dermsafe"
   },
   "next": {
     "title": "Organizations I Support",

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/datafest",
+  "id": "undergraduate/datafest",
+  "title": "Five-College Datafest",
+  "description": "Ceremony",
+  "source": "@site/docs/undergraduate/datafest.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/datafest",
+  "permalink": "/docs/undergraduate/datafest",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ASSERT",
+    "permalink": "/docs/undergraduate/assert"
+  },
+  "next": {
+    "title": "The Cost of Control",
+    "permalink": "/docs/undergraduate/costOfControl"
+  }
+}

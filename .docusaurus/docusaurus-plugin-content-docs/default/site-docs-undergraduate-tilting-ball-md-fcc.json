@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/tiltingBall",
+  "id": "undergraduate/tiltingBall",
+  "title": "Tilting-ball game",
+  "description": "CICS 256 final project in collaboration with Lyle Kottke, linked here. A Google Sites website also has details on the functioning of this game (made with Arduino, a 16*16 LED Matrix, and an acclerometer). This project was done under Prof. Donghyun Kim.",
+  "source": "@site/docs/undergraduate/tiltingBall.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/tiltingBall",
+  "permalink": "/docs/undergraduate/tiltingBall",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Boston T Accessibility",
+    "permalink": "/docs/undergraduate/iconsMoS"
+  },
+  "next": {
+    "title": "Flow Batteries Interactive",
+    "permalink": "/docs/undergraduate/flowBatteries"
+  }
+}

@@ -10,9 +10,9 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 6,
   "frontMatter": {
-    "sidebar_position": 5
+    "sidebar_position": 6
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -20,7 +20,7 @@
     "permalink": "/docs/links"
   },
   "next": {
-    "title": "the finechive.",
-    "permalink": "/docs/category/the-finechive"
+    "title": "Hobby.",
+    "permalink": "/docs/category/hobby"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/modxv6",
+  "id": "undergraduate/modxv6",
+  "title": "Modified xv6",
+  "description": "Modified and tinkered xv6 with Prof. Tim Richards and the class for the honors colloquium of 377: Operating Systems.",
+  "source": "@site/docs/undergraduate/modxv6.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/modxv6",
+  "permalink": "/docs/undergraduate/modxv6",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MeetU",
+    "permalink": "/docs/undergraduate/meetu"
+  },
+  "next": {
+    "title": "CS H311",
+    "permalink": "/docs/undergraduate/h311"
+  }
+}

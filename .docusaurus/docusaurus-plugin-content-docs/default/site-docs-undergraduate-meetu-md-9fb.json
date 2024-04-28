@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/meetu",
+  "id": "undergraduate/meetu",
+  "title": "MeetU",
+  "description": "Scheduling app made by Nhi Ha, James Leone, Yuni Jeong, and I: linked here. Essentially a better version of When2Meet, with more features and better collaboration tools. Made for CS 326 in Manning CICS.",
+  "source": "@site/docs/undergraduate/meetu.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/meetu",
+  "permalink": "/docs/undergraduate/meetu",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Cost of Control",
+    "permalink": "/docs/undergraduate/costOfControl"
+  },
+  "next": {
+    "title": "Modified xv6",
+    "permalink": "/docs/undergraduate/modxv6"
+  }
+}

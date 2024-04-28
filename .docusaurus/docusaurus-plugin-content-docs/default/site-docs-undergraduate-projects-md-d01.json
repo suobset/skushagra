@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/projects",
+  "id": "undergraduate/projects",
+  "title": "CICS Competitions and Other Projects",
+  "description": "CICS Competitions & Other non-academic (but still for CICS) projects.",
+  "source": "@site/docs/undergraduate/projects.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/projects",
+  "permalink": "/docs/undergraduate/projects",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manning CICS",
+    "permalink": "/docs/undergraduate/CICS"
+  },
+  "next": {
+    "title": "tra86: CICS Honors Thesis",
+    "permalink": "/docs/undergraduate/tra86"
+  }
+}

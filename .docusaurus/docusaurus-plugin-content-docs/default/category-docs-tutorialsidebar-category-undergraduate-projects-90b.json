@@ -1,0 +1,16 @@
+{
+  "title": "Undergraduate Projects",
+  "description": "A central repository containing all my research projects. They are also listed in my ORCiD and LinkedIn, albeit probably not as comprehensive as this.",
+  "slug": "/category/undergraduate-projects",
+  "permalink": "/docs/category/undergraduate-projects",
+  "navigation": {
+    "previous": {
+      "title": "Resume",
+      "permalink": "/docs/resume"
+    },
+    "next": {
+      "title": "iCons",
+      "permalink": "/docs/research/icons"
+    }
+  }
+}

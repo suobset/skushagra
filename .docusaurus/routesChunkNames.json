@@ -634,20 +634,20 @@
     },
     "content": "content---source-72-d-6e0"
   },
-  "/docs-7b3": {
+  "/docs-e46": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-4-bf-9bb"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/docs/category/research-60f": {
+  "/docs/category/hobby-bba": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-research-3-b-4-844"
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-hobbyb-97-b60"
   },
-  "/docs/category/the-finechive-a52": {
+  "/docs/category/undergraduate-def": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-the-finechiveeda-b6c"
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-undergraduatea-05-cde"
   },
   "/docs/finechive/aptPoint-c75": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -668,10 +668,6 @@
   "/docs/finechive/morbios-c34": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-finechive-morbiosf-56-b3a"
-  },
-  "/docs/finechive/now-93d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-finechive-now-812-357"
   },
   "/docs/finechive/photography-d13": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -701,29 +697,81 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-linksff-3-cac"
   },
+  "/docs/ongoing-72a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-ongoingda-9-6e1"
+  },
   "/docs/orgs-9df": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-orgs-49-b-07d"
   },
-  "/docs/research/CICS-7ab": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-research-cics-362-53e"
-  },
-  "/docs/research/icons-518": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-research-iconsc-48-c1f"
-  },
-  "/docs/research/ongoing-cc0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-research-ongoing-97-d-99e"
-  },
-  "/docs/research/projects-0ed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-research-projects-248-226"
-  },
   "/docs/resume-cbf": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-resume-62-f-721"
+  },
+  "/docs/undergraduate/assert-b1e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-asserta-85-93f"
+  },
+  "/docs/undergraduate/CICS-a7d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-cic-sb-65-838"
+  },
+  "/docs/undergraduate/costOfControl-d15": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-cost-of-controla-18-ff9"
+  },
+  "/docs/undergraduate/datafest-7ae": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-datafesta-60-e07"
+  },
+  "/docs/undergraduate/dermsafe-322": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-dermsafe-6-ad-09b"
+  },
+  "/docs/undergraduate/flowBatteries-948": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-flow-batteriesdc-0-2e3"
+  },
+  "/docs/undergraduate/h311-863": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-h-311883-519"
+  },
+  "/docs/undergraduate/hydrogenBatteries-977": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-hydrogen-batteriese-63-f9b"
+  },
+  "/docs/undergraduate/icons-8bb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-icons-588-430"
+  },
+  "/docs/undergraduate/iconsMoS-84d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-icons-mo-s-42-b-01a"
+  },
+  "/docs/undergraduate/meetu-3e1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-meetu-9-fb-749"
+  },
+  "/docs/undergraduate/modxv6-14b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-modxv-6223-d8e"
+  },
+  "/docs/undergraduate/moodmusic-b52": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-moodmusic-51-f-7c4"
+  },
+  "/docs/undergraduate/projects-580": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-projectsd-01-513"
+  },
+  "/docs/undergraduate/tiltingBall-cf9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-tilting-ballfcc-fa7"
+  },
+  "/docs/undergraduate/tra86-863": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-undergraduate-tra-86-f-55-06e"
   },
   "/-2c4": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

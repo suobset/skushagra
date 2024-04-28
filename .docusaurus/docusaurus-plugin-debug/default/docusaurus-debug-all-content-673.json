@@ -29,9 +29,9 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 11,
+              "sidebarPosition": 10,
               "frontMatter": {
-                "sidebar_position": 11
+                "sidebar_position": 10
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -51,14 +51,14 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 4
+                "sidebar_position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Now",
-                "permalink": "/docs/finechive/now"
+                "title": "Table of Contents",
+                "permalink": "/docs/finechive/contents"
               },
               "next": {
                 "title": "Finechive Code Projects",
@@ -77,9 +77,9 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_position": 5
+                "sidebar_position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -113,8 +113,8 @@
                 "permalink": "/docs/finechive/preface"
               },
               "next": {
-                "title": "Now",
-                "permalink": "/docs/finechive/now"
+                "title": "Fineletters.",
+                "permalink": "/docs/finechive/blog"
               }
             },
             {
@@ -129,9 +129,9 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 10,
+              "sidebarPosition": 9,
               "frontMatter": {
-                "sidebar_position": 10
+                "sidebar_position": 9
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -141,32 +141,6 @@
               "next": {
                 "title": "Apartment Pointer",
                 "permalink": "/docs/finechive/aptPoint"
-              }
-            },
-            {
-              "unversionedId": "finechive/now",
-              "id": "finechive/now",
-              "title": "Now",
-              "description": "A space to jot down what I am up to currently. Think of it as a mini-journal/todo notes space :)",
-              "source": "@site/docs/finechive/now.md",
-              "sourceDirName": "finechive",
-              "slug": "/finechive/now",
-              "permalink": "/docs/finechive/now",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Table of Contents",
-                "permalink": "/docs/finechive/contents"
-              },
-              "next": {
-                "title": "Fineletters.",
-                "permalink": "/docs/finechive/blog"
               }
             },
             {
@@ -181,9 +155,9 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 6,
+              "sidebarPosition": 5,
               "frontMatter": {
-                "sidebar_position": 6
+                "sidebar_position": 5
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -213,8 +187,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "the finechive.",
-                "permalink": "/docs/category/the-finechive"
+                "title": "Hobby.",
+                "permalink": "/docs/category/hobby"
               },
               "next": {
                 "title": "Table of Contents",
@@ -233,9 +207,9 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 9,
+              "sidebarPosition": 8,
               "frontMatter": {
-                "sidebar_position": 9
+                "sidebar_position": 8
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -259,9 +233,9 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 8,
+              "sidebarPosition": 7,
               "frontMatter": {
-                "sidebar_position": 8
+                "sidebar_position": 7
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -285,9 +259,9 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 7,
+              "sidebarPosition": 6,
               "frontMatter": {
-                "sidebar_position": 7
+                "sidebar_position": 6
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -333,18 +307,44 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 5,
               "frontMatter": {
-                "sidebar_position": 4
+                "sidebar_position": 5
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Ongoing",
-                "permalink": "/docs/research/ongoing"
+                "title": "Dermsafe",
+                "permalink": "/docs/undergraduate/dermsafe"
               },
               "next": {
                 "title": "Organizations I Support",
                 "permalink": "/docs/orgs"
+              }
+            },
+            {
+              "unversionedId": "ongoing",
+              "id": "ongoing",
+              "title": "Ongoing",
+              "description": "This page holds all my ongoing projects and endeavours. Primarily, the heirarchy will be divided into different institutions of affiliation, in no particular order. This will be the forever evolving page, and projects that are over will be placed in their respective pages (or new pages will be created) in the sidebar.",
+              "source": "@site/docs/ongoing.md",
+              "sourceDirName": ".",
+              "slug": "/ongoing",
+              "permalink": "/docs/ongoing",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Resume",
+                "permalink": "/docs/resume"
+              },
+              "next": {
+                "title": "Undergraduate",
+                "permalink": "/docs/category/undergraduate"
               }
             },
             {
@@ -359,9 +359,9 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 6,
               "frontMatter": {
-                "sidebar_position": 5
+                "sidebar_position": 6
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -369,112 +369,8 @@
                 "permalink": "/docs/links"
               },
               "next": {
-                "title": "the finechive.",
-                "permalink": "/docs/category/the-finechive"
-              }
-            },
-            {
-              "unversionedId": "research/CICS",
-              "id": "research/CICS",
-              "title": "CICS Projects",
-              "description": "This is a repository to hold all my completed projects and/or research work done under UMass CICS. They have been listed in backwards chronological order.",
-              "source": "@site/docs/research/CICS.md",
-              "sourceDirName": "research",
-              "slug": "/research/CICS",
-              "permalink": "/docs/research/CICS",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "iCons",
-                "permalink": "/docs/research/icons"
-              },
-              "next": {
-                "title": "Projects (& Competitions)",
-                "permalink": "/docs/research/projects"
-              }
-            },
-            {
-              "unversionedId": "research/icons",
-              "id": "research/icons",
-              "title": "iCons",
-              "description": "This is a repository to hold all Research Work I have done under the Integrated Concentration in Science (iCons) Program along with the College of Natural Sciences at University of Massachusetts, Amherst.",
-              "source": "@site/docs/research/icons.md",
-              "sourceDirName": "research",
-              "slug": "/research/icons",
-              "permalink": "/docs/research/icons",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Research",
-                "permalink": "/docs/category/research"
-              },
-              "next": {
-                "title": "CICS Projects",
-                "permalink": "/docs/research/CICS"
-              }
-            },
-            {
-              "unversionedId": "research/ongoing",
-              "id": "research/ongoing",
-              "title": "Ongoing",
-              "description": "This page holds all my ongoing projects and endeavours. Primarily, the heirarchy will be divided into different institutions of affiliation, in no particular order. This will be the forever evolving page, and projects that are over will be placed in their respective pages (or new pages will be created) in the sidebar.",
-              "source": "@site/docs/research/ongoing.md",
-              "sourceDirName": "research",
-              "slug": "/research/ongoing",
-              "permalink": "/docs/research/ongoing",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Projects (& Competitions)",
-                "permalink": "/docs/research/projects"
-              },
-              "next": {
-                "title": "Links",
-                "permalink": "/docs/links"
-              }
-            },
-            {
-              "unversionedId": "research/projects",
-              "id": "research/projects",
-              "title": "Projects (& Competitions)",
-              "description": "This is a repository to hold my projects/competitions outside of CICS. However, most of them were still done under or via my CICS affiliation.",
-              "source": "@site/docs/research/projects.md",
-              "sourceDirName": "research",
-              "slug": "/research/projects",
-              "permalink": "/docs/research/projects",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "CICS Projects",
-                "permalink": "/docs/research/CICS"
-              },
-              "next": {
-                "title": "Ongoing",
-                "permalink": "/docs/research/ongoing"
+                "title": "Hobby.",
+                "permalink": "/docs/category/hobby"
               }
             },
             {
@@ -499,8 +395,424 @@
                 "permalink": "/docs/intro"
               },
               "next": {
-                "title": "Research",
-                "permalink": "/docs/category/research"
+                "title": "Ongoing",
+                "permalink": "/docs/ongoing"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/assert",
+              "id": "undergraduate/assert",
+              "title": "ASSERT",
+              "description": "Assert Home",
+              "source": "@site/docs/undergraduate/assert.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/assert",
+              "permalink": "/docs/undergraduate/assert",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "tra86: CICS Honors Thesis",
+                "permalink": "/docs/undergraduate/tra86"
+              },
+              "next": {
+                "title": "Five-College Datafest",
+                "permalink": "/docs/undergraduate/datafest"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/CICS",
+              "id": "undergraduate/CICS",
+              "title": "Manning CICS",
+              "description": "CICS Academic Projects Repository, done for a specific class.",
+              "source": "@site/docs/undergraduate/CICS.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/CICS",
+              "permalink": "/docs/undergraduate/CICS",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "iCons",
+                "permalink": "/docs/undergraduate/icons"
+              },
+              "next": {
+                "title": "CICS Competitions and Other Projects",
+                "permalink": "/docs/undergraduate/projects"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/costOfControl",
+              "id": "undergraduate/costOfControl",
+              "title": "The Cost of Control",
+              "description": "Main Site",
+              "source": "@site/docs/undergraduate/costOfControl.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/costOfControl",
+              "permalink": "/docs/undergraduate/costOfControl",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Five-College Datafest",
+                "permalink": "/docs/undergraduate/datafest"
+              },
+              "next": {
+                "title": "MeetU",
+                "permalink": "/docs/undergraduate/meetu"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/datafest",
+              "id": "undergraduate/datafest",
+              "title": "Five-College Datafest",
+              "description": "Ceremony",
+              "source": "@site/docs/undergraduate/datafest.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/datafest",
+              "permalink": "/docs/undergraduate/datafest",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ASSERT",
+                "permalink": "/docs/undergraduate/assert"
+              },
+              "next": {
+                "title": "The Cost of Control",
+                "permalink": "/docs/undergraduate/costOfControl"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/dermsafe",
+              "id": "undergraduate/dermsafe",
+              "title": "Dermsafe",
+              "description": "Fall 2020: HackUMass VIII Project, linked here.",
+              "source": "@site/docs/undergraduate/dermsafe.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/dermsafe",
+              "permalink": "/docs/undergraduate/dermsafe",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 16,
+              "frontMatter": {
+                "sidebar_position": 16
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Hydrogen Battery Efficiency Viewer",
+                "permalink": "/docs/undergraduate/hydrogenBatteries"
+              },
+              "next": {
+                "title": "Links",
+                "permalink": "/docs/links"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/flowBatteries",
+              "id": "undergraduate/flowBatteries",
+              "title": "Flow Batteries Interactive",
+              "description": "Flow Batteries Interactive Website",
+              "source": "@site/docs/undergraduate/flowBatteries.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/flowBatteries",
+              "permalink": "/docs/undergraduate/flowBatteries",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 13,
+              "frontMatter": {
+                "sidebar_position": 13
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tilting-ball game",
+                "permalink": "/docs/undergraduate/tiltingBall"
+              },
+              "next": {
+                "title": "MoodMusic",
+                "permalink": "/docs/undergraduate/moodmusic"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/h311",
+              "id": "undergraduate/h311",
+              "title": "CS H311",
+              "description": "An in-depth look at the Pettie-Ramachandran Optimal Algorithm to find Minimum Spanning Trees",
+              "source": "@site/docs/undergraduate/h311.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/h311",
+              "permalink": "/docs/undergraduate/h311",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Modified xv6",
+                "permalink": "/docs/undergraduate/modxv6"
+              },
+              "next": {
+                "title": "Boston T Accessibility",
+                "permalink": "/docs/undergraduate/iconsMoS"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/hydrogenBatteries",
+              "id": "undergraduate/hydrogenBatteries",
+              "title": "Hydrogen Battery Efficiency Viewer",
+              "description": "qq",
+              "source": "@site/docs/undergraduate/hydrogenBatteries.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/hydrogenBatteries",
+              "permalink": "/docs/undergraduate/hydrogenBatteries",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 15,
+              "frontMatter": {
+                "sidebar_position": 15
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MoodMusic",
+                "permalink": "/docs/undergraduate/moodmusic"
+              },
+              "next": {
+                "title": "Dermsafe",
+                "permalink": "/docs/undergraduate/dermsafe"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/icons",
+              "id": "undergraduate/icons",
+              "title": "iCons",
+              "description": "All iCons research projects, including digital products.",
+              "source": "@site/docs/undergraduate/icons.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/icons",
+              "permalink": "/docs/undergraduate/icons",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Undergraduate",
+                "permalink": "/docs/category/undergraduate"
+              },
+              "next": {
+                "title": "Manning CICS",
+                "permalink": "/docs/undergraduate/CICS"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/iconsMoS",
+              "id": "undergraduate/iconsMoS",
+              "title": "Boston T Accessibility",
+              "description": "GIS Map",
+              "source": "@site/docs/undergraduate/iconsMoS.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/iconsMoS",
+              "permalink": "/docs/undergraduate/iconsMoS",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CS H311",
+                "permalink": "/docs/undergraduate/h311"
+              },
+              "next": {
+                "title": "Tilting-ball game",
+                "permalink": "/docs/undergraduate/tiltingBall"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/meetu",
+              "id": "undergraduate/meetu",
+              "title": "MeetU",
+              "description": "Scheduling app made by Nhi Ha, James Leone, Yuni Jeong, and I: linked here. Essentially a better version of When2Meet, with more features and better collaboration tools. Made for CS 326 in Manning CICS.",
+              "source": "@site/docs/undergraduate/meetu.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/meetu",
+              "permalink": "/docs/undergraduate/meetu",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "The Cost of Control",
+                "permalink": "/docs/undergraduate/costOfControl"
+              },
+              "next": {
+                "title": "Modified xv6",
+                "permalink": "/docs/undergraduate/modxv6"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/modxv6",
+              "id": "undergraduate/modxv6",
+              "title": "Modified xv6",
+              "description": "Modified and tinkered xv6 with Prof. Tim Richards and the class for the honors colloquium of 377: Operating Systems.",
+              "source": "@site/docs/undergraduate/modxv6.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/modxv6",
+              "permalink": "/docs/undergraduate/modxv6",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MeetU",
+                "permalink": "/docs/undergraduate/meetu"
+              },
+              "next": {
+                "title": "CS H311",
+                "permalink": "/docs/undergraduate/h311"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/moodmusic",
+              "id": "undergraduate/moodmusic",
+              "title": "MoodMusic",
+              "description": "Fall 2021: Web App made by Krishna Kumar, Nhi Ha, and I for HackUMass IX. Linked here.",
+              "source": "@site/docs/undergraduate/moodmusic.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/moodmusic",
+              "permalink": "/docs/undergraduate/moodmusic",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 14,
+              "frontMatter": {
+                "sidebar_position": 14
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Flow Batteries Interactive",
+                "permalink": "/docs/undergraduate/flowBatteries"
+              },
+              "next": {
+                "title": "Hydrogen Battery Efficiency Viewer",
+                "permalink": "/docs/undergraduate/hydrogenBatteries"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/projects",
+              "id": "undergraduate/projects",
+              "title": "CICS Competitions and Other Projects",
+              "description": "CICS Competitions & Other non-academic (but still for CICS) projects.",
+              "source": "@site/docs/undergraduate/projects.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/projects",
+              "permalink": "/docs/undergraduate/projects",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Manning CICS",
+                "permalink": "/docs/undergraduate/CICS"
+              },
+              "next": {
+                "title": "tra86: CICS Honors Thesis",
+                "permalink": "/docs/undergraduate/tra86"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/tiltingBall",
+              "id": "undergraduate/tiltingBall",
+              "title": "Tilting-ball game",
+              "description": "CICS 256 final project in collaboration with Lyle Kottke, linked here. A Google Sites website also has details on the functioning of this game (made with Arduino, a 16*16 LED Matrix, and an acclerometer). This project was done under Prof. Donghyun Kim.",
+              "source": "@site/docs/undergraduate/tiltingBall.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/tiltingBall",
+              "permalink": "/docs/undergraduate/tiltingBall",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Boston T Accessibility",
+                "permalink": "/docs/undergraduate/iconsMoS"
+              },
+              "next": {
+                "title": "Flow Batteries Interactive",
+                "permalink": "/docs/undergraduate/flowBatteries"
+              }
+            },
+            {
+              "unversionedId": "undergraduate/tra86",
+              "id": "undergraduate/tra86",
+              "title": "tra86: CICS Honors Thesis",
+              "description": "Currently working with Prof. Joe Chiu and Prof. Tim Richards from UMass CICS on my Honors Thesis. I have put a short poster on the project hypothesis below, but obviously not all data is recorded because this is an ongoing project. Moreover, the poster is about 6 months old and a lot has changed in the project (focused on Clang, Cargo, and LLVM).",
+              "source": "@site/docs/undergraduate/tra86.md",
+              "sourceDirName": "undergraduate",
+              "slug": "/undergraduate/tra86",
+              "permalink": "/docs/undergraduate/tra86",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CICS Competitions and Other Projects",
+                "permalink": "/docs/undergraduate/projects"
+              },
+              "next": {
+                "title": "ASSERT",
+                "permalink": "/docs/undergraduate/assert"
               }
             }
           ],
@@ -516,33 +828,85 @@
                 "id": "resume"
               },
               {
+                "type": "doc",
+                "id": "ongoing"
+              },
+              {
                 "type": "category",
-                "label": "Research",
+                "label": "Undergraduate",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "research/icons"
+                    "id": "undergraduate/icons"
                   },
                   {
                     "type": "doc",
-                    "id": "research/CICS"
+                    "id": "undergraduate/CICS"
                   },
                   {
                     "type": "doc",
-                    "id": "research/projects"
+                    "id": "undergraduate/projects"
                   },
                   {
                     "type": "doc",
-                    "id": "research/ongoing"
+                    "id": "undergraduate/tra86"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "undergraduate/assert"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "undergraduate/datafest"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "undergraduate/costOfControl"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "undergraduate/meetu"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "undergraduate/modxv6"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "undergraduate/h311"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "undergraduate/iconsMoS"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "undergraduate/tiltingBall"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "undergraduate/flowBatteries"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "undergraduate/moodmusic"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "undergraduate/hydrogenBatteries"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "undergraduate/dermsafe"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "A central repository containing all my research projects. They are also listed in my ORCiD and LinkedIn, albeit probably not as comprehensive as this.",
-                  "slug": "/category/research",
-                  "permalink": "/docs/category/research"
+                  "description": "A central repository containing all my Undergraduate Research and Projects, including some products and websites. These were mainly official in some nature, and are different from projects that I had done in my spare time (which are listed under Misc.). There are 3 main categories: Projects that I did under my iCons affiliation, CICS affiliation (for a class/course), and CICS Competitions. Individual Projects have been listed out after these first 3 categories, making it easier to browse through (though information may have been repeated).",
+                  "slug": "/category/undergraduate",
+                  "permalink": "/docs/category/undergraduate"
                 }
               },
               {
@@ -555,7 +919,7 @@
               },
               {
                 "type": "category",
-                "label": "the finechive.",
+                "label": "Hobby.",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -566,10 +930,6 @@
                   {
                     "type": "doc",
                     "id": "finechive/contents"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "finechive/now"
                   },
                   {
                     "type": "doc",
@@ -607,8 +967,8 @@
                 "link": {
                   "type": "generated-index",
                   "description": "This is a Digital Garden. Please read the preface to learn more :) (tl;dr: an experimental, non career-related space)",
-                  "slug": "/category/the-finechive",
-                  "permalink": "/docs/category/the-finechive"
+                  "slug": "/category/hobby",
+                  "permalink": "/docs/category/hobby"
                 }
               }
             ]

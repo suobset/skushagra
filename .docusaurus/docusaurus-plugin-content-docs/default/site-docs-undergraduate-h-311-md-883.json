@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/h311",
+  "id": "undergraduate/h311",
+  "title": "CS H311",
+  "description": "An in-depth look at the Pettie-Ramachandran Optimal Algorithm to find Minimum Spanning Trees",
+  "source": "@site/docs/undergraduate/h311.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/h311",
+  "permalink": "/docs/undergraduate/h311",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Modified xv6",
+    "permalink": "/docs/undergraduate/modxv6"
+  },
+  "next": {
+    "title": "Boston T Accessibility",
+    "permalink": "/docs/undergraduate/iconsMoS"
+  }
+}

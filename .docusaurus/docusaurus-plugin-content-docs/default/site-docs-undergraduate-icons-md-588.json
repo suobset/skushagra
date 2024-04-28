@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/icons",
+  "id": "undergraduate/icons",
+  "title": "iCons",
+  "description": "All iCons research projects, including digital products.",
+  "source": "@site/docs/undergraduate/icons.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/icons",
+  "permalink": "/docs/undergraduate/icons",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Undergraduate",
+    "permalink": "/docs/category/undergraduate"
+  },
+  "next": {
+    "title": "Manning CICS",
+    "permalink": "/docs/undergraduate/CICS"
+  }
+}

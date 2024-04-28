@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/costOfControl",
+  "id": "undergraduate/costOfControl",
+  "title": "The Cost of Control",
+  "description": "Main Site",
+  "source": "@site/docs/undergraduate/costOfControl.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/costOfControl",
+  "permalink": "/docs/undergraduate/costOfControl",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Five-College Datafest",
+    "permalink": "/docs/undergraduate/datafest"
+  },
+  "next": {
+    "title": "MeetU",
+    "permalink": "/docs/undergraduate/meetu"
+  }
+}

@@ -264,17 +264,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '7b3'),
+    component: ComponentCreator('/docs', 'e46'),
     routes: [
       {
-        path: '/docs/category/research',
-        component: ComponentCreator('/docs/category/research', '60f'),
+        path: '/docs/category/hobby',
+        component: ComponentCreator('/docs/category/hobby', 'bba'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/the-finechive',
-        component: ComponentCreator('/docs/category/the-finechive', 'a52'),
+        path: '/docs/category/undergraduate',
+        component: ComponentCreator('/docs/category/undergraduate', 'def'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -305,12 +305,6 @@ export default [
       {
         path: '/docs/finechive/morbios',
         component: ComponentCreator('/docs/finechive/morbios', 'c34'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/finechive/now',
-        component: ComponentCreator('/docs/finechive/now', '93d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -357,38 +351,116 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/ongoing',
+        component: ComponentCreator('/docs/ongoing', '72a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/orgs',
         component: ComponentCreator('/docs/orgs', '9df'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/research/CICS',
-        component: ComponentCreator('/docs/research/CICS', '7ab'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/research/icons',
-        component: ComponentCreator('/docs/research/icons', '518'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/research/ongoing',
-        component: ComponentCreator('/docs/research/ongoing', 'cc0'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/research/projects',
-        component: ComponentCreator('/docs/research/projects', '0ed'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/resume',
         component: ComponentCreator('/docs/resume', 'cbf'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/assert',
+        component: ComponentCreator('/docs/undergraduate/assert', 'b1e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/CICS',
+        component: ComponentCreator('/docs/undergraduate/CICS', 'a7d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/costOfControl',
+        component: ComponentCreator('/docs/undergraduate/costOfControl', 'd15'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/datafest',
+        component: ComponentCreator('/docs/undergraduate/datafest', '7ae'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/dermsafe',
+        component: ComponentCreator('/docs/undergraduate/dermsafe', '322'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/flowBatteries',
+        component: ComponentCreator('/docs/undergraduate/flowBatteries', '948'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/h311',
+        component: ComponentCreator('/docs/undergraduate/h311', '863'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/hydrogenBatteries',
+        component: ComponentCreator('/docs/undergraduate/hydrogenBatteries', '977'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/icons',
+        component: ComponentCreator('/docs/undergraduate/icons', '8bb'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/iconsMoS',
+        component: ComponentCreator('/docs/undergraduate/iconsMoS', '84d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/meetu',
+        component: ComponentCreator('/docs/undergraduate/meetu', '3e1'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/modxv6',
+        component: ComponentCreator('/docs/undergraduate/modxv6', '14b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/moodmusic',
+        component: ComponentCreator('/docs/undergraduate/moodmusic', 'b52'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/projects',
+        component: ComponentCreator('/docs/undergraduate/projects', '580'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/tiltingBall',
+        component: ComponentCreator('/docs/undergraduate/tiltingBall', 'cf9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/undergraduate/tra86',
+        component: ComponentCreator('/docs/undergraduate/tra86', '863'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/hydrogenBatteries",
+  "id": "undergraduate/hydrogenBatteries",
+  "title": "Hydrogen Battery Efficiency Viewer",
+  "description": "qq",
+  "source": "@site/docs/undergraduate/hydrogenBatteries.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/hydrogenBatteries",
+  "permalink": "/docs/undergraduate/hydrogenBatteries",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MoodMusic",
+    "permalink": "/docs/undergraduate/moodmusic"
+  },
+  "next": {
+    "title": "Dermsafe",
+    "permalink": "/docs/undergraduate/dermsafe"
+  }
+}

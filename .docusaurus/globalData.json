@@ -36,11 +36,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "finechive/now",
-              "path": "/docs/finechive/now",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "finechive/photography",
               "path": "/docs/finechive/photography",
               "sidebar": "tutorialSidebar"
@@ -76,28 +71,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "ongoing",
+              "path": "/docs/ongoing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "orgs",
               "path": "/docs/orgs",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "research/CICS",
-              "path": "/docs/research/CICS",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "research/icons",
-              "path": "/docs/research/icons",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "research/ongoing",
-              "path": "/docs/research/ongoing",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "research/projects",
-              "path": "/docs/research/projects",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -106,13 +86,93 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/research",
-              "path": "/docs/category/research",
+              "id": "undergraduate/assert",
+              "path": "/docs/undergraduate/assert",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/the-finechive",
-              "path": "/docs/category/the-finechive",
+              "id": "undergraduate/CICS",
+              "path": "/docs/undergraduate/CICS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/costOfControl",
+              "path": "/docs/undergraduate/costOfControl",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/datafest",
+              "path": "/docs/undergraduate/datafest",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/dermsafe",
+              "path": "/docs/undergraduate/dermsafe",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/flowBatteries",
+              "path": "/docs/undergraduate/flowBatteries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/h311",
+              "path": "/docs/undergraduate/h311",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/hydrogenBatteries",
+              "path": "/docs/undergraduate/hydrogenBatteries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/icons",
+              "path": "/docs/undergraduate/icons",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/iconsMoS",
+              "path": "/docs/undergraduate/iconsMoS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/meetu",
+              "path": "/docs/undergraduate/meetu",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/modxv6",
+              "path": "/docs/undergraduate/modxv6",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/moodmusic",
+              "path": "/docs/undergraduate/moodmusic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/projects",
+              "path": "/docs/undergraduate/projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/tiltingBall",
+              "path": "/docs/undergraduate/tiltingBall",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "undergraduate/tra86",
+              "path": "/docs/undergraduate/tra86",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/undergraduate",
+              "path": "/docs/category/undergraduate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/hobby",
+              "path": "/docs/category/hobby",
               "sidebar": "tutorialSidebar"
             }
           ],

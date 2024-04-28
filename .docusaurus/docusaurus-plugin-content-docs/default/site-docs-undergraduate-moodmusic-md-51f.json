@@ -1,0 +1,26 @@
+{
+  "unversionedId": "undergraduate/moodmusic",
+  "id": "undergraduate/moodmusic",
+  "title": "MoodMusic",
+  "description": "Fall 2021: Web App made by Krishna Kumar, Nhi Ha, and I for HackUMass IX. Linked here.",
+  "source": "@site/docs/undergraduate/moodmusic.md",
+  "sourceDirName": "undergraduate",
+  "slug": "/undergraduate/moodmusic",
+  "permalink": "/docs/undergraduate/moodmusic",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Flow Batteries Interactive",
+    "permalink": "/docs/undergraduate/flowBatteries"
+  },
+  "next": {
+    "title": "Hydrogen Battery Efficiency Viewer",
+    "permalink": "/docs/undergraduate/hydrogenBatteries"
+  }
+}

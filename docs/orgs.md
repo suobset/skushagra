@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Organizations I Support
@@ -24,4 +24,4 @@ PRERANA is an initiative of The Consulate General of India in Dubai, to support 
 
 Moreover, I also contributed in the student-led Swatantara: Students Working Against Tobacco, Alcohol, Narcotics, and Related Abuses. Started as a volunteer in 2016. Organised monthly workshops by 2018 in various schools to spread awareness regarding tobacco, alcohol, and drug abuse among school students. By 2018, was the stage manager and event organizer. [View More Here](https://www.cgidubai.gov.in/event_detail/?eventid=15)
 
-![SwatantaraPic](./research/assets/swatantara1.jpg)
+![SwatantaraPic](./assets/swatantara1.jpg)

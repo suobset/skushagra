@@ -1,0 +1,16 @@
+{
+  "title": "Misc.",
+  "description": "This is a Digital Garden. Please read the preface to learn more :) (tl;dr: an experimental, non career-related space)",
+  "slug": "/category/misc",
+  "permalink": "/docs/category/misc",
+  "navigation": {
+    "previous": {
+      "title": "Organizations I Support",
+      "permalink": "/docs/orgs"
+    },
+    "next": {
+      "title": "Preface",
+      "permalink": "/docs/finechive/preface"
+    }
+  }
+}

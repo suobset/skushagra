@@ -1,0 +1,34 @@
+---
+sidebar_position: 1
+---
+
+# iCons
+
+All iCons research projects, including digital products.
+
+This is a repository to hold all Research Work I have done under the <b>Integrated Concentration in Science (iCons)</b> Program along with the College of Natural Sciences at University of Massachusetts, Amherst.
+
+## Innovation Portal + Formal List of Projects 
+
+All of these projects can be found in the <a href="https://icons.cns.umass.edu/innovation-portal/search">Official UMass iCons Innovation Portal</a>. The ```Official UMass Entry``` <b>link under each project in this page is the actual published link of the project</b>, and should be used primarily to refer to the same.
+
+<a href="https://icons.cns.umass.edu/innovation-portal/search?keywords=kushagra">Filtered list from the Innovation Portal, showcasing my projects</a>
+
+![ss](https://user-images.githubusercontent.com/73229775/175075177-a9728232-a4e9-4c68-a60d-4ae02ba388eb.png)
+
+* [U.S. Census: The Opportunity Project (ASSERT)](./assert)
+* [iCons 3: The Cost of Control](./costOfControl)
+* [iCons 2: Museum of Science](./iConsMoS)
+* [iCons 2: Case Study 1](./flowBatteries)
+* [iCons 1: Case Study 2 (Team 6 Hydrogen Viewer)](./hydrogenBatteries)
+* iCons 1: Case Study 1 (Team 4 COVID Meta Analysis) 
+
+No product for this one so just mentioned here (was my first ever research analysis project).
+
+A presentation conducting a meta analysis to determine which countries had the best response to COVID-19 between March - May 2020.
+
+<a href="https://icons.cns.umass.edu/innovation-portal/2126-analyzing-covid-19-response-trends-across-different-countries">Official UMass Entry (iCons Innovation Portal)</a>.
+
+![qq2](https://user-images.githubusercontent.com/73229775/175075821-118aaecf-21e7-43f9-9590-07b915ee15bf.png)
+
+-Kush
