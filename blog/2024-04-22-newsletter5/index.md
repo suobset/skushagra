@@ -67,20 +67,6 @@ MorbiOS is a currently under-development RUST-based Operating System that Anvith
 
 While there is not much out there: be on the lookout [here](https://skushagra.com/docs/finechive/morbios) for more updates to the project as they keep on coming. 
 
-### Voyager: The Android Git Client
-
-This exists only to solve a very niche problem of mine, but in my move to Android the biggest thing I miss is a git client, akin to Working Copy on iOS. Voyager is my way to solve this problem: it is a comprehensive git client on Android. 
-
-This project may take much longer, as it is only an interesting project (4th on the priority list). Regardless, it is very under development and you can tune in to updates [here](https://voyager.skushagra.com/).
-
-### {Archived} SaberStat: The lightsaber battle tracker
-
-Almost a done project, but far from a release version. SaberStat is a lightsaber hit/miss tracker for club battles. I am planning to put this one in hiatus mainly as the only use-case was UMass. However, I have scripts that roughly calculate lightsaber hit/miss data based on smartwatch accel. and gyro. data. I might come back to it later.
-
-[Read more](https://skushagra.com/docs/finechive/saberstat)
-
-The last two projects in this list (Voyager, and SaberStat) are lowest in the priority list (with SaberStat going in a hiatus). This means that currently I am giving all my attention to Tra86 (biggest systems project which also happens to be my thesis), the LCC Video Game Project, and MorbiOS. 
-
 ## Life Updates
 
 I am nearing graduation, which is a bit wild to think about because my mind refuses to accept the Zoom semester as a real one. Regardless, here's almost everything new that at least I wanna put out there:
@@ -118,5 +104,9 @@ This was genuinely a career move that was unexpected just a while ago, but has g
 I thank Prof. Auerbach for introducing me to Psivant, and I cannot wait to join the team and start!! 
 
 Apart from ending my academia and finding this amazing avenue, I do not have much updates. I am glad to be back at writing this stuff, and I will probably do more writing here as time goes, albeit just not in a weekly fashion :)
+
+**Update: 28 Apr 2024**
+
+As part of planning my accommodations in Boston, I ended up creating a quick web app: [Apartment Pointer](https://skushagra.com/docs/finechive/aptPoint). Give it a look :)
 
 Peace <3

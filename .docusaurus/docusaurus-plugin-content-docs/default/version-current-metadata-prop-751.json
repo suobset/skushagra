@@ -131,6 +131,12 @@
             "label": "MorbiOS",
             "href": "/docs/finechive/morbios",
             "docId": "finechive/morbios"
+          },
+          {
+            "type": "link",
+            "label": "Apartment Pointer",
+            "href": "/docs/finechive/aptPoint",
+            "docId": "finechive/aptPoint"
           }
         ],
         "href": "/docs/category/the-finechive"
@@ -138,6 +144,12 @@
     ]
   },
   "docs": {
+    "finechive/aptPoint": {
+      "id": "finechive/aptPoint",
+      "title": "Apartment Pointer",
+      "description": "Quick Web App built to pinpoint multiple locations on a given map, created mainly to make apartment hunting easier for myself.",
+      "sidebar": "tutorialSidebar"
+    },
     "finechive/blog": {
       "id": "finechive/blog",
       "title": "Fineletters.",

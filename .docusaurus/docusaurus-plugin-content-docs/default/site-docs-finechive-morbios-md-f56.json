@@ -18,5 +18,9 @@
   "previous": {
     "title": "SaberStat",
     "permalink": "/docs/finechive/saberstat"
+  },
+  "next": {
+    "title": "Apartment Pointer",
+    "permalink": "/docs/finechive/aptPoint"
   }
 }

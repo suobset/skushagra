@@ -8,6 +8,12 @@ sidebar_position: 9
 
 Disclaimer: Please Read [About Code Projects in the Finechive](./code-projects) for more info.
 
+## Update: Apr 2024
+
+I am planning to put this one in hiatus mainly as the only use-case was UMass. However, I have scripts that roughly calculate lightsaber hit/miss data based on smartwatch accel. and gyro. data. I might come back to it later.
+
+<hr />
+
 Currently under development: Smartwatch app to measure hits/misses during a lightsaber match. This post below by me to the FSF forum explains all:
 
 ![FSF Concept Text](./assets/fsf-saberstat-post.png)

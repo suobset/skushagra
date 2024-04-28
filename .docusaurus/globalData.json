@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "finechive/aptPoint",
+              "path": "/docs/finechive/aptPoint",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "finechive/blog",
               "path": "/docs/finechive/blog",
               "sidebar": "tutorialSidebar"

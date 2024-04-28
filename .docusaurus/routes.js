@@ -264,7 +264,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '0a7'),
+    component: ComponentCreator('/docs', '7b3'),
     routes: [
       {
         path: '/docs/category/research',
@@ -275,6 +275,12 @@ export default [
       {
         path: '/docs/category/the-finechive',
         component: ComponentCreator('/docs/category/the-finechive', 'a52'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/finechive/aptPoint',
+        component: ComponentCreator('/docs/finechive/aptPoint', 'c75'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
