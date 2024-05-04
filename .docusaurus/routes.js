@@ -263,6 +263,11 @@ export default [
     exact: true
   },
   {
+    path: '/webArchive',
+    component: ComponentCreator('/webArchive', 'b01'),
+    exact: true
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs', '1b7'),
     routes: [

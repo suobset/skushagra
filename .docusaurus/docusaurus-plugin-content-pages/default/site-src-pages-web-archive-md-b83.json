@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/webArchive",
+  "source": "@site/src/pages/webArchive.md",
+  "title": "Web Archive",
+  "description": "Fun little place for me to store whatever little things I want to on the web. May move it to the Hobby section once it gets a bit more populated, ut it is mainly for my own intents and purposes for the foreseeable future :)",
+  "frontMatter": {
+    "title": "Web Archive"
+  }
+}

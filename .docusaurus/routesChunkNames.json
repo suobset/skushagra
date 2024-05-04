@@ -634,6 +634,13 @@
     },
     "content": "content---source-72-d-6e0"
   },
+  "/webArchive-b01": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---archiveb-34-754"
+    },
+    "content": "content---web-archiveb-83-e18"
+  },
   "/docs-1b7": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
