@@ -4,11 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'CICS Honors Thesis (+ iCons)',
-    Svg: require('@site/static/img/cics.svg').default,
+    title: 'Psivant Theraupeutics',
+    Svg: require('@site/static/img/psivant.svg').default,
     description: (
       <>
-        Currently working with Prof. <a href="https://www.cics.umass.edu/people/chiu-joe">Joe Chiu</a> on my Honors Thesis pertaining to analysis of different programming languages at the Systems level (x86). Communicating to a wider audience under <a href="https://icons.cns.umass.edu/">UMass iCons</a>, via <a href="https://honorspaths.honors.umass.edu/massurc">MassURC</a>, Senior Expo., and Digital Means such as a <a href="https://tra86.skushagra.com/">website</a>.
+        Interning as a Systems & Software developer at <a href="https://psivant.com">Psivant Theraupeutics</a>: a Research & Development Startup that focuses on High Performance Computational Chemistry & Biology. 
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/smith.svg').default,
     description: (
       <>
-        Working as a Research Assistant at the <a href="https://linkage.cs.umass.edu">LinKaGe Lab</a> under <a href="https://www.smith.edu/academics/faculty/ileana-streinu">Dr. Ileana Streinu</a>. Currently focusing on upkeep and development of different systems and software used by the lab: namely KINARI, Wikindx (formerly Aigaion), and Websites.
+        Working as a software developer at the <a href="https://linkage.cs.umass.edu">LinKaGe Lab</a> under <a href="https://www.smith.edu/academics/faculty/ileana-streinu">Dr. Ileana Streinu</a>. Currently focusing on upkeep and development of different systems and software used by the lab: namely Wikindx (bibliography), and Websites.
       </>
     ),
   },

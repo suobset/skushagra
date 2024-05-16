@@ -996,6 +996,59 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "applePathways1",
+          "metadata": {
+            "permalink": "/blog/applePathways1",
+            "source": "@site/blog/2024-05-15-applePathways1/index.md",
+            "title": "Apple Pathways Developer Journey: Part 1",
+            "description": "The following is my review of the Apple Developer Pathways Website, a newly created collection of curated content and courses that help a person start their developer journey for Apple Platforms.",
+            "date": "2024-05-15T00:00:00.000Z",
+            "formattedDate": "May 15, 2024",
+            "tags": [
+              {
+                "label": "Apple Developer Pathways",
+                "permalink": "/blog/tags/apple-developer-pathways"
+              },
+              {
+                "label": "Code",
+                "permalink": "/blog/tags/code"
+              },
+              {
+                "label": "Open Source",
+                "permalink": "/blog/tags/open-source"
+              }
+            ],
+            "readingTime": 0.335,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Kushagra Srivastava",
+                "title": "I write, code, and create. Sometimes all at the same time.",
+                "url": "https://skushagra.com",
+                "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+                "key": "suobset"
+              }
+            ],
+            "frontMatter": {
+              "slug": "applePathways1",
+              "title": "Apple Pathways Developer Journey: Part 1",
+              "authors": [
+                "suobset"
+              ],
+              "tags": [
+                "Apple Developer Pathways",
+                "Code",
+                "Open Source"
+              ]
+            },
+            "nextItem": {
+              "title": "Side Projects, Life Updates",
+              "permalink": "/blog/newsletter5"
+            }
+          },
+          "content": "The following is my review of the [Apple Developer Pathways](https://developer.apple.com/pathways/) Website, a newly created collection of curated content and courses that help a person start their developer journey for Apple Platforms. \n\nNow, I have been a developer for various platforms for quite a long time, and that includes some tinkering around with Swift and XCode as well. However, my main domain being low-level systems, I never really"
+        },
+        {
           "id": "newsletter5",
           "metadata": {
             "permalink": "/blog/newsletter5",
@@ -1045,6 +1098,10 @@
                 "Open Source",
                 "Personal"
               ]
+            },
+            "prevItem": {
+              "title": "Apple Pathways Developer Journey: Part 1",
+              "permalink": "/blog/applePathways1"
             },
             "nextItem": {
               "title": "Metamorphosis.",
@@ -1762,18 +1819,18 @@
       "blogListPaginated": [
         {
           "items": [
+            "applePathways1",
             "newsletter5",
             "newsletter4",
             "newsletter3",
-            "newsletter2",
-            "newsletter1"
+            "newsletter2"
           ],
           "metadata": {
             "permalink": "/blog",
             "page": 1,
             "postsPerPage": 5,
             "totalPages": 3,
-            "totalCount": 13,
+            "totalCount": 14,
             "nextPage": "/blog/page/2",
             "blogDescription": "The Finechive Newsletter, by Kush S.",
             "blogTitle": "Fineletters."
@@ -1781,18 +1838,18 @@
         },
         {
           "items": [
+            "newsletter1",
             "newsletter time",
             "on-macos-and-libre-software",
             "dreaming",
-            "debugxiety",
-            "dc-the-opportunity-project"
+            "debugxiety"
           ],
           "metadata": {
             "permalink": "/blog/page/2",
             "page": 2,
             "postsPerPage": 5,
             "totalPages": 3,
-            "totalCount": 13,
+            "totalCount": 14,
             "previousPage": "/blog",
             "nextPage": "/blog/page/3",
             "blogDescription": "The Finechive Newsletter, by Kush S.",
@@ -1801,6 +1858,7 @@
         },
         {
           "items": [
+            "dc-the-opportunity-project",
             "the finechive",
             "liminal-spaces-art-of-appreciating",
             "welcome"
@@ -1810,7 +1868,7 @@
             "page": 3,
             "postsPerPage": 5,
             "totalPages": 3,
-            "totalCount": 13,
+            "totalCount": 14,
             "previousPage": "/blog/page/2",
             "blogDescription": "The Finechive Newsletter, by Kush S.",
             "blogTitle": "Fineletters."
@@ -1818,6 +1876,104 @@
         }
       ],
       "blogTags": {
+        "/blog/tags/apple-developer-pathways": {
+          "label": "Apple Developer Pathways",
+          "items": [
+            "applePathways1"
+          ],
+          "permalink": "/blog/tags/apple-developer-pathways",
+          "pages": [
+            {
+              "items": [
+                "applePathways1"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/apple-developer-pathways",
+                "page": 1,
+                "postsPerPage": 5,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "The Finechive Newsletter, by Kush S.",
+                "blogTitle": "Fineletters."
+              }
+            }
+          ]
+        },
+        "/blog/tags/code": {
+          "label": "Code",
+          "items": [
+            "applePathways1",
+            "on-macos-and-libre-software",
+            "debugxiety"
+          ],
+          "permalink": "/blog/tags/code",
+          "pages": [
+            {
+              "items": [
+                "applePathways1",
+                "on-macos-and-libre-software",
+                "debugxiety"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/code",
+                "page": 1,
+                "postsPerPage": 5,
+                "totalPages": 1,
+                "totalCount": 3,
+                "blogDescription": "The Finechive Newsletter, by Kush S.",
+                "blogTitle": "Fineletters."
+              }
+            }
+          ]
+        },
+        "/blog/tags/open-source": {
+          "label": "Open Source",
+          "items": [
+            "applePathways1",
+            "newsletter5",
+            "newsletter4",
+            "newsletter2",
+            "newsletter1",
+            "on-macos-and-libre-software"
+          ],
+          "permalink": "/blog/tags/open-source",
+          "pages": [
+            {
+              "items": [
+                "applePathways1",
+                "newsletter5",
+                "newsletter4",
+                "newsletter2",
+                "newsletter1"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/open-source",
+                "page": 1,
+                "postsPerPage": 5,
+                "totalPages": 2,
+                "totalCount": 6,
+                "nextPage": "/blog/tags/open-source/page/2",
+                "blogDescription": "The Finechive Newsletter, by Kush S.",
+                "blogTitle": "Fineletters."
+              }
+            },
+            {
+              "items": [
+                "on-macos-and-libre-software"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/open-source/page/2",
+                "page": 2,
+                "postsPerPage": 5,
+                "totalPages": 2,
+                "totalCount": 6,
+                "previousPage": "/blog/tags/open-source",
+                "blogDescription": "The Finechive Newsletter, by Kush S.",
+                "blogTitle": "Fineletters."
+              }
+            }
+          ]
+        },
         "/blog/tags/newsletter": {
           "label": "newsletter",
           "items": [
@@ -1912,37 +2068,6 @@
                 "totalPages": 2,
                 "totalCount": 8,
                 "previousPage": "/blog/tags/life",
-                "blogDescription": "The Finechive Newsletter, by Kush S.",
-                "blogTitle": "Fineletters."
-              }
-            }
-          ]
-        },
-        "/blog/tags/open-source": {
-          "label": "Open Source",
-          "items": [
-            "newsletter5",
-            "newsletter4",
-            "newsletter2",
-            "newsletter1",
-            "on-macos-and-libre-software"
-          ],
-          "permalink": "/blog/tags/open-source",
-          "pages": [
-            {
-              "items": [
-                "newsletter5",
-                "newsletter4",
-                "newsletter2",
-                "newsletter1",
-                "on-macos-and-libre-software"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/open-source",
-                "page": 1,
-                "postsPerPage": 5,
-                "totalPages": 1,
-                "totalCount": 5,
                 "blogDescription": "The Finechive Newsletter, by Kush S.",
                 "blogTitle": "Fineletters."
               }
@@ -2118,31 +2243,6 @@
               ],
               "metadata": {
                 "permalink": "/blog/tags/website",
-                "page": 1,
-                "postsPerPage": 5,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "The Finechive Newsletter, by Kush S.",
-                "blogTitle": "Fineletters."
-              }
-            }
-          ]
-        },
-        "/blog/tags/code": {
-          "label": "Code",
-          "items": [
-            "on-macos-and-libre-software",
-            "debugxiety"
-          ],
-          "permalink": "/blog/tags/code",
-          "pages": [
-            {
-              "items": [
-                "on-macos-and-libre-software",
-                "debugxiety"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/code",
                 "page": 1,
                 "postsPerPage": 5,
                 "totalPages": 1,

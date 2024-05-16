@@ -1,5 +1,20 @@
 [
   {
+    "label": "Apple Developer Pathways",
+    "permalink": "/blog/tags/apple-developer-pathways",
+    "count": 1
+  },
+  {
+    "label": "Code",
+    "permalink": "/blog/tags/code",
+    "count": 3
+  },
+  {
+    "label": "Open Source",
+    "permalink": "/blog/tags/open-source",
+    "count": 6
+  },
+  {
     "label": "newsletter",
     "permalink": "/blog/tags/newsletter",
     "count": 6
@@ -8,11 +23,6 @@
     "label": "life",
     "permalink": "/blog/tags/life",
     "count": 8
-  },
-  {
-    "label": "Open Source",
-    "permalink": "/blog/tags/open-source",
-    "count": 5
   },
   {
     "label": "Personal",
@@ -47,11 +57,6 @@
   {
     "label": "Website",
     "permalink": "/blog/tags/website",
-    "count": 2
-  },
-  {
-    "label": "Code",
-    "permalink": "/blog/tags/code",
     "count": 2
   },
   {

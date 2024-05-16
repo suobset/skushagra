@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/applePathways1",
+  "source": "@site/blog/2024-05-15-applePathways1/index.md",
+  "title": "Apple Pathways Developer Journey: Part 1",
+  "description": "The following is my review of the Apple Developer Pathways Website, a newly created collection of curated content and courses that help a person start their developer journey for Apple Platforms.",
+  "date": "2024-05-15T00:00:00.000Z",
+  "formattedDate": "May 15, 2024",
+  "tags": [
+    {
+      "label": "Apple Developer Pathways",
+      "permalink": "/blog/tags/apple-developer-pathways"
+    },
+    {
+      "label": "Code",
+      "permalink": "/blog/tags/code"
+    },
+    {
+      "label": "Open Source",
+      "permalink": "/blog/tags/open-source"
+    }
+  ],
+  "readingTime": 0.335,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "applePathways1",
+    "title": "Apple Pathways Developer Journey: Part 1",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "Apple Developer Pathways",
+      "Code",
+      "Open Source"
+    ]
+  },
+  "nextItem": {
+    "title": "Side Projects, Life Updates",
+    "permalink": "/blog/newsletter5"
+  }
+}

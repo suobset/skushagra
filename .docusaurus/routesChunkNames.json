@@ -56,13 +56,16 @@
     },
     "content": "content---best-viewed-by-any-browser-144-8e8"
   },
-  "/blog-313": {
+  "/blog-ca9": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogdeb-f00"
+      },
       {
         "content": "content---blog-6-c-2-8ec"
       },
@@ -74,12 +77,17 @@
       },
       {
         "content": "content---blog-6-ab-20d"
-      },
-      {
-        "content": "content---blogbe-8-ca3"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
+  },
+  "/blog/applePathways1-780": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-9-cf-8b4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-apple-pathways-1-b-11-c8f"
   },
   "/blog/archive-b83": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
@@ -176,13 +184,16 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-on-macos-and-libre-softwarecce-ce6"
   },
-  "/blog/page/2-b80": {
+  "/blog/page/2-e18": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-page-2-be-8-105"
+      },
       {
         "content": "content---blog-page-2-a-02-c68"
       },
@@ -194,20 +205,20 @@
       },
       {
         "content": "content---blog-page-2-ef-3-2e7"
-      },
-      {
-        "content": "content---blog-page-2-d-6-e-683"
       }
     ],
     "metadata": "metadata---blog-page-28-eb-625"
   },
-  "/blog/page/3-182": {
+  "/blog/page/3-1a4": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-page-3-d-6-e-6e1"
+      },
       {
         "content": "content---blog-page-37-ed-ab0"
       },
@@ -245,7 +256,7 @@
         "content": "content---blog-page-2-ef-3-2e7"
       },
       {
-        "content": "content---blog-page-2-d-6-e-683"
+        "content": "content---blog-page-3-d-6-e-6e1"
       }
     ],
     "tag": "tag---blog-tags-academia-5-ca-4d2",
@@ -259,7 +270,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogbe-8-ca3"
+        "content": "content---blog-page-2-be-8-105"
       },
       {
         "content": "content---blog-page-3297-37c"
@@ -267,6 +278,20 @@
     ],
     "tag": "tag---blog-tags-aestheticse-31-80a",
     "listMetadata": "listMetadata---blog-tags-aesthetics-803-c77"
+  },
+  "/blog/tags/apple-developer-pathways-e08": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-9-cf-8b4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogdeb-f00"
+      }
+    ],
+    "tag": "tag---blog-tags-apple-developer-pathwayse-05-e91",
+    "listMetadata": "listMetadata---blog-tags-apple-developer-pathwayse-96-4c2"
   },
   "/blog/tags/art-306": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -276,19 +301,22 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogbe-8-ca3"
+        "content": "content---blog-page-2-be-8-105"
       }
     ],
     "tag": "tag---blog-tags-art-78-d-052",
     "listMetadata": "listMetadata---blog-tags-artf-43-29c"
   },
-  "/blog/tags/code-bcf": {
+  "/blog/tags/code-5d4": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogdeb-f00"
+      },
       {
         "content": "content---blog-page-256-c-057"
       },
@@ -383,7 +411,7 @@
         "content": "content---blog-6-ab-20d"
       },
       {
-        "content": "content---blog-page-2-d-6-e-683"
+        "content": "content---blog-page-3-d-6-e-6e1"
       }
     ],
     "tag": "tag---blog-tags-i-cons-55-f-3f2",
@@ -437,7 +465,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-2-d-6-e-683"
+        "content": "content---blog-page-3-d-6-e-6e1"
       },
       {
         "content": "content---blog-page-37-ed-ab0"
@@ -483,7 +511,7 @@
         "content": "content---blog-6-ab-20d"
       },
       {
-        "content": "content---blogbe-8-ca3"
+        "content": "content---blog-page-2-be-8-105"
       }
     ],
     "tag": "tag---blog-tags-newsletterad-9-6ca",
@@ -517,13 +545,16 @@
     "tag": "tag---blog-tags-nostalgiab-7-d-66c",
     "listMetadata": "listMetadata---blog-tags-nostalgiae-06-33b"
   },
-  "/blog/tags/open-source-03f": {
+  "/blog/tags/open-source-986": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogdeb-f00"
+      },
       {
         "content": "content---blog-6-c-2-8ec"
       },
@@ -534,14 +565,25 @@
         "content": "content---blog-6-ab-20d"
       },
       {
-        "content": "content---blogbe-8-ca3"
-      },
-      {
-        "content": "content---blog-page-256-c-057"
+        "content": "content---blog-page-2-be-8-105"
       }
     ],
     "tag": "tag---blog-tags-open-source-51-e-90d",
     "listMetadata": "listMetadata---blog-tags-open-sourcebdf-5d4"
+  },
+  "/blog/tags/open-source/page/2-ad7": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-9-cf-8b4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-page-256-c-057"
+      }
+    ],
+    "tag": "tag---blog-tags-open-source-page-29-b-0-8bd",
+    "listMetadata": "listMetadata---blog-tags-open-source-page-2-f-83-3a3"
   },
   "/blog/tags/personal-429": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
