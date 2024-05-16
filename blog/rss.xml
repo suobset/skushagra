@@ -4,10 +4,21 @@
         <title>Kushagra Srivastava Blog</title>
         <link>https://skushagra.com/blog</link>
         <description>Kushagra Srivastava Blog</description>
-        <lastBuildDate>Mon, 22 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apple Pathways Developer Journey: Part 1]]></title>
+            <link>https://skushagra.com/blog/applePathways1</link>
+            <guid>https://skushagra.com/blog/applePathways1</guid>
+            <pubDate>Wed, 15 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The following is my review of the Apple Developer Pathways Website, a newly created collection of curated content and courses that help a person start their developer journey for Apple Platforms.]]></description>
+            <content:encoded><![CDATA[<p>The following is my review of the <a href="https://developer.apple.com/pathways/" target="_blank" rel="noopener noreferrer">Apple Developer Pathways</a> Website, a newly created collection of curated content and courses that help a person start their developer journey for Apple Platforms. </p><p>Now, I have been a developer for various platforms for quite a long time, and that includes some tinkering around with Swift and XCode as well. However, my main domain being low-level systems, I never really</p>]]></content:encoded>
+            <category>Apple Developer Pathways</category>
+            <category>Code</category>
+            <category>Open Source</category>
+        </item>
         <item>
             <title><![CDATA[Side Projects, Life Updates]]></title>
             <link>https://skushagra.com/blog/newsletter5</link>

@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://skushagra.com/blog</id>
     <title>Kushagra Srivastava Blog</title>
-    <updated>2024-04-22T00:00:00.000Z</updated>
+    <updated>2024-05-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://skushagra.com/blog"/>
     <subtitle>Kushagra Srivastava Blog</subtitle>
     <icon>https://skushagra.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Apple Pathways Developer Journey: Part 1]]></title>
+        <id>https://skushagra.com/blog/applePathways1</id>
+        <link href="https://skushagra.com/blog/applePathways1"/>
+        <updated>2024-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The following is my review of the Apple Developer Pathways Website, a newly created collection of curated content and courses that help a person start their developer journey for Apple Platforms.]]></summary>
+        <content type="html"><![CDATA[<p>The following is my review of the <a href="https://developer.apple.com/pathways/" target="_blank" rel="noopener noreferrer">Apple Developer Pathways</a> Website, a newly created collection of curated content and courses that help a person start their developer journey for Apple Platforms. </p><p>Now, I have been a developer for various platforms for quite a long time, and that includes some tinkering around with Swift and XCode as well. However, my main domain being low-level systems, I never really</p>]]></content>
+        <author>
+            <name>Kushagra Srivastava</name>
+            <uri>https://skushagra.com</uri>
+        </author>
+        <category label="Apple Developer Pathways" term="Apple Developer Pathways"/>
+        <category label="Code" term="Code"/>
+        <category label="Open Source" term="Open Source"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Side Projects, Life Updates]]></title>
         <id>https://skushagra.com/blog/newsletter5</id>
