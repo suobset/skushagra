@@ -104,6 +104,7 @@ Apart from the usual (extensions for IDEs for different languages, or print stat
 
 ## Server-side computation & Terminals
 
+* [Waveterm](https://www.waveterm.dev/): Open Source Terminal that has overtaken whatever barebones terminal that ships with any OS (zsh or Bash), has a lot more cool features built-in that I don't use as much, but some QOL stuff that's pretty good to have. Feels bloated sometimes. 
 * [Termius](https://termius.com): SSH & SFTP Client with insanely good features built in (GUIs, drag and drop support, SSH key handling, concurrent sessions)
 * [GNU Bash](https://www.gnu.org/software/bash/): The most powerful CLI I have used, ever. Also really the one I have been used to, despite using Powershell considerably as well.
 * [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=US): Honestly the hands-down best solution on Windows, now the default in Windows 11. Tabbed terminals, each of which can wither Powershell on host or BASH/ZSH on a guest WSL instance.
