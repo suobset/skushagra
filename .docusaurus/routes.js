@@ -49,12 +49,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'ca9'),
-    exact: true
-  },
-  {
-    path: '/blog/applePathways1',
-    component: ComponentCreator('/blog/applePathways1', '780'),
+    component: ComponentCreator('/blog', '313'),
     exact: true
   },
   {
@@ -119,12 +114,12 @@ export default [
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', 'e18'),
+    component: ComponentCreator('/blog/page/2', 'b80'),
     exact: true
   },
   {
     path: '/blog/page/3',
-    component: ComponentCreator('/blog/page/3', '1a4'),
+    component: ComponentCreator('/blog/page/3', '182'),
     exact: true
   },
   {
@@ -143,18 +138,13 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/apple-developer-pathways',
-    component: ComponentCreator('/blog/tags/apple-developer-pathways', 'e08'),
-    exact: true
-  },
-  {
     path: '/blog/tags/art',
     component: ComponentCreator('/blog/tags/art', '306'),
     exact: true
   },
   {
     path: '/blog/tags/code',
-    component: ComponentCreator('/blog/tags/code', '5d4'),
+    component: ComponentCreator('/blog/tags/code', 'bcf'),
     exact: true
   },
   {
@@ -224,12 +214,7 @@ export default [
   },
   {
     path: '/blog/tags/open-source',
-    component: ComponentCreator('/blog/tags/open-source', '986'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/open-source/page/2',
-    component: ComponentCreator('/blog/tags/open-source/page/2', 'ad7'),
+    component: ComponentCreator('/blog/tags/open-source', '03f'),
     exact: true
   },
   {
