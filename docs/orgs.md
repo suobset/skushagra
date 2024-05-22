@@ -18,6 +18,12 @@ Become a member of the [American Statistical Association (ASA)](https://amstat.o
 
 Support [The Trevor Project](https://www.thetrevorproject.org/), and their mission to crerate a safer & better world for future generations. The Trevor Project is an organization dedicated to providing crisis intervention and suicide prevention services for LGBTQ+ youth. Their work is crucial in creating a more inclusive and accepting society, where young people can thrive without fear of discrimination or exclusion.
 
+![MR](./assets/macrepo.png) ![Internet Archive](./assets/intarchive.png) 
+
+The [Macintosh Repository](https://macintoshrepository.org) is an essential online resource dedicated to preserving and providing access to a wide range of vintage Macintosh software, ensuring that these valuable digital artifacts are not lost to time. By curating a comprehensive collection of classic Mac applications, games, and utilities, the Repository supports enthusiasts, historians, and researchers in exploring the evolution of computing and the Mac's significant contributions to technology.
+
+The [Internet Archive](https://archive.org) is a vital non-profit organization dedicated to preserving and providing universal access to a vast array of digital content, including websites, books, audio recordings, videos, and software. By maintaining an extensive digital library, the Archive ensures that the wealth of human knowledge and culture remains accessible for future generations, promoting education, research, and historical preservation.
+
 <a href="https://www.linkedin.com/company/preranaatc/"><img src="https://media.licdn.com/dms/image/C510BAQH81QDaAeCieQ/company-logo_200_200/0/1519904056859?e=1706140800&v=beta&t=chaAli63yQyCJqabzFAy7Ky69JDHhE5l8DhsnmUDllc" alt="Prerana" width="150"/></a> <a href="https://www.linkedin.com/company/preranaatc/"><img src="https://theedesigner.in/content/images/2020/02/Consulate-General.jpg" alt="CGIdubai" width="150"/></a> <a href="https://ksws.in/"><img src="https://ksws.in/wp-content/uploads/2020/06/logo.png" alt="KSWS" width="150"/></a> 
 
 PRERANA is an initiative of The Consulate General of India in Dubai, to support differently-abled individuals. I started as a volunteer and now serve as in charge of the stage management for a monthly program for the kids. Started as a volunteer in 2015, became a mentor in 2017, and by 2019 was working as in-charge of the stage management during the monthly programs organized on the second weekend of every month.
