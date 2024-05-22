@@ -49,12 +49,17 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '313'),
+    component: ComponentCreator('/blog', 'a8e'),
     exact: true
   },
   {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive', 'b83'),
+    exact: true
+  },
+  {
+    path: '/blog/classicmac1',
+    component: ComponentCreator('/blog/classicmac1', 'a4b'),
     exact: true
   },
   {
@@ -114,12 +119,12 @@ export default [
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', 'b80'),
+    component: ComponentCreator('/blog/page/2', 'e18'),
     exact: true
   },
   {
     path: '/blog/page/3',
-    component: ComponentCreator('/blog/page/3', '182'),
+    component: ComponentCreator('/blog/page/3', '1a4'),
     exact: true
   },
   {
@@ -144,7 +149,7 @@ export default [
   },
   {
     path: '/blog/tags/code',
-    component: ComponentCreator('/blog/tags/code', 'bcf'),
+    component: ComponentCreator('/blog/tags/code', '4cd'),
     exact: true
   },
   {
@@ -214,7 +219,12 @@ export default [
   },
   {
     path: '/blog/tags/open-source',
-    component: ComponentCreator('/blog/tags/open-source', '03f'),
+    component: ComponentCreator('/blog/tags/open-source', '0e7'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/open-source/page/2',
+    component: ComponentCreator('/blog/tags/open-source/page/2', 'ad7'),
     exact: true
   },
   {

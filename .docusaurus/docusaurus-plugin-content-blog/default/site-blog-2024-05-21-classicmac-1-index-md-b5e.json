@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/classicmac1",
+  "source": "@site/blog/2024-05-21-classicmac1/index.md",
+  "title": "Programming for Classic MacOS (Part 0)",
+  "description": "Vintage Mac Hello World written on AppleScript",
+  "date": "2024-05-21T00:00:00.000Z",
+  "formattedDate": "May 21, 2024",
+  "tags": [
+    {
+      "label": "Open Source",
+      "permalink": "/blog/tags/open-source"
+    },
+    {
+      "label": "Code",
+      "permalink": "/blog/tags/code"
+    }
+  ],
+  "readingTime": 3.195,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "classicmac1",
+    "title": "Programming for Classic MacOS (Part 0)",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "Open Source",
+      "Code"
+    ]
+  },
+  "nextItem": {
+    "title": "Side Projects, Life Updates",
+    "permalink": "/blog/newsletter5"
+  }
+}

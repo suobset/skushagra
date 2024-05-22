@@ -56,13 +56,16 @@
     },
     "content": "content---best-viewed-by-any-browser-144-8e8"
   },
-  "/blog-313": {
+  "/blog-a8e": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-74-f-466"
+      },
       {
         "content": "content---blog-6-c-2-8ec"
       },
@@ -74,9 +77,6 @@
       },
       {
         "content": "content---blog-6-ab-20d"
-      },
-      {
-        "content": "content---blog-page-2-be-8-105"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
@@ -87,6 +87,14 @@
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "archive": "archive---blog-archiveb-2-f-393"
+  },
+  "/blog/classicmac1-a4b": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-9-cf-8b4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-newsletter-5-b-5-e-abf"
   },
   "/blog/dc-the-opportunity-project-205": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -176,13 +184,16 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-on-macos-and-libre-softwarecce-ce6"
   },
-  "/blog/page/2-b80": {
+  "/blog/page/2-e18": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogbe-8-ca3"
+      },
       {
         "content": "content---blog-page-2-a-02-c68"
       },
@@ -194,20 +205,20 @@
       },
       {
         "content": "content---blog-page-2-ef-3-2e7"
-      },
-      {
-        "content": "content---blog-page-3-d-6-e-6e1"
       }
     ],
     "metadata": "metadata---blog-page-28-eb-625"
   },
-  "/blog/page/3-182": {
+  "/blog/page/3-1a4": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-page-2-d-6-e-683"
+      },
       {
         "content": "content---blog-page-37-ed-ab0"
       },
@@ -245,7 +256,7 @@
         "content": "content---blog-page-2-ef-3-2e7"
       },
       {
-        "content": "content---blog-page-3-d-6-e-6e1"
+        "content": "content---blog-page-2-d-6-e-683"
       }
     ],
     "tag": "tag---blog-tags-academia-5-ca-4d2",
@@ -259,7 +270,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-2-be-8-105"
+        "content": "content---blogbe-8-ca3"
       },
       {
         "content": "content---blog-page-3297-37c"
@@ -276,19 +287,22 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-2-be-8-105"
+        "content": "content---blogbe-8-ca3"
       }
     ],
     "tag": "tag---blog-tags-art-78-d-052",
     "listMetadata": "listMetadata---blog-tags-artf-43-29c"
   },
-  "/blog/tags/code-bcf": {
+  "/blog/tags/code-4cd": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-74-f-466"
+      },
       {
         "content": "content---blog-page-256-c-057"
       },
@@ -383,7 +397,7 @@
         "content": "content---blog-6-ab-20d"
       },
       {
-        "content": "content---blog-page-3-d-6-e-6e1"
+        "content": "content---blog-page-2-d-6-e-683"
       }
     ],
     "tag": "tag---blog-tags-i-cons-55-f-3f2",
@@ -437,7 +451,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-3-d-6-e-6e1"
+        "content": "content---blog-page-2-d-6-e-683"
       },
       {
         "content": "content---blog-page-37-ed-ab0"
@@ -483,7 +497,7 @@
         "content": "content---blog-6-ab-20d"
       },
       {
-        "content": "content---blog-page-2-be-8-105"
+        "content": "content---blogbe-8-ca3"
       }
     ],
     "tag": "tag---blog-tags-newsletterad-9-6ca",
@@ -517,13 +531,16 @@
     "tag": "tag---blog-tags-nostalgiab-7-d-66c",
     "listMetadata": "listMetadata---blog-tags-nostalgiae-06-33b"
   },
-  "/blog/tags/open-source-03f": {
+  "/blog/tags/open-source-0e7": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-74-f-466"
+      },
       {
         "content": "content---blog-6-c-2-8ec"
       },
@@ -534,14 +551,25 @@
         "content": "content---blog-6-ab-20d"
       },
       {
-        "content": "content---blog-page-2-be-8-105"
-      },
-      {
-        "content": "content---blog-page-256-c-057"
+        "content": "content---blogbe-8-ca3"
       }
     ],
     "tag": "tag---blog-tags-open-source-51-e-90d",
     "listMetadata": "listMetadata---blog-tags-open-sourcebdf-5d4"
+  },
+  "/blog/tags/open-source/page/2-ad7": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-9-cf-8b4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-page-256-c-057"
+      }
+    ],
+    "tag": "tag---blog-tags-open-source-page-29-b-0-8bd",
+    "listMetadata": "listMetadata---blog-tags-open-source-page-2-f-83-3a3"
   },
   "/blog/tags/personal-429": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
