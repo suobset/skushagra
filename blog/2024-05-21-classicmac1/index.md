@@ -15,6 +15,14 @@ I do not exactly have a plan in mind, but I hope to be able to share the "why", 
 
 In fact, Classic Macintosh Operating Systems do not share any resemblance to UNIX or macOS as it stands today. Released in October 23, 1999, MacOS 9 ran hard with making everything self-contained in the Graphical User Interface. Absurdly so, there is not even a terminal or any way to interface with the system outside of the Graphical System that was shipped with the OS. 
 
+On top of it, I just love Apple's stuff to a great extent. Yes, I support and use Libre Software wherever possible, but my intrigue for tinkering with computers as a subject started from looking at Apple Computers in my childhood. I remember being in middle school with my Windows laptop, unbelievably looking at my friend's MacBook Pro (I didn't even know computers made of metal existed). I bought a Mac when I could, especially knowing the UNIX layer underneath making programming much easier than it needs to be. Heck, outside of my tinkering with Python through middle and high school, it was my awe of what computers could actually be that caught my fascination with the subject matter (I remember seeing this picture of Jobs wondering what this machine was even....again this was middle school so cut me some slack).
+
+Throughout my life, I have tinkered with Computers. Started off as Python Programming through Middle School, tinkering with C/C++ and modding Win 3.1 in High School (+ web dev and client dev), and now (as mentioned above) completing my thesis in Programming Language Performance (most of which included tinkering). 
+
+![Steve Jobs w/ 1984 Mac](./5.jpg)
+
+Well, I believe I am at a point where I can now start tinkering with older OSes, and want to learn programming and backporting a modern program for this particular OS. 
+
 However, even when I got the OS to work in a Virtual Machine on my M2 MacBook Air (that's 30 years of hardware differences), I noticed that the system was actually very self-contained. It had a Java Runtime Environment shipped with the core OS (for Applets), and AppleScript (shown in banner image above) was a pretty powerful scripting language which does not have much documentation today (for the version shipped with this OS, I know that a more recent AppleScript is still present in current macOS). 
 
 ![AppleScript and the built-in Script Editor](./2.png)
