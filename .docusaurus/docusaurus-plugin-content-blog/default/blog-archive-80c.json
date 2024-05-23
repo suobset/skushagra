@@ -1,6 +1,54 @@
 {
   "blogPosts": [
     {
+      "id": "knitting1",
+      "metadata": {
+        "permalink": "/blog/knitting1",
+        "source": "@site/blog/2024-05-22-knitting1/index.md",
+        "title": "Trying out Knitting (Part 1)",
+        "description": "I tried out knitting as a new hobby for the first time. My partner picked it up a while ago and I decided to have her teach me so I could get a taste of what to expect.",
+        "date": "2024-05-22T00:00:00.000Z",
+        "formattedDate": "May 22, 2024",
+        "tags": [
+          {
+            "label": "Life",
+            "permalink": "/blog/tags/life"
+          },
+          {
+            "label": "Hobbies",
+            "permalink": "/blog/tags/hobbies"
+          }
+        ],
+        "readingTime": 1.75,
+        "hasTruncateMarker": true,
+        "authors": [
+          {
+            "name": "Kushagra Srivastava",
+            "title": "I write, code, and create. Sometimes all at the same time.",
+            "url": "https://skushagra.com",
+            "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+            "key": "suobset"
+          }
+        ],
+        "frontMatter": {
+          "slug": "knitting1",
+          "title": "Trying out Knitting (Part 1)",
+          "authors": [
+            "suobset"
+          ],
+          "tags": [
+            "Life",
+            "Hobbies"
+          ]
+        },
+        "nextItem": {
+          "title": "Programming for Classic MacOS (Part 0)",
+          "permalink": "/blog/classicmac1"
+        }
+      },
+      "content": "I tried out knitting as a new hobby for the first time. My partner picked it up a while ago and I decided to have her teach me so I could get a taste of what to expect. \n\nI realized how slow and concentrated of a process it is, which is also the newbie talking in me. Watching her do it is like watching a professional chef cook, and I hope I reach to that point with practice. Regardless, as a newbie, I wanted to quantify the difficulty I feel personally (this is obviously different for everyone, and it is only my first day). \n\n<!--truncate-->\n\n## Things Easier than Knitting\n\n1. Assembly Programming (biased because I just wrote a thesis)\n2. Salvaging a burnt pizza in a manner that does not set off the fire alarm\n3. Parallel Parking a F-150\n4. Trying to understand Knot Theory\n5. Giving a closed book exam\n6. CompSci 220 and 311 at UMass Amherst\n7. Learning Digital Art and Photography\n8. Limine Bare Bones Tutorial\n9. Public Speaking and Stage Performances\n10. Engaging in debates about world politics\n11. Daily driving Vim (in fact that's what I wrote this on)\n\n## Things Harder than Knitting\n\nNot impossible, just more difficult.\n\n1. Making sure my taxes and all legal stuff are in order.\n2. CompSci 490Q (Quantum) and reverse engineering MIT PDOS xv7 at UMass Amherst***\n3. Understanding obsfucated Php 5.0 Code\n4. Coding on the Brainfuck language\n5. Trying to decide the spice levels for Indian Cooking when made for non-Indian people\n6. Waking up before 9AM\n7. Calling my parents who live in 2 different countries as of now\n8. Budgeting and making sure that income to spending ratio is on track\n9. Choosing what music to play on a road trip\n10. Gathering my thoughts\n11. Daily Driving EMacs\n\n*** xv7 just does not run well on a Mac, so it wasn't as much as that OS as much as it was macOS. \n\nI do hope that I get better at Knitting soon. Until then, this is where I stand :')"
+    },
+    {
       "id": "classicmac1",
       "metadata": {
         "permalink": "/blog/classicmac1",
@@ -17,6 +65,10 @@
           {
             "label": "Code",
             "permalink": "/blog/tags/code"
+          },
+          {
+            "label": "Internet Wonders",
+            "permalink": "/blog/tags/internet-wonders"
           }
         ],
         "readingTime": 4.325,
@@ -38,8 +90,13 @@
           ],
           "tags": [
             "Open Source",
-            "Code"
+            "Code",
+            "Internet Wonders"
           ]
+        },
+        "prevItem": {
+          "title": "Trying out Knitting (Part 1)",
+          "permalink": "/blog/knitting1"
         },
         "nextItem": {
           "title": "Side Projects, Life Updates",
@@ -73,6 +130,14 @@
           {
             "label": "Personal",
             "permalink": "/blog/tags/personal"
+          },
+          {
+            "label": "academia",
+            "permalink": "/blog/tags/academia"
+          },
+          {
+            "label": "iCons",
+            "permalink": "/blog/tags/i-cons"
           }
         ],
         "readingTime": 8.355,
@@ -96,7 +161,9 @@
             "newsletter",
             "life",
             "Open Source",
-            "Personal"
+            "Personal",
+            "academia",
+            "iCons"
           ]
         },
         "prevItem": {

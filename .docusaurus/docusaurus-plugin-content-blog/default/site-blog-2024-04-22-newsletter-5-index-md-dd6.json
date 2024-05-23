@@ -21,6 +21,14 @@
     {
       "label": "Personal",
       "permalink": "/blog/tags/personal"
+    },
+    {
+      "label": "academia",
+      "permalink": "/blog/tags/academia"
+    },
+    {
+      "label": "iCons",
+      "permalink": "/blog/tags/i-cons"
     }
   ],
   "readingTime": 8.355,
@@ -44,7 +52,9 @@
       "newsletter",
       "life",
       "Open Source",
-      "Personal"
+      "Personal",
+      "academia",
+      "iCons"
     ]
   },
   "prevItem": {

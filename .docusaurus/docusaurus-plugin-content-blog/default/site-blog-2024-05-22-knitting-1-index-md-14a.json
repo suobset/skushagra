@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/knitting1",
+  "source": "@site/blog/2024-05-22-knitting1/index.md",
+  "title": "Trying out Knitting (Part 1)",
+  "description": "I tried out knitting as a new hobby for the first time. My partner picked it up a while ago and I decided to have her teach me so I could get a taste of what to expect.",
+  "date": "2024-05-22T00:00:00.000Z",
+  "formattedDate": "May 22, 2024",
+  "tags": [
+    {
+      "label": "Life",
+      "permalink": "/blog/tags/life"
+    },
+    {
+      "label": "Hobbies",
+      "permalink": "/blog/tags/hobbies"
+    }
+  ],
+  "readingTime": 1.75,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "knitting1",
+    "title": "Trying out Knitting (Part 1)",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "Life",
+      "Hobbies"
+    ]
+  },
+  "nextItem": {
+    "title": "Programming for Classic MacOS (Part 0)",
+    "permalink": "/blog/classicmac1"
+  }
+}

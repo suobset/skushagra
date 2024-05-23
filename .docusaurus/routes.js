@@ -49,7 +49,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'a8e'),
+    component: ComponentCreator('/blog', 'e7e'),
     exact: true
   },
   {
@@ -75,6 +75,11 @@ export default [
   {
     path: '/blog/dreaming',
     component: ComponentCreator('/blog/dreaming', '755'),
+    exact: true
+  },
+  {
+    path: '/blog/knitting1',
+    component: ComponentCreator('/blog/knitting1', '41c'),
     exact: true
   },
   {
@@ -119,12 +124,12 @@ export default [
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', 'e18'),
+    component: ComponentCreator('/blog/page/2', 'a17'),
     exact: true
   },
   {
     path: '/blog/page/3',
-    component: ComponentCreator('/blog/page/3', '1a4'),
+    component: ComponentCreator('/blog/page/3', '065'),
     exact: true
   },
   {
@@ -134,7 +139,7 @@ export default [
   },
   {
     path: '/blog/tags/academia',
-    component: ComponentCreator('/blog/tags/academia', '4d5'),
+    component: ComponentCreator('/blog/tags/academia', 'de3'),
     exact: true
   },
   {
@@ -174,27 +179,27 @@ export default [
   },
   {
     path: '/blog/tags/hobbies',
-    component: ComponentCreator('/blog/tags/hobbies', '6b8'),
+    component: ComponentCreator('/blog/tags/hobbies', 'c6e'),
     exact: true
   },
   {
     path: '/blog/tags/i-cons',
-    component: ComponentCreator('/blog/tags/i-cons', '8b4'),
+    component: ComponentCreator('/blog/tags/i-cons', '66a'),
     exact: true
   },
   {
     path: '/blog/tags/internet-wonders',
-    component: ComponentCreator('/blog/tags/internet-wonders', 'cf1'),
+    component: ComponentCreator('/blog/tags/internet-wonders', '180'),
     exact: true
   },
   {
     path: '/blog/tags/life',
-    component: ComponentCreator('/blog/tags/life', '16c'),
+    component: ComponentCreator('/blog/tags/life', '6a2'),
     exact: true
   },
   {
     path: '/blog/tags/life/page/2',
-    component: ComponentCreator('/blog/tags/life/page/2', '176'),
+    component: ComponentCreator('/blog/tags/life/page/2', '620'),
     exact: true
   },
   {

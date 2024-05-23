@@ -2,7 +2,7 @@
 slug: "newsletter5"
 title: "Side Projects, Life Updates"
 authors: ['suobset']
-tags: ['newsletter', 'life', 'Open Source', 'Personal']
+tags: ['newsletter', 'life', 'Open Source', 'Personal', 'academia', 'iCons']
 ---
 
 # Side Projects, Life Updates

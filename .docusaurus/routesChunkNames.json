@@ -56,13 +56,16 @@
     },
     "content": "content---best-viewed-by-any-browser-144-8e8"
   },
-  "/blog-a8e": {
+  "/blog-e7e": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogb-0-e-859"
+      },
       {
         "content": "content---blog-74-f-466"
       },
@@ -74,9 +77,6 @@
       },
       {
         "content": "content---blog-166-926"
-      },
-      {
-        "content": "content---blog-6-ab-20d"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
@@ -119,6 +119,14 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-dreaminge-57-2ab"
+  },
+  "/blog/knitting1-41c": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-9-cf-8b4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-knitting-114-a-7f1"
   },
   "/blog/liminal-spaces-art-of-appreciating-d1f": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -184,13 +192,16 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-on-macos-and-libre-softwarecce-ce6"
   },
-  "/blog/page/2-e18": {
+  "/blog/page/2-a17": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-page-26-ab-e9d"
+      },
       {
         "content": "content---blog-page-2-be-8-105"
       },
@@ -202,20 +213,20 @@
       },
       {
         "content": "content---blog-page-2-a-91-8db"
-      },
-      {
-        "content": "content---blog-page-2-ef-3-2e7"
       }
     ],
     "metadata": "metadata---blog-page-28-eb-625"
   },
-  "/blog/page/3-1a4": {
+  "/blog/page/3-065": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-page-3-ef-3-d42"
+      },
       {
         "content": "content---blog-page-3-d-6-e-6e1"
       },
@@ -239,7 +250,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/academia-4d5": {
+  "/blog/tags/academia-de3": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
@@ -247,13 +258,16 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
+        "content": "content---blog-6-c-2-8ec"
+      },
+      {
         "content": "content---blogcce-255"
       },
       {
         "content": "content---blog-166-926"
       },
       {
-        "content": "content---blog-page-2-ef-3-2e7"
+        "content": "content---blog-page-3-ef-3-d42"
       },
       {
         "content": "content---blog-page-3-d-6-e-6e1"
@@ -307,7 +321,7 @@
         "content": "content---blog-page-256-c-057"
       },
       {
-        "content": "content---blog-page-2-ef-3-2e7"
+        "content": "content---blog-page-3-ef-3-d42"
       }
     ],
     "tag": "tag---blog-tags-code-4-f-0-b7b",
@@ -321,7 +335,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-2-ef-3-2e7"
+        "content": "content---blog-page-3-ef-3-d42"
       }
     ],
     "tag": "tag---blog-tags-dictionary-70-c-ae6",
@@ -369,13 +383,16 @@
     "tag": "tag---blog-tags-hello-30-a-bed",
     "listMetadata": "listMetadata---blog-tags-hello-664-70a"
   },
-  "/blog/tags/hobbies-6b8": {
+  "/blog/tags/hobbies-c6e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogb-0-e-859"
+      },
       {
         "content": "content---blog-page-256-c-057"
       },
@@ -386,7 +403,7 @@
     "tag": "tag---blog-tags-hobbiesb-41-794",
     "listMetadata": "listMetadata---blog-tags-hobbies-2-c-8-637"
   },
-  "/blog/tags/i-cons-8b4": {
+  "/blog/tags/i-cons-66a": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
@@ -394,7 +411,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-6-ab-20d"
+        "content": "content---blog-6-c-2-8ec"
+      },
+      {
+        "content": "content---blog-page-26-ab-e9d"
       },
       {
         "content": "content---blog-page-3-d-6-e-6e1"
@@ -403,7 +423,7 @@
     "tag": "tag---blog-tags-i-cons-55-f-3f2",
     "listMetadata": "listMetadata---blog-tags-i-cons-4-f-7-242"
   },
-  "/blog/tags/internet-wonders-cf1": {
+  "/blog/tags/internet-wonders-180": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
@@ -411,19 +431,25 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-6-ab-20d"
+        "content": "content---blog-74-f-466"
+      },
+      {
+        "content": "content---blog-page-26-ab-e9d"
       }
     ],
     "tag": "tag---blog-tags-internet-wonders-86-a-56d",
     "listMetadata": "listMetadata---blog-tags-internet-wondersc-73-51c"
   },
-  "/blog/tags/life-16c": {
+  "/blog/tags/life-6a2": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogb-0-e-859"
+      },
       {
         "content": "content---blog-6-c-2-8ec"
       },
@@ -435,21 +461,21 @@
       },
       {
         "content": "content---blog-page-2-a-91-8db"
-      },
-      {
-        "content": "content---blog-page-2-ef-3-2e7"
       }
     ],
     "tag": "tag---blog-tags-life-976-34c",
     "listMetadata": "listMetadata---blog-tags-lifebf-5-233"
   },
-  "/blog/tags/life/page/2-176": {
+  "/blog/tags/life/page/2-620": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-page-3-ef-3-d42"
+      },
       {
         "content": "content---blog-page-3-d-6-e-6e1"
       },
@@ -494,7 +520,7 @@
         "content": "content---blog-166-926"
       },
       {
-        "content": "content---blog-6-ab-20d"
+        "content": "content---blog-page-26-ab-e9d"
       },
       {
         "content": "content---blog-page-2-be-8-105"
@@ -548,7 +574,7 @@
         "content": "content---blogcce-255"
       },
       {
-        "content": "content---blog-6-ab-20d"
+        "content": "content---blog-page-26-ab-e9d"
       },
       {
         "content": "content---blog-page-2-be-8-105"

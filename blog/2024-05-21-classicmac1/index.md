@@ -2,7 +2,7 @@
 slug: "classicmac1"
 title: "Programming for Classic MacOS (Part 0)"
 authors: ['suobset']
-tags: ['Open Source', 'Code']
+tags: ['Open Source', 'Code', 'Internet Wonders']
 ---
 
 ![Vintage Mac Hello World written on AppleScript](./1.png)

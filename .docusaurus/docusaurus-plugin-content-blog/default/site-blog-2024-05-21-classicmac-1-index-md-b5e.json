@@ -13,6 +13,10 @@
     {
       "label": "Code",
       "permalink": "/blog/tags/code"
+    },
+    {
+      "label": "Internet Wonders",
+      "permalink": "/blog/tags/internet-wonders"
     }
   ],
   "readingTime": 4.325,
@@ -34,8 +38,13 @@
     ],
     "tags": [
       "Open Source",
-      "Code"
+      "Code",
+      "Internet Wonders"
     ]
+  },
+  "prevItem": {
+    "title": "Trying out Knitting (Part 1)",
+    "permalink": "/blog/knitting1"
   },
   "nextItem": {
     "title": "Side Projects, Life Updates",
