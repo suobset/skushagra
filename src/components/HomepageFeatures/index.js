@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/macintosh.svg').default,
     description: (
       <>
-        Helping create a <a href="http://skushagra.com/blog/newsletter5#anna-biondos-low-carbon-concrete-project">Video Game</a> for Anna Biondo's LCC Project (iCons); Creating the <a href="https://tra86.skushagra.com/">tra86 toolchain</a> for Programming Language Performance Analysis; Creating <a href="https://skushagra.com/docs/finechive/morbios">MorbiOS</a> (RUST-based OS) w/ <a href="https://github.com/anvitha305">Anvitha</a>; Programming to Reverse Engineer for Classic Macintosh (pre OS X).
+        Helping create a <a href="http://skushagra.com/blog/newsletter5#anna-biondos-low-carbon-concrete-project">Video Game</a> for Anna Biondo's LCC Project (iCons); Creating the <a href="https://tra86.skushagra.com/">tra86 toolchain</a> for Programming Language Performance Analysis; Creating <a href="https://skushagra.com/docs/finechive/morbios">MorbiOS</a> w/ <a href="https://github.com/anvitha305">Anvitha</a>; Programming to Reverse Engineer for Classic Macintosh.
       </>
     ),
   },
