@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://skushagra.com/blog</id>
     <title>Kushagra Srivastava Blog</title>
-    <updated>2024-05-21T00:00:00.000Z</updated>
+    <updated>2024-05-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://skushagra.com/blog"/>
     <subtitle>Kushagra Srivastava Blog</subtitle>
     <icon>https://skushagra.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Trying out Knitting (Part 1)]]></title>
+        <id>https://skushagra.com/blog/knitting1</id>
+        <link href="https://skushagra.com/blog/knitting1"/>
+        <updated>2024-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I tried out knitting as a new hobby for the first time. My partner picked it up a while ago and I decided to have her teach me so I could get a taste of what to expect.]]></summary>
+        <content type="html"><![CDATA[<p>I tried out knitting as a new hobby for the first time. My partner picked it up a while ago and I decided to have her teach me so I could get a taste of what to expect. </p><p>I realized how slow and concentrated of a process it is, which is also the newbie talking in me. Watching her do it is like watching a professional chef cook, and I hope I reach to that point with practice. Regardless, as a newbie, I wanted to quantify the difficulty I feel personally (this is obviously different for everyone, and it is only my first day). </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="things-easier-than-knitting">Things Easier than Knitting<a href="#things-easier-than-knitting" class="hash-link" aria-label="Direct link to Things Easier than Knitting" title="Direct link to Things Easier than Knitting">​</a></h2><ol><li>Assembly Programming (biased because I just wrote a thesis)</li><li>Salvaging a burnt pizza in a manner that does not set off the fire alarm</li><li>Parallel Parking a F-150</li><li>Trying to understand Knot Theory</li><li>Giving a closed book exam</li><li>CompSci 220 and 311 at UMass Amherst</li><li>Learning Digital Art and Photography</li><li>Limine Bare Bones Tutorial</li><li>Public Speaking and Stage Performances</li><li>Engaging in debates about world politics</li><li>Daily driving Vim (in fact that's what I wrote this on)</li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="things-harder-than-knitting">Things Harder than Knitting<a href="#things-harder-than-knitting" class="hash-link" aria-label="Direct link to Things Harder than Knitting" title="Direct link to Things Harder than Knitting">​</a></h2><p>Not impossible, just more difficult.</p><ol><li>Making sure my taxes and all legal stuff are in order.</li><li>CompSci 490Q (Quantum) and reverse engineering MIT PDOS xv7 at UMass Amherst***</li><li>Understanding obsfucated Php 5.0 Code</li><li>Coding on the Brainfuck language</li><li>Trying to decide the spice levels for Indian Cooking when made for non-Indian people</li><li>Waking up before 9AM</li><li>Calling my parents who live in 2 different countries as of now</li><li>Budgeting and making sure that income to spending ratio is on track</li><li>Choosing what music to play on a road trip</li><li>Gathering my thoughts</li><li>Daily Driving EMacs</li></ol><p>*** xv7 just does not run well on a Mac, so it wasn't as much as that OS as much as it was macOS. </p><p>I do hope that I get better at Knitting soon. Until then, this is where I stand :')</p>]]></content>
+        <author>
+            <name>Kushagra Srivastava</name>
+            <uri>https://skushagra.com</uri>
+        </author>
+        <category label="Life" term="Life"/>
+        <category label="Hobbies" term="Hobbies"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Programming for Classic MacOS (Part 0)]]></title>
         <id>https://skushagra.com/blog/classicmac1</id>
@@ -20,6 +34,7 @@
         </author>
         <category label="Open Source" term="Open Source"/>
         <category label="Code" term="Code"/>
+        <category label="Internet Wonders" term="Internet Wonders"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Side Projects, Life Updates]]></title>
@@ -36,6 +51,8 @@
         <category label="life" term="life"/>
         <category label="Open Source" term="Open Source"/>
         <category label="Personal" term="Personal"/>
+        <category label="academia" term="academia"/>
+        <category label="iCons" term="iCons"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Metamorphosis.]]></title>

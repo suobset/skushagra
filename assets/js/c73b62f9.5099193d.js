@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkskushagra=self.webpackChunkskushagra||[]).push([[5629],{2773:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/internet-wonders","page":1,"postsPerPage":5,"totalPages":1,"totalCount":2,"blogDescription":"The Finechive Newsletter, by Kush S.","blogTitle":"Fineletters."}')}}]);
