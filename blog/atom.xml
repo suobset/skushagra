@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://skushagra.com/blog</id>
     <title>Kushagra Srivastava Blog</title>
-    <updated>2024-05-22T00:00:00.000Z</updated>
+    <updated>2024-05-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://skushagra.com/blog"/>
     <subtitle>Kushagra Srivastava Blog</subtitle>
     <icon>https://skushagra.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Kush's Self Gingerbread Portrait]]></title>
+        <id>https://skushagra.com/blog/random1</id>
+        <link href="https://skushagra.com/blog/random1"/>
+        <updated>2024-05-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Drew a self portrait of myself as a fun activity while meeting up with friends at Jandon Center. Here goes :)]]></summary>
+        <content type="html"><![CDATA[<p>Drew a self portrait of myself as a fun activity while meeting up with friends at <a href="https://www.smith.edu/academics/applied-learning-research/jandon-center-community-engagement" target="_blank" rel="noopener noreferrer">Jandon Center</a>. Here goes :)</p><p><img loading="lazy" alt="Portrait" src="/assets/images/portrait-8b812e95975c5728d7b36b064178497a.jpg" width="1700" height="2264" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Kushagra Srivastava</name>
+            <uri>https://skushagra.com</uri>
+        </author>
+        <category label="Random" term="Random"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trying out Knitting (Part 1)]]></title>
         <id>https://skushagra.com/blog/knitting1</id>

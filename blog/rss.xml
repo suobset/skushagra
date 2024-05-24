@@ -4,10 +4,19 @@
         <title>Kushagra Srivastava Blog</title>
         <link>https://skushagra.com/blog</link>
         <description>Kushagra Srivastava Blog</description>
-        <lastBuildDate>Wed, 22 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Kush's Self Gingerbread Portrait]]></title>
+            <link>https://skushagra.com/blog/random1</link>
+            <guid>https://skushagra.com/blog/random1</guid>
+            <pubDate>Fri, 24 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Drew a self portrait of myself as a fun activity while meeting up with friends at Jandon Center. Here goes :)]]></description>
+            <content:encoded><![CDATA[<p>Drew a self portrait of myself as a fun activity while meeting up with friends at <a href="https://www.smith.edu/academics/applied-learning-research/jandon-center-community-engagement" target="_blank" rel="noopener noreferrer">Jandon Center</a>. Here goes :)</p><p><img loading="lazy" alt="Portrait" src="/assets/images/portrait-8b812e95975c5728d7b36b064178497a.jpg" width="1700" height="2264" class="img_ev3q"></p>]]></content:encoded>
+            <category>Random</category>
+        </item>
         <item>
             <title><![CDATA[Trying out Knitting (Part 1)]]></title>
             <link>https://skushagra.com/blog/knitting1</link>
