@@ -1,10 +1,9 @@
 {
-  "permalink": "/blog",
+  "permalink": "/blog/tags/random",
   "page": 1,
   "postsPerPage": 5,
-  "totalPages": 4,
-  "totalCount": 16,
-  "nextPage": "/blog/page/2",
+  "totalPages": 1,
+  "totalCount": 1,
   "blogDescription": "The Finechive Newsletter, by Kush S.",
   "blogTitle": "Fineletters."
 }

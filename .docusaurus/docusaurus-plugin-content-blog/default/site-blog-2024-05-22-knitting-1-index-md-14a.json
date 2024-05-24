@@ -37,6 +37,10 @@
       "Hobbies"
     ]
   },
+  "prevItem": {
+    "title": "Kush's Self Gingerbread Portrait",
+    "permalink": "/blog/random1"
+  },
   "nextItem": {
     "title": "Programming for Classic MacOS (Part 0)",
     "permalink": "/blog/classicmac1"

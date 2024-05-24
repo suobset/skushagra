@@ -1,6 +1,49 @@
 {
   "blogPosts": [
     {
+      "id": "random1",
+      "metadata": {
+        "permalink": "/blog/random1",
+        "source": "@site/blog/2024-05-24-random1/index.md",
+        "title": "Kush's Self Gingerbread Portrait",
+        "description": "Drew a self portrait of myself as a fun activity while meeting up with friends at Jandon Center. Here goes :)",
+        "date": "2024-05-24T00:00:00.000Z",
+        "formattedDate": "May 24, 2024",
+        "tags": [
+          {
+            "label": "Random",
+            "permalink": "/blog/tags/random"
+          }
+        ],
+        "readingTime": 0.115,
+        "hasTruncateMarker": true,
+        "authors": [
+          {
+            "name": "Kushagra Srivastava",
+            "title": "I write, code, and create. Sometimes all at the same time.",
+            "url": "https://skushagra.com",
+            "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+            "key": "suobset"
+          }
+        ],
+        "frontMatter": {
+          "slug": "random1",
+          "title": "Kush's Self Gingerbread Portrait",
+          "authors": [
+            "suobset"
+          ],
+          "tags": [
+            "Random"
+          ]
+        },
+        "nextItem": {
+          "title": "Trying out Knitting (Part 1)",
+          "permalink": "/blog/knitting1"
+        }
+      },
+      "content": "Drew a self portrait of myself as a fun activity while meeting up with friends at [Jandon Center](https://www.smith.edu/academics/applied-learning-research/jandon-center-community-engagement). Here goes :)\n\n<!--truncate-->\n\n![Portrait](./portrait.jpg)"
+    },
+    {
       "id": "knitting1",
       "metadata": {
         "permalink": "/blog/knitting1",
@@ -40,6 +83,10 @@
             "Life",
             "Hobbies"
           ]
+        },
+        "prevItem": {
+          "title": "Kush's Self Gingerbread Portrait",
+          "permalink": "/blog/random1"
         },
         "nextItem": {
           "title": "Programming for Classic MacOS (Part 0)",

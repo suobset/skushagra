@@ -996,6 +996,49 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "random1",
+          "metadata": {
+            "permalink": "/blog/random1",
+            "source": "@site/blog/2024-05-24-random1/index.md",
+            "title": "Kush's Self Gingerbread Portrait",
+            "description": "Drew a self portrait of myself as a fun activity while meeting up with friends at Jandon Center. Here goes :)",
+            "date": "2024-05-24T00:00:00.000Z",
+            "formattedDate": "May 24, 2024",
+            "tags": [
+              {
+                "label": "Random",
+                "permalink": "/blog/tags/random"
+              }
+            ],
+            "readingTime": 0.115,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Kushagra Srivastava",
+                "title": "I write, code, and create. Sometimes all at the same time.",
+                "url": "https://skushagra.com",
+                "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+                "key": "suobset"
+              }
+            ],
+            "frontMatter": {
+              "slug": "random1",
+              "title": "Kush's Self Gingerbread Portrait",
+              "authors": [
+                "suobset"
+              ],
+              "tags": [
+                "Random"
+              ]
+            },
+            "nextItem": {
+              "title": "Trying out Knitting (Part 1)",
+              "permalink": "/blog/knitting1"
+            }
+          },
+          "content": "Drew a self portrait of myself as a fun activity while meeting up with friends at [Jandon Center](https://www.smith.edu/academics/applied-learning-research/jandon-center-community-engagement). Here goes :)\n\n<!--truncate-->\n\n![Portrait](./portrait.jpg)"
+        },
+        {
           "id": "knitting1",
           "metadata": {
             "permalink": "/blog/knitting1",
@@ -1035,6 +1078,10 @@
                 "Life",
                 "Hobbies"
               ]
+            },
+            "prevItem": {
+              "title": "Kush's Self Gingerbread Portrait",
+              "permalink": "/blog/random1"
             },
             "nextItem": {
               "title": "Programming for Classic MacOS (Part 0)",
@@ -1881,18 +1928,18 @@
       "blogListPaginated": [
         {
           "items": [
+            "random1",
             "knitting1",
             "classicmac1",
             "newsletter5",
-            "newsletter4",
-            "newsletter3"
+            "newsletter4"
           ],
           "metadata": {
             "permalink": "/blog",
             "page": 1,
             "postsPerPage": 5,
-            "totalPages": 3,
-            "totalCount": 15,
+            "totalPages": 4,
+            "totalCount": 16,
             "nextPage": "/blog/page/2",
             "blogDescription": "The Finechive Newsletter, by Kush S.",
             "blogTitle": "Fineletters."
@@ -1900,18 +1947,18 @@
         },
         {
           "items": [
+            "newsletter3",
             "newsletter2",
             "newsletter1",
             "newsletter time",
-            "on-macos-and-libre-software",
-            "dreaming"
+            "on-macos-and-libre-software"
           ],
           "metadata": {
             "permalink": "/blog/page/2",
             "page": 2,
             "postsPerPage": 5,
-            "totalPages": 3,
-            "totalCount": 15,
+            "totalPages": 4,
+            "totalCount": 16,
             "previousPage": "/blog",
             "nextPage": "/blog/page/3",
             "blogDescription": "The Finechive Newsletter, by Kush S.",
@@ -1920,25 +1967,64 @@
         },
         {
           "items": [
+            "dreaming",
             "debugxiety",
             "dc-the-opportunity-project",
             "the finechive",
-            "liminal-spaces-art-of-appreciating",
-            "welcome"
+            "liminal-spaces-art-of-appreciating"
           ],
           "metadata": {
             "permalink": "/blog/page/3",
             "page": 3,
             "postsPerPage": 5,
-            "totalPages": 3,
-            "totalCount": 15,
+            "totalPages": 4,
+            "totalCount": 16,
             "previousPage": "/blog/page/2",
+            "nextPage": "/blog/page/4",
+            "blogDescription": "The Finechive Newsletter, by Kush S.",
+            "blogTitle": "Fineletters."
+          }
+        },
+        {
+          "items": [
+            "welcome"
+          ],
+          "metadata": {
+            "permalink": "/blog/page/4",
+            "page": 4,
+            "postsPerPage": 5,
+            "totalPages": 4,
+            "totalCount": 16,
+            "previousPage": "/blog/page/3",
             "blogDescription": "The Finechive Newsletter, by Kush S.",
             "blogTitle": "Fineletters."
           }
         }
       ],
       "blogTags": {
+        "/blog/tags/random": {
+          "label": "Random",
+          "items": [
+            "random1"
+          ],
+          "permalink": "/blog/tags/random",
+          "pages": [
+            {
+              "items": [
+                "random1"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/random",
+                "page": 1,
+                "postsPerPage": 5,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "The Finechive Newsletter, by Kush S.",
+                "blogTitle": "Fineletters."
+              }
+            }
+          ]
+        },
         "/blog/tags/life": {
           "label": "Life",
           "items": [

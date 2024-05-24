@@ -49,7 +49,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'e7e'),
+    component: ComponentCreator('/blog', '169'),
     exact: true
   },
   {
@@ -124,12 +124,22 @@ export default [
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', 'a17'),
+    component: ComponentCreator('/blog/page/2', '69f'),
     exact: true
   },
   {
     path: '/blog/page/3',
-    component: ComponentCreator('/blog/page/3', '065'),
+    component: ComponentCreator('/blog/page/3', '7c4'),
+    exact: true
+  },
+  {
+    path: '/blog/page/4',
+    component: ComponentCreator('/blog/page/4', '235'),
+    exact: true
+  },
+  {
+    path: '/blog/random1',
+    component: ComponentCreator('/blog/random1', 'e8c'),
     exact: true
   },
   {
@@ -235,6 +245,11 @@ export default [
   {
     path: '/blog/tags/personal',
     component: ComponentCreator('/blog/tags/personal', '429'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/random',
+    component: ComponentCreator('/blog/tags/random', 'c19'),
     exact: true
   },
   {

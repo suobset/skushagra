@@ -1,5 +1,10 @@
 [
   {
+    "label": "Random",
+    "permalink": "/blog/tags/random",
+    "count": 1
+  },
+  {
     "label": "Life",
     "permalink": "/blog/tags/life",
     "count": 9
