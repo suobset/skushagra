@@ -1,5 +1,35 @@
 [
   {
+    "label": "newsletter",
+    "permalink": "/blog/tags/newsletter",
+    "count": 7
+  },
+  {
+    "label": "Personal",
+    "permalink": "/blog/tags/personal",
+    "count": 5
+  },
+  {
+    "label": "academia",
+    "permalink": "/blog/tags/academia",
+    "count": 6
+  },
+  {
+    "label": "iCons",
+    "permalink": "/blog/tags/i-cons",
+    "count": 4
+  },
+  {
+    "label": "Aesthetics",
+    "permalink": "/blog/tags/aesthetics",
+    "count": 3
+  },
+  {
+    "label": "Highlights",
+    "permalink": "/blog/tags/highlights",
+    "count": 1
+  },
+  {
     "label": "Random",
     "permalink": "/blog/tags/random",
     "count": 1
@@ -27,31 +57,6 @@
   {
     "label": "Internet Wonders",
     "permalink": "/blog/tags/internet-wonders",
-    "count": 2
-  },
-  {
-    "label": "newsletter",
-    "permalink": "/blog/tags/newsletter",
-    "count": 6
-  },
-  {
-    "label": "Personal",
-    "permalink": "/blog/tags/personal",
-    "count": 4
-  },
-  {
-    "label": "academia",
-    "permalink": "/blog/tags/academia",
-    "count": 5
-  },
-  {
-    "label": "iCons",
-    "permalink": "/blog/tags/i-cons",
-    "count": 3
-  },
-  {
-    "label": "Aesthetics",
-    "permalink": "/blog/tags/aesthetics",
     "count": 2
   },
   {

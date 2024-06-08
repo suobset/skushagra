@@ -1,0 +1,26 @@
+{
+  "unversionedId": "independent/classicMac",
+  "id": "independent/classicMac",
+  "title": "Classic Mac OS",
+  "description": "A programming journey for the turn-of-the-century Operating System.",
+  "source": "@site/docs/independent/classicMac.md",
+  "sourceDirName": "independent",
+  "slug": "/independent/classicMac",
+  "permalink": "/docs/independent/classicMac",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Apartment Pointer",
+    "permalink": "/docs/independent/aptPoint"
+  },
+  "next": {
+    "title": "Hobby.",
+    "permalink": "/docs/category/hobby"
+  }
+}

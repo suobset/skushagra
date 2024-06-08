@@ -49,7 +49,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '169'),
+    component: ComponentCreator('/blog', '932'),
     exact: true
   },
   {
@@ -118,23 +118,28 @@ export default [
     exact: true
   },
   {
+    path: '/blog/newsletter6',
+    component: ComponentCreator('/blog/newsletter6', '3bc'),
+    exact: true
+  },
+  {
     path: '/blog/on-macos-and-libre-software',
     component: ComponentCreator('/blog/on-macos-and-libre-software', '225'),
     exact: true
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', '69f'),
+    component: ComponentCreator('/blog/page/2', '1b3'),
     exact: true
   },
   {
     path: '/blog/page/3',
-    component: ComponentCreator('/blog/page/3', '7c4'),
+    component: ComponentCreator('/blog/page/3', 'c42'),
     exact: true
   },
   {
     path: '/blog/page/4',
-    component: ComponentCreator('/blog/page/4', '235'),
+    component: ComponentCreator('/blog/page/4', 'a87'),
     exact: true
   },
   {
@@ -149,12 +154,17 @@ export default [
   },
   {
     path: '/blog/tags/academia',
-    component: ComponentCreator('/blog/tags/academia', 'de3'),
+    component: ComponentCreator('/blog/tags/academia', 'd4f'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/academia/page/2',
+    component: ComponentCreator('/blog/tags/academia/page/2', 'b51'),
     exact: true
   },
   {
     path: '/blog/tags/aesthetics',
-    component: ComponentCreator('/blog/tags/aesthetics', 'b84'),
+    component: ComponentCreator('/blog/tags/aesthetics', '69d'),
     exact: true
   },
   {
@@ -188,13 +198,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/highlights',
+    component: ComponentCreator('/blog/tags/highlights', '7d8'),
+    exact: true
+  },
+  {
     path: '/blog/tags/hobbies',
     component: ComponentCreator('/blog/tags/hobbies', 'c6e'),
     exact: true
   },
   {
     path: '/blog/tags/i-cons',
-    component: ComponentCreator('/blog/tags/i-cons', '66a'),
+    component: ComponentCreator('/blog/tags/i-cons', '139'),
     exact: true
   },
   {
@@ -219,12 +234,12 @@ export default [
   },
   {
     path: '/blog/tags/newsletter',
-    component: ComponentCreator('/blog/tags/newsletter', 'b6d'),
+    component: ComponentCreator('/blog/tags/newsletter', 'b46'),
     exact: true
   },
   {
     path: '/blog/tags/newsletter/page/2',
-    component: ComponentCreator('/blog/tags/newsletter/page/2', '477'),
+    component: ComponentCreator('/blog/tags/newsletter/page/2', '15f'),
     exact: true
   },
   {
@@ -244,7 +259,7 @@ export default [
   },
   {
     path: '/blog/tags/personal',
-    component: ComponentCreator('/blog/tags/personal', '429'),
+    component: ComponentCreator('/blog/tags/personal', '5a6'),
     exact: true
   },
   {
@@ -299,7 +314,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '1b7'),
+    component: ComponentCreator('/docs', '425'),
     routes: [
       {
         path: '/docs/category/hobby',
@@ -352,6 +367,12 @@ export default [
       {
         path: '/docs/independent/aptPoint',
         component: ComponentCreator('/docs/independent/aptPoint', 'f29'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/independent/classicMac',
+        component: ComponentCreator('/docs/independent/classicMac', '227'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

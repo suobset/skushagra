@@ -56,13 +56,16 @@
     },
     "content": "content---best-viewed-by-any-browser-144-8e8"
   },
-  "/blog-169": {
+  "/blog-932": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-980-4a6"
+      },
       {
         "content": "content---blogfae-7b4"
       },
@@ -74,9 +77,6 @@
       },
       {
         "content": "content---blog-6-c-2-8ec"
-      },
-      {
-        "content": "content---blogcce-255"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
@@ -184,6 +184,14 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-newsletter-5-dd-6-d6b"
   },
+  "/blog/newsletter6-3bc": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-9-cf-8b4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-newsletter-6-b-32-aef"
+  },
   "/blog/on-macos-and-libre-software-225": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -192,13 +200,16 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-on-macos-and-libre-softwarecce-ce6"
   },
-  "/blog/page/2-69f": {
+  "/blog/page/2-1b3": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-page-2-cce-3a2"
+      },
       {
         "content": "content---blog-page-2166-752"
       },
@@ -210,20 +221,20 @@
       },
       {
         "content": "content---blog-page-2-a-02-c68"
-      },
-      {
-        "content": "content---blog-page-256-c-057"
       }
     ],
     "metadata": "metadata---blog-page-28-eb-625"
   },
-  "/blog/page/3-7c4": {
+  "/blog/page/3-c42": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-page-356-c-18e"
+      },
       {
         "content": "content---blog-page-3-a-91-16e"
       },
@@ -235,20 +246,20 @@
       },
       {
         "content": "content---blog-page-37-ed-ab0"
-      },
-      {
-        "content": "content---blog-page-3297-37c"
       }
     ],
     "metadata": "metadata---blog-page-3929-7ba"
   },
-  "/blog/page/4-235": {
+  "/blog/page/4-a87": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-page-4297-285"
+      },
       {
         "content": "content---blog-page-440-f-042"
       }
@@ -271,7 +282,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/academia-de3": {
+  "/blog/tags/academia-d4f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
@@ -279,25 +290,25 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
+        "content": "content---blog-980-4a6"
+      },
+      {
         "content": "content---blog-6-c-2-8ec"
       },
       {
-        "content": "content---blogcce-255"
+        "content": "content---blog-page-2-cce-3a2"
       },
       {
         "content": "content---blog-page-2166-752"
       },
       {
         "content": "content---blog-page-3-ef-3-d42"
-      },
-      {
-        "content": "content---blog-page-3-d-6-e-6e1"
       }
     ],
     "tag": "tag---blog-tags-academia-5-ca-4d2",
     "listMetadata": "listMetadata---blog-tags-academia-330-5d0"
   },
-  "/blog/tags/aesthetics-b84": {
+  "/blog/tags/academia/page/2-b51": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
@@ -305,10 +316,27 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
+        "content": "content---blog-page-3-d-6-e-6e1"
+      }
+    ],
+    "tag": "tag---blog-tags-academia-page-244-f-86e",
+    "listMetadata": "listMetadata---blog-tags-academia-page-2-f-5-c-423"
+  },
+  "/blog/tags/aesthetics-69d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-9-cf-8b4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-980-4a6"
+      },
+      {
         "content": "content---blog-page-2-be-8-105"
       },
       {
-        "content": "content---blog-page-3297-37c"
+        "content": "content---blog-page-4297-285"
       }
     ],
     "tag": "tag---blog-tags-aestheticse-31-80a",
@@ -339,7 +367,7 @@
         "content": "content---blog-74-f-466"
       },
       {
-        "content": "content---blog-page-256-c-057"
+        "content": "content---blog-page-356-c-18e"
       },
       {
         "content": "content---blog-page-3-ef-3-d42"
@@ -404,6 +432,20 @@
     "tag": "tag---blog-tags-hello-30-a-bed",
     "listMetadata": "listMetadata---blog-tags-hello-664-70a"
   },
+  "/blog/tags/highlights-7d8": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-9-cf-8b4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-980-4a6"
+      }
+    ],
+    "tag": "tag---blog-tags-highlights-45-d-868",
+    "listMetadata": "listMetadata---blog-tags-highlights-17-b-88f"
+  },
   "/blog/tags/hobbies-c6e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -415,7 +457,7 @@
         "content": "content---blogb-0-e-859"
       },
       {
-        "content": "content---blog-page-256-c-057"
+        "content": "content---blog-page-356-c-18e"
       },
       {
         "content": "content---blog-page-3-a-91-16e"
@@ -424,13 +466,16 @@
     "tag": "tag---blog-tags-hobbiesb-41-794",
     "listMetadata": "listMetadata---blog-tags-hobbies-2-c-8-637"
   },
-  "/blog/tags/i-cons-66a": {
+  "/blog/tags/i-cons-139": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-980-4a6"
+      },
       {
         "content": "content---blog-6-c-2-8ec"
       },
@@ -475,7 +520,7 @@
         "content": "content---blog-6-c-2-8ec"
       },
       {
-        "content": "content---blogcce-255"
+        "content": "content---blog-page-2-cce-3a2"
       },
       {
         "content": "content---blog-page-2166-752"
@@ -504,7 +549,7 @@
         "content": "content---blog-page-37-ed-ab0"
       },
       {
-        "content": "content---blog-page-3297-37c"
+        "content": "content---blog-page-4297-285"
       }
     ],
     "tag": "tag---blog-tags-life-page-2806-efb",
@@ -518,13 +563,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-3297-37c"
+        "content": "content---blog-page-4297-285"
       }
     ],
     "tag": "tag---blog-tags-liminal-space-5-b-8-ad1",
     "listMetadata": "listMetadata---blog-tags-liminal-space-9-c-0-a1d"
   },
-  "/blog/tags/newsletter-b6d": {
+  "/blog/tags/newsletter-b46": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
@@ -532,31 +577,34 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
+        "content": "content---blog-980-4a6"
+      },
+      {
         "content": "content---blog-6-c-2-8ec"
       },
       {
-        "content": "content---blogcce-255"
+        "content": "content---blog-page-2-cce-3a2"
       },
       {
         "content": "content---blog-page-2166-752"
       },
       {
         "content": "content---blog-page-26-ab-e9d"
-      },
-      {
-        "content": "content---blog-page-2-be-8-105"
       }
     ],
     "tag": "tag---blog-tags-newsletterad-9-6ca",
     "listMetadata": "listMetadata---blog-tags-newsletter-0-f-4-99c"
   },
-  "/blog/tags/newsletter/page/2-477": {
+  "/blog/tags/newsletter/page/2-15f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-page-2-be-8-105"
+      },
       {
         "content": "content---blog-page-2-a-02-c68"
       }
@@ -572,7 +620,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-3297-37c"
+        "content": "content---blog-page-4297-285"
       }
     ],
     "tag": "tag---blog-tags-nostalgiab-7-d-66c",
@@ -592,7 +640,7 @@
         "content": "content---blog-6-c-2-8ec"
       },
       {
-        "content": "content---blogcce-255"
+        "content": "content---blog-page-2-cce-3a2"
       },
       {
         "content": "content---blog-page-26-ab-e9d"
@@ -612,13 +660,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-256-c-057"
+        "content": "content---blog-page-356-c-18e"
       }
     ],
     "tag": "tag---blog-tags-open-source-page-29-b-0-8bd",
     "listMetadata": "listMetadata---blog-tags-open-source-page-2-f-83-3a3"
   },
-  "/blog/tags/personal-429": {
+  "/blog/tags/personal-5a6": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-9-cf-8b4"
@@ -626,10 +674,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
+        "content": "content---blog-980-4a6"
+      },
+      {
         "content": "content---blog-6-c-2-8ec"
       },
       {
-        "content": "content---blogcce-255"
+        "content": "content---blog-page-2-cce-3a2"
       },
       {
         "content": "content---blog-page-2-a-02-c68"
@@ -730,7 +781,7 @@
     },
     "content": "content---web-archiveb-83-e18"
   },
-  "/docs-1b7": {
+  "/docs-425": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-4-bf-9bb"
@@ -772,6 +823,10 @@
   "/docs/independent/aptPoint-f29": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-independent-apt-point-964-c44"
+  },
+  "/docs/independent/classicMac-227": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-independent-classic-mac-406-057"
   },
   "/docs/independent/code-projects-c61": {
     "__comp": "__comp---theme-doc-item-178-a40",

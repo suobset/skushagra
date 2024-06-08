@@ -1,0 +1,64 @@
+{
+  "permalink": "/blog/newsletter6",
+  "source": "@site/blog/2024-05-28-newsletter6/index.md",
+  "title": "Graduated. Part 1.",
+  "description": "CICS 2024 Senior Celebration",
+  "date": "2024-05-28T00:00:00.000Z",
+  "formattedDate": "May 28, 2024",
+  "tags": [
+    {
+      "label": "newsletter",
+      "permalink": "/blog/tags/newsletter"
+    },
+    {
+      "label": "Personal",
+      "permalink": "/blog/tags/personal"
+    },
+    {
+      "label": "academia",
+      "permalink": "/blog/tags/academia"
+    },
+    {
+      "label": "iCons",
+      "permalink": "/blog/tags/i-cons"
+    },
+    {
+      "label": "Aesthetics",
+      "permalink": "/blog/tags/aesthetics"
+    },
+    {
+      "label": "Highlights",
+      "permalink": "/blog/tags/highlights"
+    }
+  ],
+  "readingTime": 8.71,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "newsletter6",
+    "title": "Graduated. Part 1.",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "newsletter",
+      "Personal",
+      "academia",
+      "iCons",
+      "Aesthetics",
+      "Highlights"
+    ]
+  },
+  "nextItem": {
+    "title": "Kush's Self Gingerbread Portrait",
+    "permalink": "/blog/random1"
+  }
+}

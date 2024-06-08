@@ -173,6 +173,12 @@
             "label": "Apartment Pointer",
             "href": "/docs/independent/aptPoint",
             "docId": "independent/aptPoint"
+          },
+          {
+            "type": "link",
+            "label": "Classic Mac OS",
+            "href": "/docs/independent/classicMac",
+            "docId": "independent/classicMac"
           }
         ],
         "href": "/docs/category/independent-code--research"
@@ -259,6 +265,12 @@
       "id": "independent/aptPoint",
       "title": "Apartment Pointer",
       "description": "Quick Web App built to pinpoint multiple locations on a given map, created mainly to make apartment hunting easier for myself.",
+      "sidebar": "tutorialSidebar"
+    },
+    "independent/classicMac": {
+      "id": "independent/classicMac",
+      "title": "Classic Mac OS",
+      "description": "A programming journey for the turn-of-the-century Operating System.",
       "sidebar": "tutorialSidebar"
     },
     "independent/code-projects": {
