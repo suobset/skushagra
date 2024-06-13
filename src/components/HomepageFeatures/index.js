@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/smith.svg').default,
     description: (
       <>
-        Working as a web developer at the <a href="https://linkage.cs.umass.edu">LinKaGe Lab</a> under <a href="https://www.smith.edu/academics/faculty/ileana-streinu">Dr. Ileana Streinu</a>. Currently focusing on upkeep and development of websites used by the lab: namely Wikindx (bibliography), and Lab Website.
+        Working as a web developer at the <a href="https://linkage.cs.umass.edu">LinKaGe Lab</a> under <a href="https://www.smith.edu/academics/faculty/ileana-streinu">Dr. Ileana Streinu</a>. Currently focusing on upkeep and development of websites used by the lab: namely Wikindx (bibliography), and Lab Website. Currently under hiatus.
       </>
     ),
   },
