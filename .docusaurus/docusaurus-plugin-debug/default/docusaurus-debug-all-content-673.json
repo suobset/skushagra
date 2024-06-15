@@ -13,10 +13,32 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/kushagrasrivastava/Documents/skushagra/sidebars.js",
-          "contentPath": "/Users/kushagrasrivastava/Documents/skushagra/docs",
-          "contentPathLocalized": "/Users/kushagrasrivastava/Documents/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/suobset/Documents/skushagra/sidebars.js",
+          "contentPath": "/home/suobset/Documents/skushagra/docs",
+          "contentPathLocalized": "/home/suobset/Documents/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
+            {
+              "unversionedId": "archive",
+              "id": "archive",
+              "title": "Temp. Archive",
+              "description": "An archive of different things in the various sections. This space is only temporary until I get these things in their relevant positions.",
+              "source": "@site/docs/archive.md",
+              "sourceDirName": ".",
+              "slug": "/archive",
+              "permalink": "/docs/archive",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Organizations I Support",
+                "permalink": "/docs/orgs"
+              }
+            },
             {
               "unversionedId": "experience",
               "id": "experience",
@@ -307,7 +329,7 @@
               "unversionedId": "intro",
               "id": "intro",
               "title": "About Me",
-              "description": "Hi, I am Kushagra Srivastava. I am a graduating Senior Computer Science Major (BS, Hons.) at the Manning College of Information and Computer Sciences. My specializations lie in the following niches:",
+              "description": "Hi, I am Kushagra Srivastava. I am a Computer Science Major (BS, Hons.) at the Manning College of Information and Computer Sciences. My specializations lie in the following niches:",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -397,6 +419,10 @@
               "previous": {
                 "title": "Links",
                 "permalink": "/docs/links"
+              },
+              "next": {
+                "title": "Temp. Archive",
+                "permalink": "/docs/archive"
               }
             },
             {
@@ -1014,6 +1040,10 @@
               {
                 "type": "doc",
                 "id": "orgs"
+              },
+              {
+                "type": "doc",
+                "id": "archive"
               }
             ]
           }

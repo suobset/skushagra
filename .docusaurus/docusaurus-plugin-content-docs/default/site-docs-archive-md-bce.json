@@ -1,0 +1,22 @@
+{
+  "unversionedId": "archive",
+  "id": "archive",
+  "title": "Temp. Archive",
+  "description": "An archive of different things in the various sections. This space is only temporary until I get these things in their relevant positions.",
+  "source": "@site/docs/archive.md",
+  "sourceDirName": ".",
+  "slug": "/archive",
+  "permalink": "/docs/archive",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Organizations I Support",
+    "permalink": "/docs/orgs"
+  }
+}

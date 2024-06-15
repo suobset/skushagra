@@ -18,5 +18,9 @@
   "previous": {
     "title": "Links",
     "permalink": "/docs/links"
+  },
+  "next": {
+    "title": "Temp. Archive",
+    "permalink": "/docs/archive"
   }
 }

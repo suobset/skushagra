@@ -227,10 +227,22 @@
         "label": "Organizations I Support",
         "href": "/docs/orgs",
         "docId": "orgs"
+      },
+      {
+        "type": "link",
+        "label": "Temp. Archive",
+        "href": "/docs/archive",
+        "docId": "archive"
       }
     ]
   },
   "docs": {
+    "archive": {
+      "id": "archive",
+      "title": "Temp. Archive",
+      "description": "An archive of different things in the various sections. This space is only temporary until I get these things in their relevant positions.",
+      "sidebar": "tutorialSidebar"
+    },
     "experience": {
       "id": "experience",
       "title": "Work Experience",
@@ -300,7 +312,7 @@
     "intro": {
       "id": "intro",
       "title": "About Me",
-      "description": "Hi, I am Kushagra Srivastava. I am a graduating Senior Computer Science Major (BS, Hons.) at the Manning College of Information and Computer Sciences. My specializations lie in the following niches:",
+      "description": "Hi, I am Kushagra Srivastava. I am a Computer Science Major (BS, Hons.) at the Manning College of Information and Computer Sciences. My specializations lie in the following niches:",
       "sidebar": "tutorialSidebar"
     },
     "links": {
