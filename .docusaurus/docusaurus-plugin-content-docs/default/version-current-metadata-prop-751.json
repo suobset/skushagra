@@ -227,22 +227,10 @@
         "label": "Organizations I Support",
         "href": "/docs/orgs",
         "docId": "orgs"
-      },
-      {
-        "type": "link",
-        "label": "Temp. Archive",
-        "href": "/docs/archive",
-        "docId": "archive"
       }
     ]
   },
   "docs": {
-    "archive": {
-      "id": "archive",
-      "title": "Temp. Archive",
-      "description": "An archive of different things in the various sections. This space is only temporary until I get these things in their relevant positions.",
-      "sidebar": "tutorialSidebar"
-    },
     "experience": {
       "id": "experience",
       "title": "Work Experience",

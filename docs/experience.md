@@ -12,11 +12,32 @@ Professional Independent Research Work will be listed in their own pages on the 
 	* Researcher     	Feb 2023 - Present
 	* Created a Systems Design and Architecture Lab with Prof. Joe Chiu, Prof. Timothy Richards, and 5 other CICS students.
 	* Current Hons. Thesis research work include a performance analysis of the RUST Compiler w.r.t. the GNU/GCC Compiler, utilizing various x86 Assembly 			Tracing methods to analyze certain performance metrics on low-level code for each language.
+
+More details on the SysLab present under [the Tra86 Page](./undergraduate/tra86), here's a picture though:
+
+![CICS Systems Lab](./assets/syslab-all.jpg)
+
 * SMITH COLLEGE	Northampton, MA | [Link](https://geometry.cs.umass.edu)
 	* Research Assistant	Oct 2022 - Present
 	* Assisting in the Software Development part of the current research under the guidance of Dr. Ileana Streinu at LinKaGe Lab.
 	* Optimizing systems and servers to ensure the lab’s software programs work efficiently, as well as ensuring upkeep, and security.
 	* Technologies in use: C, Java Servlets, and Python, along with a heavy utilization of UNIX CLI programs and server systems.
+
+```Copied from Ongoing```
+
+## Smith College
+
+Currently working as a Software Dev. and System Specialist at [LinKaGe Lab](https://linkage.cs.umass.edu/) in Smith College. 
+
+- Assisting in the Software Development part of the current research under the guidance of Dr. Ileana Streinu at the LinKaGe Lab. 
+
+- Optimizing systems and server-side code to ensure the lab's software works efficiently, as well as ensuring upkeep and security.
+
+- Porting legacy software to modern frameworks.
+
+![Smith LinKage Lab](./assets/smith-linkage.jpeg)
+
+
 * FN MATHLOGIC CONSULTING SERVICES	Gurugaon, India
 	* Machine Learning Intern	Jun 2022 - Aug 2022
 	* Constructed, trained, analyzed, and optimized Neural Networks on tabular, and image based datasets via TensorFlow and Keras. 

@@ -16,6 +16,7 @@ All of these projects can be found in the <a href="https://icons.cns.umass.edu/i
 
 ![ss](https://user-images.githubusercontent.com/73229775/175075177-a9728232-a4e9-4c68-a60d-4ae02ba388eb.png)
 
+* iCons 4: Communication Design Project, noted on the bottom of this page as the endeavor itself was short.
 * [U.S. Census: The Opportunity Project (ASSERT)](./assert)
 * [iCons 3: The Cost of Control](./costOfControl)
 * [iCons 2: Museum of Science](./iConsMoS)
@@ -32,3 +33,19 @@ A presentation conducting a meta analysis to determine which countries had the b
 ![qq2](https://user-images.githubusercontent.com/73229775/175075821-118aaecf-21e7-43f9-9590-07b915ee15bf.png)
 
 -Kush
+
+## iCons 4
+
+For the spring semester of iCons 4, I am working on bringing my Honors Thesis to a larger audience, as well as reflecting on and giving feedback to the iCons program as a whole. I have spoken at MassURC, and will be speaking at the iCons Senior Expo as an Honorary Lecturer. 
+
+The endeavor in itself is very low-key, but I love seeing my (and everyone else's) work come to a culmination. 
+
+[Thesis Website Created for iCons 4](https://tra86.skushagra.com), which then became the overall website for the project. 
+
+For the Senior Expo for iCons, I was invited to give a short speech regarding what my project was. 
+
+![Senior Expo Image](./assets/icons4seniorexpo.png)
+
+For more context, the [Honors Thesis](./tra86) page may be useful. iCons 4 was mainly concerned with getting this thesis out to a bigger audience. I was deeply honored to be giving a talk on my thesis, along with 3 other iCons scholars. 
+
+I will be uploading that talk as soon as I get my hands on it :)

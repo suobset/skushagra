@@ -314,14 +314,8 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '92f'),
+    component: ComponentCreator('/docs', 'c81'),
     routes: [
-      {
-        path: '/docs/archive',
-        component: ComponentCreator('/docs/archive', '723'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
       {
         path: '/docs/category/hobby',
         component: ComponentCreator('/docs/category/hobby', 'bba'),

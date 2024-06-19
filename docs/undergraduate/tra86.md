@@ -14,8 +14,6 @@ Currently, this is only C++/RUST based and on the x86 platform. I am expanding t
 
 Check out [this webpage](https://tra86.skushagra.com/) for further details. 
 
-The poster below is outdated. 
-
 ![Poster](./assets/SysLab.png)
 
 #### Tra86: The LLVM Compiler Performance Tracer
