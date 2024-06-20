@@ -110,14 +110,21 @@ Both of these options share a lot of similarities with each other, except that Z
 
 Legacy mention: [Aigaion](https://github.com/aigaion/aigaion) which was replaced by Wikindx. PHP underwent such drastic changes that Aigaion was rendered useless on anything above PHP version 5. 
 
-## Debuggers
+## Debuggers & Analyzers
 
-Apart from the usual (extensions for IDEs for different languages, or print statements :P), I do a lot of low-level code. Here is what helps me:
+Apart from the usual (extensions for IDEs for different languages, or print statements :P), I do a lot of low-level code. This section also includes a bunch of more things that help in development and analysis, not just debugging.
+
+Only external programs are included here, not the actual debuggers in themselves. For example, the ```rust_debugger``` is just included in RUST and has CLI attributes to invoke (or it can latch on to GDB, which is what I do), so that is not mentioned. Moreover, IDE debuggers are not included (Visual Studio already has an excellent .NET and C debugger, but is mentioned above). 
+
+These are only **external** debuggers and analyzers that are not included within the compilers/interpreters themselves, and are not included within an IDE mentioned above. Hence why the list is short.
 
 * [GNU GDB](https://www.sourceware.org/gdb/): The GNU Project Debugge, while meant for C/C++ initially, can really debug any language that builds debug flags for it. I use it for C++, RUST, x86 Asm, and some Python Bytecode too.
 * [Valgrind](https://valgrind.org/): Advanced debugger for C/C++ that maps out memory management, program flow, and overall functioning of computational resoures so that Segmentation Fault can be debugged quicker. 
     * Shouout to [Uma](https://www.linkedin.com/in/uma-p-24b78a156/) for introducing me to Valgrind back in CS 230 (Intro. to Systems)
 * [Pydebug](https://github.com/microsoft/debugpy): The essential Python Debugger.
+* [Wireshark](https://www.wireshark.org/): Packet tracer and network protocol analyzer, used for analyzing networks. GPLv3'd at that. I use this way more often than I'd think.
+* [Postman](https://www.postman.com/): A JavaScript API analyzer and builder, extremely helpful to create APIs that interact within a website or with external 3rd-party tooling. Negatives: proprietary and has a weird pricing ladder, which makes me not want to use it and just rely on the Console.
+* [pgAdmin](https://www.pgadmin.org/): Open Source GUI workbench for PostgreSQL. I use MySQL Workbench for MySQL. I just refuse to rely solely on the Console for SQL, given how things can mess up quickly.
 
 ## Server-side computation & Terminals
 
@@ -128,9 +135,6 @@ Apart from the usual (extensions for IDEs for different languages, or print stat
 
 ## Virtualization, Containerization, Sim/Emulation
 
-Does not fit in a pre-defined category but equally important.
-
-* [Wireshark](https://www.wireshark.org/): Packet tracer and network protocol analyzer, used for analyzing networks. GPLv3'd at that :D
 * [GNS3](https://www.gns3.com/): Network systems virtualizing software. Libre software as well, works best on Linux with a minimum of 16GB RAM and on an x86 Architecture. 
 * [Virtualbox](https://www.virtualbox.org/): Virtualization Software. New project that will quickly get a file system spread? Just put it in a VM :)
 * [Docker](https://www.docker.com/): Containerization Software to ensure similar debugging and execution experiences everywhere. Super useful when dealing with low-level code to ensure OS consistencies, or high-level code to plug-and-play different components. 
