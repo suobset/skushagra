@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 10
 ---
 
 # Software Config
@@ -8,13 +8,13 @@ This is a repository of all software I use, hopefully with reasoning behind them
 
 I am a firm believer in free/libre and open source, but especially free/libre software. Keep in mind, free does not refer to "free of cost", but rather to the notion of providing users the freedom to truly own what they pay for. I follow the Free Software Foundation's definition of Free/Libre Software, and my thoughts+ these freedoms are linked [here](/disclaimer_fsf).
 
-Sometimes, I do have to resort to some proprietary software. In that case, I either look for an equivalent open-source alternative, try to see if a Linux version of that proprietary software exists, or (as a last resort) just use Windows. I use an iPhone 12 mini + Apple Watch combo, mainly due to convinience factor as of now.
+Sometimes, I do have to resort to some proprietary software. In that case, I either look for an equivalent open-source alternative, try to see if a Linux version of that proprietary software exists, or (as a last resort) just use Windows. I use an iPhone 14 + Apple Watch combo, mainly due to convinience factor as of now.
 
 ## Languages
 
 I do low level systems stuff mainly. I am highly familiar with GNU CoreUtils, and the GDB debugger. I love Valgrind as well, the stack traces and memory visualizations are honestly a godsend. I mainly use C++, though am opening up to RUST as well.
 
-As mentioned in [Scriting Shenanigans](/docs/independent/scripting-shenanigans), Python is my go to for any scripts or hobby programs. I have also programmed in R, MATLAB, Haskell, Java, Swift, and Kotlin (professionally and hobby).
+As mentioned in [Scriting Shenanigans](/docs/independent/scripting-shenanigans), Python is my go to for any scripts or hobby programs. I have also programmed in R, MATLAB, Haskell, Java, Swift, dotnet, and Kotlin (professionally and hobby), among some others. I really don't like classifying myself as a "what language do you know person", I focus on problems and what the best tooling is for the job to be done. Learning a language, for the most part, is just picking up on the syntax and programming paradigms, but it does not change the basic knowledge required to code. 
 
 I love Bash Scripting and Vim Scripting for my own tinkering purposes. For my honors thesis, I have also worked on a lot of x86 Assembly directly (including writing, debugging, and converting). I have become pretty comfortable with these low-level languages, though I do learn something new everyday. 
 
@@ -22,15 +22,29 @@ Apart from that, I mainly do Web Dev as a means for end-user application dev. I 
 
 ## Operating System
 
-On the stable "I-want-stuff-to-work" end of things, I have been a devout [Ubuntu](https://ubuntu.com) GNU/Linux user for the longest time now. I dabbled into Pop!_OS for a bit, but Ubuntu feels more stable and refined. Moreover, I spend most of my time in the terminal.
+On the stable "I-want-stuff-to-work" end of things, I have been a devout [Pop!_OS](https://pop.system76.com) GNU/Linux user for the longest time now. It's basically an Ubuntu derivative, but comes with multiple versions of the ISO that makes installation of core utilities (on top of what Ubuntu provides) much easier. For example, it has a NVIDIA .iso with all drivers included (including CUDA and CUDNN), an arm compatible RasPi version, among many others. Package management is also up to date every time, the desktop environment is amazing (heavily modified GNOME but has it's own taste and uniqueness), and it honestly just works effortlessly (even more effortless than a Mac).
 
-I tinker a lot with [Trisquel](https://trisquel.info), a fully-free (as in freedom) Operating System. I have broken it, repaired it, changed the source code in bad ways...almost everything imaginable. 
+I will most definitely get slack for this as a "Libre software" person,  but I use [macOS](https://apple.com/macos) and [iPadOS](https://apple.com/ipados) on the go as well. In my opinion, Macs are the only thin and light computer on the market that's as powerful as it is (thanks to Apple Silicon), with a battery that lasts over a day on heavy usage (thanks to Apple Silicon), and is the only UNIX platform (Darwin & BSD) that comes with market support, customer care, warranty, and the ability to run mainstream programs. The iPad only serves three purposes: external Mac display, glorified notebook, and glorified eBook reader (given the exorbitant prices of college textbooks for a hardcopy vs. ebook, the iPad paid off for itself by my second year at UMass, while helping me keep my notes organized and my backpack light).
 
-[Alpine](https://alpine.org) has my heart as a no-nonsense small OS. It runs beautifully on any hardware I have tried it on, but the primary use case is as a guest OS for virtualizing and containerizing.
+I tinker a lot with [Trisquel](https://trisquel.info), a fully-free (as in freedom) Operating System. I have broken it, repaired it, changed the source code in bad ways...almost everything imaginable. Trisquel does away with any and every remenant of proprietary code, including not working with proprietary drivers for hardware or sometimes flat out refusing to boot. These can be overcome by the user (the Trisquel apt repository does not have any proprietary stuff but you can build from source), but doing so is heavily frowned upon as it tries it's best to remain true to the ethos of libre software. I commend the people behind the OS who are able to make such a commitment, and I am glad that a truly libre OS actually exists and is capable to be daily driven, as long as appropriate hardware research is done prior.  
 
-Windows is a fallback, and needs a lot of resources to run at times. Currently in use as a host for different WSL runtimes, and for running Windows-specific software on my desktop.
+[Alpine](https://alpine.org) has my heart as a no-nonsense small OS. It runs beautifully on any hardware I have tried it on, but the primary use case is as a guest OS for virtualizing and containerizing. I currently use it as a guest OS for any VMs I need to spin up for whatever purposes, my docker containers, my Dell computer acting as a NAS server (it runs in a container with Pop!_OS as main), and a 32 bit version on a netbook I salvaged for free to run legacy stuff.
+
+Windows is a fallback, and needs a lot of resources to run at times. I do have some required software that's Windows only though (Visual Studio, .NET, Postman), so I run it inside a VM. Windows currently does not run as a host on any of my devices, it only runs as a VM guest when necessitated.
 
 About every piece of software I use needs a very absolutely minimum of 8GB RAM, and an ideal of at least 16GB RAM.
+
+### Desktop Environments
+
+A smaller subset of the main OS, different Linux flavors can use different desktop environments. To cut to the chase, I use [COSMIC](https://blog.system76.com/post/cosmic-the-road-to-alpha), the GNOME implementation of Pop!_OS as my main. I use [XFCE](https://www.xfce.org/) as my Alpine Linux DE, and [LXDE](https://www.lxde.org/) as my Trisquel DE.
+
+I hardly make changes to macOS or Windows. 
+
+### Systems
+
+* Dell G3 3500 w/ a 1660Ti: Main computer with Pop!_OS (used as a desktop). Does all heavy computation (GPU is a nice for CUDA and ML tasks). Runs Alpine as a guest in Docker for NAS, and in VMs for different tinkering purposes. Runs Trisquel as a guest in a VM for tinkering purposes. Can remote into this while on the go. 
+* MacBook Air M2 w/ iPad Mini: Main on-the-go computer. I actually snagged both of these for a pretty good deal :)
+* Old 32-bit Acer Netbook that I salvaged from eWaste: Runs 32-bit Alpine with XFCE for running other 32 bit programs. Is actually prone to [Y2K38](https://en.wikipedia.org/wiki/Y2K38).
 
 ## Code Editors and IDEs
 
@@ -39,9 +53,7 @@ Sorted by frequency: high to low
 * [BBEdit](https://www.barebones.com/products/bbedit/): A macOS native Code Editor being developed for over 30 years. Super stable, packed with features, has a minor learning curve for the more advanced features that's worth it imo.
 * [Neovim](https://neovim.io/): a fork of vim with extended plugin support, and a more suistainable development model. 
 * [Jupyter](https://jupyter.org/): Data-based Python code, where an explanation & presentation of methods is absolutely crucial. Uses ```ipynb``` to split between Markdown cells or Python cells.
-* [Helix Editor](https://helix-editor.com/): A post-modern modal text editor. Really stupidly good at what it does, the only times I do not use it is when I need a Neovim plugin.
-* [VSCode](https://code.visualstudio.com/): Good extension market, has a vim plugin; I was on VSCodium up until very recently, need VSCode for Tunnels (more secure, and less fuzzy SSH alternative). I don't like the web app nature and padded mobile-UI buttons.
-* [JetBrains](https://www.jetbrains.com/): Rare, but super complex projects have really benefitted from the strong debugger, language-oriented IDEs, and refactoring capabilities. Is a memory hog though, so would recommend a high-spec computer. This includes Android Studio.
+* [KATE](https://kate-editor.org/): The GUI main for Alpine and Trisquel, provides all the core features of VS Code without the Microsoft stuff. 
 
 ### Retired
 
@@ -50,15 +62,20 @@ I do not use these anymore, mainly because I don't have a reason to. However, I 
 * [Spyder](https://www.spyder-ide.org/): Scientific computing in Python, having a variable explorer and data-exploration based features help a lot.
 * [RStudio](https://rstudio.com): I have a total of 2 projects on R. RStudio is really powerful for what it does, and has a genuinely very shallow learning curve (at least relatively). Good editor, I am just not the target demographic.
 * [MATLAB](https://www.mathworks.com/products/matlab.html): The only Engineering-oriented language I have used, check out my iCons 3 project: [The Cost of Control](https://skushagra.com/docs/research/iCons#icons-3-the-cost-of-control).
+* [JetBrains](https://www.jetbrains.com/): Rare, but super complex projects have really benefitted from the strong debugger, language-oriented IDEs, and refactoring capabilities. Is a memory hog though, so would recommend a high-spec computer. This includes Android Studio.
+* [Helix Editor](https://helix-editor.com/): A post-modern modal text editor. Really stupidly good at what it does, the only times I do not use it is when I need a Neovim plugin.
+* [VSCode](https://code.visualstudio.com/): Good extension market, has a vim plugin. I don't like the web app nature, Microsoft telemetry and AI stuff, and padded mobile-UI buttons. I come back to this only for codespaces and tunnels.
 
 ## Photo/Video/Graphic Editing
 
 The following is what I use to facilitate my Photography. 
 
 * [GNU Image Manipulation Program](https://www.gimp.org/), or GIMP, is a libre photo editr which almost rivals Adobe Creative Suite. May have a slightly higher curve of learning, but it is extremely powerful and versatile for what it offers. Beautifully amazing.
+* [Darktable](https://www.darktable.org/): RAW image processor and developer, that I pair with GIMP to offload and edit RAW image fiels (RAW is a file format that captures more information than a compressed JPEG; standard in photography).
 * [Adobe Lightroom](https://www.adobe.com/products/photoshop-lightroom.html): For small edits on the go, I rely on the free version of Adobe Lightroom on my phone. I like it, but prefer to not use it whenever possible (only use it in circumstances where absolutely necesssary).
 * [Shotcut Video Editor](https://shotcut.org/): A Libre Video Editor which, again, rivals that of Adobe's offerings. Has a slight learning curve, but is immensely powerful, and handles a lot of Video Editing paradigms (transitions, fx, voice sampling, etc.) amazingly. I have had no complaints for my amateur Video Editing needs.
 * Canva: An online (proprietary) graphic designer. Used only when absolutely necessary. 
+* [Affinity](https://affinity.serif.com/en-us/photo/): Proprietary photo editor but does away with all Adobe BS. Still learning, haven;t made the call to switch from GIMP (I am very well versed and comfortable in GIMP at this point).
 
 ## Office Work & typing documents
 
@@ -106,7 +123,7 @@ Apart from the usual (extensions for IDEs for different languages, or print stat
 
 * [Waveterm](https://www.waveterm.dev/): Open Source Terminal that has overtaken whatever barebones terminal that ships with any OS (zsh or Bash), has a lot more cool features built-in that I don't use as much, but some QOL stuff that's pretty good to have. Feels bloated sometimes. 
 * [Termius](https://termius.com): SSH & SFTP Client with insanely good features built in (GUIs, drag and drop support, SSH key handling, concurrent sessions)
-* [GNU Bash](https://www.gnu.org/software/bash/): The most powerful CLI I have used, ever. Also really the one I have been used to, despite using Powershell considerably as well.
+* [GNU Bash](https://www.gnu.org/software/bash/): The most powerful CLI I have used, ever. Also really the one I have been used to, despite using Powershell considerably as well. ZSH on Mac, though.
 * [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=US): Honestly the hands-down best solution on Windows, now the default in Windows 11. Tabbed terminals, each of which can wither Powershell on host or BASH/ZSH on a guest WSL instance.
 
 ## Virtualization, Containerization, Sim/Emulation
@@ -118,6 +135,7 @@ Does not fit in a pre-defined category but equally important.
 * [Virtualbox](https://www.virtualbox.org/): Virtualization Software. New project that will quickly get a file system spread? Just put it in a VM :)
 * [Docker](https://www.docker.com/): Containerization Software to ensure similar debugging and execution experiences everywhere. Super useful when dealing with low-level code to ensure OS consistencies, or high-level code to plug-and-play different components. 
 * [QEMU](https://qemu.org): Emulation for different hardware, including ARM, RISC-V, and x86. Used in the tinkering of MIT PDOS xv6, and in current MorbiOS development. 
+* [UTM](https://mac.getutm.app/): Main macOS hypervisor. Parallels has GPU passthrough but UTM is free and Open Source (plus I do not need GPU passthrough).
 
 ## Miscellaneous
 
@@ -132,13 +150,3 @@ A whole bunch of iOS Apps that I really love and help me be productive (on top o
 * [iSH](https://ish.app/): Alpine Linux Virtualized in a Sandboxed environment on iOS. Does everything you could possibly do in a shell, including creating and deploying local servers or using vim. 
 * [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios): The closest thing to "scripting" on iOS, Shortcuts is a drag-and-drop language to provide scripting, automation, and code tasks natively on iOS. Harnesses the full device capability: location, sensors, app actions, your own code, etc. I plan to get a page on the Finechive for sharing my own Device Automations.
 * [Chromatica](https://chromatica.app/): This is my primary professional camera on iOS. 
-
-## Computer
-
-My main computer is a MacBook Pro currently. I like the UNIX-y nature, and it runs commercial products well. BBEdit, my favourite text editor, is Mac only as well.
-
-For the pure Linux side of things, I use Ubuntu & Trisquel on a Microsoft Surface Laptop Go 2 (yes, that's a mouthful). It's essentially a regular Surface Laptop, albeit with some underclocked specs in a smaller enclosure. It fares well for everything that I throw at it, and is super light and portable. Has a great keyboard, and a touchscreen.
-
-I do have a Gaming Laptop connected as a Desktop at all times for high-processing tasks. It's basically a performance computation and NAS server; not really used on the go and mostly via SSH. That is a 16GB DDR4, 11th Gen Core i7, and a 1660Ti GPU Dell G3 3500. This specific computer, however, [got Dell a lawsuit for a weak hinge design](https://www.reddit.com/r/Dell/comments/j4buk9/class_action_lawsuit_against_dell_dell_g3_hinge/), which I can attest for as someone who also has had hinge problems, despite proper care and usage. It overheats quite easily as well, and battery life is absolute garbage; but for someone who's always on the move...it is a better option than an actual desktop tower.
-
-Outside of it, I use an iPad mini as my eBook reader and note taking device all the time. This device has saved me quite a lot in textbook money (paid for itself in a semester), and I also use it as a second display through RDP on GNOME (on Ubuntu).
