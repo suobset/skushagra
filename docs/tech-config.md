@@ -140,8 +140,9 @@ These are only **external** debuggers and analyzers that are not included within
 * [GNU GDB](https://www.sourceware.org/gdb/): The GNU Project Debugge, while meant for C/C++ initially, can really debug any language that builds debug flags for it. I use it for C++, RUST, x86 Asm, and some Python Bytecode too.
 * [Valgrind](https://valgrind.org/): Advanced debugger for C/C++ that maps out memory management, program flow, and overall functioning of computational resoures so that Segmentation Fault can be debugged quicker. 
     * Shouout to [Uma](https://www.linkedin.com/in/uma-p-24b78a156/) for introducing me to Valgrind back in CS 230 (Intro. to Systems)
-* [Pydebug](https://github.com/microsoft/debugpy): The essential Python Debugger.
+* [ltrace](https://ltrace.org): Command Line Utility that intercepts System Calls and Library Calls from any running process and creates a dump file. 
 * [Wireshark](https://www.wireshark.org/): Packet tracer and network protocol analyzer, used for analyzing networks. GPLv3'd at that. I use this way more often than I'd think.
+* [Ghidra](https://ghidra-sre.org): A Software Reverse Engineering tool; especially useful if access to source code is not present. Ghidra was mainly used in the first iteration of my Undergraduate Honors Thesis at UMass Amherst; while I don't use it much currently, I still want to give it a mention for how excellent the tooling is.
 * [Postman](https://www.postman.com/): A JavaScript API analyzer and builder, extremely helpful to create APIs that interact within a website or with external 3rd-party tooling. Negatives: proprietary and has a weird pricing ladder, which makes me not want to use it and just rely on the Console.
 * [pgAdmin](https://www.pgadmin.org/): Open Source GUI workbench for PostgreSQL. I use MySQL Workbench for MySQL. I just refuse to rely solely on the Console for SQL, given how things can mess up quickly.
 
