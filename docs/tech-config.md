@@ -22,28 +22,46 @@ Apart from that, I mainly do Web Dev as a means for end-user application dev. I 
 
 ## Operating System
 
+### Main
+
 On the stable "I-want-stuff-to-work" end of things, I have been a devout [Pop!_OS](https://pop.system76.com) GNU/Linux user for the longest time now. It's basically an Ubuntu derivative, but comes with multiple versions of the ISO that makes installation of core utilities (on top of what Ubuntu provides) much easier. For example, it has a NVIDIA .iso with all drivers included (including CUDA and CUDNN), an arm compatible RasPi version, among many others. Package management is also up to date every time, the desktop environment is amazing (heavily modified GNOME but has it's own taste and uniqueness), and it honestly just works effortlessly (even more effortless than a Mac).
 
+Dell G3 3500 w/ a 1660Ti: Main computer with Pop!_OS (used as a desktop). Does all heavy computation (GPU is a nice for CUDA and ML tasks). Runs Alpine as a guest in Docker for NAS, and in VMs for different tinkering purposes. Runs Trisquel as a guest in a VM for tinkering purposes. Can remote into this while on the go. 
+
+<hr />
+
+### On the go
+
 I will most definitely get slack for this as a "Libre software" person,  but I use [macOS](https://apple.com/macos) and [iPadOS](https://apple.com/ipados) on the go as well. In my opinion, Macs are the only thin and light computer on the market that's as powerful as it is (thanks to Apple Silicon), with a battery that lasts over a day on heavy usage (thanks to Apple Silicon), and is the only UNIX platform (Darwin & BSD) that comes with market support, customer care, warranty, and the ability to run mainstream programs. The iPad only serves three purposes: external Mac display, glorified notebook, and glorified eBook reader (given the exorbitant prices of college textbooks for a hardcopy vs. ebook, the iPad paid off for itself by my second year at UMass, while helping me keep my notes organized and my backpack light).
+
+MacBook Air M2 w/ iPad Mini: Main on-the-go computer. I actually snagged both of these for a pretty good deal :)
+
+<hr />
+
+### Inside a virtualized env
 
 I tinker a lot with [Trisquel](https://trisquel.info), a fully-free (as in freedom) Operating System. I have broken it, repaired it, changed the source code in bad ways...almost everything imaginable. Trisquel does away with any and every remenant of proprietary code, including not working with proprietary drivers for hardware or sometimes flat out refusing to boot. These can be overcome by the user (the Trisquel apt repository does not have any proprietary stuff but you can build from source), but doing so is heavily frowned upon as it tries it's best to remain true to the ethos of libre software. I commend the people behind the OS who are able to make such a commitment, and I am glad that a truly libre OS actually exists and is capable to be daily driven, as long as appropriate hardware research is done prior.  
 
 [Alpine](https://alpine.org) has my heart as a no-nonsense small OS. It runs beautifully on any hardware I have tried it on, but the primary use case is as a guest OS for virtualizing and containerizing. I currently use it as a guest OS for any VMs I need to spin up for whatever purposes, my docker containers, my Dell computer acting as a NAS server (it runs in a container with Pop!_OS as main), and a 32 bit version on a netbook I salvaged for free to run legacy stuff.
 
+If Alpine does not fit my needs for the above purposes, i use [Debian](https://debian.org) as a fallback. It's more reliable and standardized than Alpine, but comes at the cost of being larger than Alpine (still incredibly small by OS standards, but Alpine takes that to 11).
+
 Windows is a fallback, and needs a lot of resources to run at times. I do have some required software that's Windows only though (Visual Studio, .NET, Postman), so I run it inside a VM. Windows currently does not run as a host on any of my devices, it only runs as a VM guest when necessitated.
+
+Refer to ```Virtualization, Containerization, Sim/Emulation``` section for Hypervisors.
+
+<hr />
 
 About every piece of software I use needs a very absolutely minimum of 8GB RAM, and an ideal of at least 16GB RAM.
 
 ### Desktop Environments
 
-A smaller subset of the main OS, different Linux flavors can use different desktop environments. To cut to the chase, I use [COSMIC](https://blog.system76.com/post/cosmic-the-road-to-alpha), the GNOME implementation of Pop!_OS as my main. I use [XFCE](https://www.xfce.org/) as my Alpine Linux DE, and [LXDE](https://www.lxde.org/) as my Trisquel DE.
+A smaller subset of the main OS, different Linux flavors can use different desktop environments. To cut to the chase, I use [COSMIC](https://blog.system76.com/post/cosmic-the-road-to-alpha), the GNOME implementation of Pop!_OS as my main. I use [XFCE](https://www.xfce.org/) as my Linux DE for all the other flavors mentioned above (Alpine, Debian, Trisquel).
 
 I hardly make changes to macOS or Windows. 
 
-### Systems
+### Other Systems
 
-* Dell G3 3500 w/ a 1660Ti: Main computer with Pop!_OS (used as a desktop). Does all heavy computation (GPU is a nice for CUDA and ML tasks). Runs Alpine as a guest in Docker for NAS, and in VMs for different tinkering purposes. Runs Trisquel as a guest in a VM for tinkering purposes. Can remote into this while on the go. 
-* MacBook Air M2 w/ iPad Mini: Main on-the-go computer. I actually snagged both of these for a pretty good deal :)
 * Old 32-bit Acer Netbook that I salvaged from eWaste: Runs 32-bit Alpine with XFCE for running other 32 bit programs. Is actually prone to [Y2K38](https://en.wikipedia.org/wiki/Y2K38).
 
 ## Code Editors and IDEs
@@ -52,12 +70,13 @@ Sorted by frequency: high to low
 
 * [BBEdit](https://www.barebones.com/products/bbedit/): A macOS native Code Editor being developed for over 30 years. Super stable, packed with features, has a minor learning curve for the more advanced features that's worth it imo.
 * [Neovim](https://neovim.io/): a fork of vim with extended plugin support, and a more suistainable development model. 
+* [Micro](https://micro-editor.github.io/): Terminal editor with regular keybindings and mouse support. Used in team settings.
 * [Jupyter](https://jupyter.org/): Data-based Python code, where an explanation & presentation of methods is absolutely crucial. Uses ```ipynb``` to split between Markdown cells or Python cells.
 * [KATE](https://kate-editor.org/): The GUI main for Alpine and Trisquel, provides all the core features of VS Code without the Microsoft stuff. 
 
-### Retired
+### Non active
 
-I do not use these anymore, mainly because I don't have a reason to. However, I might come back to them if a project mandates. This is not to say that these are bad editors, I just don't need them as of now.
+I do not use these currently, mainly because I don't have a reason to. However, I might come back to them if a project mandates. This is not to say that these are bad editors, I just don't need them as of now.
 
 * [Spyder](https://www.spyder-ide.org/): Scientific computing in Python, having a variable explorer and data-exploration based features help a lot.
 * [RStudio](https://rstudio.com): I have a total of 2 projects on R. RStudio is really powerful for what it does, and has a genuinely very shallow learning curve (at least relatively). Good editor, I am just not the target demographic.
