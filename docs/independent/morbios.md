@@ -14,7 +14,7 @@ Disclaimer: Please Read [About Code Projects in the Finechive](./code-projects) 
 
 The following are some (badly written) notes regarding Operating System development, what has already been done, and how we got to this point today. In essence, I want to cover the topics of kernel development, how that latches on to userspace applications, and different development methods that I have targeted for this project. 
 
-As per the bootloader, I am personally making it GNU GRUB compatible. However, we want to make this whole thing from scratch, and that involves a bootloader. This is currently exclusively handled by my co-collaborator Anvitha, who I will be discussing the specifics of the bootloader with and reporting the same here as well. Hopefully they get a website in the meantime :') 
+As per the bootloader, we are personally making it GNU GRUB compatible. However, we want to make this whole thing from scratch, and that involves a bootloader. This is currently exclusively handled by my co-collaborator Anvitha, who I will be discussing the specifics of the bootloader with and reporting the same here as well. Hopefully they get a website in the meantime :') 
 
 If you were to go out and ask, "hey, I wanna build an Operating System but don't know what kernel to use...can you help me??", chances are you will likely hear to base it on some variant of UNIX. It's pretty ubiquitous in the OS world, as while you may disagree with some UNIX philosophies, it is used widely enough (and is portable enough) that it makes sense as a starting point.
 
@@ -98,7 +98,7 @@ Understanding and optimizing the interaction between user space and kernel space
 
 ### Development Methods
 
-For this project, I've explored various development methods:
+For this project, we've explored various development methods:
 
 1. **Bottom-Up Approach**: Starting with the most fundamental aspects (like the bootloader and kernel) and gradually building up the system. This method ensures a solid foundation but can be slow and cumbersome.
 
