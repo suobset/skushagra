@@ -31,11 +31,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "finechive/tech-config",
-              "path": "/docs/finechive/tech-config",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "independent/aptPoint",
               "path": "/docs/independent/aptPoint",
               "sidebar": "tutorialSidebar"
@@ -88,6 +83,11 @@
             {
               "id": "resume",
               "path": "/docs/resume",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tech-config",
+              "path": "/docs/tech-config",
               "sidebar": "tutorialSidebar"
             },
             {

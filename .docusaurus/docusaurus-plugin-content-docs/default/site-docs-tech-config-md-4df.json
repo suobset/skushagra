@@ -1,0 +1,22 @@
+{
+  "unversionedId": "tech-config",
+  "id": "tech-config",
+  "title": "Software Config",
+  "description": "This is a repository of all software I use, hopefully with reasoning behind them. It is not yet complete, and will probably be ever-evolving.",
+  "source": "@site/docs/tech-config.md",
+  "sourceDirName": ".",
+  "slug": "/tech-config",
+  "permalink": "/docs/tech-config",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Organizations I Support",
+    "permalink": "/docs/orgs"
+  }
+}

@@ -206,12 +206,6 @@
             "label": "Photography",
             "href": "/docs/finechive/photography",
             "docId": "finechive/photography"
-          },
-          {
-            "type": "link",
-            "label": "Software Config",
-            "href": "/docs/finechive/tech-config",
-            "docId": "finechive/tech-config"
           }
         ],
         "href": "/docs/category/hobby"
@@ -227,6 +221,12 @@
         "label": "Organizations I Support",
         "href": "/docs/orgs",
         "docId": "orgs"
+      },
+      {
+        "type": "link",
+        "label": "Software Config",
+        "href": "/docs/tech-config",
+        "docId": "tech-config"
       }
     ]
   },
@@ -253,12 +253,6 @@
       "id": "finechive/preface",
       "title": "Preface",
       "description": "This is a Digital Garden: a space for myself to publish any content that I would want to.",
-      "sidebar": "tutorialSidebar"
-    },
-    "finechive/tech-config": {
-      "id": "finechive/tech-config",
-      "title": "Software Config",
-      "description": "This is a repository of all software I use, hopefully with reasoning behind them. It is not yet complete, and will probably be ever-evolving.",
       "sidebar": "tutorialSidebar"
     },
     "independent/aptPoint": {
@@ -325,6 +319,12 @@
       "id": "resume",
       "title": "Resume",
       "description": "The following is my current Resume. A PDF Version is available for download as well here",
+      "sidebar": "tutorialSidebar"
+    },
+    "tech-config": {
+      "id": "tech-config",
+      "title": "Software Config",
+      "description": "This is a repository of all software I use, hopefully with reasoning behind them. It is not yet complete, and will probably be ever-evolving.",
       "sidebar": "tutorialSidebar"
     },
     "undergraduate/assert": {

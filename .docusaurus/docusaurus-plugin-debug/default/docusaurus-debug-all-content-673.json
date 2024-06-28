@@ -13,9 +13,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/suobset/Documents/skushagra/sidebars.js",
-          "contentPath": "/home/suobset/Documents/skushagra/docs",
-          "contentPathLocalized": "/home/suobset/Documents/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/kushagrasrivastava/Documents/skushagra/sidebars.js",
+          "contentPath": "/Users/kushagrasrivastava/Documents/skushagra/docs",
+          "contentPathLocalized": "/Users/kushagrasrivastava/Documents/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "experience",
@@ -91,8 +91,8 @@
                 "permalink": "/docs/finechive/blog"
               },
               "next": {
-                "title": "Software Config",
-                "permalink": "/docs/finechive/tech-config"
+                "title": "Links",
+                "permalink": "/docs/links"
               }
             },
             {
@@ -119,32 +119,6 @@
               "next": {
                 "title": "Fineletters.",
                 "permalink": "/docs/finechive/blog"
-              }
-            },
-            {
-              "unversionedId": "finechive/tech-config",
-              "id": "finechive/tech-config",
-              "title": "Software Config",
-              "description": "This is a repository of all software I use, hopefully with reasoning behind them. It is not yet complete, and will probably be ever-evolving.",
-              "source": "@site/docs/finechive/tech-config.md",
-              "sourceDirName": "finechive",
-              "slug": "/finechive/tech-config",
-              "permalink": "/docs/finechive/tech-config",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Photography",
-                "permalink": "/docs/finechive/photography"
-              },
-              "next": {
-                "title": "Links",
-                "permalink": "/docs/links"
               }
             },
             {
@@ -343,8 +317,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Software Config",
-                "permalink": "/docs/finechive/tech-config"
+                "title": "Photography",
+                "permalink": "/docs/finechive/photography"
               },
               "next": {
                 "title": "Organizations I Support",
@@ -397,6 +371,10 @@
               "previous": {
                 "title": "Links",
                 "permalink": "/docs/links"
+              },
+              "next": {
+                "title": "Software Config",
+                "permalink": "/docs/tech-config"
               }
             },
             {
@@ -423,6 +401,28 @@
               "next": {
                 "title": "Ongoing",
                 "permalink": "/docs/ongoing"
+              }
+            },
+            {
+              "unversionedId": "tech-config",
+              "id": "tech-config",
+              "title": "Software Config",
+              "description": "This is a repository of all software I use, hopefully with reasoning behind them. It is not yet complete, and will probably be ever-evolving.",
+              "source": "@site/docs/tech-config.md",
+              "sourceDirName": ".",
+              "slug": "/tech-config",
+              "permalink": "/docs/tech-config",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Organizations I Support",
+                "permalink": "/docs/orgs"
               }
             },
             {
@@ -994,10 +994,6 @@
                   {
                     "type": "doc",
                     "id": "finechive/photography"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "finechive/tech-config"
                   }
                 ],
                 "link": {
@@ -1014,6 +1010,10 @@
               {
                 "type": "doc",
                 "id": "orgs"
+              },
+              {
+                "type": "doc",
+                "id": "tech-config"
               }
             ]
           }
