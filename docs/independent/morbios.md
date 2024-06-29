@@ -10,6 +10,29 @@ GitHub Repository: https://github.com/anvitha305/morbios
 
 Disclaimer: Please Read [About Code Projects in the Finechive](./code-projects) for more info.
 
+This is a multi-year project that was first conceived April/May 2024. We do not expect this to complete soon, this is more of a learning experience for both of us to understand how computers work.
+
+We are both CompSci majors (Anvitha is CompEng as well) who have heavily worked in Systems related stuff. We were both in the UMass Amherst Undergraduate Class of 2024. Anvitha's ~~honors~~ thesis was creating a [legv8 assembly simulator](https://github.com/anvitha305/legv8sim) to lower the barrier of assembly programming for the masses. [My honors thesis](https://skushagra.com/docs/undergraduate/tra86) was finding out performance differences between RUST and C++ on the x86 Architecture by coding the same programs on both; extracting the Assembly; running the Assembly with a stack tracer I built to trace the instructions executed, memory usage, and runtime statistics; and compare the details. 
+
+We both have extensive low level systems experience, experience with Assembly, experience with x86, C/C++ experience, hardware, UNIX toolchains, compilers (including how to build a basic one from scratch and what they truly do), emulation/virtualization (down to the conceptual levels), and ongoing RUST experience. Not to sound overly confident, but going through the [required knowledge](https://wiki.osdev.org/Required_Knowledge) page in OSDev Wiki, we seem to have experience in mostly everything. Yes, we are wary of the [NUMEROUS warnings](https://wiki.osdev.org/Beginner_Mistakes) in that wiki, but truth be told: we have a lot of low level systems and Assembly experience. What we do not know is how everything comes together to create a cohesive OS, and how it works on the bare architecture.
+
+A big part of being confident in the journey ahead also involves in being aware about what we do not know. Here goes a non-exhaustive ever-expanding list of the same: 
+
+* Bootloaders and how the first bit of code is initialized. 
+* x86 Architecture outside just the Assembly instructions. We can write asm and use a compiler to run it, but how do we do it in Real Mode
+* Any OS stuff prior to UNIX having been developed. If a new OS requires an existing OS, how did the first OS came to be (Anvitha might actually have domain specific knowledge here)
+* Executable file types from scratch. Yes, Compiler -> Assembler -> Linker -> Executable. Now what?? How do we exactly "run" this in a OS context.
+* Parallel processing and multithreading without an API. Actually managing multiple threads and cores on the Asm level.
+* Context switching kernel level vs. user level stuff: esp. if we go down a monolithic/hybrid kernel route.
+* Protected process execution. One seg fault should not crash the whole thing, yet I am sure at this stage it might.
+* Where tf do we start reg. a kernel??
+* BIOS/UEFI level programming
+* More to come here, again this is a very small subset in literally 30 seconds of thought.
+
+After having so much experience in low level systems in contained environments, we want to push the boundaries and learn about OS Dev. That is all that this project is. We know we are not overthrowing established OSes, neither are we generating interest in the matter. 
+
+Honestly, we're just vibing, learning, and pushing what we already know in low level systems to the max.
+
 ## Project Kickoff
 
 The following are some (badly written) notes regarding Operating System development, what has already been done, and how we got to this point today. In essence, I want to cover the topics of kernel development, how that latches on to userspace applications, and different development methods that I have targeted for this project. 
@@ -155,3 +178,40 @@ Developing user-space applications involves several key aspects:
 4. **Package Management**: Systems like APT, YUM, or pacman manage the installation, updating, and removal of software packages. A good package management system ensures that users can easily maintain their software environments.
 
 By focusing on these aspects, we aim to create a robust and efficient operating system from the ground up, ensuring each component is carefully designed and integrated.
+
+So that concludes the overall **BIG** picture of OS development. Now, we dig deeper in.
+
+<hr />
+
+Everything from hereon are just notes. Equally badly written, perhaps more. This is thinking out loud!!
+
+## Things I do not understand
+
+Ever-expanding list of what I do not understand. Some of it is a continuation of the above, most are also notes I am taking as I read through stuff.
+
+1. How did we get here, pre-UNIX or DOS. You might notice how my recollection of the events above at least start at UNIX and QDOS, but not before that. I understand how the initial bunch of circuitry was made, how logic gates are made physically, and how calculations and computation can be done using just logic gates in real life. I also know of QDOS, UNIX, and how every derivative OS after that was always made on a computer running another OS. Linux was made on a UNIX system, MS-DOS was made on a QDOS computer, I am making my OS on ReactOS/macOS.....but how did we make the first bunch of kernels that would give the CLI for scripting?? That is it: just this small part of the equation; because once we have a CLI for scripting, literally everything else about the OS can be made on it. But hardcoding the stuff in a circuit that would give you that CLI...I do not know. I hope to know maybe a bit more in this journey, but I am not so optimistic about that, since I am using an already completely built OS to make mine (which is how all OS dev has been done ever since this little kernel to make this little CLI first hit).
+
+Circuits, logic gates, magnetic tapes  |?????????| CLI which can then write modern OS scripts
+<===================================== |?????????| ==========================================>
+
+2. How the bootloader works. I know roughly about how a system POSTS, bootloader loads up a sequence of numbers in a specific memory positing, changes to Protected Mode, and loads up OS. How does it do on a code level?? Idk. I will stick to the GNU GRUB spec and Anvitha will be following the spec as well. If they suggest any changes that deviate from the GNU GRUB spec, I will try to incorporate them into my design. 
+
+## The Kernel
+
+Notes taken while perusing GNU/Hurd. 
+
+So obviously, GNU/Hurd is incomplete af, which requires a great deal of engineering and perusing. So far, I have been just getting warmer to the entire codebase; and am actually considering between using Hurd or just building on top of Mach. 
+
+In reference to the [GNU/Hurd on a Mach system](https://www.gnu.org/software/hurd/contributing.html), we come across a bunch of considerations to take upon when making a choice. 
+
+The first thing that comes to head is why GNU/Hurd, and what it sets out to do. Hurd is still trying to be a UNIX compatible kernel, encompassing the entire functionality while going on about latching into existing GNU/Linux distributions. To use it with Mach, or to use just Mach, or to use none of these and try to code your own kernel is still all up in the air for me. 
+
+This leads me to the second bit: the bootloader.
+
+## The Bootloader.
+
+Anvitha and I have discussed to use GNU GRUB as our spec, and that is it. It makes it easier to work with because I can start development on the OS, and be sure that things work out as long as they stick to the GRUB spec. 
+
+This also means that the kernel itself will not have to worry about loading on to memory or checking for Protected Mode activation. It makes this first dive into OSes easier. 
+
+The bootloader, in my understanding so far, is and can be completely different from the OS itself. 
