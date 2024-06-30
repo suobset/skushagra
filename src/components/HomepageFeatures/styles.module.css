@@ -42,13 +42,14 @@ iframe {
 }
 
 /* Media query for mobile devices */
+/* Media query for mobile devices */
 @media (max-width: 767px) {
   .introSection {
     flex-direction: column;
   }
 
   .selfImage {
-    flex: 0 0 100%;
+    flex: 0 0 auto; /* Allow the image to retain its natural size */
     max-width: 50%;
     margin-right: 0;
     margin-bottom: 20px;

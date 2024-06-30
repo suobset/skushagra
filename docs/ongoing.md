@@ -38,4 +38,8 @@ A first for me: but I (and [Anvitha Ramachandran](https://github.com/anvitha305)
 
 MorbiOS is a currently under-development RUST-based Operating System that Anvitha and I are developing, half as a joke and half to teach ourselves more in-depth about different Operating System paradigms and how does one even go about creating one. While we both have extensive Systems experience, them having created a [legv8sim](https://github.com/anvitha305/legv8sim) for their thesis and me having compared different programming languages on a low-level baseline, we both believe that this project would provide an immense learning opportunity that classes sometimes do not have time for. And above all, this is a hobby: we actually love doing this stuff.
 
-While there is not much out there: be on the lookout [here](https://skushagra.com/docs/finechive/morbios) for more updates to the project as they keep on coming. 
+While there is not much out there: be on the lookout [here](https://skushagra.com/docs/independent/morbios) for more updates to the project as they keep on coming. 
+
+#### Classic MacOS
+
+For a while now, I have been attempting to create a framework that allows developers to either backport, or create new modern application on Mac OS 9 (the pre UNIX Mac that was kind of failing). This is mainly an exercise in learning about the limitations and eccentricities of the turn-of-the-century OS.
