@@ -21,3 +21,36 @@ iframe {
   text-align: center;
   margin-top: 20px; /* Adjust the margin as needed */
 }
+
+.introSection {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.selfImage {
+  flex: 0 0 25%;
+  max-width: 15%;
+  margin-right: 15px;
+  padding: 2px; /* Inner padding to create space between the image and the border */
+  background-color: transparent; /* Border color */
+  box-shadow: 0 0 0 2px white, 0 0 0 4px transparent; /* Outer padding to create the frame effect */
+}
+
+.introSection p {
+  flex: 1;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .introSection {
+    flex-direction: column;
+  }
+
+  .selfImage {
+    flex: 0 0 100%;
+    max-width: 50%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

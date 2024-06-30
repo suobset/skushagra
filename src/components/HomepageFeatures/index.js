@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import selfImage from '@site/static/img/self.png';
 
 const FeatureList = [
   {
@@ -13,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Hobby & Misc.',
+    title: 'Self Libre Projects',
     Svg: require('@site/static/img/macintosh.svg').default,
     description: (
       <>
@@ -22,11 +23,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'LinKaGe Lab @ Smith College',
-    Svg: require('@site/static/img/smith.svg').default,
+    title: 'Biking, Photography',
+    Svg: require('@site/static/img/bike.svg').default,
     description: (
       <>
-        Working as a web developer at the <a href="https://linkage.cs.umass.edu">LinKaGe Lab</a> under <a href="https://www.smith.edu/academics/faculty/ileana-streinu">Dr. Ileana Streinu</a>. Currently focusing on upkeep and development of websites used by the lab: namely Wikindx (bibliography), and Lab Website. Currently under hiatus.
+        I bike around in Boston. I have also been pursuing Photography for over a year or so now. I intend to blend my experiences and art in my <a href="/blog">Blog</a>, as well as the <a href="/docs/category/hobby">Hobby category</a> of this website. More to come soon.
       </>
     ),
   },
@@ -70,8 +71,11 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <p>The following is the personal website of Kush Srivastava: undergraduate CompSci major at UMass Amherst, graduating 2024. This homepage will cover the highlights of projects that I am working on currently. Complete details on everything that I am working on can be accessed via the <a href="./docs/intro">About</a> page. Along with my <a href="./docs/category/undergraduate">portfolio</a>, this website serves <a href="./docs/category/hobby">as my creative outlet</a> (both, in and out of CompSci). The site logo is my first computer, circa 2013.</p>
-        <p>Currently, my main focus are in these endeavours; in-depth details and other current projects can be found under the <a href="./docs/ongoing">Ongoing</a> page:</p>
+        <div className={styles.introSection}>
+          <img src={selfImage} alt="Self" className={styles.selfImage} />
+          <p>The following is the personal website of Kush Srivastava: undergraduate CompSci major at UMass Amherst, graduating 2024. This homepage will cover the highlights of projects that I am working on currently. Complete details on everything that I am working on can be accessed via the <a href="./docs/intro">About</a> page. Along with my <a href="./docs/category/undergraduate">portfolio</a>, this website serves <a href="./docs/category/hobby">as my creative outlet</a> (both, in and out of CompSci). The site logo is my first computer, circa 2013.<br /><br />
+          Currently, my main focus are in these endeavours; in-depth details and other current projects can be found under the <a href="./docs/ongoing">Ongoing</a> page:</p>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
