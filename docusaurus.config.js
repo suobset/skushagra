@@ -162,8 +162,7 @@ const config = {
                 to: '/archive',
               },
               {
-                label: 'Libre Source',
-                to: '/source',
+                html: `<a href="source"><img src="https://suobset.github.io/finechive-helper/88x31/gpl.gif"></img></a>`
               },
               {
                 html: `<a href="https://skushagra.com/docs/finechive/scripting-shenanigans#delcookies"><img src="https://suobset.github.io/finechive-helper/88x31/noocookie.gif"></img></a>`
