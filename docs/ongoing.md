@@ -42,4 +42,8 @@ While there is not much out there: be on the lookout [here](https://skushagra.co
 
 #### Classic MacOS
 
-For a while now, I have been attempting to create a framework that allows developers to either backport, or create new modern application on Mac OS 9 (the pre UNIX Mac that was kind of failing). This is mainly an exercise in learning about the limitations and eccentricities of the turn-of-the-century OS.
+For a while now, I have been attempting to create a framework that allows developers to either backport, or create new modern application on Mac OS 9 (the pre UNIX Mac that was kind of failing). This is mainly an exercise in learning about the limitations and eccentricities of the turn-of-the-century OS, and how Mac OS did things pre UNIX. It's mainly for me self-enjoyment, learning, and tinkering process. It was inspired by this video from MattKC:
+
+<iframe width="75%" height="315" src="https://www.youtube.com/embed/CTUMNtKQLl8?si=YoeO3S2o_WXfpUyk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Follow my progress on the [Classic Mac OS Project Page](/docs/independent/classicMac.md).
