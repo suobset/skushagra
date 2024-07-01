@@ -69,8 +69,7 @@ I hardly make changes to macOS or Windows.
 Sorted by frequency: high to low 
 
 * [BBEdit](https://www.barebones.com/products/bbedit/): A macOS native Code Editor being developed for over 30 years. Super stable, packed with features, has a minor learning curve for the more advanced features that's worth it imo.
-* [Neovim](https://neovim.io/): a fork of vim with extended plugin support, and a more suistainable development model. 
-* [Micro](https://micro-editor.github.io/): Terminal editor with regular keybindings and mouse support. Used in team settings.
+* [Vim](https://www.vim.org/): The quintessential UNIX editor, improved. If I am on any other system that's not a Mac, this is my daily. 
 * [Jupyter](https://jupyter.org/): Data-based Python code, where an explanation & presentation of methods is absolutely crucial. Uses ```ipynb``` to split between Markdown cells or Python cells.
 * [KATE](https://kate-editor.org/): The GUI main for Alpine and Trisquel, provides all the core features of VS Code without the Microsoft stuff. 
 
