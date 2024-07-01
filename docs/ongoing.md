@@ -4,17 +4,17 @@ sidebar_position: 3
 
 # Ongoing
 
-This page holds all my ongoing projects and endeavours. Primarily, the heirarchy will be divided into different institutions of affiliation, in no particular order. This will be the forever evolving page, and projects that are over will be placed in their respective pages (or new pages will be created) in the sidebar.
+This page holds all my ongoing projects and endeavours. Primarily, the heirarchy will be divided into the categories mentioned on the homepage. This will be the forever evolving page, and projects that are over will be placed in their respective pages (or new pages will be created) in the sidebar.
 
 ## Psivant Therapeutics 
 
-I am moving to Boston to work for Psivant Therapeutics as a Software/Systems Developer Intern. Specifically, I will be working on High Performance Computing frameworks such as [STORMM](https://github.com/psivant/stormm).
+I ~~am moving~~ have moved to Boston to work for Psivant Therapeutics as a Software/Systems Developer Intern. Specifically, I will be working on High Performance Computing frameworks such as [STORMM](https://github.com/psivant/stormm).
 
 My introduction to Psivant was thanks to Prof. Scott Auerbach, and it seems that my skill-set in Systems ([tra86](https://tra86.skushagra.com/) and the rest) are a perfect fit to the work at Psivant. I will not delve into it further as of just yet, but what it essentially means is that I am pursuing the biggest jump in my career possible.
 
 Facilitating the same, I will be moving to Boston for at least the duration of the summer, possibly beyond.
 
-## Misc. Projects
+## Self Libre Projects
 
 This section holds personal projects: anything that I am investing time in, but for the pursuit of knowledge and self-fulfillment/happiness/mainly because programming is my hobby as well. 
 
@@ -47,3 +47,11 @@ For a while now, I have been attempting to create a framework that allows develo
 <iframe width="75%" height="315" src="https://www.youtube.com/embed/CTUMNtKQLl8?si=YoeO3S2o_WXfpUyk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Follow my progress on the [Classic Mac OS Project Page](/docs/independent/classicMac.md).
+
+## Biking, Photography
+
+It's a bit evident, but the actual "Hobby" section in the sidebar is very incomplete. This section pertains to actual hobbies: stuff outside of programming and computer stuff. This mainly includes Biking, Photography, Digital Art, Music, and Writing. 
+
+I express almost all of my writing in the [Blog](/blog) of this website. That medium also consists of me coalescing my artistic expressions across digital art and photography along with my writing. Thus, for most purposes...I am doing this hobby, and the blog is a culmination of it (along with the technical stuff on there too, but there are tags for you to filter out my hobby art stuff from my technical stuff).
+
+However, I do want to also have dedicated pages to my photography and art in the sidebar here. I will be working on constructing those to showcase these things. Until then, I will also just keep taking pictures, biking around, and writing stuff on my blog!!

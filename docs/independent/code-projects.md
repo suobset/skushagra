@@ -19,5 +19,6 @@ Here is the list of Finechive Hobby Programming Projects:
 * [Apartment Pointer](./aptPoint): Quick Web App to pinpoint different locations on a map.
 * [Scripting Shenanigans](./scripting-shenanigans): Random (mainly Python) Scripts to do a whole bunch of things
 * [Classic Mac OS](./classicMac.md): Creating a framework to port/develop modern apps on an older OS.
+* [HackThisSite.org](https://www.hackthissite.org/user/view/k-u-sh/): Sometimes my coding mind is inactive, but my tinkering mind is active. I crack cybersec puzzles on this site during those days. (will probably make a dedicated page in the sidebar soon)
 
-My other projects, such as Hackathons/Thesis Projects/Class Projects/Professional Work is listed under my website's [Research](https://skushagra.com/docs/category/research) section.
+My other projects, such as Hackathons/Thesis Projects/Class Projects/Professional Work is listed under my website's [Undergraduate](https://skushagra.com/docs/category/undergraduate) section.
