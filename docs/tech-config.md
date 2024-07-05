@@ -40,13 +40,21 @@ MacBook Air M2 w/ iPad Mini: Main on-the-go computer. I actually snagged both of
 
 ### Inside a virtualized env
 
-I tinker a lot with [Trisquel](https://trisquel.info), a fully-free (as in freedom) Operating System. I have broken it, repaired it, changed the source code in bad ways...almost everything imaginable. Trisquel does away with any and every remenant of proprietary code, including not working with proprietary drivers for hardware or sometimes flat out refusing to boot. These can be overcome by the user (the Trisquel apt repository does not have any proprietary stuff but you can build from source), but doing so is heavily frowned upon as it tries it's best to remain true to the ethos of libre software. I commend the people behind the OS who are able to make such a commitment, and I am glad that a truly libre OS actually exists and is capable to be daily driven, as long as appropriate hardware research is done prior.  
+#### UNIX/Linux
 
-[Alpine](https://alpine.org) has my heart as a no-nonsense small OS. It runs beautifully on any hardware I have tried it on, but the primary use case is as a guest OS for virtualizing and containerizing. I currently use it as a guest OS for any VMs I need to spin up for whatever purposes, my docker containers, my Dell computer acting as a NAS server (it runs in a container with Pop!_OS as main), and a 32 bit version on a netbook I salvaged for free to run legacy stuff.
+[Alpine](https://alpine.org) has my heart as a no-nonsense small OS. It runs beautifully on any hardware I have tried it on, but the primary use case is as a guest OS for virtualizing and containerizing. I currently use it as a guest OS for any VMs I need to spin up for whatever purposes, my docker containers, my Dell computer acting as a NAS server (it runs in a container with Pop!_OS as main), and a 32 bit version on a netbook I salvaged for free to run legacy stuff. Best of all, it is super small to download and super quick to install.
 
-If Alpine does not fit my needs for the above purposes, i use [Debian](https://debian.org) as a fallback. It's more reliable and standardized than Alpine, but comes at the cost of being larger than Alpine (still incredibly small by OS standards, but Alpine takes that to 11).
+If Alpine does not fit my needs for the above purposes, I use [Debian](https://debian.org) as a fallback. It's more reliable and standardized than Alpine, but comes at the cost of being larger than Alpine (still incredibly small by OS standards, but Alpine takes that to 11).
+
+#### NT
 
 Windows is a fallback, and needs a lot of resources to run at times. I do have some required software that's Windows only though (Visual Studio, .NET, Postman), so I run it inside a VM. Windows currently does not run as a host on any of my devices, it only runs as a VM guest when necessitated.
+
+I am trying to shift away from Windows in favor of [ReactOS](https://reactos.org/), a free and open source reverse engineering of Windows from scratch. Here's some FAQs on their page that tell it better than I can:
+
+> ReactOS is a free and open source operating system written from scratch. Its design is based on Windows in the same way Linux is based on Unix, however ReactOS is not Linux. ReactOS looks and feels like Windows, is able to your run Windows software and your Windows drivers, and is familiar to Windows users.
+
+> ReactOS is fully legal and adheres to the strongest standards of accountability, ie. it does not use any leaked version of Microsoft's code. ReactOS consists only of clean-room engineered GNU GPL (General Public License) and GPL compatible licensed source code.
 
 Refer to ```Virtualization, Containerization, Sim/Emulation``` section for Hypervisors.
 
