@@ -83,6 +83,11 @@ const config = {
             label: 'Contact',
             position: 'left',
           },
+          {
+            href: 'https://www.flickr.com/photos/suobset/',
+            label: 'Photography',
+            position: 'right',
+          },
           {to: '/blog', label: 'Blog', position: 'right'},
         ],
       },
