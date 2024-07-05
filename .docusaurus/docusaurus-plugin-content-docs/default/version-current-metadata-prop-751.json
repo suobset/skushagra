@@ -179,6 +179,12 @@
             "label": "Classic Mac OS",
             "href": "/docs/independent/classicMac",
             "docId": "independent/classicMac"
+          },
+          {
+            "type": "link",
+            "label": "Hack This Site",
+            "href": "/docs/independent/hackthissite",
+            "docId": "independent/hackthissite"
           }
         ],
         "href": "/docs/category/independent-code--research"
@@ -271,6 +277,12 @@
       "id": "independent/code-projects",
       "title": "Disclaimer",
       "description": "About Code Projects listed here vs. listed under the Undergraduate tab or rest of the site.",
+      "sidebar": "tutorialSidebar"
+    },
+    "independent/hackthissite": {
+      "id": "independent/hackthissite",
+      "title": "Hack This Site",
+      "description": "Sometimes my coding mind is inactive, but my tinkering mind is active. I crack cybersec puzzles on this site during those days.",
       "sidebar": "tutorialSidebar"
     },
     "independent/morbios": {

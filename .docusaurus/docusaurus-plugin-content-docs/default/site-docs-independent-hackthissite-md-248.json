@@ -1,0 +1,26 @@
+{
+  "unversionedId": "independent/hackthissite",
+  "id": "independent/hackthissite",
+  "title": "Hack This Site",
+  "description": "Sometimes my coding mind is inactive, but my tinkering mind is active. I crack cybersec puzzles on this site during those days.",
+  "source": "@site/docs/independent/hackthissite.md",
+  "sourceDirName": "independent",
+  "slug": "/independent/hackthissite",
+  "permalink": "/docs/independent/hackthissite",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Classic Mac OS",
+    "permalink": "/docs/independent/classicMac"
+  },
+  "next": {
+    "title": "Hobby.",
+    "permalink": "/docs/category/hobby"
+  }
+}

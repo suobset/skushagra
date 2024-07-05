@@ -781,7 +781,7 @@
     },
     "content": "content---web-archiveb-83-e18"
   },
-  "/docs-94b": {
+  "/docs-4cf": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-4-bf-9bb"
@@ -827,6 +827,10 @@
   "/docs/independent/code-projects-c61": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-independent-code-projects-68-d-51a"
+  },
+  "/docs/independent/hackthissite-66e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-independent-hackthissite-248-3c6"
   },
   "/docs/independent/morbios-c88": {
     "__comp": "__comp---theme-doc-item-178-a40",

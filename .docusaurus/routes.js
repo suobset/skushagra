@@ -314,7 +314,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '94b'),
+    component: ComponentCreator('/docs', '4cf'),
     routes: [
       {
         path: '/docs/category/hobby',
@@ -373,6 +373,12 @@ export default [
       {
         path: '/docs/independent/code-projects',
         component: ComponentCreator('/docs/independent/code-projects', 'c61'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/independent/hackthissite',
+        component: ComponentCreator('/docs/independent/hackthissite', '66e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
