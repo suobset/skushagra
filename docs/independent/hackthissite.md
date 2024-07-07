@@ -8,7 +8,7 @@ Sometimes my coding mind is inactive, but my tinkering mind is active. I crack c
 
 The following is a list of all the challenges in [HackThisSite.org](https://hackthissite.org), as I unfold and crack them. These may sometimes differ from how people have typically done them as well. 
 
-I primarily am using [HackTheBox](https://hackthebox.com) and other Internet Resources to learn more about securing systems and avoiding vulnerabilities. 
+I primarily am using [HackTheBox](https://hackthebox.com) and other Internet Resources to learn more about securing systems and avoiding vulnerabilities. I plan to tackle [bWAPP](http://www.itsecgames.com/index.htm) later.
 
 Disclaimer: With great power, comes great responsibility. The ```sudo``` message applies here:
 
