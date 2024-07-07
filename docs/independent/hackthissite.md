@@ -8,16 +8,7 @@ Sometimes my coding mind is inactive, but my tinkering mind is active. I crack c
 
 The following is a list of all the challenges in [HackThisSite.org](https://hackthissite.org), as I unfold and crack them. These may sometimes differ from how people have typically done them as well. 
 
-For example, I rely heavily on Wireshark for these challenges. Regardless, bottom line:
-
-* The following are not the intended correct answers to these puzzles. They are my way of doing and approaching things that have been successful.
-* **SPOILER WARNING:** It goes without saying, if you intend to do these puzzles on your own, **stop reading and go to [HackThisSite.org](https://hackthissite.org) NOW**.
-
-Heavy recommend to also use a Linux/UNIX compatible Operating System. For one: all web servers run on Linux, you need access to tooling and reverse-engineering stuff. Mosyt support forums and documentation will assume access to UNIX CLIs and tooling. 
-
-MacOS and any Linux distro will work fine. For Windows, get [WSL](https://learn.microsoft.com/en-us/windows/wsl/about) or a VM. If this is your first ever Linux experience (VM or installing your first Linux OS), I highly recommend [Pop!_OS](https://pop.system76.com/), a fork of Ubuntu simplified for everyone!!
-
-[Here's my profile](https://www.hackthissite.org/user/view/k-u-sh/).
+I primarily am using [HackTheBox](https://hackthebox.com) and other Internet Resources to learn more about securing systems and avoiding vulnerabilities. 
 
 Disclaimer: With great power, comes great responsibility. The ```sudo``` message applies here:
 
@@ -30,7 +21,20 @@ Disclaimer: With great power, comes great responsibility. The ```sudo``` message
 > 
 >    #3) With great power comes great responsibility.
 
-Spread positivity, don't use this knowledge for nefarious purposes. This is a controlled environment for learning purposes ONLY.
+**Spread positivity, don't use this knowledge for nefarious purposes. This is a controlled environment for learning purposes ONLY. I do not intend to break the law or indulge in nefarious activities, ever, and neither should you.** 
+
+**I use this as learning grounds for how to make a secure system to keep everyone's data safe, and to help others protect themselves from bad actors.**
+
+For example, I rely heavily on Wireshark for these challenges. Regardless, bottom line:
+
+* The following are not the intended correct answers to these puzzles. They are my way of doing and approaching things that have been successful.
+* **SPOILER WARNING:** It goes without saying, if you intend to do these puzzles on your own, **stop reading and go to [HackThisSite.org](https://hackthissite.org) NOW**.
+
+Heavy recommend to also use a Linux/UNIX compatible Operating System. For one: all web servers run on Linux, you need access to tooling and reverse-engineering stuff. Mosyt support forums and documentation will assume access to UNIX CLIs and tooling. 
+
+MacOS and any Linux distro will work fine. For Windows, get [WSL](https://learn.microsoft.com/en-us/windows/wsl/about) or a VM. If this is your first ever Linux experience (VM or installing your first Linux OS), I highly recommend [Pop!_OS](https://pop.system76.com/), a fork of Ubuntu simplified for everyone!!
+
+[Here's my profile](https://www.hackthissite.org/user/view/k-u-sh/).
 
 ## Basic
 
