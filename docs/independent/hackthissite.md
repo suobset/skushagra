@@ -13,6 +13,10 @@ For example, I rely heavily on Wireshark for these challenges. Regardless, botto
 * The following are not the intended correct answers to these puzzles. They are my way of doing and approaching things that have been successful.
 * **SPOILER WARNING:** It goes without saying, if you intend to do these puzzles on your own, **stop reading and go to [HackThisSite.org](https://hackthissite.org) NOW**.
 
+Heavy recommend to also use a Linux/UNIX compatible Operating System. For one: all web servers run on Linux, you need access to tooling and reverse-engineering stuff. Mosyt support forums and documentation will assume access to UNIX CLIs and tooling. 
+
+MacOS and any Linux distro will work fine. For Windows, get [WSL](https://learn.microsoft.com/en-us/windows/wsl/about) or a VM. If this is your first ever Linux experience (VM or installing your first Linux OS), I highly recommend [Pop!_OS](https://pop.system76.com/), a fork of Ubuntu simplified for everyone!!
+
 [Here's my profile](https://www.hackthissite.org/user/view/k-u-sh/).
 
 ## Basic
@@ -138,3 +142,259 @@ All songs are Elton John songs when you reload his music app. Append ```/e/l/t/o
 ## Realistic
 
 These are the solutions to the [Realistic](https://www.hackthissite.org/missions/realistic/) challenges on the site. Heavily recommend to stop reading here and give them a shot yourself if you haven't so already!! 
+
+### Level 1 - 4
+
+To be written down. Already completed.
+
+### Level 5
+
+[Link to puzzle](https://www.hackthissite.org/playlevel/5/)
+
+![Puzzle homepage](./assets/hackthissite/r5_3.png)
+
+> Message: Yo! This is Spiffomatic64 from Hackthissite.org! I'm a bit of a hacker myself as you can see, but I recently came upon a problem I couldn't resolve.....
+> Lately I've been getting calls day and night from the telemarketing place. I've gone to their website and hacked it once deleting all of their phone numbers so they wouldn't call me anymore. That was a temporary fix but they put their database back up, this time with an encrypted password. When I hacked them I noticed everything they used was 10 years out of date and the new password seems to be a 'message digest'. I have done some research and I think it could be something like a so-called hash value. I think you could somehow reverse engineer it or brute force it. I also think it would be a good idea to look around the server for anything that may help you.
+
+Points to note:
+
+* 10 years out of date
+* "message digest hash value" (whatever that means currently)
+* Reverse engineer and look around website
+
+In the "News" page, we see this:
+
+![Puzzle site news page](./assets/hackthissite/r5_1.png)
+
+> Google was grabbing links it shouldn't so I have taken extra precautions
+
+This is the big hint!! Google (and other search engines) all read a file called ```robots.txt``` to parse through links that are secret. Append ```/robots.txt``` to the webpage, and you'll get this:
+
+```
+User-agent: *
+Disallow: /lib
+Disallow: /secret
+```
+
+"For all user agents, do not track links that are in the lib dir and the secret dir."
+
+Appending ```/secret``` to the URL gets us to Apache dir traversal:
+
+![Directory traversal on Puzzle 5](./assets/hackthissite/r5_2.png)
+
+The first file in this directory gives us the value of the hash (of the actual password). We do not have the Math formula that does the hashing, though.
+
+Ok, so we go along. Going to ```/lib``` we get another hash file, which gets downloaded to your computer. 
+
+Now, you gotta be using a UNIX compatible CLI to do this. Executing ```file $path_to_hash``` tells us what kind of file are we dealing with (user file that can be edited, executable, script, etc.).
+
+Output:
+
+```bash
+suobset@poptop:~/Downloads$ file hash
+hash: ELF 32-bit LSB executable, Intel 80386, version 1 (FreeBSD), dynamically linked, interpreter /libexec/ld-elf.so.1, not stripped
+
+suobset@poptop:~/Downloads$ ls -l hash
+-rw-rw-r-- 1 suobset suobset 11612 Jul  6 20:45 hash
+```
+
+Good, this is a 32-bit executable. Bad, I run a 64 bit OS. 
+
+We keep this aside for a bit. Going back to the original message, we see that the sender notes 10 years out of date message digest hash. Let's [look that up](https://en.wikipedia.org/wiki/MD5). 
+
+I'll not go into details about MD4/MD5, but I will tell you about [hashcat](https://hashcat.net/hashcat/), a Linux CLI utility that can be used to brute force (**not dehash**) passwords. This is extremely easy for us, given we have the final hash and we have a fair shot at what algorithm might be in use here. 
+
+**WARNING:** Hashcat is super resource intensive. We use every possible permutation and combination to come to a password that may be true. Having a GPU is a high recommendation!!
+
+Let's try to wager our bets to super old times (based on the website graphics) and use MD4 to brute force a password:
+
+* hashcat: This is the command to run the hashcat tool, which is used for password recovery.
+* -m 900: Specifies the hash type. In this case, 900 corresponds to MD4.
+* 66dda7123d9c33f44b1b2be233e37091: This is the target MD4 hash that you want to crack.
+* -a 3: Specifies the attack mode. 3 stands for a brute-force attack.
+* -o cracked: This option specifies the output file where the cracked password will be saved. In this case, the file is cracked.
+
+[Hashcat Documentation](https://hashcat.net/wiki/).
+
+```bash
+suobset@poptop:~/Downloads$ hashcat -m 900 66dda7123d9c33f44b1b2be233e37091 -a 3 -o cracked
+hashcat (v6.2.5) starting
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #2: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+nvmlDeviceGetFanSpeed(): Not Supported
+
+CUDA API (CUDA 12.4)
+====================
+* Device #1: NVIDIA GeForce GTX 1650, 3709/3896 MB, 14MCU
+
+OpenCL API (OpenCL 3.0 CUDA 12.4.125) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: NVIDIA GeForce GTX 1650, skipped
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+
+Optimizers applied:
+* Zero-Byte
+* Early-Skip
+* Not-Salted
+* Not-Iterated
+* Single-Hash
+* Single-Salt
+* Brute-Force
+* Raw-Hash
+
+ATTENTION! Pure (unoptimized) backend kernels selected.
+Pure kernels can crack longer passwords, but drastically reduce performance.
+If you want to switch to optimized kernels, append -O to your commandline.
+See the above message to find out about the exact limits.
+
+Watchdog: Temperature abort trigger set to 90c
+
+Host memory required for this attack: 1475 MB
+
+The wordlist or mask that you are using is too small.
+This means that hashcat cannot use the full parallel power of your device(s).
+Unless you supply more work, your cracking speed will drop.
+For tips on supplying more work, see: https://hashcat.net/faq/morework
+
+Approaching final keyspace - workload adjusted.           
+
+Session..........: hashcat                                
+Status...........: Exhausted
+Hash.Mode........: 900 (MD4)
+Hash.Target......: 66dda7123d9c33f44b1b2be233e37091
+Time.Started.....: Sat Jul  6 21:39:31 2024 (0 secs)
+Time.Estimated...: Sat Jul  6 21:39:31 2024 (0 secs)
+Kernel.Feature...: Pure Kernel
+Guess.Mask.......: ?1 [1]
+Guess.Charset....: -1 ?l?d?u, -2 ?l?d, -3 ?l?d*!$@_, -4 Undefined 
+Guess.Queue......: 1/15 (6.67%)
+Speed.#1.........:     7256 H/s (0.04ms) @ Accel:2048 Loops:62 Thr:32 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 62/62 (100.00%)
+Rejected.........: 0/62 (0.00%)
+Restore.Point....: 1/1 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-62 Iteration:0-62
+Candidate.Engine.: Device Generator
+Candidates.#1....: s -> X
+Hardware.Mon.#1..: Temp: 64c Util: 53% Core:1770MHz Mem:6000MHz Bus:8
+
+The wordlist or mask that you are using is too small.
+This means that hashcat cannot use the full parallel power of your device(s).
+Unless you supply more work, your cracking speed will drop.
+For tips on supplying more work, see: https://hashcat.net/faq/morework
+
+Approaching final keyspace - workload adjusted.           
+
+Session..........: hashcat                                
+Status...........: Exhausted
+Hash.Mode........: 900 (MD4)
+Hash.Target......: 66dda7123d9c33f44b1b2be233e37091
+Time.Started.....: Sat Jul  6 21:39:32 2024 (0 secs)
+Time.Estimated...: Sat Jul  6 21:39:32 2024 (0 secs)
+Kernel.Feature...: Pure Kernel
+Guess.Mask.......: ?1?2 [2]
+Guess.Charset....: -1 ?l?d?u, -2 ?l?d, -3 ?l?d*!$@_, -4 Undefined 
+Guess.Queue......: 2/15 (13.33%)
+Speed.#1.........:   263.3 kH/s (0.04ms) @ Accel:2048 Loops:62 Thr:32 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 2232/2232 (100.00%)
+Rejected.........: 0/2232 (0.00%)
+Restore.Point....: 36/36 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-62 Iteration:0-62
+Candidate.Engine.: Device Generator
+Candidates.#1....: sa -> Xq
+Hardware.Mon.#1..: Temp: 65c Util: 53% Core:1770MHz Mem:6000MHz Bus:8
+
+The wordlist or mask that you are using is too small.
+This means that hashcat cannot use the full parallel power of your device(s).
+Unless you supply more work, your cracking speed will drop.
+For tips on supplying more work, see: https://hashcat.net/faq/morework
+
+Approaching final keyspace - workload adjusted.           
+
+Session..........: hashcat                                
+Status...........: Exhausted
+Hash.Mode........: 900 (MD4)
+Hash.Target......: 66dda7123d9c33f44b1b2be233e37091
+Time.Started.....: Sat Jul  6 21:39:32 2024 (0 secs)
+Time.Estimated...: Sat Jul  6 21:39:32 2024 (0 secs)
+Kernel.Feature...: Pure Kernel
+Guess.Mask.......: ?1?2?2 [3]
+Guess.Charset....: -1 ?l?d?u, -2 ?l?d, -3 ?l?d*!$@_, -4 Undefined 
+Guess.Queue......: 3/15 (20.00%)
+Speed.#1.........:  9579.3 kH/s (0.05ms) @ Accel:256 Loops:62 Thr:256 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 80352/80352 (100.00%)
+Rejected.........: 0/80352 (0.00%)
+Restore.Point....: 1296/1296 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-62 Iteration:0-62
+Candidate.Engine.: Device Generator
+Candidates.#1....: sar -> Xqx
+Hardware.Mon.#1..: Temp: 65c Util: 74% Core:1770MHz Mem:6000MHz Bus:8
+
+The wordlist or mask that you are using is too small.
+This means that hashcat cannot use the full parallel power of your device(s).
+Unless you supply more work, your cracking speed will drop.
+For tips on supplying more work, see: https://hashcat.net/faq/morework
+
+Approaching final keyspace - workload adjusted.           
+
+Session..........: hashcat                                
+Status...........: Exhausted
+Hash.Mode........: 900 (MD4)
+Hash.Target......: 66dda7123d9c33f44b1b2be233e37091
+Time.Started.....: Sat Jul  6 21:39:33 2024 (0 secs)
+Time.Estimated...: Sat Jul  6 21:39:33 2024 (0 secs)
+Kernel.Feature...: Pure Kernel
+Guess.Mask.......: ?1?2?2?2 [4]
+Guess.Charset....: -1 ?l?d?u, -2 ?l?d, -3 ?l?d*!$@_, -4 Undefined 
+Guess.Queue......: 4/15 (26.67%)
+Speed.#1.........:   188.6 MH/s (0.04ms) @ Accel:2048 Loops:62 Thr:32 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 2892672/2892672 (100.00%)
+Rejected.........: 0/2892672 (0.00%)
+Restore.Point....: 46656/46656 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-62 Iteration:0-62
+Candidate.Engine.: Device Generator
+Candidates.#1....: s6vq -> Xqxv
+Hardware.Mon.#1..: Temp: 65c Util: 87% Core:1770MHz Mem:6000MHz Bus:8
+
+                                                          
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 900 (MD4)
+Hash.Target......: 66dda7123d9c33f44b1b2be233e37091
+Time.Started.....: Sat Jul  6 21:39:34 2024 (0 secs)
+Time.Estimated...: Sat Jul  6 21:39:34 2024 (0 secs)
+Kernel.Feature...: Pure Kernel
+Guess.Mask.......: ?1?2?2?2?2 [5]
+Guess.Charset....: -1 ?l?d?u, -2 ?l?d, -3 ?l?d*!$@_, -4 Undefined 
+Guess.Queue......: 5/15 (33.33%)
+Speed.#1.........:  1183.1 MH/s (9.07ms) @ Accel:2048 Loops:62 Thr:32 Vec:1
+Recovered........: 1/1 (100.00%) Digests
+Progress.........: 56885248/104136192 (54.63%)
+Rejected.........: 0/56885248 (0.00%)
+Restore.Point....: 0/1679616 (0.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-62 Iteration:0-62
+Candidate.Engine.: Device Generator
+Candidates.#1....: sarie -> Xhzpc
+Hardware.Mon.#1..: Temp: 65c Util: 87% Core:1770MHz Mem:6000MHz Bus:8
+
+Started: Sat Jul  6 21:39:27 2024
+Stopped: Sat Jul  6 21:39:35 2024
+
+suobset@poptop:~/Downloads$ cat cracked
+66dda7123d9c33f44b1b2be233e37091:74786
+```
+
+Take a look at that last line in my terminal output. That, is your password (and my bets on MD4 were correct).
