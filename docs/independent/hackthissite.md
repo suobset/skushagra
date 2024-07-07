@@ -25,8 +25,6 @@ Disclaimer: With great power, comes great responsibility. The ```sudo``` message
 
 **I use this as learning grounds for how to make a secure system to keep everyone's data safe, and to help others protect themselves from bad actors.**
 
-For example, I rely heavily on Wireshark for these challenges. Regardless, bottom line:
-
 * The following are not the intended correct answers to these puzzles. They are my way of doing and approaching things that have been successful.
 * **SPOILER WARNING:** It goes without saying, if you intend to do these puzzles on your own, **stop reading and go to [HackThisSite.org](https://hackthissite.org) NOW**.
 
