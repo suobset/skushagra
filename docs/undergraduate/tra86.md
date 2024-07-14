@@ -4,6 +4,8 @@ sidebar_position: 4
 
 # tra86: CICS Honors Thesis
 
+Disclaimer: this page is currently incomplete until my thesis gets published. More details soon. 
+
 Currently working with Prof. Joe Chiu and Prof. Tim Richards from UMass CICS on my Honors Thesis. I have put a short poster on the project hypothesis below, but obviously not all data is recorded because this is an ongoing project. Moreover, the poster is about 6 months old and a lot has changed in the project (focused on Clang, Cargo, and LLVM). 
 
 Regardless, the poster still gives a good idea of what to expect, without giving compromising details, and thus I'll leave it here. Also, there is a [git repository](https://github.com/cics-syslab/RUST-tracing-tool) which stays private for the forseeable future :)
