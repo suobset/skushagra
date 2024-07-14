@@ -49,7 +49,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'a9b'),
+    component: ComponentCreator('/blog', 'aa9'),
     exact: true
   },
   {
@@ -123,23 +123,28 @@ export default [
     exact: true
   },
   {
+    path: '/blog/newsletter7',
+    component: ComponentCreator('/blog/newsletter7', '99b'),
+    exact: true
+  },
+  {
     path: '/blog/on-macos-and-libre-software',
     component: ComponentCreator('/blog/on-macos-and-libre-software', 'dd5'),
     exact: true
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', '997'),
+    component: ComponentCreator('/blog/page/2', '9cf'),
     exact: true
   },
   {
     path: '/blog/page/3',
-    component: ComponentCreator('/blog/page/3', 'cc2'),
+    component: ComponentCreator('/blog/page/3', 'ff3'),
     exact: true
   },
   {
     path: '/blog/page/4',
-    component: ComponentCreator('/blog/page/4', '9c3'),
+    component: ComponentCreator('/blog/page/4', '148'),
     exact: true
   },
   {
@@ -154,17 +159,17 @@ export default [
   },
   {
     path: '/blog/tags/academia',
-    component: ComponentCreator('/blog/tags/academia', '8d7'),
+    component: ComponentCreator('/blog/tags/academia', 'b05'),
     exact: true
   },
   {
     path: '/blog/tags/academia/page/2',
-    component: ComponentCreator('/blog/tags/academia/page/2', 'c2a'),
+    component: ComponentCreator('/blog/tags/academia/page/2', '3a3'),
     exact: true
   },
   {
     path: '/blog/tags/aesthetics',
-    component: ComponentCreator('/blog/tags/aesthetics', '460'),
+    component: ComponentCreator('/blog/tags/aesthetics', 'a84'),
     exact: true
   },
   {
@@ -199,7 +204,7 @@ export default [
   },
   {
     path: '/blog/tags/highlights',
-    component: ComponentCreator('/blog/tags/highlights', '0fa'),
+    component: ComponentCreator('/blog/tags/highlights', 'c17'),
     exact: true
   },
   {
@@ -209,7 +214,7 @@ export default [
   },
   {
     path: '/blog/tags/i-cons',
-    component: ComponentCreator('/blog/tags/i-cons', 'b5c'),
+    component: ComponentCreator('/blog/tags/i-cons', 'bd8'),
     exact: true
   },
   {
@@ -234,12 +239,12 @@ export default [
   },
   {
     path: '/blog/tags/newsletter',
-    component: ComponentCreator('/blog/tags/newsletter', '530'),
+    component: ComponentCreator('/blog/tags/newsletter', 'ad9'),
     exact: true
   },
   {
     path: '/blog/tags/newsletter/page/2',
-    component: ComponentCreator('/blog/tags/newsletter/page/2', '239'),
+    component: ComponentCreator('/blog/tags/newsletter/page/2', 'a1a'),
     exact: true
   },
   {
@@ -259,7 +264,12 @@ export default [
   },
   {
     path: '/blog/tags/personal',
-    component: ComponentCreator('/blog/tags/personal', 'ec0'),
+    component: ComponentCreator('/blog/tags/personal', '697'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/personal/page/2',
+    component: ComponentCreator('/blog/tags/personal/page/2', '964'),
     exact: true
   },
   {

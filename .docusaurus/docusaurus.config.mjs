@@ -5,7 +5,7 @@
  */
 export default {
   "title": "Kushagra Srivastava",
-  "tagline": "Operating Systems & Compilers Programmer | AI/ML Specialization (NLP)",
+  "tagline": "Operating Systems & Compilers Programmer",
   "favicon": "img/favicon.ico",
   "url": "https://skushagra.com",
   "baseUrl": "/",

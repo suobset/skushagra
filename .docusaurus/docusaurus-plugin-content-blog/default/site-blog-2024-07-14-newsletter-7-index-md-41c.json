@@ -1,0 +1,64 @@
+{
+  "permalink": "/blog/newsletter7",
+  "source": "@site/blog/2024-07-14-newsletter7/index.md",
+  "title": "Graduated. Part 2.",
+  "description": "UMass Pitch: Sophomore Year",
+  "date": "2024-07-14T00:00:00.000Z",
+  "formattedDate": "July 14, 2024",
+  "tags": [
+    {
+      "label": "newsletter",
+      "permalink": "/blog/tags/newsletter"
+    },
+    {
+      "label": "Personal",
+      "permalink": "/blog/tags/personal"
+    },
+    {
+      "label": "academia",
+      "permalink": "/blog/tags/academia"
+    },
+    {
+      "label": "iCons",
+      "permalink": "/blog/tags/i-cons"
+    },
+    {
+      "label": "Aesthetics",
+      "permalink": "/blog/tags/aesthetics"
+    },
+    {
+      "label": "Highlights",
+      "permalink": "/blog/tags/highlights"
+    }
+  ],
+  "readingTime": 10,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Kushagra Srivastava",
+      "title": "I write, code, and create. Sometimes all at the same time.",
+      "url": "https://skushagra.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+      "key": "suobset"
+    }
+  ],
+  "frontMatter": {
+    "slug": "newsletter7",
+    "title": "Graduated. Part 2.",
+    "authors": [
+      "suobset"
+    ],
+    "tags": [
+      "newsletter",
+      "Personal",
+      "academia",
+      "iCons",
+      "Aesthetics",
+      "Highlights"
+    ]
+  },
+  "nextItem": {
+    "title": "Graduated. Part 1.",
+    "permalink": "/blog/newsletter6"
+  }
+}

@@ -1,6 +1,74 @@
 {
   "blogPosts": [
     {
+      "id": "newsletter7",
+      "metadata": {
+        "permalink": "/blog/newsletter7",
+        "source": "@site/blog/2024-07-14-newsletter7/index.md",
+        "title": "Graduated. Part 2.",
+        "description": "UMass Pitch: Sophomore Year",
+        "date": "2024-07-14T00:00:00.000Z",
+        "formattedDate": "July 14, 2024",
+        "tags": [
+          {
+            "label": "newsletter",
+            "permalink": "/blog/tags/newsletter"
+          },
+          {
+            "label": "Personal",
+            "permalink": "/blog/tags/personal"
+          },
+          {
+            "label": "academia",
+            "permalink": "/blog/tags/academia"
+          },
+          {
+            "label": "iCons",
+            "permalink": "/blog/tags/i-cons"
+          },
+          {
+            "label": "Aesthetics",
+            "permalink": "/blog/tags/aesthetics"
+          },
+          {
+            "label": "Highlights",
+            "permalink": "/blog/tags/highlights"
+          }
+        ],
+        "readingTime": 10,
+        "hasTruncateMarker": true,
+        "authors": [
+          {
+            "name": "Kushagra Srivastava",
+            "title": "I write, code, and create. Sometimes all at the same time.",
+            "url": "https://skushagra.com",
+            "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+            "key": "suobset"
+          }
+        ],
+        "frontMatter": {
+          "slug": "newsletter7",
+          "title": "Graduated. Part 2.",
+          "authors": [
+            "suobset"
+          ],
+          "tags": [
+            "newsletter",
+            "Personal",
+            "academia",
+            "iCons",
+            "Aesthetics",
+            "Highlights"
+          ]
+        },
+        "nextItem": {
+          "title": "Graduated. Part 1.",
+          "permalink": "/blog/newsletter6"
+        }
+      },
+      "content": "```\n$ ./status-update\n\nThis entry is going to be published in multiple\nparts.\n\nIt's the process of looking back and into my\nwhole academic journey. It's gonna take a while to\ncomplete, but I am enjoying the process of writing this.\n\nAlso moved to Boston, and plan to write all my thoughts \nin the next couple of weeks.\n```\n\n![UMass Pitch: Sophomore Year](./assets/nl7.png)\n\nPls. read Part 1 first, then come back here. \n\nSophomore year of university: somehow things get both worse and better. I think the weirdest part to grasp, personally, was the new and unknown environment. \n\n<!-- truncate -->\n\nI have been inducted into iCons, have come out of my academic issues in certain course, and am finally starting to get a hold of things. I came to the US by myself, had a family friend help me get from New Jersey to Amherst, and got into quarantine in an empty apartment. Since I was an international student coming in during the global pandemic, my first exposure ever to is new environment was even more isolation. \n\nIt was good and bad, in it's own right. I believe that the good was getting mental peace3. I had been up on my own, and was in a perpetual 1 year isolation prior to this, so it wasn't the isolation bit of it that i had to get used to, as much as it was the 1) getting my sleep schedule to be at night again, and 2) feeling comfortable.\n\nAnd that second point is the big one. \n\n## On feeling comfortable\n\n![Instagram stories from the apartment](./assets/nl72.png)\n\nYou see, Amherst is a small town. But UMass is not (by a longshot), and it genuinely frightened me a little bit coming in here as a Sophomore. I was genuinely nervous about being able to make friends, or finding that niche. \n\nFor about 14 days, I was in this apartment pictured above, with no furiture or anything. Food was boxed from the UMass Dining folks, and I would just stay alone in the room. After this period, however, I moved into my room at OHill. And that was terrible, in it's own way. \n\nFor one: UMass did not provide much help in me moving in. They just, kind of, left me on my own to drag my suitcases up the hill and into my room. Ok fine, was an ordeal but not too bad. The moment after I went in my room, I walked to Whitmore to get my ID. Not knowing any of the bus routes and stuff, walking through the entire path made me feel even more lonely. The isolatiopn I had felt for so long met with constant people my age around me: a complete shift in how I had lived life for about a year or so now. \n\n![OHill Room](./assets/nl73.jpg)\n\nSecondly, not too many professors were accomodating in me being able to attend coursework. Missing the first 2 weeks, especially in a STEM degree, just meant I kept playing catch-up for the rest of the semester. I had my first midtern 5 days after I got out (and being able to only attend 2 classes for that course), and I bombed it. The rest of the semester was just playing catch-up for the most of it. Fun times. \n\nI did soon get more comfortable with peolpe around me. My roommate and I never truly bonded over on much, we both did play Video Games as a hobby but preferred wildly differengt genres. I still liked living with him, fun times. \n\nThe other big benefit that living at OHill bought was the fact that a lot of people I knew lived here as well!! Made it super easy to follow up on projects, socialize, and have fun!! Each floor had a common room, and I genuinely appreciated having such a great community. \n\nI was mainly nervous thinking that I'd not find a lot of friends, but UMass is genuinely such a vibrant community that was extremely welcoming. Being a big university actually worked more in my favor than less. You can find whatever niche you love. \n\nThat's programming and lightsaber battles for me. And [I found that niche so easily.](/docs/independent/saberstat)\n\nI made some more friends as I went by. I met Nhi, Krishna, Frank, James, Justin, Ibrahima, Carter, and Rachel: all close frienjds of mine even today. The bad was mostly surrounding academics, when it came to socializing & trying to find my niche (the thing I was more worried about), I had an upwards trajectory for once in my life (after the pandemic)!!\n\n## HackUMass 9, CICS\n\n![CICS Discord Meetup](./assets/nl74.png)\n\nSo, blazing through some highlights here:\n\n* I met up with a lot of people in the CICS Discord and became friends\n* I created [MoodMusic](/docs/undergraduate/moodmusic) in hackUMass 9.\n* I joined the Student Alumni Association. I left shortly after since my other stuff became a bit more time consuming and I had to realign priorities.\n* I joined the UMass Pitch, a student org dedicated to playing instruments for fun at an amateur level as a hobby. (title image)\n* I created a mini video game using embedded systems: [Tilting Ball Game](/docs/undergraduate/tiltingBall). \n\n![Student Alumni Association](./assets/nl75.png)\n\n![Creating Tilting Ball Game with Lyle Kottke](./assets/nl710.png)\n\nBut, here are the more important things that happened during this year.\n\n## Integrated Concentration in STEM\n\nThis was the first year that I was officially a part of UMass iCons, and a big one at that. iCons went on to become my primary social circle, as well as the perfect playground for all my academic projects. \n\nFor the Fall semester, the iCons group just met up in the engineering quad and had a fun time. We got our shirts, saw each other in real life for the first time, and generally had a great vibe. This weas also the semester that i was still moving around different social groups and trying to find a fotting as to what it was that I wanted to do, so things were not too solidified yet. As mentioned above, I went to UMass Pitch, and to the SAA. Never truly found myself at home at either of these places, but I persisted. \n\nIt was the Spring semester that bought more things into place, with the advent of my first iCons class. I teamed up with Jack, Yi, Gabby, Cleo to create a through analysis of the [Boston T System](/docs/undergraduate/iconsMoS). This project was sponsored by the Museum of Science, and went on to be one of the best iCons experiences I have had. We hung out in Boston, made videos, talked at the Museum of Science, I was even invited to give a talk on this project at MIT about half a year later!! \n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lu-qJayZEmE?si=RPO5K_8e4EOjxeio\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n\nI also found Seb, Anvitha, Frank through iCons. It felt good to have a social circle that solidified more. iCons became the primary social circle I had in UMass, and stayed that way till the end. \n\nThis was, still, the second best thing to happen that year.\n\n![iCons 2](./assets/nl76.png)\n\n## Rose\n\n![Rose](./assets/nl720.JPG)\n\nGenuinely, the best thing to happen this year was on November 21, 2021, when I met my long term partner Rose. It's a bit funny in retrospect how I found my partner while going through a period of time when I was uncertain about being able to make any friends, but it was amazing in it's own way. \n\nRose and I met at Smith College, and started dating at about December of that year. I met her parents, and bought her to a vacation in India next year. We moved in together the next year as well, and continue to share an apartment in Boston, MA. \n\nI don't say much about her usually, but I am genuinely amazingly grateful to have her in my life. \n\n## Personal Developments\n\nSo at the end of the day, I needed a re-calibration in academia; mostly just during the Fall semester. I was able to regain academic performance the semester after. I met my long-term partner, and officially met everyone in iCons and started being closer with them. \n\nAt the same time, I tried out the Student Alumni Association & UMass Pitch, both groups that I genuinely loved beign a part of, but both groups that i had to leave due to personal life stuff. Most of my time went into the iCons social circle (especially as iCons in itself was a program that funded student ideas and innovation). \n\nCreatively, September 2021 to May 2022 did not have any output. Was I having writer's block?? Maybe. \n\nFor the longest time, I had stayed inside and captured the trapedness of indoor life. If a photo opportunity mimicking similar constraints presented itself, I went for it. But all in all, I did not feel creatively motivated at all.\n\nMaybe it was due to the fact that the liminality aesthetic, which had become the cornerstone of my self-expression, was only applicable during a time of staying inside, and having the feelings of loneliness. However, this year was different. This was more of a \"trying to find my identity in a new environment, and my social circle\" YEAR, i BELIEVE.\n\nIn my personal life, I have only been able to create art at a time when I have known how I feel, and what contexual clues and references from my life are shaping up what my state is. \n\nAfter I met Rose, and after the Spring semester of having worked with iCons & being entrenched in that program: I took up photography, properly. I had been using my phone so far to create artwork and capture images, but I moved on to first using more professional tooling (actual image editors, concepts from photograpghy, and Chromatica: a professional manual control camera app). \n\nAt first, most of my pictures were, I'd say, a little generic. I was mainly trying to figure out landscape photography, as well as get a hang of my editing suite. Nevertheless, these are some of my first pictures. While they may not identify with a given aesthetic too much, there are still some inspirations I have taken from some aesthetic stuff.\n\nIf I did find myself in an aesthetic that I identified with, I did capture that. But, this is just to say, i also captured a lot of generic stuff in an effort to learn.\n\nI am still proud of these pictures. I had been into photography for a long time, but these were some of the first that I had properly learnt photography for, focused on some theoritical aspects, and learnt to edit & create in a more streamlined manner. I went from just shadows & highlighting & filters to full blown color correction, levels & curve adjusting, and proper workflows that I have refined on ever since. \n\nCurrently, my photography has become an all-around self-expression: refining on these workflows above while incorporating different goals, aesthetics, and conditions. But that's for a different time. Currently, I am just proud looking back at my pictures, and I hope you enjoy them too, even if they are a bit more on the generic side at times :)\n\n![Smith College: Campus Pond](./assets/nl78.JPG)\n\nSmith College: Campus Pond\n\n![UMass OHill Parking spots: a liminal space that I captured](./assets/nl79.png)\n\nUMass OHill Parking spots: a liminal space that I captured\n\n![Smith College Campus Pond](./assets/nl711.JPG)\n\nSmith College Campus Pond\n\n![San Francisco, I loved film photography, especially it's influence in a lot of aesthetics like Vaporwave](./assets/nl712.jpg)\n\nSan Francisco, I loved film photography, especially it's influence in a lot of aesthetics like Vaporwave\n\n![Central Park, NYC](./assets/nl713.png)\n\nCentral Park, NYC\n\n![Golden Gate Bridge](./assets/nl714.png)\n\nGolden Gate Bridge\n\n![On the Golden Gate Bridge](./assets/nl715.png)\n\nOn the Golden Gate Bridge\n\n![Uttrakhand, India](./assets/nl716.png)\n\nUttrakhand, India\n\n![Uttrakhand, India](./assets/nl718.png)\n\nUttrakhand, India\n\n## Tl;Dr\n\nMet a lot of friends, got my social circle footing, did amazing work with Museum of Science and with embedded systems, met Rose, got into photography properly."
+    },
+    {
       "id": "newsletter6",
       "metadata": {
         "permalink": "/blog/newsletter6",
@@ -60,6 +128,10 @@
             "Aesthetics",
             "Highlights"
           ]
+        },
+        "prevItem": {
+          "title": "Graduated. Part 2.",
+          "permalink": "/blog/newsletter7"
         },
         "nextItem": {
           "title": "Kush's Self Gingerbread Portrait",
