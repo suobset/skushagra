@@ -105,7 +105,7 @@ The following is what I use to facilitate my Photography.
 
 ## Office Work & typing documents
 
-Writing text-based files? Here's what I use:
+### Writing text-based files
 
 * [Libreoffice](https://www.libreoffice.org/): Licensed under MPL v2.0, Libreoffice is a Free and Open Source alternative to MS Office, compatible with the OpenDocument formats and the proprietary MS Office formats. LibreOffice is community driven with a governance model that ensures the software is accessible to all (along with source code, and rights to modify the same), transcending all language barriers and boundaries.
 * [Google Workspace](https://drive.google.com): Another Office suite, albeit used much less due to the proprietary nature. However, being in university, it is an absolutely crucial tool to enable collaboration and teamwork (multiple people can edit the same documents at the same time), while maintaining aceptable levels of privacy and security over documents.
@@ -113,6 +113,10 @@ Writing text-based files? Here's what I use:
     * Want a quick way to try LaTeX? Try [Overleaf:](https://overleaf.com) a web-based LaTeX editor. 
 * [Markdown](https://www.markdownguide.org/): A quick and easy markup language that I use for quick notes, documentation, and even this entire website (including this webpage you're looking at). 
 * [Pandoc](https://pandoc.org/): A universal document converter that converts any format to any other format through a set of unique tools. Convert Markdown to PDF, Docx to OpenDoc, HTML to Markdown, etc.
+
+### Clients
+
+* [Thunderbird](https://thunderbird.net): Email client to reduce tab clutter, and have a consistent interface across Gmail, Outlook, and others. Handles Calendar, Contacts, and Todo lists as well. 
 
 ## Geographic Information Systems
 

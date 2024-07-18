@@ -24,6 +24,36 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+## QR Code Generator
+
+Quick QR Code Generator for various purposes. Created specifically for a Jupyter Notebook. Needs the ```qrcode``` library (```!pip install qrcode```)
+
+```py
+import qrcode
+from PIL import Image
+from IPython.display import display
+
+def generate_qr_code(url):
+    # Generate QR code
+    qr = qrcode.QRCode(
+        version=1,
+        error_correction=qrcode.constants.ERROR_CORRECT_L,
+        box_size=10,
+        border=4,
+    )
+    qr.add_data(url)
+    qr.make(fit=True)
+
+    # Create an image from the QR Code instance
+    img = qr.make_image(fill_color="black", back_color="white")
+
+    # Display the image in Jupyter Notebook
+    display(img)
+
+url = input("Enter the URL: ")
+generate_qr_code(url)
+```
+
 ## BibTeX Breaker
 
 One of the tasks I had at the [LinKaGe Lab](http://linkage.cs.umass.edu) pertained to creating a new web-based Bibliography, and import the entire corpus of LinKaGe Lab documents to the new bibliography system. I used [Wikindx](https://wikindx.sourceforge.io/web/trunk/index.html) for the storage management solution, but could not directly import the 45,000 line BibTeX file (memory overflow).
