@@ -76,10 +76,10 @@ I hardly make changes to macOS or Windows.
 
 Sorted by frequency: high to low 
 
-* [BBEdit](https://www.barebones.com/products/bbedit/): A macOS native Code Editor being developed for over 30 years. Super stable, packed with features, has a minor learning curve for the more advanced features that's worth it imo.
-* [Vim](https://www.vim.org/): The quintessential UNIX editor, improved. If I am on any other system that's not a Mac, this is my daily. 
+* [VSCode](https://code.visualstudio.com/): Starts off as a code editor, extends to become an IDE. Great community, great extensibility, compatible with literally anything if you install the required extensions, or make your own extension if you cannot find you specific niche language. SSH, Tunnels, and Remote features are the icing. Has a Vim plugin which make this the perfect editor for me.
+* [BBEdit](https://www.barebones.com/products/bbedit/): A macOS native Code Editor being developed for over 30 years. Super stable, packed with features, has a minor learning curve for the more advanced features that's worth it imo. I use this a bit more than VSC if I don't need fancy features & just need code editing; it's fast. 
+* [Vim](https://www.vim.org/): The quintessential UNIX editor, improved. If I am on any other system that's not a Mac (and I don't need VSC), this is my daily. 
 * [Jupyter](https://jupyter.org/): Data-based Python code, where an explanation & presentation of methods is absolutely crucial. Uses ```ipynb``` to split between Markdown cells or Python cells.
-* [KATE](https://kate-editor.org/): The GUI main for Alpine and Trisquel, provides all the core features of VS Code without the Microsoft stuff. 
 
 ### Non active
 
@@ -90,7 +90,6 @@ I do not use these currently, mainly because I don't have a reason to. However, 
 * [MATLAB](https://www.mathworks.com/products/matlab.html): The only Engineering-oriented language I have used, check out my iCons 3 project: [The Cost of Control](https://skushagra.com/docs/research/iCons#icons-3-the-cost-of-control).
 * [JetBrains](https://www.jetbrains.com/): Rare, but super complex projects have really benefitted from the strong debugger, language-oriented IDEs, and refactoring capabilities. Is a memory hog though, so would recommend a high-spec computer. This includes Android Studio.
 * [Helix Editor](https://helix-editor.com/): A post-modern modal text editor. Really stupidly good at what it does, the only times I do not use it is when I need a Neovim plugin.
-* [VSCode](https://code.visualstudio.com/): Good extension market, has a vim plugin. I don't like the web app nature, Microsoft telemetry and AI stuff, and padded mobile-UI buttons. I come back to this only for codespaces and tunnels.
 
 ## Photo/Video/Graphic Editing
 
