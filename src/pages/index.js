@@ -21,6 +21,14 @@ function HomepageHeader() {
             Get to Know Me
           </Link>
         </div>
+        <br />
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/resume">
+            Resume
+          </Link>
+        </div>
       </div>
     </header>
   );
