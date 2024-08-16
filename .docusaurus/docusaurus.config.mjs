@@ -5,7 +5,7 @@
  */
 export default {
   "title": "Kushagra Srivastava",
-  "tagline": "Operating Systems & Compilers Programmer",
+  "tagline": "Developer & Researcher | Operating Systems & Compilers",
   "favicon": "img/favicon.ico",
   "url": "https://skushagra.com",
   "baseUrl": "/",
@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/kushagrasrivastava/Documents/skushagra/sidebars.js"
+          "sidebarPath": "/home/suobset/skushagra/sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
@@ -37,7 +37,7 @@ export default {
           "blogSidebarCount": 0
         },
         "theme": {
-          "customCss": "/Users/kushagrasrivastava/Documents/skushagra/src/css/custom.css"
+          "customCss": "/home/suobset/skushagra/src/css/custom.css"
         }
       }
     ]

@@ -9,25 +9,25 @@ const FeatureList = [
     Svg: require('@site/static/img/psivant.svg').default,
     description: (
       <>
-        Interning as a Systems & Software developer at <a href="https://psivant.com">Psivant Theraupeutics</a>: a Research & Development Startup that focuses on High Performance Computational Chemistry & Biology. 
+        Currently working as a Systems & Software developer at <a href="https://psivant.com">Psivant Theraupeutics</a>: a Research & Development Startup that focuses on High Performance Computational Chemistry & Biology. My contributions can be seen in <a href="https://github.com/psivant/stormm">STORMM</a>, a low-level framework based on C++ and CUDA that utilizes Parallel Processing in GPUs to leverage finer Molecular Dynamics Simulations.
       </>
     ),
   },
   {
-    title: 'Self Libre Projects',
+    title: 'tra86',
+    Svg: require('@site/static/img/cics.svg').default,
+    description: (
+      <>
+        Refining the software stack that was created for my Honors Thesis pertaining to analysis of different programming languages at the Systems level (x86). <i>tra86</i>, is a comprehensive toolchain that handles compilations of RUST and C++ codebases, parses and traces the assembly instructions and stack, and returns performance metrics. <a href="https://skushagra.com/docs/undergraduate/tra86">Read more</a>.
+      </>
+    ),
+  },
+  {
+    title: 'Misc. / Hobby',
     Svg: require('@site/static/img/macintosh.svg').default,
     description: (
       <>
-        Helping create a <a href="http://skushagra.com/blog/newsletter5#anna-biondos-low-carbon-concrete-project">Video Game</a> for Anna Biondo's LCC Project (iCons); Creating the <a href="https://tra86.skushagra.com/">tra86 toolchain</a> for Programming Language Performance Analysis; Creating <a href="https://skushagra.com/docs/independent/morbios">MorbiOS</a> w/ <a href="https://github.com/anvitha305">Anvitha</a>; Programming to Reverse Engineer for Classic Macintosh.
-      </>
-    ),
-  },
-  {
-    title: 'Biking, Photography',
-    Svg: require('@site/static/img/bike.svg').default,
-    description: (
-      <>
-        I bike around in Boston. I have also been pursuing Photography for over a year or so now. I intend to blend my experiences and art in my <a href="/blog">Blog</a>, as well as the <a href="/docs/category/hobby">Hobby category</a> of this website. More to come soon.
+        Helping create a <a href="http://skushagra.com/blog/newsletter5#anna-biondos-low-carbon-concrete-project">Video Game</a> for Anna Biondo's LCC Project (iCons); Creating <a href="https://skushagra.com/docs/independent/morbios">MorbiOS</a> w/ <a href="https://github.com/anvitha305">Anvitha</a>, a toy-OS built from scratch; Programming to Reverse Engineer for Classic Macintosh. I also bike around in Boston, and have been pursuing Photography for over a year or so now.
       </>
     ),
   },
@@ -73,7 +73,7 @@ export default function HomepageFeatures() {
       <div className="container">
         <div className={styles.introSection}>
           <img src={selfImage} alt="Self" className={styles.selfImage} />
-          <p>The following is the personal website of Kush Srivastava: undergraduate CompSci major at UMass Amherst, graduating 2024. This homepage will cover the highlights of projects that I am working on currently. Complete details on everything that I am working on can be accessed via the <a href="./docs/intro">About</a> page. Along with my <a href="./docs/category/undergraduate">portfolio</a>, this website serves <a href="./docs/category/hobby">as my creative outlet</a> (both, in and out of CompSci). The site logo is my first computer, circa 2013.<br /><br />
+          <p>The following is the personal website of Kush Srivastava. I am a recent CS undergrad who specialized in two major areas: <b>Operating Systems & Compilers, and Natural Language + Information Retrieval</b>. <br /><br />This homepage will cover the highlights of projects that I am working on currently. Complete details on everything that I am working on can be accessed via the <a href="./docs/intro">About</a> page. Along with my <a href="./docs/category/undergraduate">portfolio</a>, this website serves <a href="./docs/category/hobby">as my creative outlet</a> (both, in and out of CompSci). The site logo is my first computer, circa 2013.<br /><br />
           Currently, my main focus are in these endeavours; in-depth details and other current projects can be found under the <a href="./docs/ongoing">Ongoing</a> page:</p>
         </div>
         <div className="row">
