@@ -6,7 +6,7 @@ sidebar_position: 2
 
 The following is my current Resume. A PDF Version is available for download as well [here](https://github.com/suobset/skushagra/blob/main/static/assets/Kushagra%20Srivastava%20Resume.pdf)
 
-Needs an update as of June 2024.
+Last Edited: July 2024.
 
 ![Page 1](https://raw.githubusercontent.com/suobset/skushagra/main/static/assets/Kushagra%20Srivastava%20Resume-1.png)
 
