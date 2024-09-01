@@ -36,6 +36,8 @@ I will most definitely get slack for this as a "Libre software" person,  but I u
 
 MacBook Air M2 w/ iPad Mini: Main on-the-go computer. I actually snagged both of these for a pretty good deal :)
 
+Note: Every piece of software here runs on the Mac, most of the time. My on the go computer is more used than my main. The M2 handles all of this, amazingly.
+
 <hr />
 
 ### Inside a virtualized env
@@ -93,7 +95,7 @@ I do not use these currently, mainly because I don't have a reason to. However, 
 
 ## Photo/Video/Graphic Editing
 
-The following is what I use to facilitate my Photography. 
+The following is what I use to facilitate my Photography. Which is hobby 1 out of 2. 
 
 * [GNU Image Manipulation Program](https://www.gimp.org/), or GIMP, is a libre photo editr which almost rivals Adobe Creative Suite. May have a slightly higher curve of learning, but it is extremely powerful and versatile for what it offers. Beautifully amazing.
 * [Darktable](https://www.darktable.org/): RAW image processor and developer, that I pair with GIMP to offload and edit RAW image fiels (RAW is a file format that captures more information than a compressed JPEG; standard in photography).
@@ -101,6 +103,17 @@ The following is what I use to facilitate my Photography.
 * [Shotcut Video Editor](https://shotcut.org/): A Libre Video Editor which, again, rivals that of Adobe's offerings. Has a slight learning curve, but is immensely powerful, and handles a lot of Video Editing paradigms (transitions, fx, voice sampling, etc.) amazingly. I have had no complaints for my amateur Video Editing needs.
 * Canva: An online (proprietary) graphic designer. Used only when absolutely necessary. 
 * [Affinity](https://affinity.serif.com/en-us/photo/): Proprietary photo editor but does away with all Adobe BS. Still learning, haven;t made the call to switch from GIMP (I am very well versed and comfortable in GIMP at this point).
+
+## Music Editing, Production, and Composition. 
+
+Hobby 2 out of 2.
+
+I play the guitar, am classically trained, and create some beats on and off. My main MIDI is an Arturia Minilab 3, I love Fender guitars, and here's the bunch of software I use for Music stuff:
+
+* [Ableton Live](https://www.ableton.com/): Digital Audio Workstation; love the live looping and presets
+* [Analog Lab](https://www.arturia.com/products/software-instruments/analoglab/overview): VST by Arturia with tons of amazing keyboard samples. 
+* [Garageband for Mac](https://www.apple.com/mac/garageband/): Good DAW with easy learning curve. Though I have shifted to Ableton more.
+* [Melodics](https://melodics.com/?campaign=google-search-brand&utm_source=google&utm_medium=cpc&utm_campaign={campaign}&utm_content=617696319348&utm_term=melodics&gad_source=1&gclid=Cj0KCQjw_sq2BhCUARIsAIVqmQvYVYH5Y3H3cEYu-f4JTCJRGnRbPAwgGgk4jT_buHTqkOJlDoWxAzwaAhggEALw_wcB): Learning platform. I am classically trained on Guitar and do not know keyboard & drums. This is an amazing resource, and piece of software.
 
 ## Office Work & typing documents
 
