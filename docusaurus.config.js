@@ -88,6 +88,11 @@ const config = {
             label: 'Photography',
             position: 'right',
           },
+          {
+            href: 'https://linktr.ee/suobset',
+            label: 'Links',
+            position: 'right',
+          },
           {to: '/blog', label: 'Blog', position: 'right'},
         ],
       },
