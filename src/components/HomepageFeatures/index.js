@@ -23,11 +23,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Misc. / Hobby',
-    Svg: require('@site/static/img/macintosh.svg').default,
+    title: 'ravynOS (Hobby/Volunteer)',
+    Svg: require('@site/static/img/ravynos-full.svg').default,
     description: (
       <>
-        Helping create a <a href="http://skushagra.com/blog/newsletter5#anna-biondos-low-carbon-concrete-project">Video Game</a> for Anna Biondo's LCC Project (iCons); Creating <a href="https://skushagra.com/docs/independent/morbios">MorbiOS</a> w/ <a href="https://github.com/anvitha305">Anvitha</a>, a toy-OS built from scratch; Programming to Reverse Engineer for Classic Macintosh. I also bike around in Boston, and have been pursuing Photography for over a year or so now.
+        Helping bring Swift to <a href="https://ravynos.com">ravynOS</a>, an Open Source BSD-based distribution that aims to provide a similar experience and some compatibility with macOS on x86-64 (and eventually ARM) systems. Taking learnings from tra86, xv6, and elsewhere, I hope this project also enables me to create a nice Swift FreeBSD port after the attempts already made. Updates soon!!
       </>
     ),
   },

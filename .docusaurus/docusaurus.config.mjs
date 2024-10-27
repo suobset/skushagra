@@ -5,7 +5,7 @@
  */
 export default {
   "title": "Kushagra Srivastava",
-  "tagline": "Developer & Researcher | Operating Systems & Compilers",
+  "tagline": "Operating Systems & Compilers Dev. | NLP/Info Retrieval",
   "favicon": "img/favicon.ico",
   "url": "https://skushagra.com",
   "baseUrl": "/",
@@ -75,6 +75,11 @@ export default {
         {
           "href": "https://www.flickr.com/photos/suobset/",
           "label": "Photography",
+          "position": "right"
+        },
+        {
+          "href": "https://linktr.ee/suobset",
+          "label": "Links",
           "position": "right"
         },
         {
