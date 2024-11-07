@@ -13,9 +13,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/suobset/skushagra/sidebars.js",
-          "contentPath": "/home/suobset/skushagra/docs",
-          "contentPathLocalized": "/home/suobset/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/suobset/Documents/skushagra/sidebars.js",
+          "contentPath": "/home/suobset/Documents/skushagra/docs",
+          "contentPathLocalized": "/home/suobset/Documents/skushagra/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "experience",
