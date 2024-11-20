@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://skushagra.com/blog</id>
     <title>Kushagra Srivastava Blog</title>
-    <updated>2024-11-09T00:00:00.000Z</updated>
+    <updated>2024-11-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://skushagra.com/blog"/>
     <subtitle>Kushagra Srivastava Blog</subtitle>
     <icon>https://skushagra.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[GitHub Bots: Stop Doing This]]></title>
+        <id>https://skushagra.com/blog/gh bots</id>
+        <link href="https://skushagra.com/blog/gh bots"/>
+        <updated>2024-11-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[One of the more infuriariting things I have come across on the GitHub platform is people using bots to mass follow other people, in hopes for a follow back (or more importantly, some stars and forks on their projects).]]></summary>
+        <content type="html"><![CDATA[<p>One of the more infuriariting things I have come across on the GitHub platform is people using bots to mass follow other people, in hopes for a follow back (or more importantly, some stars and forks on their projects). </p><p>However, when unreciprocated with a follow and some stars, their main goal is to unfollow and refollow, thus coming on the top of my timeline again. </p><p>They keep this up for a very long period of times, sometimes almost thrice a week for 2 months.</p><p>I am done with this stuff, and obviously GitHub's reporting button does not do anything much. </p><p><img loading="lazy" alt="Screenshot 1" src="/assets/images/sc1-f7af20d35009b77900177a93775d90dc.png" width="1818" height="1106" class="img_ev3q"></p><p><img loading="lazy" alt="Screenshot 2" src="/assets/images/sc2-96d8b0dfe14a94e7012acbe9d5f2f101.png" width="1884" height="1522" class="img_ev3q"></p><p><img loading="lazy" alt="Screenshot 3" src="/assets/images/sc3-b345df77cc2bb088e557d929942ed087.png" width="1800" height="824" class="img_ev3q"></p><p><img loading="lazy" alt="Screenshot 4" src="/assets/images/sc4-0c426fc84402b21f170e515833b37ef9.png" width="1866" height="1654" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Kushagra Srivastava</name>
+            <uri>https://skushagra.com</uri>
+        </author>
+        <category label="Open Source" term="Open Source"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Creativity is the ultimate form of rebellion.]]></title>
         <id>https://skushagra.com/blog/newsletter8</id>
