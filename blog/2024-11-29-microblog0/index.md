@@ -11,7 +11,9 @@ A tag to collect short blog posts that document something trivial, or things tha
 
 <!-- truncate -->
 
-The format of these posts will be microblog on display, and rest of the info hidden like this under the ```Read More``` button. If there is no need for more info, there exists no ```Read More``` button.
+The format of these posts will be microblog on display when you are scrolling through all blog entries, and rest of the info hidden like this under the ```Read More``` button (which you just hit to read this very sentence).
+
+If there is no need for more info, there exists no ```Read More``` button.
 
 I mentioned a couple of posts ago that I have quit social media, or at least am taking a hiatus from the same. The biggest one I miss is Threads, where I was able to build a humble collection of followers who were some of the best people to debate and converse with.
 
