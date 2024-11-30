@@ -10,6 +10,10 @@ The Finechive Newsletter: a place for me to post more frequent updates, without 
 
 [Visit Fineletters](/blog)
 
+[Subscribe to the Blog](/blog/rss.xml)
+
+(or copy this URL: [https://skushagra.com/blog/rss.xml](https://skushagra.com/blog/rss.xml)).
+
 I am copy-pasting the first newsletter here, that goes deeper into why this space. Hope it helps :)
 
 <hr />
