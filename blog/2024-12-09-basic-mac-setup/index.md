@@ -55,7 +55,7 @@ I also do not use any of Apple's pre-loaded stuff too much: especially in a bare
 
 To me, Launchpad is trying to bring a touchscreen first OS into a pointer based environment. I much rather prefer removing Launchpad from the dock, and pinning the ```Applications``` directory into the dock. This gives a alphabetical list of everything installed on your OS, in a nicer and more compact manner.
 
-
+![Applications folder on Dock](./3.png)
 
 Something to note: most of these applications are Apple pre-installed and I have no way of removing them. There is no workaround. WHich is why, I do not even have to visit this directory in most cases: because the list of my essential software is rather short and already pinned on the Dock.
 
@@ -76,3 +76,14 @@ Something to note: most of these applications are Apple pre-installed and I have
 Chess exists on the dock for prosterity reasons, and to pay homage to Mac history.
 
 With this setup, I also never need to access the Applications directory. A Mac with the above will satisfy most of my basic workflows on the go, when I only get an hour and do not want to carry an entirely separate device for the sake of the hour.
+
+## Something to Compare?
+
+This is what my personal macOS desktop looks like. Some things to note:
+
+* I actually like Stage Manager. I use it in combination with full screen apps, but it works quite well.
+* I like techno purple and liminal spaces.
+* Vertical dock on main OSes. Most of the content we read is vertical in nature. A horizontal dock spreads the content out wider on your screen, but does not fit more content. Our content, being vertically aligned, flows the best with a vertical dock. This does not matter on the barebones setup, where I am not spending all too much time and sticking to defaults for almost all of it. The host macOS on the work computer also has stage manager + vertical dock, for the same reasons.
+* On a 2 monitor setup, I do not use full screen apps or stage manager at all, and turn off the "Displays have separate spaces" setting. I take either my terminal or editor, place it in one corner, and stretch it across the 2 screens.
+
+![Personal macOS](./2.png)
