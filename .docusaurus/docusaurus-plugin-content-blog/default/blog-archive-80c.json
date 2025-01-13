@@ -1,6 +1,252 @@
 {
   "blogPosts": [
     {
+      "id": "onllmsforwriting",
+      "metadata": {
+        "permalink": "/blog/onllmsforwriting",
+        "source": "@site/blog/2025-01-12-onllmsforwriting/index.md",
+        "title": "Quick Note on LLMs for Writing",
+        "description": "Recently, I have been seeing various posts on various platforms where people are trying to play armchair detective for usage of words like \"delve\" or \"whatsoever\". This is concerning to me for two main reasons:",
+        "date": "2025-01-12T00:00:00.000Z",
+        "formattedDate": "January 12, 2025",
+        "tags": [
+          {
+            "label": "Personal",
+            "permalink": "/blog/tags/personal"
+          }
+        ],
+        "readingTime": 2.58,
+        "hasTruncateMarker": true,
+        "authors": [
+          {
+            "name": "Kushagra Srivastava",
+            "title": "I write, code, and create. Sometimes all at the same time.",
+            "url": "https://skushagra.com",
+            "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+            "key": "suobset"
+          }
+        ],
+        "frontMatter": {
+          "slug": "onllmsforwriting",
+          "title": "Quick Note on LLMs for Writing",
+          "authors": [
+            "suobset"
+          ],
+          "tags": [
+            "Personal"
+          ]
+        },
+        "nextItem": {
+          "title": "The Essentials: Mac Edition",
+          "permalink": "/blog/basic-mac-setup"
+        }
+      },
+      "content": "Recently, I have been seeing various posts on various platforms where people are trying to play armchair detective for usage of words like [\"delve\" or \"whatsoever\"](https://www.reddit.com/r/mildlyinfuriating/comments/1bzvgqj/apparently_using_the_word_delve_is_a_sign_of_the/). This is concerning to me for two main reasons:\n\n1. People may/may not be reading lesser, which is resulting in a lesser set of words in their vocabulary.\n2. \"Delve\", along with many others \"AI-generated words\", are actually part of my regular vocabulary. \n\n<!-- truncate -->\n\n![Twitter post on \"delve\"](./assets/1.webp)\n\nI will not dive deep into the issues with others assuming all sorts of things. However, I would like to briefly mention how I use AI when it comes to writing (online and in general).\n\n## My use of AI\n\nIn short: if you cannot be bothered to write something (and rely on AI for the same), why would I be bothered to read it.\n\nI rarely, if ever, use AI as a means to generate any text or piece of work that I have created: online and offline. Personally, the entire point of writing and art for me is to create things that require confusion, boredom, and pondering over my initial ideas. If, instead, I put that initial idea into a text box and have a computer come up with everything else, I did not create anything.\n\nThe pondering over different ideas is what enables us to create art and text that is worth reading, and is relatable to others. \n\nAs far as the words are concerned, a lot of what I use and how I write is inspired by the texts I read. From research papers to fiction, writers need to read all that they can. LLMs were trained on the same written data, which is why I believe that the language used is the same. But as an aspiring writer, reading is equally a huge part of my honing of this skill. \n\nWords come naturally as a result; armchair diagnosing of said words being \"AI\" serves absolutely no one and showcases your lack of reading comprehension.\n\n## I'm not perfect, though\n\nI do use AI in some other aspects of my life. Here is an exhaustive list of every use of AI I engage in currently:\n\n1. Code debug + completion: I treat it like a nicer, less-hostile StackOverflow. It's great for boosting my coding productivity, though there is a huge aspect of knowing programming so that one can filter out false/unoptimized answers with what actually solves the problem at hand. (shout-out to Cursor atm)\n2. Templated emails: If an email's scope is anything greater than asking for PTO, I first draft the thing out myself. But I will only use AI for things that do not require much thought or effort, and save myself a bit of time (and not break my flow of thought).\n3. Learn new things in a simpler language: taking this one with a huge grain of salt (since LLMs hallucinate), but AI has been great in explaining complex concepts in simpler terms.\n\nNotice that none of my writing (including writing code initially), is included. Because great ideas require boredom and struggling."
+    },
+    {
+      "id": "basic-mac-setup",
+      "metadata": {
+        "permalink": "/blog/basic-mac-setup",
+        "source": "@site/blog/2024-12-09-basic-mac-setup/index.md",
+        "title": "The Essentials: Mac Edition",
+        "description": "Bare Minimum Dock",
+        "date": "2024-12-09T00:00:00.000Z",
+        "formattedDate": "December 9, 2024",
+        "tags": [
+          {
+            "label": "Code",
+            "permalink": "/blog/tags/code"
+          },
+          {
+            "label": "Open Source",
+            "permalink": "/blog/tags/open-source"
+          },
+          {
+            "label": "Hobbies",
+            "permalink": "/blog/tags/hobbies"
+          }
+        ],
+        "readingTime": 7.71,
+        "hasTruncateMarker": true,
+        "authors": [
+          {
+            "name": "Kushagra Srivastava",
+            "title": "I write, code, and create. Sometimes all at the same time.",
+            "url": "https://skushagra.com",
+            "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+            "key": "suobset"
+          }
+        ],
+        "frontMatter": {
+          "slug": "basic-mac-setup",
+          "title": "The Essentials: Mac Edition",
+          "authors": [
+            "suobset"
+          ],
+          "tags": [
+            "Code",
+            "Open Source",
+            "Hobbies"
+          ]
+        },
+        "prevItem": {
+          "title": "Quick Note on LLMs for Writing",
+          "permalink": "/blog/onllmsforwriting"
+        },
+        "nextItem": {
+          "title": "New Tag: Microblog",
+          "permalink": "/blog/microblog0"
+        }
+      },
+      "content": "![Bare Minimum Dock](./0.png)\n\n> If I were to be stranded on an island and have only one option for an Operating System and a collection of bare minimum software to go with it, this would be it.\n\n<!-- truncate -->\n\nAs part of my work, I have been using a work-provided M3 MacBook Pro. Now, I like to keep my work life and my personal life completely separated, given this is a [MDM managed Mac](https://support.apple.com/guide/deployment/welcome/web).\n\nHowever, I have also been requiring sometimes, to access personal documents and get some written stuff done at my own time. **This, however, is only constrained to the 1 hour break I get everyday**. Carrying a second laptop, only to be able to get the personal stuff done in the 1 hour of lunch break, makes little sense to me. \n\nI do have a page dedicated to all the software I use. But, that is ALL the software I use (even then, it's only the desktop subset...I do not go into details on my mobile software). This is the essential software I require, anything less hinders on my ability to get stuff done.\n\n## Enter, a (Mac) Virtual Machine\n\nIn order to keep my life life, and my work life, separated and containerized, I opted for a Virtual Machine. Initially, I was on a Debian VM. However, as much as I love Linux, I ran into a couple of issues there:\n\n1. I use Chrome's sync features, and there is no chrome on ARM Linux (even though there is Chromium).\n2. For 90% of my use cases, I rely on FLOSS software ([More Info](/disclaimer_fsf)). However, while I identify with the OSS ideology, I do not necessarily agree with the hardcore \"Open Source or Nothing\". Truthfully, there are tons of amazing software that I require, which do not have an Open Source component at all: because building something like that can become muddled in a community driven aspect. While I alig with the GPL and MIT licenses, I align harder with \"use what gets your job done\". \n3. I talked about the Mac and it's [prevalence in OSS software](/blog/on-macos-and-libre-software) early this year. Since then, I have had my Microsoft Surface (running Ubuntu) fail spectacularly on me, and I have completely jumped ship to a MacBook on the laptop front. On the desktop front, I am still hardcore Linux, and I do not see this changing anytime soon, if ever (this is after macOS has become my primary in desktop computing: there's just so much that Linux helps me get done as well, and again, I am on that \"use what gets the job done\" bandwagon).\n\nSo, what does this mean for this project? Truthfully, while Linux is still instrumental to a lot of my computational workflows and I will possibly forever require at least one of my computers to run it forever, the scope of Linux resides in the more advanced stuff. While macOS is UNIX based and lets me do most of the Linux things, I find some more of the advanced things to be well executed on Linux only.\n\nHowever, because macOS is UNIX, I can get by with it being my primary desktop OS on my laptop: the thing that comes along with me everywhere I go. Which is great, because I can have one OS run most of my Command Line Utilities, industry standard software (some that will never get released on Linux), and get a rock solid & stable environment that's hard to mess up. Most of my work happens on a Mac, and that is fine.\n\n## So, how does macOS look for me, when considering the bare minimum\n\nHonestly, pretty amazing.\n\n![macOS VM Desktop](./1.png)\n\nIf I were to be stranded on an island and have only one option for an Operating System and a collection of bare minimum software to go with it, this would be it. Everything you see on this desktop, is all there is to this setup: 95% of which is just default out-of-the-box Mac.\n\n### The eyesore: Screenshot utility in Dock.\n\nSimply put, the screenshot combo (and most keyboard shortcuts) will invoke the host OS, and not the guest VM, unless I lock the cursor. Locking the cursor is an additional headache that breaks the continuous flow between the host and the guest.\n\nThus, an icon to the utility lives on the dock, for when I want to take screenshots and save it in the context of the VM, not the host OS.\n\n### Goodbye, Launchpad\n\nI never got the appeal of the Launchpad. To me, it was one of those trickle down features of iOS, bought to the Mac only to make it more familiar to the masses.\n\nI mean, iOS is Apple's largest OS. There are people who go their entire lives into the iOS ecosystem (including iPadOS, and more frequently, watchOS), without ever needing to touch macOS. It makes complete sense why Apple made Launchpad.\n\nI also do not use any of Apple's pre-loaded stuff too much: especially in a barebones setting. So all of them get removed from the dock.\n\nTo me, Launchpad is trying to bring a touchscreen first OS into a pointer based environment. I much rather prefer removing Launchpad from the dock, and pinning the ```Applications``` directory into the dock. This gives a alphabetical list of everything installed on your OS, in a nicer and more compact manner.\n\n![Applications folder on Dock](./3.png)\n\nSomething to note: most of these applications are Apple pre-installed and I have no way of removing them. There is no workaround. WHich is why, I do not even have to visit this directory in most cases: because the list of my essential software is rather short and already pinned on the Dock.\n\n### List of Everything Else\n\n1. [Chrome](https://www.google.com/chrome/): I like Chromium better than WebKit, and I rely on Google's sync features to work between Linux and Apple. Firefox exists, and I used it for the longest time ever (up until 2 months ago). I switched because Chrome feels just faster. When bare minimum is not a constraint, I have all the big 3 browsers (Safari, Chrome, Firefox).\n\n2. [Scrivener](https://www.literatureandlatte.com/scrivener/overview): A writing software that comes with a binder and a corkboard (along with tons of other cool stuff, but these two are the biggest features I use). As a developer, my closest analogy is that this is an IDE for writing. It provides you with everything you will ever need, to write anything. Binders, corkboards, bibliographies, character trackers, Zotero connectors, export to Markdown/Docx/TeX/virtually anything, and so on. Scrivener has sped up my writing process by light years, and having to go back to a typical WYSIWYG editor (Word, Google Docs, etc.) feels like caveman stuff (especially when those only work in a linear fashion). Currently, used for writing statements for grad school and stuff (the primary reason why I needed a VM).\n\n3. [BBEdit](https://www.barebones.com/products/bbedit/): The essential Mac code and text editor, that I have been using and praising a heck ton. I even wrote them a thank you email once, and if I am not using vim or an IDE, I am using BBEdit. It's blazing fast, no matter the size or complexity of the file I throw at it. This website has been entirely developed on BBEdit, including this post.\n\n4. [Discord](https://discord.com): I use it to communicate with friends and professors at UMass Amherst (important during my grad school writing a letter era, yes my professors use Discord). I also use it to put files on a single person server, like Slack does.\n\n5. [Terminal](https://support.apple.com/guide/terminal/welcome/mac): Specifically, a UNIX terminal (so no Powershell). I mainly need it for vim, git, executing local servers & jupyter notebooks, and writing bash scripts (for my barebones needs). \n\n6. [Google Drive](https://drive.google.com): File syncing for Scrivener.\n\nChess exists on the dock for prosterity reasons, and to pay homage to Mac history.\n\nWith this setup, I also never need to access the Applications directory. A Mac with the above will satisfy most of my basic workflows on the go, when I only get an hour and do not want to carry an entirely separate device for the sake of the hour.\n\n## Something to Compare?\n\nThis is what my personal macOS desktop looks like. Some things to note:\n\n* I actually like Stage Manager. I use it in combination with full screen apps, but it works quite well.\n* I like techno purple and liminal spaces.\n* Vertical dock on main OSes. Most of the content we read is vertical in nature. A horizontal dock spreads the content out wider on your screen, but does not fit more content. Our content, being vertically aligned, flows the best with a vertical dock. This does not matter on the barebones setup, where I am not spending all too much time and sticking to defaults for almost all of it. The host macOS on the work computer also has stage manager + vertical dock, for the same reasons.\n* On a 2 monitor setup, I do not use full screen apps or stage manager at all, and turn off the \"Displays have separate spaces\" setting. I take either my terminal or editor, place it in one corner, and stretch it across the 2 screens.\n\n![Personal macOS](./2.png)"
+    },
+    {
+      "id": "microblog0",
+      "metadata": {
+        "permalink": "/blog/microblog0",
+        "source": "@site/blog/2024-11-29-microblog0/index.md",
+        "title": "New Tag: Microblog",
+        "description": "A tag to collect short blog posts that document something trivial, or things that are not needed to be well-written or long. Think of a Twitter/Threads replacement, minus the interactions (which I will miss and not miss at the same time, depending on who I was talking to).",
+        "date": "2024-11-29T00:00:00.000Z",
+        "formattedDate": "November 29, 2024",
+        "tags": [
+          {
+            "label": "microblog",
+            "permalink": "/blog/tags/microblog"
+          }
+        ],
+        "readingTime": 1.28,
+        "hasTruncateMarker": true,
+        "authors": [
+          {
+            "name": "Kushagra Srivastava",
+            "title": "I write, code, and create. Sometimes all at the same time.",
+            "url": "https://skushagra.com",
+            "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+            "key": "suobset"
+          }
+        ],
+        "frontMatter": {
+          "slug": "microblog0",
+          "title": "New Tag: Microblog",
+          "authors": [
+            "suobset"
+          ],
+          "tags": [
+            "microblog"
+          ]
+        },
+        "prevItem": {
+          "title": "The Essentials: Mac Edition",
+          "permalink": "/blog/basic-mac-setup"
+        },
+        "nextItem": {
+          "title": "GitHub Bots: Stop Doing This",
+          "permalink": "/blog/gh bots"
+        }
+      },
+      "content": "A tag to collect short blog posts that document something trivial, or things that are not needed to be well-written or long. Think of a Twitter/Threads replacement, minus the interactions (which I will miss and not miss at the same time, depending on who I was talking to).\n\n<!-- truncate -->\n\nThe format of these posts will be microblog on display when you are scrolling through all blog entries, and rest of the info hidden like this under the ```Read More``` button (which you just hit to read this very sentence).\n\nIf there is no need for more info, there exists no ```Read More``` button.\n\nI mentioned a couple of posts ago that I have quit social media, or at least am taking a hiatus from the same. The biggest one I miss is Threads, where I was able to build a humble collection of followers who were some of the best people to debate and converse with.\n\nThe problem became where I received tons of trolls and self-righteous people. At one point, the constant checking of my notifications and fending off these replies became way too much. The worst was where any opinion attracted the people on the opposite spectrum, as if the algorithm knew that would generate engagement. \n\nWould I miss interactions with other genuine people by microblogging on here? Yes, most definitely.\n\nWill this tag give me a low-stakes environment to document things that are not too deep or need to be long and well-written?? Yes.\n\nWas this inspired by [John Gruber](https://daringfireball.net)?? Yes."
+    },
+    {
+      "id": "gh bots",
+      "metadata": {
+        "permalink": "/blog/gh bots",
+        "source": "@site/blog/2024-11-20-gh-bots/index.md",
+        "title": "GitHub Bots: Stop Doing This",
+        "description": "One of the more infuriariting things I have come across on the GitHub platform is people using bots to mass follow other people, in hopes for a follow back (or more importantly, some stars and forks on their projects).",
+        "date": "2024-11-20T00:00:00.000Z",
+        "formattedDate": "November 20, 2024",
+        "tags": [
+          {
+            "label": "Open Source",
+            "permalink": "/blog/tags/open-source"
+          }
+        ],
+        "readingTime": 0.905,
+        "hasTruncateMarker": true,
+        "authors": [
+          {
+            "name": "Kushagra Srivastava",
+            "title": "I write, code, and create. Sometimes all at the same time.",
+            "url": "https://skushagra.com",
+            "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+            "key": "suobset"
+          }
+        ],
+        "frontMatter": {
+          "slug": "gh bots",
+          "title": "GitHub Bots: Stop Doing This",
+          "authors": [
+            "suobset"
+          ],
+          "tags": [
+            "Open Source"
+          ]
+        },
+        "prevItem": {
+          "title": "New Tag: Microblog",
+          "permalink": "/blog/microblog0"
+        },
+        "nextItem": {
+          "title": "Creativity is the ultimate form of rebellion.",
+          "permalink": "/blog/newsletter8"
+        }
+      },
+      "content": "One of the more infuriariting things I have come across on the GitHub platform is people using bots to mass follow other people, in hopes for a follow back (or more importantly, some stars and forks on their projects). \n\n<!-- truncate -->\n\nHowever, when unreciprocated with a follow and some stars, their main goal is to unfollow and refollow, thus coming on the top of my timeline again. \n\nThey keep this up for a very long period of times, sometimes almost thrice a week for 2 months.\n\nI am done with this stuff, and obviously GitHub's reporting button does not do anything much. \n\n![Screenshot 1](./sc1.png)\n\n![Screenshot 2](./sc2.png)\n\n![Screenshot 3](./sc3.png)\n\n![Screenshot 4](./sc4.png)\n\nNone of these accounts have much meaningful contributions to anything, outside of copy and pasted Leetcode solutions. Seriously, that is all. Between templates for generic web dev projects, Leetcode solutions, and profile readmes that read like you entered a rave in Ibiza, I have not found anything substantial. And these generic repos (which all of them have a version of) have a good amount of stars, from each other. \n\nFun."
+    },
+    {
+      "id": "newsletter8",
+      "metadata": {
+        "permalink": "/blog/newsletter8",
+        "source": "@site/blog/2024-11-09-newsletter8/index.md",
+        "title": "Creativity is the ultimate form of rebellion.",
+        "description": "Go out and create something. Put time and effort into it. Sometimes, you may find yourself to be in a rut that is difficult to come out of. But, do create something and put your soul and effort into it.",
+        "date": "2024-11-09T00:00:00.000Z",
+        "formattedDate": "November 9, 2024",
+        "tags": [
+          {
+            "label": "Personal",
+            "permalink": "/blog/tags/personal"
+          },
+          {
+            "label": "newsletter",
+            "permalink": "/blog/tags/newsletter"
+          }
+        ],
+        "readingTime": 6.025,
+        "hasTruncateMarker": true,
+        "authors": [
+          {
+            "name": "Kushagra Srivastava",
+            "title": "I write, code, and create. Sometimes all at the same time.",
+            "url": "https://skushagra.com",
+            "imageURL": "https://avatars.githubusercontent.com/u/73229775?v=4",
+            "key": "suobset"
+          }
+        ],
+        "frontMatter": {
+          "slug": "newsletter8",
+          "title": "Creativity is the ultimate form of rebellion.",
+          "authors": [
+            "suobset"
+          ],
+          "tags": [
+            "Personal",
+            "newsletter"
+          ]
+        },
+        "prevItem": {
+          "title": "GitHub Bots: Stop Doing This",
+          "permalink": "/blog/gh bots"
+        },
+        "nextItem": {
+          "title": "Graduated. Part 2.",
+          "permalink": "/blog/newsletter7"
+        }
+      },
+      "content": "Go out and create something. Put time and effort into it. Sometimes, you may find yourself to be in a rut that is difficult to come out of. But, do create something and put your soul and effort into it.\n\nWe are finally in a weird late stage capitialism point wherein we have successfully monetized everything, on a rolling basis. Mediocre products are sold at exorbitant pricing, and even our sanity and emotions are being taken away from us. Social media has monetized being famous, and gives an equal voice to everyone regardless of their qualifications or backgrounds. Your value is only based on ephemeral metrics and numbers, and the joy of creating has become transformed into a dread of meeting deadlines that fulfill sponsorship contracts. \n\n<!-- truncate -->\n\nI have felt that the world has become actively hostile to the very idea of spending time and effort into a craft, and our attention spans + emotions have become increasingly points of monetary benefit for tons of companies around. There are a couple of experiences I would like to mention here.\n\n## AI Tools for Writing and Art\n\nNow, I'll be real. I will not sit here and pretend that writing an email to defer your presentation from this week to the next is some bastion of human creativity or adds anything much in our lives. In all honesty, most AI writing tools probably help all of us make our work more streamlines and a bit faster. \n\nBut I am seeing an increasing sentiment of people trying to replace human creativity, with the argument of how much more difficult the barrier of entry to creativity and expression used to be. Upon further expanding. most arguments delve into some form of aversion to the difficulties of sitting down to think of ideas, or going through multiple periods of writer's block. People fail to realize that the struggle, effort, and ideas put by real people is what makes art touching.\n\n\"Oh, AI art is getting there and it's soon going to get more human and emotional.\", no it probably is not. There are logical fallacies to this argument. Firstly, AI cannot create anything new on it's own. It is solely trained on whatever texts have already existed, and it cannot just come up with new things on the fly. You need human experiences and input to create something new, out of the box.\n\nTwo: you genuinely have the wrong ideas if you believe art should be done for monetization purposes. I agree that getting paid for your craft is every artist's dream, but even above that lies a love for storytelling, documenting, and interacting with people that you have never met through all sorts of mediums.\n\nDigital mediums have definitely democratized art and creation to a huge extent. Even what I am writing right now is much easier thanks to my Mac, BBEdit, Docusaurus, and GitHub Pages. You do not need a whole studio to create music or edit videos anymore, and anyone can blow up on YouTube. But at one point, if you are just telling the computer what to make, and the computer makes it for you: you are not creating art. You just had an idea, and you did not put a single ounce of effort or time into it. \n\nDo you expect people to put in effort to consume media that the producer put zero efforts, emotions, thoughts, or humanity into?\n\nPersonally, I use AI tools for my work to an extent. But at most, they make me more efficient writing a quick email or getting code boilerplate. For creative work, the output of AI is so awful. And not in a \"this human looks distorted\" way. No matter how good stable diffusion gets, it will never be able to replace human touch. \n\nWe were supposed to create digital tools to expedite our boring day-to-day jobs, so that we could create more music, literature, paintings, movies, and collectively raise our creative output. You know, the crux of the human experience, experiencing feelings and finding universal connection.\n\nWe already have AI that does the former. Let's focus on that. Why are we trying for it to create music or videos? Seriously, if you just had an idea, and you input that on a computer: you are not improving as an artist (let alone be considered one). The journey to art is supposed to have blocks. That is what forces you to think out of the box, and really put who you are in it. Otherwise, it is devoid of expression. \n\nWhere did we go wrong?\n\n## On Social Media\n\nI am quitting it. It has far outlived it's utility timespan of connecting people together, and for the most part it is not just a circlejerkfest of people trying to personally attack one another and gain the upper hand. \n\nThis is not just reflected in politics. I, for a while, stopped writing in here and started treating Threads as my outlet for \"writing on the Internet purposes\". I mainly focused on my niche for Operating Systems, Programming Languages, and new and emerging technology. \n\nAnd despite that, the amount of keyboard warriors I had to deal with was absolutely insane. It turns out, people do not care for your opinions all too much. Rather, what is more important is disagreements, even if there is none to begin with. It is important to disagree and try to play \"devil's advocate\", or one up the person, even if the post being made is something so simple as \"I like that the new Mac can charge off a 20W phone charger\". \n\nMy entire time on Threads, except for the 5 or so people who I genuinely loved interacting with, was mainly filled with people trying to disagree with me on my takes (ok fine) and then personally attacking me for not thinking correctly (not fine). I even did experiments:\n\n* Positive post on Apple: I am an Apple sheep\n* Negative post on Apple: I do not know what I am talking about\n* Small clarification on kernel dev: I am a novice who knows nothing about kernel dev\n* Small question on kernel dev: I am an expert (links post above) so I should already know this\n* Shitpost: ok fine this does well regardless\n\nAgain, I genuinely loved my time on Threads. But most posts would do average numbers (like a couple thousands), and then any time I had an opinion on anything, it would do millions (with keyboard warriors personally attacking me and my knowledge in the comments section). I essentially had all notifications turned off on Threads.\n\nI met some really cool people on the platform, and had some genuinely insightful conversations. If they're reading this, they know who they are. But for the most of it, the keyboard warriors were insane, and the algorithm would only push posts that had content aligned in a way for said warriors to engage. Some of my Threads have millions of views. They are also the ones where I have engaged the least. \n\nSo it sucks, but I am back to writing long form content to save my mental sanity, and just write for the love of writing."
+    },
+    {
       "id": "newsletter7",
       "metadata": {
         "permalink": "/blog/newsletter7",
@@ -60,6 +306,10 @@
             "Aesthetics",
             "Highlights"
           ]
+        },
+        "prevItem": {
+          "title": "Creativity is the ultimate form of rebellion.",
+          "permalink": "/blog/newsletter8"
         },
         "nextItem": {
           "title": "Graduated. Part 1.",

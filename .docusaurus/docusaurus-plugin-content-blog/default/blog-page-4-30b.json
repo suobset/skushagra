@@ -2,9 +2,10 @@
   "permalink": "/blog/page/4",
   "page": 4,
   "postsPerPage": 5,
-  "totalPages": 4,
-  "totalCount": 18,
+  "totalPages": 5,
+  "totalCount": 23,
   "previousPage": "/blog/page/3",
+  "nextPage": "/blog/page/5",
   "blogDescription": "The Finechive Newsletter, by Kush S.",
   "blogTitle": "Fineletters."
 }

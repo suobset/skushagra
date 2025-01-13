@@ -1,830 +1,930 @@
 {
-  "/__docusaurus/debug-8dc": {
+  "/__docusaurus/debug-5ff": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-536-622"
+      "plugin": "plugin---docusaurus-debug-3-fd-870"
     }
   },
-  "/__docusaurus/debug/config-9cb": {
+  "/__docusaurus/debug/config-850": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-536-622"
+      "plugin": "plugin---docusaurus-debug-3-fd-870"
     }
   },
-  "/__docusaurus/debug/content-530": {
+  "/__docusaurus/debug/content-4ec": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-536-622"
+      "plugin": "plugin---docusaurus-debug-3-fd-870"
     },
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-c3d": {
+  "/__docusaurus/debug/globalData-706": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-536-622"
+      "plugin": "plugin---docusaurus-debug-3-fd-870"
     }
   },
-  "/__docusaurus/debug/metadata-131": {
+  "/__docusaurus/debug/metadata-48c": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-536-622"
+      "plugin": "plugin---docusaurus-debug-3-fd-870"
     }
   },
-  "/__docusaurus/debug/registry-b6e": {
+  "/__docusaurus/debug/registry-79e": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-536-622"
+      "plugin": "plugin---docusaurus-debug-3-fd-870"
     }
   },
-  "/__docusaurus/debug/routes-40d": {
+  "/__docusaurus/debug/routes-b07": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-536-622"
+      "plugin": "plugin---docusaurus-debug-3-fd-870"
     }
   },
-  "/archive-a37": {
+  "/archive-df4": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---archivebce-695"
+      "plugin": "plugin---archive-49-e-e1e"
     },
     "content": "content---archivee-27-594"
   },
-  "/bestViewedByAnyBrowser-7fc": {
+  "/bestViewedByAnyBrowser-cfc": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---archivebce-695"
+      "plugin": "plugin---archive-49-e-e1e"
     },
     "content": "content---best-viewed-by-any-browser-144-8e8"
   },
-  "/blog-aa9": {
+  "/blog-fb1": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-219-bdb"
+        "content": "content---blog-8-ad-721"
       },
       {
-        "content": "content---blog-980-4a6"
+        "content": "content---blogbfe-411"
       },
       {
-        "content": "content---blogfae-7b4"
+        "content": "content---blog-20-e-3ad"
       },
       {
-        "content": "content---blogb-0-e-859"
+        "content": "content---blog-52-f-ef7"
       },
       {
-        "content": "content---blog-74-f-466"
+        "content": "content---blogccf-c83"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
   },
-  "/blog/archive-1f6": {
+  "/blog/archive-6d5": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "archive": "archive---blog-archiveb-2-f-393"
   },
-  "/blog/classicmac1-410": {
+  "/blog/basic-mac-setup-959": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-basic-mac-setupf-7-c-251"
+  },
+  "/blog/classicmac1-3fb": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-classicmac-1-b-5-e-bf5"
   },
-  "/blog/dc-the-opportunity-project-d92": {
+  "/blog/dc-the-opportunity-project-2f2": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-dc-the-opportunity-projectf-54-a5c"
   },
-  "/blog/debugxiety-bea": {
+  "/blog/debugxiety-3df": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-debugxiety-456-cf6"
   },
-  "/blog/dreaming-814": {
+  "/blog/dreaming-4f6": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-dreaminge-57-2ab"
   },
-  "/blog/knitting1-de8": {
+  "/blog/gh bots-efd": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-gh-bots-518-fd8"
+  },
+  "/blog/knitting1-058": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-knitting-114-a-7f1"
   },
-  "/blog/liminal-spaces-art-of-appreciating-69f": {
+  "/blog/liminal-spaces-art-of-appreciating-9a9": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-liminal-spaces-art-of-appreciating-669-4f2"
   },
-  "/blog/newsletter time-7f0": {
+  "/blog/microblog0-435": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-microblog-022-f-c34"
+  },
+  "/blog/newsletter time-87d": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-newsletter-time-72-a-1a2"
   },
-  "/blog/newsletter1-794": {
+  "/blog/newsletter1-863": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-newsletter-1484-414"
   },
-  "/blog/newsletter2-61c": {
+  "/blog/newsletter2-76f": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-newsletter-2-e-1-b-b0a"
   },
-  "/blog/newsletter3-e54": {
+  "/blog/newsletter3-7cd": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-newsletter-388-c-f31"
   },
-  "/blog/newsletter4-871": {
+  "/blog/newsletter4-dd1": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-newsletter-4-d-5-b-0e3"
   },
-  "/blog/newsletter5-b19": {
+  "/blog/newsletter5-be5": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-newsletter-5-dd-6-d6b"
   },
-  "/blog/newsletter6-a4c": {
+  "/blog/newsletter6-3c9": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-newsletter-6-b-32-aef"
   },
-  "/blog/newsletter7-99b": {
+  "/blog/newsletter7-bcf": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-newsletter-741-c-334"
   },
-  "/blog/on-macos-and-libre-software-dd5": {
+  "/blog/newsletter8-6b6": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-newsletter-89-f-4-654"
+  },
+  "/blog/on-macos-and-libre-software-bd9": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-on-macos-and-libre-softwarecce-ce6"
   },
-  "/blog/page/2-9cf": {
+  "/blog/onllmsforwriting-361": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-23-b-d3e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-onllmsforwriting-280-088"
+  },
+  "/blog/page/2-af9": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-26-c-2-722"
+        "content": "content---blog-page-2219-70b"
       },
       {
-        "content": "content---blog-page-2-cce-3a2"
+        "content": "content---blog-page-2980-824"
       },
       {
-        "content": "content---blog-page-2166-752"
+        "content": "content---blog-page-2-fae-197"
       },
       {
-        "content": "content---blog-page-26-ab-e9d"
+        "content": "content---blog-page-2-b-0-e-b2a"
       },
       {
-        "content": "content---blog-page-2-be-8-105"
+        "content": "content---blog-page-274-f-f90"
       }
     ],
     "metadata": "metadata---blog-page-28-eb-625"
   },
-  "/blog/page/3-ff3": {
+  "/blog/page/3-7cb": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-3-a-02-1ac"
+        "content": "content---blog-page-36-c-2-f83"
       },
       {
-        "content": "content---blog-page-356-c-18e"
+        "content": "content---blog-page-3-cce-f1b"
       },
       {
-        "content": "content---blog-page-3-a-91-16e"
+        "content": "content---blog-page-3166-683"
       },
       {
-        "content": "content---blog-page-3-ef-3-d42"
+        "content": "content---blog-page-36-ab-8a7"
       },
       {
-        "content": "content---blog-page-3-d-6-e-6e1"
+        "content": "content---blog-page-3-be-8-162"
       }
     ],
     "metadata": "metadata---blog-page-3929-7ba"
   },
-  "/blog/page/4-148": {
+  "/blog/page/4-260": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-47-ed-802"
+        "content": "content---blog-page-4-a-02-3e3"
       },
       {
-        "content": "content---blog-page-4297-285"
+        "content": "content---blog-page-456-c-afe"
       },
       {
-        "content": "content---blog-page-440-f-042"
+        "content": "content---blog-page-4-a-91-5ec"
+      },
+      {
+        "content": "content---blog-page-4-ef-3-133"
+      },
+      {
+        "content": "content---blog-page-4-d-6-e-496"
       }
     ],
     "metadata": "metadata---blog-page-47-d-9-260"
   },
-  "/blog/random1-131": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+  "/blog/page/5-52a": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-random-18-a-3-b53"
-  },
-  "/blog/tags-940": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
-    "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "tags": "tags---blog-tagsa-70-da2"
-  },
-  "/blog/tags/academia-b05": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-219-bdb"
+        "content": "content---blog-page-57-ed-8fa"
       },
       {
-        "content": "content---blog-980-4a6"
+        "content": "content---blog-page-5297-7ea"
       },
       {
-        "content": "content---blog-page-26-c-2-722"
+        "content": "content---blog-page-540-f-a71"
+      }
+    ],
+    "metadata": "metadata---blog-page-511-c-57d"
+  },
+  "/blog/random1-9de": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-23-b-d3e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-random-18-a-3-b53"
+  },
+  "/blog/tags-9f3": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blog-23-b-d3e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "tags": "tags---blog-tagsa-70-da2"
+  },
+  "/blog/tags/academia-dbb": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-23-b-d3e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-page-2219-70b"
       },
       {
-        "content": "content---blog-page-2-cce-3a2"
+        "content": "content---blog-page-2980-824"
       },
       {
-        "content": "content---blog-page-2166-752"
+        "content": "content---blog-page-36-c-2-f83"
+      },
+      {
+        "content": "content---blog-page-3-cce-f1b"
+      },
+      {
+        "content": "content---blog-page-3166-683"
       }
     ],
     "tag": "tag---blog-tags-academia-5-ca-4d2",
     "listMetadata": "listMetadata---blog-tags-academia-330-5d0"
   },
-  "/blog/tags/academia/page/2-3a3": {
+  "/blog/tags/academia/page/2-82c": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-3-ef-3-d42"
+        "content": "content---blog-page-4-ef-3-133"
       },
       {
-        "content": "content---blog-page-3-d-6-e-6e1"
+        "content": "content---blog-page-4-d-6-e-496"
       }
     ],
     "tag": "tag---blog-tags-academia-page-244-f-86e",
     "listMetadata": "listMetadata---blog-tags-academia-page-2-f-5-c-423"
   },
-  "/blog/tags/aesthetics-a84": {
+  "/blog/tags/aesthetics-e61": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-219-bdb"
+        "content": "content---blog-page-2219-70b"
       },
       {
-        "content": "content---blog-980-4a6"
+        "content": "content---blog-page-2980-824"
       },
       {
-        "content": "content---blog-page-2-be-8-105"
+        "content": "content---blog-page-3-be-8-162"
       },
       {
-        "content": "content---blog-page-4297-285"
+        "content": "content---blog-page-5297-7ea"
       }
     ],
     "tag": "tag---blog-tags-aestheticse-31-80a",
     "listMetadata": "listMetadata---blog-tags-aesthetics-803-c77"
   },
-  "/blog/tags/art-ff2": {
+  "/blog/tags/art-f86": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-2-be-8-105"
+        "content": "content---blog-page-3-be-8-162"
       }
     ],
     "tag": "tag---blog-tags-art-78-d-052",
     "listMetadata": "listMetadata---blog-tags-artf-43-29c"
   },
-  "/blog/tags/code-54a": {
+  "/blog/tags/code-ed9": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-74-f-466"
+        "content": "content---blogbfe-411"
       },
       {
-        "content": "content---blog-page-356-c-18e"
+        "content": "content---blog-page-274-f-f90"
       },
       {
-        "content": "content---blog-page-3-ef-3-d42"
+        "content": "content---blog-page-456-c-afe"
+      },
+      {
+        "content": "content---blog-page-4-ef-3-133"
       }
     ],
     "tag": "tag---blog-tags-code-4-f-0-b7b",
     "listMetadata": "listMetadata---blog-tags-code-69-e-752"
   },
-  "/blog/tags/dictionary-a95": {
+  "/blog/tags/dictionary-223": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-3-ef-3-d42"
+        "content": "content---blog-page-4-ef-3-133"
       }
     ],
     "tag": "tag---blog-tags-dictionary-70-c-ae6",
     "listMetadata": "listMetadata---blog-tags-dictionary-2-b-7-335"
   },
-  "/blog/tags/docusaurus-e67": {
+  "/blog/tags/docusaurus-629": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-440-f-042"
+        "content": "content---blog-page-540-f-a71"
       }
     ],
     "tag": "tag---blog-tags-docusaurusa-80-728",
     "listMetadata": "listMetadata---blog-tags-docusaurus-608-c09"
   },
-  "/blog/tags/facebook-493": {
+  "/blog/tags/facebook-183": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-440-f-042"
+        "content": "content---blog-page-540-f-a71"
       }
     ],
     "tag": "tag---blog-tags-facebook-031-c52",
     "listMetadata": "listMetadata---blog-tags-facebook-096-d31"
   },
-  "/blog/tags/hello-d15": {
+  "/blog/tags/hello-267": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-440-f-042"
+        "content": "content---blog-page-540-f-a71"
       }
     ],
     "tag": "tag---blog-tags-hello-30-a-bed",
     "listMetadata": "listMetadata---blog-tags-hello-664-70a"
   },
-  "/blog/tags/highlights-c17": {
+  "/blog/tags/highlights-ad1": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-219-bdb"
+        "content": "content---blog-page-2219-70b"
       },
       {
-        "content": "content---blog-980-4a6"
+        "content": "content---blog-page-2980-824"
       }
     ],
     "tag": "tag---blog-tags-highlights-45-d-868",
     "listMetadata": "listMetadata---blog-tags-highlights-17-b-88f"
   },
-  "/blog/tags/hobbies-a52": {
+  "/blog/tags/hobbies-b81": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogb-0-e-859"
+        "content": "content---blogbfe-411"
       },
       {
-        "content": "content---blog-page-356-c-18e"
+        "content": "content---blog-page-2-b-0-e-b2a"
       },
       {
-        "content": "content---blog-page-3-a-91-16e"
+        "content": "content---blog-page-456-c-afe"
+      },
+      {
+        "content": "content---blog-page-4-a-91-5ec"
       }
     ],
     "tag": "tag---blog-tags-hobbiesb-41-794",
     "listMetadata": "listMetadata---blog-tags-hobbies-2-c-8-637"
   },
-  "/blog/tags/i-cons-bd8": {
+  "/blog/tags/i-cons-6d2": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-219-bdb"
+        "content": "content---blog-page-2219-70b"
       },
       {
-        "content": "content---blog-980-4a6"
+        "content": "content---blog-page-2980-824"
       },
       {
-        "content": "content---blog-page-26-c-2-722"
+        "content": "content---blog-page-36-c-2-f83"
       },
       {
-        "content": "content---blog-page-26-ab-e9d"
+        "content": "content---blog-page-36-ab-8a7"
       },
       {
-        "content": "content---blog-page-3-d-6-e-6e1"
+        "content": "content---blog-page-4-d-6-e-496"
       }
     ],
     "tag": "tag---blog-tags-i-cons-55-f-3f2",
     "listMetadata": "listMetadata---blog-tags-i-cons-4-f-7-242"
   },
-  "/blog/tags/internet-wonders-129": {
+  "/blog/tags/internet-wonders-547": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-74-f-466"
+        "content": "content---blog-page-274-f-f90"
       },
       {
-        "content": "content---blog-page-26-ab-e9d"
+        "content": "content---blog-page-36-ab-8a7"
       }
     ],
     "tag": "tag---blog-tags-internet-wonders-86-a-56d",
     "listMetadata": "listMetadata---blog-tags-internet-wondersc-73-51c"
   },
-  "/blog/tags/life-5e8": {
+  "/blog/tags/life-a44": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogb-0-e-859"
+        "content": "content---blog-page-2-b-0-e-b2a"
       },
       {
-        "content": "content---blog-page-26-c-2-722"
+        "content": "content---blog-page-36-c-2-f83"
       },
       {
-        "content": "content---blog-page-2-cce-3a2"
+        "content": "content---blog-page-3-cce-f1b"
       },
       {
-        "content": "content---blog-page-2166-752"
+        "content": "content---blog-page-3166-683"
       },
       {
-        "content": "content---blog-page-3-a-91-16e"
+        "content": "content---blog-page-4-a-91-5ec"
       }
     ],
     "tag": "tag---blog-tags-life-976-34c",
     "listMetadata": "listMetadata---blog-tags-lifebf-5-233"
   },
-  "/blog/tags/life/page/2-d6f": {
+  "/blog/tags/life/page/2-d81": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-3-ef-3-d42"
+        "content": "content---blog-page-4-ef-3-133"
       },
       {
-        "content": "content---blog-page-3-d-6-e-6e1"
+        "content": "content---blog-page-4-d-6-e-496"
       },
       {
-        "content": "content---blog-page-47-ed-802"
+        "content": "content---blog-page-57-ed-8fa"
       },
       {
-        "content": "content---blog-page-4297-285"
+        "content": "content---blog-page-5297-7ea"
       }
     ],
     "tag": "tag---blog-tags-life-page-2806-efb",
     "listMetadata": "listMetadata---blog-tags-life-page-2324-ae1"
   },
-  "/blog/tags/liminal-space-f0e": {
+  "/blog/tags/liminal-space-086": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-4297-285"
+        "content": "content---blog-page-5297-7ea"
       }
     ],
     "tag": "tag---blog-tags-liminal-space-5-b-8-ad1",
     "listMetadata": "listMetadata---blog-tags-liminal-space-9-c-0-a1d"
   },
-  "/blog/tags/newsletter-ad9": {
+  "/blog/tags/microblog-d62": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-219-bdb"
+        "content": "content---blog-20-e-3ad"
+      }
+    ],
+    "tag": "tag---blog-tags-microblog-39-a-98d",
+    "listMetadata": "listMetadata---blog-tags-microblogd-4-d-fe1"
+  },
+  "/blog/tags/newsletter-308": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-23-b-d3e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogccf-c83"
       },
       {
-        "content": "content---blog-980-4a6"
+        "content": "content---blog-page-2219-70b"
       },
       {
-        "content": "content---blog-page-26-c-2-722"
+        "content": "content---blog-page-2980-824"
       },
       {
-        "content": "content---blog-page-2-cce-3a2"
+        "content": "content---blog-page-36-c-2-f83"
       },
       {
-        "content": "content---blog-page-2166-752"
+        "content": "content---blog-page-3-cce-f1b"
       }
     ],
     "tag": "tag---blog-tags-newsletterad-9-6ca",
     "listMetadata": "listMetadata---blog-tags-newsletter-0-f-4-99c"
   },
-  "/blog/tags/newsletter/page/2-a1a": {
+  "/blog/tags/newsletter/page/2-15c": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-26-ab-e9d"
+        "content": "content---blog-page-3166-683"
       },
       {
-        "content": "content---blog-page-2-be-8-105"
+        "content": "content---blog-page-36-ab-8a7"
       },
       {
-        "content": "content---blog-page-3-a-02-1ac"
+        "content": "content---blog-page-3-be-8-162"
+      },
+      {
+        "content": "content---blog-page-4-a-02-3e3"
       }
     ],
     "tag": "tag---blog-tags-newsletter-page-203-c-858",
     "listMetadata": "listMetadata---blog-tags-newsletter-page-24-d-1-e57"
   },
-  "/blog/tags/nostalgia-172": {
+  "/blog/tags/nostalgia-ade": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-4297-285"
+        "content": "content---blog-page-5297-7ea"
       }
     ],
     "tag": "tag---blog-tags-nostalgiab-7-d-66c",
     "listMetadata": "listMetadata---blog-tags-nostalgiae-06-33b"
   },
-  "/blog/tags/open-source-b24": {
+  "/blog/tags/open-source-acb": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-74-f-466"
+        "content": "content---blogbfe-411"
       },
       {
-        "content": "content---blog-page-26-c-2-722"
+        "content": "content---blog-52-f-ef7"
       },
       {
-        "content": "content---blog-page-2-cce-3a2"
+        "content": "content---blog-page-274-f-f90"
       },
       {
-        "content": "content---blog-page-26-ab-e9d"
+        "content": "content---blog-page-36-c-2-f83"
       },
       {
-        "content": "content---blog-page-2-be-8-105"
+        "content": "content---blog-page-3-cce-f1b"
       }
     ],
     "tag": "tag---blog-tags-open-source-51-e-90d",
     "listMetadata": "listMetadata---blog-tags-open-sourcebdf-5d4"
   },
-  "/blog/tags/open-source/page/2-14a": {
+  "/blog/tags/open-source/page/2-ed5": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-356-c-18e"
+        "content": "content---blog-page-36-ab-8a7"
+      },
+      {
+        "content": "content---blog-page-3-be-8-162"
+      },
+      {
+        "content": "content---blog-page-456-c-afe"
       }
     ],
     "tag": "tag---blog-tags-open-source-page-29-b-0-8bd",
     "listMetadata": "listMetadata---blog-tags-open-source-page-2-f-83-3a3"
   },
-  "/blog/tags/personal-697": {
+  "/blog/tags/personal-0cc": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-219-bdb"
+        "content": "content---blog-8-ad-721"
       },
       {
-        "content": "content---blog-980-4a6"
+        "content": "content---blogccf-c83"
       },
       {
-        "content": "content---blog-page-26-c-2-722"
+        "content": "content---blog-page-2219-70b"
       },
       {
-        "content": "content---blog-page-2-cce-3a2"
+        "content": "content---blog-page-2980-824"
       },
       {
-        "content": "content---blog-page-3-a-02-1ac"
+        "content": "content---blog-page-36-c-2-f83"
       }
     ],
     "tag": "tag---blog-tags-personal-80-b-832",
     "listMetadata": "listMetadata---blog-tags-personal-5-cd-121"
   },
-  "/blog/tags/personal/page/2-964": {
+  "/blog/tags/personal/page/2-20c": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-47-ed-802"
+        "content": "content---blog-page-3-cce-f1b"
+      },
+      {
+        "content": "content---blog-page-4-a-02-3e3"
+      },
+      {
+        "content": "content---blog-page-57-ed-8fa"
       }
     ],
     "tag": "tag---blog-tags-personal-page-26-b-5-717",
     "listMetadata": "listMetadata---blog-tags-personal-page-2767-545"
   },
-  "/blog/tags/random-5d5": {
+  "/blog/tags/random-8cb": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogfae-7b4"
+        "content": "content---blog-page-2-fae-197"
       }
     ],
     "tag": "tag---blog-tags-random-773-254",
     "listMetadata": "listMetadata---blog-tags-randomdd-4-6bd"
   },
-  "/blog/tags/website-d7d": {
+  "/blog/tags/website-cf9": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-3-a-02-1ac"
+        "content": "content---blog-page-4-a-02-3e3"
       },
       {
-        "content": "content---blog-page-47-ed-802"
+        "content": "content---blog-page-57-ed-8fa"
       }
     ],
     "tag": "tag---blog-tags-websitea-49-cdb",
     "listMetadata": "listMetadata---blog-tags-websiteef-5-e1c"
   },
-  "/blog/the finechive-ed3": {
+  "/blog/the finechive-d93": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-the-finechivefe-3-249"
   },
-  "/blog/welcome-609": {
+  "/blog/welcome-b09": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-90-e-1a1"
+      "plugin": "plugin---blog-23-b-d3e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcome-5-bb-f73"
   },
-  "/disclaimer_fsf-4fd": {
+  "/disclaimer_fsf-e5c": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---archivebce-695"
+      "plugin": "plugin---archive-49-e-e1e"
     },
     "content": "content---disclaimer-fsf-15-f-735"
   },
-  "/dontpanic-36e": {
+  "/dontpanic-5ea": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---archivebce-695"
+      "plugin": "plugin---archive-49-e-e1e"
     },
     "content": "content---dontpanicf-5-e-9a2"
   },
-  "/myndlessness-ca3": {
+  "/myndlessness-409": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---archivebce-695"
+      "plugin": "plugin---archive-49-e-e1e"
     },
     "content": "content---myndlessness-61-e-9f7"
   },
-  "/signup-fcb": {
+  "/signup-ced": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---archivebce-695"
+      "plugin": "plugin---archive-49-e-e1e"
     },
     "content": "content---signup-90-a-992"
   },
-  "/source-756": {
+  "/source-5b0": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---archivebce-695"
+      "plugin": "plugin---archive-49-e-e1e"
     },
     "content": "content---source-72-d-6e0"
   },
-  "/webArchive-86c": {
+  "/webArchive-aa5": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---archivebce-695"
+      "plugin": "plugin---archive-49-e-e1e"
     },
     "content": "content---web-archiveb-83-e18"
   },
-  "/docs-ac5": {
+  "/docs-369": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "plugin---docs-14-d-84d"
+      "plugin": "plugin---docs-2-de-b62"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -972,10 +1072,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-undergraduate-tra-86-f-55-06e"
   },
-  "/-156": {
+  "/-1ed": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---archivebce-695"
+      "plugin": "plugin---archive-49-e-e1e"
     },
     "config": "config---5-e-9-4f3"
   }

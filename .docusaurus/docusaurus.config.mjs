@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/suobset/Documents/skushagra/sidebars.js"
+          "sidebarPath": "/Users/kushagrasrivastava/WebstormProjects/skushagra/sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
@@ -37,7 +37,7 @@ export default {
           "blogSidebarCount": 0
         },
         "theme": {
-          "customCss": "/home/suobset/Documents/skushagra/src/css/custom.css"
+          "customCss": "/Users/kushagrasrivastava/WebstormProjects/skushagra/src/css/custom.css"
         }
       }
     ]
@@ -174,7 +174,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2017-2024 Kushagra Srivastava <br />\n        All views expressed here are my own, and not representative of my organization or university."
+      "copyright": "Copyright © 2017-2025 Kushagra Srivastava <br />\n        All views expressed here are my own, and not representative of my organization or university."
     },
     "colorMode": {
       "defaultMode": "light",
