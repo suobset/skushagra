@@ -1,21 +1,37 @@
 {
   "blogPosts": [
     {
-      "id": "onllmsforwriting",
+      "id": "newsletter9",
       "metadata": {
-        "permalink": "/blog/onllmsforwriting",
-        "source": "@site/blog/2025-01-12-onllmsforwriting/index.md",
-        "title": "Quick Note on LLMs for Writing",
-        "description": "Recently, I have been seeing various posts on various platforms where people are trying to play armchair detective for usage of words like \"delve\" or \"whatsoever\". This is concerning to me for two main reasons:",
-        "date": "2025-01-12T00:00:00.000Z",
-        "formattedDate": "January 12, 2025",
+        "permalink": "/blog/newsletter9",
+        "source": "@site/blog/2025-02-12-newsletter9/index.md",
+        "title": "Spring Cleaning: 2025",
+        "description": "About every year, my online presence gets convoluted between multiple platforms that I am trying out, and with multiple projects that I am trying out each year. This is the third year in a row where I am cleaning up accounts, emails, and my online presence, and the first where I will be writing down about it as well.",
+        "date": "2025-02-12T00:00:00.000Z",
+        "formattedDate": "February 12, 2025",
         "tags": [
+          {
+            "label": "Code",
+            "permalink": "/blog/tags/code"
+          },
+          {
+            "label": "Open Source",
+            "permalink": "/blog/tags/open-source"
+          },
+          {
+            "label": "Hobbies",
+            "permalink": "/blog/tags/hobbies"
+          },
           {
             "label": "Personal",
             "permalink": "/blog/tags/personal"
+          },
+          {
+            "label": "Newsletter",
+            "permalink": "/blog/tags/newsletter"
           }
         ],
-        "readingTime": 2.58,
+        "readingTime": 4.48,
         "hasTruncateMarker": true,
         "authors": [
           {
@@ -27,13 +43,17 @@
           }
         ],
         "frontMatter": {
-          "slug": "onllmsforwriting",
-          "title": "Quick Note on LLMs for Writing",
+          "slug": "newsletter9",
+          "title": "Spring Cleaning: 2025",
           "authors": [
             "suobset"
           ],
           "tags": [
-            "Personal"
+            "Code",
+            "Open Source",
+            "Hobbies",
+            "Personal",
+            "Newsletter"
           ]
         },
         "nextItem": {
@@ -41,7 +61,7 @@
           "permalink": "/blog/basic-mac-setup"
         }
       },
-      "content": "Recently, I have been seeing various posts on various platforms where people are trying to play armchair detective for usage of words like [\"delve\" or \"whatsoever\"](https://www.reddit.com/r/mildlyinfuriating/comments/1bzvgqj/apparently_using_the_word_delve_is_a_sign_of_the/). This is concerning to me for two main reasons:\n\n1. People may/may not be reading lesser, which is resulting in a lesser set of words in their vocabulary.\n2. \"Delve\", along with many others \"AI-generated words\", are actually part of my regular vocabulary. \n\n<!-- truncate -->\n\n![Twitter post on \"delve\"](./assets/1.webp)\n\nI will not dive deep into the issues with others assuming all sorts of things. However, I would like to briefly mention how I use AI when it comes to writing (online and in general).\n\n## My use of AI\n\nIn short: if you cannot be bothered to write something (and rely on AI for the same), why would I be bothered to read it.\n\nI rarely, if ever, use AI as a means to generate any text or piece of work that I have created: online and offline. Personally, the entire point of writing and art for me is to create things that require confusion, boredom, and pondering over my initial ideas. If, instead, I put that initial idea into a text box and have a computer come up with everything else, I did not create anything.\n\nThe pondering over different ideas is what enables us to create art and text that is worth reading, and is relatable to others. \n\nAs far as the words are concerned, a lot of what I use and how I write is inspired by the texts I read. From research papers to fiction, writers need to read all that they can. LLMs were trained on the same written data, which is why I believe that the language used is the same. But as an aspiring writer, reading is equally a huge part of my honing of this skill. \n\nWords come naturally as a result; armchair diagnosing of said words being \"AI\" serves absolutely no one and showcases your lack of reading comprehension.\n\n## I'm not perfect, though\n\nI do use AI in some other aspects of my life. Here is an exhaustive list of every use of AI I engage in currently:\n\n1. Code debug + completion: I treat it like a nicer, less-hostile StackOverflow. It's great for boosting my coding productivity, though there is a huge aspect of knowing programming so that one can filter out false/unoptimized answers with what actually solves the problem at hand. (shout-out to Cursor atm)\n2. Templated emails: If an email's scope is anything greater than asking for PTO, I first draft the thing out myself. But I will only use AI for things that do not require much thought or effort, and save myself a bit of time (and not break my flow of thought).\n3. Learn new things in a simpler language: taking this one with a huge grain of salt (since LLMs hallucinate), but AI has been great in explaining complex concepts in simpler terms.\n\nNotice that none of my writing (including writing code initially), is included. Because great ideas require boredom and struggling."
+      "content": "About every year, my online presence gets convoluted between multiple platforms that I am trying out, and with multiple projects that I am trying out each year. This is the third year in a row where I am cleaning up accounts, emails, and my online presence, and the first where I will be writing down about it as well.\n\n<!-- truncate -->\n\n## Background\n\nThe first time I did this process in 2023 was to get away from [this version](https://meta.skushagra.com/archive/web_v2/) of the website into something that would give me greater flexibility to write and curate my own content. This first version was mainly created to facilitate some semblance of having an online portfolio, and a corner on the internet. However, the negative aspect of this version specifically was the fact that everything was in one huge HTML file, with buttons acting as event responders to close one div, open another, and do a swanky animation between the two such that the effect was not too jarring to the end user. The end HTML file was about 1700 lines and increasing, wherein each \"page\" of the website was just a div.\n\nI moved on from that version to the [first iteration](https://web.archive.org/web/20231231085114/https://skushagra.com/) of this current version in 2023. This iteration was mainly focused on getting the content correct, and getting myself more comfortable with the organizational and writing side of things. Over the course of the year though, that website got too cluttered. I didn't even realize that I had just put all my projects as is, without having any structure or flow. \n\nIn March 2024, I undertook a massive refactoring of this website to classify different projects, blog posts, and how they are linked to each other (hobby, professional, etc.). For the most part, this website is still going perfectly.\n\nThis Spring Cleaning aims to fix some aspects of this website, but mainly focus on consolidating my broader online presence.\n\n## Agenda\n\nI use many services and public facing accounts. I need to consolidate them, and have this website act as my central hub that binds everything together. I will continue to treat this website as my main place to write things about, but also provide links to relevant Internet places.\n\nI do not assume the first iteration of this endeavor to be all encompassing. But at thew very minimum, services I use frequently should be covered under this. Anything else you may stumble upon, I am not using currently and can be thought of as archival in nature.\n\nThis will also not cover accounts that are not personal in nature. My work GitLab (and BitBucket from an earlier experience), which exist but only on company email that I do not have access to. \n\n### Categories\n\n* Career\n\t- Resume\n\t\t- LinkedIn: https://www.linkedin.com/in/suobset/\n\t\t- ORCiD: https://orcid.org/0000-0003-0656-5478\n\t- Code\n\t\t- GitHub: https://github.com/suobset\n\t\t- Codeberg (deleted)\n\t\t- GitLab (deleted)\n\t\t- Repl.it (deleted)\n* Photography\n\t- Flickr (moving to archive)\n\t- Instagram (deleted)\n\t- YouTube\n\t- Bsky\n* Microblog\n\t- Threads\n\t- Bsky\n\t- Twitter\n* Social Media\n\t- Facebook\n\t- Instagram\n\t- Reddit (deleted)\n* Misc\n\t- Tetr.io\n\t- Google Developer Profile\n\nAll of this bound under this website. \n\n## Career\n\nI will be writing on LinkedIn and ORCiD to collate my work related things. GitHub, while listed here, will also be mainly used for hobby related stuff. I had a GitLab and Codeberg as alternates to GitHub, but never found a use for them all that much. I had a replit for a while; great service, but seldom used once I got a more powerful computer (and GitHub Codespaces became a thing).\n\nAs of Feb 16, 2025: both the ORCiD and LinkedIn have been updated. The only things not included in my publications are my ongoing work at Psivant.\n\n## Photography & Microblogging\n\nI started my photography journey with VSCO and Flickr: both platforms that I believe have huge potential and a misguided user base. On the side, I used Instagram as well (a second account).\n\nFor microblogging, my most active front used to be Threads (which will probably remain the case for a while more, moving forward). I do not use Twitter almost at all (except for catching up on news, for which X now require you to have an account), but I will leave in a link for anyone interested.\n\nHere's where Bluesky comes in, moving forward. Bluesky's Atmosphere Protocol is amazing for two big reasons for me:\n\n1. Open Source\n2. Lets you use your own domain for accounts\n\nI have two main accounts on Bluesky:\n\n* [@skushagra.com](https://bsky.app/profile/skushagra.com): My main account for everything\n* [@photos.skushagra.com](https://bsky.app/profile/photos.skushagra.com): The **sole account** for my photography content moving forward. Flickr, VSCO are existing briefly for archival purposes as I migrate everything to Bsky. I have already deleted the photography Instagram account.\n\n### Misc Photo and Microblog\n\nFor videos, I have had a YouTube account active for a while. [For now, it exists](https://www.youtube.com/@suobset). I do not think I will necessarily move it to bsky. The videos are sporadic, and not a sure-shot place for anything really.\n\nLinks to my other Microblogging stuff:\n\n* Threads: https://threads.net/suobset\n* Twitter: https://x.com/sxobset\n\n## Social Media and Misc\n\nThis is more of the personal facing stuff I do on the Internet. Not much to share here except for stuff from my personal life:\n\n* Facebook: https://www.facebook.com/kayhs24001/\n* Instagram: https://instagram.com/suobset\n* Tetris: https://ch.tetr.io/u/suobset\n* Google Developer: https://g.dev/suobset"
     },
     {
       "id": "basic-mac-setup",
@@ -90,8 +110,8 @@
           ]
         },
         "prevItem": {
-          "title": "Quick Note on LLMs for Writing",
-          "permalink": "/blog/onllmsforwriting"
+          "title": "Spring Cleaning: 2025",
+          "permalink": "/blog/newsletter9"
         },
         "nextItem": {
           "title": "New Tag: Microblog",

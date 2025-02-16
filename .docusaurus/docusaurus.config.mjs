@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/kushagrasrivastava/WebstormProjects/skushagra/sidebars.js"
+          "sidebarPath": "/Users/kushagrasrivastava/skushagra/sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
@@ -37,7 +37,7 @@ export default {
           "blogSidebarCount": 0
         },
         "theme": {
-          "customCss": "/Users/kushagrasrivastava/WebstormProjects/skushagra/src/css/custom.css"
+          "customCss": "/Users/kushagrasrivastava/skushagra/src/css/custom.css"
         }
       }
     ]
@@ -55,7 +55,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "About Me"
+          "label": "About"
         },
         {
           "to": "/docs/resume",
@@ -63,28 +63,28 @@ export default {
           "position": "left"
         },
         {
-          "to": "/docs/ongoing",
-          "label": "Ongoing",
+          "to": "/docs/links",
+          "label": "Links",
           "position": "left"
         },
         {
-          "href": "mailto:ksrivastava@umass.edu",
+          "href": "mailto:kushagra2410@gmail.com",
           "label": "Contact",
           "position": "left"
         },
         {
-          "href": "https://www.flickr.com/photos/suobset/",
+          "href": "https://photos.skushagra.com",
           "label": "Photography",
           "position": "right"
         },
         {
-          "href": "https://linktr.ee/suobset",
-          "label": "Links",
+          "href": "https://bsky.app/profile/skushagra.com",
+          "label": "Microblog",
           "position": "right"
         },
         {
           "to": "/blog",
-          "label": "Blog",
+          "label": "Macroblog",
           "position": "right"
         }
       ],

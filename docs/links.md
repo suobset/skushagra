@@ -6,7 +6,7 @@ sidebar_position: 8
 
 A list of all my Internet Presence, in one space.
 
-### Categories
+## Categories
 
 * Career
 	- Resume

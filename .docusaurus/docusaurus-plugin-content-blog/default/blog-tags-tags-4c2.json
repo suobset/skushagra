@@ -1,33 +1,33 @@
 [
   {
+    "label": "Code",
+    "permalink": "/blog/tags/code",
+    "count": 5
+  },
+  {
+    "label": "Open Source",
+    "permalink": "/blog/tags/open-source",
+    "count": 9
+  },
+  {
+    "label": "Hobbies",
+    "permalink": "/blog/tags/hobbies",
+    "count": 5
+  },
+  {
     "label": "Personal",
     "permalink": "/blog/tags/personal",
     "count": 8
   },
   {
-    "label": "Code",
-    "permalink": "/blog/tags/code",
-    "count": 4
-  },
-  {
-    "label": "Open Source",
-    "permalink": "/blog/tags/open-source",
-    "count": 8
-  },
-  {
-    "label": "Hobbies",
-    "permalink": "/blog/tags/hobbies",
-    "count": 4
+    "label": "Newsletter",
+    "permalink": "/blog/tags/newsletter",
+    "count": 10
   },
   {
     "label": "microblog",
     "permalink": "/blog/tags/microblog",
     "count": 1
-  },
-  {
-    "label": "newsletter",
-    "permalink": "/blog/tags/newsletter",
-    "count": 9
   },
   {
     "label": "academia",
