@@ -55,8 +55,8 @@ Here's where Bluesky comes in, moving forward. Bluesky's Atmosphere Protocol is 
 
 I have two main accounts on Bluesky:
 
-* [@skushagra.com](https://bsky.app/skushagra.com): My main account for everything
-* [@photos.skushagra.com](https://bsky.app/photos.skushagra.com): The **sole account** for my photography content moving forward. Flickr, VSCO are existing briefly for archival purposes as I migrate everything to Bsky. I have already deleted the photography Instagram account.
+* [@skushagra.com](https://bsky.app/profile/skushagra.com): My main account for everything
+* [@photos.skushagra.com](https://bsky.app/profile/photos.skushagra.com): The **sole account** for my photography content moving forward. Flickr, VSCO are existing briefly for archival purposes as I migrate everything to Bsky. I have already deleted the photography Instagram account.
 
 ### Misc Photo and Microblog
 
