@@ -313,7 +313,7 @@ All you need to do is click the Embed Code Option in Wix when adding this elemen
 
 ### The Problem with Docusaurus (or React, in general)
 
-React MDX does not behave well with HTML/JS scripts, at all. To have the Webring on this website, I pretty much had to build my own implementation using Hammy's API as mentioned in UMaring.
+React MDX does not behave well with HTML/JS scripts, at all. To have the Webring on this website, I pretty much had to build my own implementation using Haylin's API as mentioned in UMaring.
 
 Here is the main doc:
 
