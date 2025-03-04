@@ -22,49 +22,141 @@ npm run start
 ╭──────────────────────────────────────────────────────────────────────────────╮│                                                                              ││                        Update available 2.4.1 → 3.7.0                        ││                                                                              ││       To upgrade Docusaurus packages with the latest version, run the        ││                             following command:                               ││       `npm i @docusaurus/core@latest @docusaurus/preset-classic@latest       ││                   @docusaurus/module-type-aliases@latest`                    ││                                                                              │╰──────────────────────────────────────────────────────────────────────────────╯
 
 [INFO] Starting the development server...
-(node:17180) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(node:59278) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 [SUCCESS] Docusaurus website is running at: http://localhost:3000/
 ℹ Compiling Client
-✔ Client: Compiled successfully in 1.21s
+✔ Client: Compiled successfully in 1.07s
 client (webpack 5.88.2) compiled successfully
 ℹ Compiling Client
-✔ Client: Compiled successfully in 107.21ms
+✔ Client: Compiled successfully in 116.66ms
 client (webpack 5.88.2) compiled successfully
 ℹ Compiling Client
-✔ Client: Compiled with some errors in 92.49ms
+✔ Client: Compiled successfully in 108.92ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 83.11ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 107.52ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 78.59ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 103.73ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 78.82ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 109.86ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 111.97ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 57.62ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 73.44ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 71.01ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 57.21ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 109.27ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 54.88ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 109.22ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 73.31ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 80.42ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 191.76ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 53.96ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 71.92ms
+client (webpack 5.88.2) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 274.79ms
+client (webpack 5.88.2) compiled successfully
+ls
+CNAME
+LICENSE
+README.md
+babel.config.js
+bbedit
+blog
+deleteZoneIdentifier.py
+docs
+docusaurus.config.js
+node_modules
+package-lock.json
+package.json
+sidebars.js
+src
+static
+git add *
+The following paths are ignored by one of your .gitignore files:
+node_modules
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
+git stage .
+npm run start
+
+&gt; skushagra@0.0.0 start
+&gt; docusaurus start
 
 
-SyntaxError: /Users/kushagrasrivastava/skushagra/src/components/HomepageFeatures/index.js: Expected corresponding JSX closing tag for &lt;img&gt;. (97:610)
-   95 |         &lt;div className={styles.centeredLinks}&gt;
-   96 |         &lt;a href="https://umass.edu"&gt;&lt;img src="https://suobset.github.io/finechive-helper/88x31/umass.png"&gt;&lt;/img&gt;&lt;/a&gt;&lt;a href="https://firefox.com"&gt;&lt;img src="https://suobset.github.io/finechive-helper/88x31/firefox.gif"&gt;&lt;/img&gt;&lt;/a&gt;&lt;a href="https://pages.github.com"&gt;&lt;img src="https://suobset.github.io/finechive-helper/88x31/ghPages.gif"&gt;&lt;/img&gt;&lt;/a&gt;&lt;a href="https://www.vim.org"&gt;&lt;img src="https://suobset.github.io/finechive-helper/88x31/vim.gif"&gt;&lt;/img&gt;&lt;/a&gt;&lt;a href="https://tldp.org/LDP/tlk/tlk.html"&gt;&lt;img src="https://suobset.github.io/finechive-helper/88x31/ubuntu.gif"&gt;&lt;/img&gt;&lt;/a&gt;&lt;a href="https://ubuntu.com"&gt;&lt;img src="https://suobset.github.io/finechive-helper/88x31/ubuntu_button_88x31.png"&gt;&lt;/img&gt;&lt;/a&gt;&lt;a href="https://www.tomshardware.com/reviews/dell-g3-15-gaming-laptop,5685.html"&gt;&lt;img src="https://suobset.github.io/finechive-helper/88x31/dell.gif"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br /&gt;
-&gt;  97 |         &lt;a href="https://www.thetrevorproject.org/"&gt;&lt;img src="https://suobset.github.io/finechive-helper/88x31/pride.gif"&gt;&lt;/img&gt;&lt;/a&gt;&lt;a href="https://apple.com/mac"&gt;&lt;img src="https://suobset.github.io/finechive-helper/88x31/Mac.gif"&gt;&lt;/img&gt;&lt;/a&gt;&lt;a href="https://www.barebones.com/products/bbedit/"&gt;&lt;img src="https://suobset.github.io/finechive-helper/88x31/bbedit2.png"&gt;&lt;/img&gt;&lt;/a&gt;&lt;a href="https://www.literatureandlatte.com/scrivener/overview"&gt;&lt;img decoding="async" src="https://www.literatureandlatte.com/public/share-badges/scriv-by-writers.png" border="0" width="200" alt="Scrivener: By writers, for writers."&gt;&lt;/a&gt;&lt;a href="https://yesterweb.org/no-to-web3/"&gt;&lt;img src="https://suobset.github.io/finechive-helper/88x31/web3.gif"&gt;&lt;/img&gt;&lt;/a&gt;&lt;a href="https://ch.tetr.io/u/suobset"&gt;&lt;img src="https://suobset.github.io/finechive-helper/88x31/tetris.gif"&gt;&lt;/img&gt;&lt;/a&gt;
-      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ^
-   98 |         &lt;/div&gt;
-   99 |       &lt;/div&gt;
-  100 |     &lt;/section&gt;
-client (webpack 5.88.2) compiled with 1 error
+╭──────────────────────────────────────────────────────────────────────────────╮│                                                                              ││                        Update available 2.4.1 → 3.7.0                        ││                                                                              ││       To upgrade Docusaurus packages with the latest version, run the        ││                             following command:                               ││       `npm i @docusaurus/core@latest @docusaurus/preset-classic@latest       ││                   @docusaurus/module-type-aliases@latest`                    ││                                                                              │╰──────────────────────────────────────────────────────────────────────────────╯
+
+[INFO] Starting the development server...
+(node:59988) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[SUCCESS] Docusaurus website is running at: http://localhost:3000/
 ℹ Compiling Client
-✔ Client: Compiled successfully in 78.84ms
+✔ Client: Compiled successfully in 3.84s
 client (webpack 5.88.2) compiled successfully
-ℹ Compiling Client
-✔ Client: Compiled successfully in 97.70ms
-client (webpack 5.88.2) compiled successfully
-ℹ Compiling Client
-✔ Client: Compiled successfully in 95.00ms
-client (webpack 5.88.2) compiled successfully
-ℹ Compiling Client
-✔ Client: Compiled successfully in 67.26ms
-client (webpack 5.88.2) compiled successfully
-ℹ Compiling Client
-✔ Client: Compiled successfully in 67.65ms
-client (webpack 5.88.2) compiled successfully
-ℹ Compiling Client
-✔ Client: Compiled successfully in 94.44ms
-client (webpack 5.88.2) compiled successfully
-ℹ Compiling Client
-✔ Client: Compiled successfully in 93.58ms
-client (webpack 5.88.2) compiled successfully
+ls
+CNAME
+LICENSE
+README.md
+babel.config.js
+bbedit
+blog
+deleteZoneIdentifier.py
+docs
+docusaurus.config.js
+node_modules
+package-lock.json
+package.json
+sidebars.js
+src
+static
+git pull
+Updating b726db89..9d72343f
+Fast-forward
+ .idx/dev.nix                              | 8 +++-----
+ docs/independent/scripting-shenanigans.md | 2 +-
+ 2 files changed, 4 insertions(+), 6 deletions(-)
+From https://github.com/suobset/skushagra
+   b726db89..9d72343f  main       -&gt; origin/main
+   a7675ac6..2b339e32  gh-pages   -&gt; origin/gh-pages
 </string>
 </dict>
 </plist>
