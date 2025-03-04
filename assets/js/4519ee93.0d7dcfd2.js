@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkskushagra=self.webpackChunkskushagra||[]).push([[1701],{3897:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/code/page/2","page":2,"postsPerPage":5,"totalPages":2,"totalCount":6,"previousPage":"/blog/tags/code","blogDescription":"The Finechive Newsletter, by Kush S.","blogTitle":"Fineletters."}')}}]);
