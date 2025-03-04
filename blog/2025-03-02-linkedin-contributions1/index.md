@@ -1,11 +1,11 @@
 ---
 slug: 'linkedin-contributions1'
-title: 'Testing LinkedIn Expert Contributions: Ep. 1'
+title: 'LinkedIn Expert Contributions: Ep. 1'
 authors: [suobset]
 tags: ['Code', 'Open Source', 'Career']
 ---
 
-# Testing LinkedIn's Expert Contributions: Ep. 1
+# LinkedIn Expert Contributions: Ep. 1
 
 The following is one of possibly many posts I'll be using to consolidate contributions to LinkedIn's Quora-esque [collaborative articles](https://www.linkedin.com/pulse/topics/home/) wherein contributors can answer questions and respond to/upvote other answers. I really like the feature, especially the fact that each contribution is capped to 750 characters (so no redundancy). 
 
