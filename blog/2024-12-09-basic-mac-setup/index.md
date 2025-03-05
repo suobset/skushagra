@@ -73,7 +73,7 @@ Something to note: most of these applications are Apple pre-installed and I have
 
 6. [Google Drive](https://drive.google.com): File syncing for Scrivener.
 
-Chess exists on the dock for prosterity reasons, and to pay homage to Mac history.
+Chess exists on the dock for posterity reasons, and to pay homage to Mac history.
 
 With this setup, I also never need to access the Applications directory. A Mac with the above will satisfy most of my basic workflows on the go, when I only get an hour and do not want to carry an entirely separate device for the sake of the hour.
 
