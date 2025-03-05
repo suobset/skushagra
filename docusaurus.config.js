@@ -91,7 +91,7 @@ const config = {
           	label: 'Microblog',
           	position: 'right',
           },
-          {to: '/blog', label: 'Macroblog', position: 'right'},
+          {to: '/blog', label: 'Blog', position: 'right'},
         ],
       },
       footer: {
