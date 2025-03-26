@@ -81,6 +81,11 @@ const config = {
           {	href: 'mailto:kushagra2410@gmail.com', 
           	label: 'Contact',
           	position: 'left',},
+          {
+            href: 'https://flickr.com/photos/suobset',
+            label: 'Photography',
+            position: 'right',
+          },
           {to: '/blog', label: 'Blog', position: 'right'},
         ],
       },
