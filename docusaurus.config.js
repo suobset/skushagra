@@ -81,16 +81,6 @@ const config = {
           {	href: 'mailto:kushagra2410@gmail.com', 
           	label: 'Contact',
           	position: 'left',},
-          {
-            href: 'https://photos.skushagra.com',
-            label: 'Photography',
-            position: 'right',
-          },
-          {
-          	href: 'https://bsky.app/profile/skushagra.com',
-          	label: 'Microblog',
-          	position: 'right',
-          },
           {to: '/blog', label: 'Blog', position: 'right'},
         ],
       },
