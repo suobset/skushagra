@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Intel Foundry Direct Connect 2025: Perspectives of a low level software developer | My New Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="
+I love seeing the Boston Dynamics Spot cameo in unexpected places. Over here, Chip is used for QC purposes.
+I recently attended a livestream event from Intel Foundry (think Intel&rsquo;s hardware R&amp;D &#43; Manufacturing wing which partners with other companies and manufactures processors), and as someone who spends a good chunk of time buried in low-level systems – delving into OSes and how compilers really work – this was pretty fascinating stuff. Seeing how the foundational layer of computing, the actual silicon manufacturing, is evolving felt directly relevant to the software I tinker with: even though I know very little in this hardware domain.">
+    <meta name="generator" content="Hugo 0.153.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/2025/05/intel-foundry-direct-connect-2025.html">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/2025/05/intel-foundry-direct-connect-2025.html">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="Intel Foundry Direct Connect 2025: Perspectives of a low level software developer">
+  <meta property="og:description" content="I love seeing the Boston Dynamics Spot cameo in unexpected places. Over here, Chip is used for QC purposes.
+I recently attended a livestream event from Intel Foundry (think Intel’s hardware R&amp;D &#43; Manufacturing wing which partners with other companies and manufactures processors), and as someone who spends a good chunk of time buried in low-level systems – delving into OSes and how compilers really work – this was pretty fascinating stuff. Seeing how the foundational layer of computing, the actual silicon manufacturing, is evolving felt directly relevant to the software I tinker with: even though I know very little in this hardware domain.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-30T02:28:00+00:00">
+    <meta property="article:modified_time" content="2025-04-30T02:28:00+00:00">
+    <meta property="article:tag" content="Open Source">
+    <meta property="article:tag" content="Events">
+    <meta property="article:tag" content="Hardware">
+    <meta property="article:tag" content="Code">
+    <meta property="article:tag" content="Career">
+
+  <meta itemprop="name" content="Intel Foundry Direct Connect 2025: Perspectives of a low level software developer">
+  <meta itemprop="description" content="I love seeing the Boston Dynamics Spot cameo in unexpected places. Over here, Chip is used for QC purposes.
+I recently attended a livestream event from Intel Foundry (think Intel’s hardware R&amp;D &#43; Manufacturing wing which partners with other companies and manufactures processors), and as someone who spends a good chunk of time buried in low-level systems – delving into OSes and how compilers really work – this was pretty fascinating stuff. Seeing how the foundational layer of computing, the actual silicon manufacturing, is evolving felt directly relevant to the software I tinker with: even though I know very little in this hardware domain.">
+  <meta itemprop="datePublished" content="2025-04-30T02:28:00+00:00">
+  <meta itemprop="dateModified" content="2025-04-30T02:28:00+00:00">
+  <meta itemprop="wordCount" content="1095">
+  <meta itemprop="keywords" content="Open Source,Events,Hardware,Code,Career">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Intel Foundry Direct Connect 2025: Perspectives of a low level software developer">
+  <meta name="twitter:description" content="I love seeing the Boston Dynamics Spot cameo in unexpected places. Over here, Chip is used for QC purposes.
+I recently attended a livestream event from Intel Foundry (think Intel’s hardware R&amp;D &#43; Manufacturing wing which partners with other companies and manufactures processors), and as someone who spends a good chunk of time buried in low-level systems – delving into OSes and how compilers really work – this was pretty fascinating stuff. Seeing how the foundational layer of computing, the actual silicon manufacturing, is evolving felt directly relevant to the software I tinker with: even though I know very little in this hardware domain.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        My New Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Intel Foundry Direct Connect 2025: Perspectives of a low level software developer</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-04-30T02:28:00Z">April 30, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><p><a href="/images/AVvXsEhK6bNjMQlfieVNcB2VqTn4UFTaR4JSqbvka9Zw4qrZpRkFGHRW1MWbr5s3UugAPi_Ms_y68jC6dicYsMN4XdXvpXq6WzmwZnQk3ef9L7ehAcXWE0_L2nE9Qt8A__CwURMJpfXijTCBUgQKgsL23-6XV4kFXiqPewD5n9vTXHLYTt7pmSfQLgDCA8uUzOo"><img src="/images/AVvXsEhK6bNjMQlfieVNcB2VqTn4UFTaR4JSqbvka9Zw4qrZpRkFGHRW1MWbr5s3UugAPi_Ms_y68jC6dicYsMN4XdXvpXq6WzmwZnQk3ef9L7ehAcXWE0_L2nE9Qt8A__CwURMJpfXijTCBUgQKgsL23-6XV4kFXiqPewD5n9vTXHLYTt7pmSfQLgDCA8uUzOo=w640-h426" alt=""></a></p>
+<p>I love seeing the Boston Dynamics Spot cameo in unexpected places. Over here, Chip is used for QC purposes.</p>
+<p>I recently attended a livestream event from Intel Foundry (think Intel&rsquo;s hardware R&amp;D + Manufacturing wing which partners with other companies and manufactures processors), and as someone who spends a good chunk of time buried in low-level systems – delving into OSes and how compilers really work – this was pretty fascinating stuff. Seeing how the foundational layer of computing, the actual silicon manufacturing, is evolving felt directly relevant to the software I tinker with: even though I know very little in this hardware domain.</p>
+<p><a href="/images/AVvXsEgHiaTmY9pkfZeNKlQdNdpPkBTCXFr3DHU3n3a0JutABNu4rBQ1dUzNQfxC4401vqquVI-04jWFmw33DDrZgn09a4ZAvirjungTHgJnsN7Z9MvZexxYGCbWOoimrdrY95XYyMxhFxA-DsKo_AOl9faUaG5eij4sDyj4EQGO3UTl5QNW7hiSBqfu3XQodUk"><img src="/images/AVvXsEgHiaTmY9pkfZeNKlQdNdpPkBTCXFr3DHU3n3a0JutABNu4rBQ1dUzNQfxC4401vqquVI-04jWFmw33DDrZgn09a4ZAvirjungTHgJnsN7Z9MvZexxYGCbWOoimrdrY95XYyMxhFxA-DsKo_AOl9faUaG5eij4sDyj4EQGO3UTl5QNW7hiSBqfu3XQodUk=w640-h360" alt=""></a></p>
+<p>A big part of the discussion was their <strong>process technology roadmap</strong>. From my perspective, understanding this is key because it dictates the fundamental capabilities that operating systems and compilers have to work with. This roadmap is basically their plan for creating the next generations of silicon chips with smaller, more efficient components. They gave updates on their <strong>Intel 18A</strong> process – that&rsquo;s the name for a specific, very advanced manufacturing node they&rsquo;ve been working on, and it&rsquo;s now in something called &ldquo;risk production,&rdquo; which means they&rsquo;re getting pretty close to being ready for high-volume manufacturing. They also introduced the next step after that, which they&rsquo;re calling <strong>Intel 14A</strong>. One cool detail about 14A is that it will use <strong>PowerDirect contact power delivery</strong>, a new way to get power to the tiny parts of the chip more effectively. This kind of innovation at the transistor level has ripple effects up the software stack, influencing power management features in the OS. They also touched on variations of their processes, like 18A-P and 18A-PT, and their ongoing work on nodes like the <strong>12nm and 16nm</strong> generations (through this paragraph, A=Armstrong and nm = nanometer, defining how close transistors are stacked to each other, thus defining throughput and raw compute).</p>
+<p><a href="/images/AVvXsEi7c6gNA09jTPT-Ug83N_we3Fvz7E18liCS1Qk_nE77sTAXKkQgV7mjK2XQnuEb4ZBRxPkcI77fLS4M90tnY-bDbzW5ahz3GVtY42H8CBqg8Ja-Oa75Pazm1zPk0neMi3NtzMglglO5w3q3NQJwgdJQ6rMP8WT8-jZCWFdePV8gSnUImLhXqM-vOJaEF0g"><img src="/images/AVvXsEi7c6gNA09jTPT-Ug83N_we3Fvz7E18liCS1Qk_nE77sTAXKkQgV7mjK2XQnuEb4ZBRxPkcI77fLS4M90tnY-bDbzW5ahz3GVtY42H8CBqg8Ja-Oa75Pazm1zPk0neMi3NtzMglglO5w3q3NQJwgdJQ6rMP8WT8-jZCWFdePV8gSnUImLhXqM-vOJaEF0g=w640-h360" alt=""></a></p>
+<p>They also spent a good amount of time on <strong>advanced packaging technologies</strong>. This is super interesting because it&rsquo;s all about how they connect and stack different pieces of chips together in a single package, going way beyond just sticking one chip on a board. From an OS perspective, how chips are packaged affects how the OS manages resources like memory and inter-chip communication. They talked about <strong>EMIB-T</strong>, which is a type of 2.5D packaging that links chips side-by-side within a package, and the <strong>Foveros</strong> technology, which is their method for stacking chips on top of each other in <strong>3D integration</strong>. They introduced new versions, Foveros-R and Foveros-B, offering more options for how these stacked chips are connected (<strong>interconnects</strong>). These packaging tricks are going to be essential for building the powerful chips needed for <strong>HPC</strong> and <strong>AI</strong> workloads. Understanding these hardware layouts is crucial for optimizing software performance. It looks like Panther Lake, which was mentioned alongside the 18A node as a focus for 2025, might be one of the first products to really leverage these advancements, which is exciting for low-level optimization opportunities.</p>
+<p><a href="/images/AVvXsEhmyL8rGvseHiAG-T-EJD5sYseG9nEIqTZyiUudExC6AzFsAr7_OfkU1WQEr8w0jcqojl7yLSfr9Gz2isyEduIl1v_HlyrDLZVVqy3tJif5krr45PTYTxECcqIexRNc61VnvBKuWzCR98tX7pCI9Uyuj0zpOQHwDjJNDNV8cpDYc_FtnNCdgFhSOCC4vs4"><img src="/images/AVvXsEhmyL8rGvseHiAG-T-EJD5sYseG9nEIqTZyiUudExC6AzFsAr7_OfkU1WQEr8w0jcqojl7yLSfr9Gz2isyEduIl1v_HlyrDLZVVqy3tJif5krr45PTYTxECcqIexRNc61VnvBKuWzCR98tX7pCI9Uyuj0zpOQHwDjJNDNV8cpDYc_FtnNCdgFhSOCC4vs4=w640-h480" alt=""></a></p>
+<p>It felt encouraging to see Intel talk openly about their journey and how they&rsquo;re refocusing heavily on foundational R&amp;D. For someone like me, who&rsquo;s spent time with OS internals and even a bit of BSD kernel work, seeing a major hardware vendor emphasize the fundamentals is a good sign.</p>
+<p>As I was listening to all this, it really made me think about my own Honors Thesis. I spent a lot of time digging into the performance differences between programming languages like C++ and Rust at a really low level, looking at the assembly code on x86 processors. My research specifically looked at how compiler behavior and the structure of low-level code impact real-world performance on these widely used architectures. So, to hear Intel talking about similar ideas from the hardware side pushing for platforms that are <strong>not just fast, but also efficient****and secure</strong> felt incredibly validating and showed a clear connection between the silicon and the software layers I focus on. Intel&rsquo;s emphasis on <strong>power efficiency and making performance growth sustainable</strong> resonated with me quite a bit. My thesis work definitely highlighted that squeezing more performance out of computers while using less energy requires effort on both the hardware (what Intel is doing with their process and packaging) and the software/language side (how OSes manage resources, especially in HPC and AI servers). Seeing them focus on that alignment was pretty exciting.</p>
+<p>Up until 2020, most chip manufacturers were largely considering advancements in raw performance, without much regard to the power consumption. Moving in a world where more human-computer interactions are getting relegated to cloud compute, web apps, high performance AI compute, and safeguarding a lot of sensitive data: putting raw performance as the only metric can prove to be environmentally harmful. <em><strong>Apple Silicon was the first processor which put the ratio of power to performance at the helm</strong></em>: super powerful yet sips on electricity (in fact, the new Macs can run LLMs on-device locally while charging from a phone charger). x86 chips up until this point were largely more powerful than ARM (which is what Apple Silicon is based on), but used a lot of power.</p>
+<p>Intel&rsquo;s <strong>Lunar Lake</strong> processors were among the first which bought a good power to performance ratio on the table, and <strong>Panther Lake was mentioned to be the next iteration of this chipset ready to launch later in 2025</strong>. My current laptop is a Samsung Galaxy Book4, with a Meteor Lake processor: one iteration before Lunar Lake. As someone who also has a Core i7 laptop, the difference in heat dissipation, power consumption, battery life, and performance are all evident: and positively so. It&rsquo;s especially amazing to see Intel bringing this level of efficiency to x86.</p>
+<p>However, a rather unexpected collaboration announced at this event was that with MediaTek: the mobile chip manufacturer. It will be interesting to see MediaTek manufacture the next generation of their ARM chips using these new Intel manufacturing technologies, and if that upstreams into some Intel ARM chips later on (speculation).</p>
+<p>(While all of this is happening, I hope/pray for RISC-V to gain traction)</p>
+<p>For a low-level systems person, understanding these hardware advancements is key to writing better software that can actually take advantage of them. It reinforced my interest in how everything from the lowest levels of code, through the OS and compilers, all the way down to the physical chip impacts computing. I&rsquo;m looking forward to seeing how these foundry developments play out and shape future technology!</p>
+<p>All pictures used in this post are courtesy of Intel, released either during their event or their press release.</p>
+<p>Intel&rsquo;s newsroom release: <a href="https://www.intc.com/news-events/press-releases/detail/1739/intel-foundry-gathers-customers-and-partners-outlines">link</a></p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/open-source/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Open Source</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/events/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Events</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/hardware/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Hardware</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/code/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Code</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/career/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Career</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  My New Hugo Site 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

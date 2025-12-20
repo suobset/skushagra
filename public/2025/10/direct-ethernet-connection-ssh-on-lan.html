@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Direct Ethernet Connection: SSH on a LAN | My New Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="
+Transformer Lab Server and STORMM Compilation all running on the CUDA laptop, with the Mac as a frontend (Terminal, TL frontend, and BBEdit). The two computers connect across a LAN using 1 direct Ethernet cable, and SSH.
+Quick guide for setting up a direct Ethernet link between my Mac mini and Asus gaming laptop so I can SSH into the Asus from the Mac. Both machines stay connected to WiFi for internet, but are connected to each other via a direct Ethernet cable,">
+    <meta name="generator" content="Hugo 0.153.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/2025/10/direct-ethernet-connection-ssh-on-lan.html">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/2025/10/direct-ethernet-connection-ssh-on-lan.html">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="Direct Ethernet Connection: SSH on a LAN">
+  <meta property="og:description" content="Transformer Lab Server and STORMM Compilation all running on the CUDA laptop, with the Mac as a frontend (Terminal, TL frontend, and BBEdit). The two computers connect across a LAN using 1 direct Ethernet cable, and SSH.
+Quick guide for setting up a direct Ethernet link between my Mac mini and Asus gaming laptop so I can SSH into the Asus from the Mac. Both machines stay connected to WiFi for internet, but are connected to each other via a direct Ethernet cable,">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-10-18T23:17:00+00:00">
+    <meta property="article:modified_time" content="2025-10-18T23:17:00+00:00">
+    <meta property="article:tag" content="Code">
+    <meta property="article:tag" content="Hardware">
+    <meta property="article:tag" content="Open Source">
+    <meta property="article:tag" content="Software">
+    <meta property="article:tag" content="Systems">
+
+  <meta itemprop="name" content="Direct Ethernet Connection: SSH on a LAN">
+  <meta itemprop="description" content="Transformer Lab Server and STORMM Compilation all running on the CUDA laptop, with the Mac as a frontend (Terminal, TL frontend, and BBEdit). The two computers connect across a LAN using 1 direct Ethernet cable, and SSH.
+Quick guide for setting up a direct Ethernet link between my Mac mini and Asus gaming laptop so I can SSH into the Asus from the Mac. Both machines stay connected to WiFi for internet, but are connected to each other via a direct Ethernet cable,">
+  <meta itemprop="datePublished" content="2025-10-18T23:17:00+00:00">
+  <meta itemprop="dateModified" content="2025-10-18T23:17:00+00:00">
+  <meta itemprop="wordCount" content="916">
+  <meta itemprop="keywords" content="Code,Hardware,Open Source,Software,Systems">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Direct Ethernet Connection: SSH on a LAN">
+  <meta name="twitter:description" content="Transformer Lab Server and STORMM Compilation all running on the CUDA laptop, with the Mac as a frontend (Terminal, TL frontend, and BBEdit). The two computers connect across a LAN using 1 direct Ethernet cable, and SSH.
+Quick guide for setting up a direct Ethernet link between my Mac mini and Asus gaming laptop so I can SSH into the Asus from the Mac. Both machines stay connected to WiFi for internet, but are connected to each other via a direct Ethernet cable,">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        My New Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Direct Ethernet Connection: SSH on a LAN</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-10-18T23:17:00Z">October 18, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><p><a href="/images/Screenshot%202025-10-18%20at%2019.45.55.png"><img src="/images/Screenshot%202025-10-18%20at%2019.45.55.png" alt="Image"></a></p>
+<p>Transformer Lab Server and STORMM Compilation all running on the CUDA laptop, with the Mac as a frontend (Terminal, TL frontend, and BBEdit). The two computers connect across a LAN using 1 direct Ethernet cable, and SSH.</p>
+<p>Quick guide for setting up a direct Ethernet link between my Mac mini and Asus gaming laptop so I can SSH into the Asus from the Mac. Both machines stay connected to WiFi for internet, but are connected to each other via a direct Ethernet cable,</p>
+<p>This is a fairly straightforward method to set up a local SSH server (Asus, in this case), and a client (Mac). It&rsquo;s mores here for my own personal referral in the future, and skips over a lot of security measures you would take to set up a SSH machine out on the open Internet.</p>
+<h2 id="why">Why?</h2>
+<p>When I&rsquo;m working remotely and RDP and/or SSH into the Mac mini, I can then SSH from there into my Asus without needing to lug the heavy laptop around. Also since all of the Nvidia work I do is via a CLI, a KVM switch for the desk and/or setting up 2 RDPs is overkill. Lastly, I love <a href="https://www.barebones.com/products/bbedit/">BBEdit</a> and its <a href="https://www.barebones.com/products/bbedit/benefitsintegrate.html#worksheet">Shell Worksheets</a>, and want to retain that workflow for my Linux needs too.</p>
+<p>The Mac has <a href="https://parsec.app">Parsec</a> set up for Remote Access when I am away from my desk. This allows me to access even my GPU machine through the same channels.</p>
+<p>Lastly, the main reason to even do all of this in the first place is to be able to train local AI models (LLMs) using <a href="https://lab.cloud">Transformer Lab</a> Server on the 5060, as well as contribute to <a href="https://stormm.psivant.com">STORMM</a> and do all funky sorts of GPU &amp; AI programming, all while keeping only one point of entry to manage everything logistically: the Mac.</p>
+<p><a href="/images/Scrn1.jpeg"><img src="/images/Scrn1.jpeg" alt="Image"></a></p>
+<p>Pretty neat!</p>
+<h2 id="setup">Setup</h2>
+<h3 id="on-the-asus-ubuntu">On the Asus (Ubuntu)</h3>
+<p><strong>1. Find your Ethernet interface name:</strong></p>
+<pre tabindex="0"><code>`ip link show`
+</code></pre><p>Output looks like this:</p>
+<pre tabindex="0"><code>`1: lo: &lt;LOOPBACK,UP,LOWER_UP&gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: enp109s0: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether bc:fc:e7:e4:2c:d2 brd ff:ff:ff:ff:ff:ff
+    altname enxbcfce7e42cd2
+4: wlp108s0: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500 qdisc noqueue state UP mode DORMANT group default qlen 1000
+    link/ether 4c:23:38:59:4f:4b brd ff:ff:ff:ff:ff:ff
+    altname wlx4c2338594f4b`
+</code></pre><p>Look for the interface that&rsquo;s NOT <code>lo</code> (loopback) and NOT the WiFi one (usually starts with <code>wl</code>). Mine is <code>enp109s0</code> - that&rsquo;s the Ethernet port. Yours might be different like <code>eth0</code>, <code>eno1</code>, etc.</p>
+<p><strong>2. Edit the netplan config:</strong></p>
+<pre tabindex="0"><code>`sudo vim /etc/netplan/01-network-manager-all.yaml`
+</code></pre><p><strong>3. Add this at the end (replace <code>enp109s0</code> with your interface name):</strong></p>
+<pre tabindex="0"><code>`network:
+  version: 2
+  ethernets:
+    enp109s0: # Make sure this is your ethernet interface
+      addresses:
+        - 192.168.100.2/24 # Arbitrary as long as in private IP range
+      dhcp4: no`
+</code></pre><p>Leave everything else in the file as-is. Your WiFi config stays untouched.</p>
+<p><strong>4. Apply the changes:</strong></p>
+<pre tabindex="0"><code>`sudo netplan apply`
+</code></pre><p><strong>5. Verify it worked:</strong></p>
+<pre tabindex="0"><code>`ip addr show enp109s0`
+</code></pre><p>You should see output like this:</p>
+<pre tabindex="0"><code>`2: enp109s0: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether bc:fc:e7:e4:2c:d2 brd ff:ff:ff:ff:ff:ff
+    altname enxbcfce7e42cd2
+    inet 192.168.100.2/24 brd 192.168.100.255 scope global noprefixroute enp109s0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::befc:e7ff:fee4:2cd2/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever`
+</code></pre><p>The key line is <code>inet 192.168.100.2/24</code> - that&rsquo;s your static IP address on the Ethernet interface.</p>
+<p><a href="/images/AVvXsEjWl7U99737foFyJracxkDIQPTw2ltt0rqvpbHGDSq-tB6KfFms_BGvr7agMD3TpaWocqkAhlL-SrEIJjKucHjgHkhqAM-zZT79GxR1OdyDpssbIM18ku7tRqKCn_okI7kSU51LgpmA9pLaz3uOrf2HoRdggfQX26BqOBjzYr7HBQPSiTPbQq4xDIMHf5U"><img src="/images/AVvXsEjWl7U99737foFyJracxkDIQPTw2ltt0rqvpbHGDSq-tB6KfFms_BGvr7agMD3TpaWocqkAhlL-SrEIJjKucHjgHkhqAM-zZT79GxR1OdyDpssbIM18ku7tRqKCn_okI7kSU51LgpmA9pLaz3uOrf2HoRdggfQX26BqOBjzYr7HBQPSiTPbQq4xDIMHf5U=w640-h130" alt=""></a></p>
+<p><strong>6. Install and enable SSH server:</strong></p>
+<pre tabindex="0"><code>`sudo apt update
+sudo apt install openssh-server
+sudo systemctl start ssh
+sudo systemctl enable ssh`
+</code></pre><p><strong>7. Check it&rsquo;s running:</strong></p>
+<pre tabindex="0"><code>`sudo systemctl status ssh`
+</code></pre><p>Should see something like:</p>
+<pre tabindex="0"><code>`● ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+     Active: active (running) since ...`
+</code></pre><p>Look for &ldquo;active (running)&rdquo; in green - that means SSH is up and ready.</p>
+<p><a href="/images/Screenshot%202025-10-18%20at%2019.12.04.png"><img src="/images/Screenshot%202025-10-18%20at%2019.12.04.png" alt="Image"></a></p>
+<h3 id="on-the-mac-mini">On the Mac mini</h3>
+<ol>
+<li>
+<p>Open <strong>System Settings → Network</strong></p>
+</li>
+<li>
+<p>Click on your <strong>Ethernet</strong> adapter</p>
+</li>
+<li>
+<p>Click <strong>Details</strong></p>
+</li>
+<li>
+<p>Under <strong>TCP/IP</strong> tab:</p>
+</li>
+<li>
+<p>Configure IPv4: <strong>Manually</strong></p>
+</li>
+<li>
+<p>IP Address: <code>192.168.100.1</code></p>
+</li>
+<li>
+<p>Subnet Mask: <code>255.255.255.0</code></p>
+</li>
+<li>
+<p>Router: <em>leave blank</em></p>
+</li>
+<li>
+<p>DNS: <em>leave blank</em></p>
+</li>
+<li>
+<p>Click <strong>OK</strong>, then **Apply **<em>[Footnote 1 for settings]</em></p>
+</li>
+</ol>
+<h3><a href="/images/AVvXsEhGFkjDYcvPBFcTabq93B5OLAGc4Zucbvg7TgSkqPJNt9U_RYCgKzhFCsEkrNZZqGbMiQ7IoGimBweS2OPJbDiWjH7liQUttGGdxgUpbQLbqEXaz762sZsfA0O1Hyfx5sco4lDWK1q_6T-2JOulx1NLXCjUea41YyEYR3GXTAk-QGI9206eHVttpUfIIBo"><img src="/images/AVvXsEhGFkjDYcvPBFcTabq93B5OLAGc4Zucbvg7TgSkqPJNt9U_RYCgKzhFCsEkrNZZqGbMiQ7IoGimBweS2OPJbDiWjH7liQUttGGdxgUpbQLbqEXaz762sZsfA0O1Hyfx5sco4lDWK1q_6T-2JOulx1NLXCjUea41YyEYR3GXTAk-QGI9206eHVttpUfIIBo=w640-h565" alt=""></a></h3>
+<h3 id="test-it">Test it</h3>
+<p>From the Mac mini:</p>
+<pre tabindex="0"><code>`ping 192.168.100.2`
+</code></pre><p>Should get responses like:</p>
+<p><a href="/images/AVvXsEjmanysmhy0IGXhI25kBOJyrYmyJhp8n-1ytg2WxtJ6Ul-aDmUNNTaGm9ULIWLpqgeJk8zFki3HP3_Wp2c5OA_Wip2tCZpg96LqLZzVmuqyAB-0e0fceU-7fZnLeYVNMCGvc4Uu5r9TNn3LCaU9y1RER3v6Vv7BT7Gumh9EcL-NZoE57NQQy6JEGINaGMY"><img src="/images/AVvXsEjmanysmhy0IGXhI25kBOJyrYmyJhp8n-1ytg2WxtJ6Ul-aDmUNNTaGm9ULIWLpqgeJk8zFki3HP3_Wp2c5OA_Wip2tCZpg96LqLZzVmuqyAB-0e0fceU-7fZnLeYVNMCGvc4Uu5r9TNn3LCaU9y1RER3v6Vv7BT7Gumh9EcL-NZoE57NQQy6JEGINaGMY=w640-h232" alt=""></a></p>
+<p>Then try SSH:</p>
+<pre tabindex="0"><code>`ssh suobset@192.168.100.2`
+</code></pre><p>First time you&rsquo;ll get a prompt about authenticity of the host - type <code>yes</code>. Then enter your password and you&rsquo;re in!</p>
+<p>Should work! Both machines still use WiFi for internet, the Ethernet is just for the direct link.</p>
+<h2 id="reversingremoving-the-setup">Reversing/Removing the Setup</h2>
+<h3 id="on-the-asus">On the Asus</h3>
+<p><strong>1. Edit the netplan file again:</strong></p>
+<pre tabindex="0"><code>`sudo nano /etc/netplan/01-network-manager-all.yaml`
+</code></pre><p><strong>2. Remove the entire <code>ethernets</code> section</strong> you added (the enp109s0 block) (also in my case, this is the only block, so can just remove it entirely)</p>
+<p><strong>3. Apply:</strong></p>
+<pre tabindex="0"><code>`sudo netplan apply`
+</code></pre><p><strong>4. If you want to disable SSH server:</strong></p>
+<pre tabindex="0"><code>`sudo systemctl stop ssh
+sudo systemctl disable ssh`
+</code></pre><h3 id="on-the-mac-mini-1">On the Mac mini</h3>
+<ol>
+<li>Go to <strong>System Settings → Network</strong></li>
+<li>Select the <strong>Ethernet</strong> adapter</li>
+<li>Click <strong>Details</strong></li>
+<li>Change Configure IPv4 back to <strong>Using DHCP</strong></li>
+<li>Click <strong>OK</strong> and <strong>Apply</strong></li>
+</ol>
+<p>That&rsquo;s it - everything should be back to normal!</p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>The IP addresses (192.168.100.1 and .2) are arbitrary - you can pick any private IP range that doesn&rsquo;t conflict with your WiFi network. Just make sure both devices are on the same subnet.</li>
+<li>You might not need a crossover cable - most modern Ethernet ports auto-detect (Auto-MDIX). Regular cable works fine for me.</li>
+<li>If SSH keeps refusing connections, check the firewall: <code>sudo ufw status</code> and allow port 22 if needed: <code>sudo ufw allow 22/tcp</code></li>
+<li>When you SSH in, all your internet traffic (apt updates, downloads, etc.) goes through WiFi automatically. The Ethernet is just for the Mac ↔ Asus connection</li>
+</ul>
+<h2 id="footnotes">Footnotes</h2>
+<ol>
+<li></li>
+</ol>
+<p><a href="/images/Screenshot%202025-10-18%20at%2019.13.43.png"><img src="/images/Screenshot%202025-10-18%20at%2019.13.43.png" alt="Image"></a></p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/code/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Code</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/hardware/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Hardware</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/open-source/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Open Source</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/software/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Software</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/systems/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Systems</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  My New Hugo Site 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

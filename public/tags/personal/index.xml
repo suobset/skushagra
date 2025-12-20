@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/personal/</link>
+    <description>Recent content in Personal on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Dec 2025 21:43:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Macintosh</title>
+      <link>http://localhost:1313/2025/12/the-macintosh-powerbook-g3.html</link>
+      <pubDate>Wed, 03 Dec 2025 21:43:00 +0000</pubDate>
+      <guid>http://localhost:1313/2025/12/the-macintosh-powerbook-g3.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/AVvXsEgixSQC12K_8g6Iuy7DGX_UJO2WAzhXJyo46J5n-joYbIYM2HfXMBfBFa8EaBeDc10Rw2MeN46AgJfxUfz-z7PlySy_kvNQrsM9fEbrahEdmRjxd7JOp3ubsnVBkbCyvDcy5VDPLHTd4LFQ4-yRgisdLAsiz4rFEP-Xc6ZxBArXPQ5GzxoakXBTcpeE3LI&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/AVvXsEgixSQC12K_8g6Iuy7DGX_UJO2WAzhXJyo46J5n-joYbIYM2HfXMBfBFa8EaBeDc10Rw2MeN46AgJfxUfz-z7PlySy_kvNQrsM9fEbrahEdmRjxd7JOp3ubsnVBkbCyvDcy5VDPLHTd4LFQ4-yRgisdLAsiz4rFEP-Xc6ZxBArXPQ5GzxoakXBTcpeE3LI=w640-h480&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I love the Macintosh. A lot.&lt;/p&gt;&#xA;&lt;p&gt;Even though I wasn&amp;rsquo;t really exposed to these computers until 2015 when my dad bought a MacBook Air, my appreciation for them runs deep. It&amp;rsquo;s why in middle school I rocked a 5th generation iPod nano - the only Apple product I could really afford at the time beg for as a birthday gift.&lt;/p&gt;&#xA;&lt;p&gt;My path to computing started elsewhere, though. &lt;a href=&#34;https://www.skushagra.com/2024/02/career-optimism-history.html&#34;&gt;My first computer was a netbook running Windows XP - half a gig of RAM, 64GB storage, and an Intel Atom processor&lt;/a&gt;. That netbook became my introduction to Linux, Bash scripting, and the command line - not by choice, but by necessity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mini side project: Automator (and views on async LLMs)</title>
+      <link>http://localhost:1313/2025/06/mini-side-project-automator-and-views.html</link>
+      <pubDate>Fri, 20 Jun 2025 03:36:00 +0000</pubDate>
+      <guid>http://localhost:1313/2025/06/mini-side-project-automator-and-views.html</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/images/AVvXsEiUmrosaX5IJfo0y-jKBR6Rdo5F6UuvKgVOUW3ziKpnwdqv6HRsazSE9EgdEO-W4QB5sSOtVLdu9Ymh8G42m0IUw3cGWeGxvK6N_Fhg8oy0DeSHI0GxN0iKfD8KjFJVcQEsQnQtUCpE-k6Dt4sqEvgyRiT4rkJe6HRhrkNh5G-yOO-_iEt7k1gvfU26PZ4&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/AVvXsEiUmrosaX5IJfo0y-jKBR6Rdo5F6UuvKgVOUW3ziKpnwdqv6HRsazSE9EgdEO-W4QB5sSOtVLdu9Ymh8G42m0IUw3cGWeGxvK6N_Fhg8oy0DeSHI0GxN0iKfD8KjFJVcQEsQnQtUCpE-k6Dt4sqEvgyRiT4rkJe6HRhrkNh5G-yOO-_iEt7k1gvfU26PZ4=w640-h480&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;**&#xA;**&lt;/p&gt;&#xA;&lt;h2 id=&#34;check-out-the-github-repository-where-the-project-is-better-contained-&#34;&gt;**Check out the &lt;a href=&#34;https://github.com/suobset/automator&#34;&gt;GitHub repository&lt;/a&gt;, where the project is better contained. **&lt;/h2&gt;&#xA;&lt;h3 id=&#34;this-is-just-to-serve-as-an-intro-to-the-project--some-thoughts&#34;&gt;&lt;strong&gt;This is just to serve as an intro to the project + some thoughts.&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;I&amp;rsquo;m excited to share &lt;strong&gt;Automator&lt;/strong&gt;, an open-source Android app that transforms natural language commands into actions. It leverages the power of Google&amp;rsquo;s Gemini LLM to understand your intentions and translate them into executable YAML scripts. The app&amp;rsquo;s &amp;ldquo;Actor&amp;rdquo; component then uses Android&amp;rsquo;s Accessibility Service to perform these actions, offering a hands-free way to control your phone.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hard Pivot</title>
+      <link>http://localhost:1313/2025/04/hard-pivot.html</link>
+      <pubDate>Sat, 26 Apr 2025 18:49:00 +0000</pubDate>
+      <guid>http://localhost:1313/2025/04/hard-pivot.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/53986434946_0784dd27b5_o.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/53986434946_0784dd27b5_o.jpg&#34; alt=&#34;Image&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I am revamping the website under this domain for the fourth time in its lifespan since 2017. The website naturally goes over an update every 3-ish years, but I have my reasons to pivot it solely to a blog, and not necessarily into a portfolio + blog as it was before.&lt;/p&gt;&#xA;&lt;p&gt;Posts before this specific posts have been ported from the previous instance, but run the risk of having broken links and outdated info. They should be taken for what they are: archives. Moving forward, the focus of this blog is going to be more on my career, and hobbies (programming, photography, music, art). There&amp;rsquo;s a specific reason for this:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Basic Mac Setup</title>
+      <link>http://localhost:1313/2024/12/basic-mac-setup.html</link>
+      <pubDate>Mon, 09 Dec 2024 22:32:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/12/basic-mac-setup.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/1.png&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/1.png&#34; alt=&#34;Image&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I recently needed a Virtual Machine to containerize some work. Initially, I was on a Debian VM. However, as much as I love Linux, I ran into a couple of issues there:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;I use Chrome’s sync features, and there is no chrome on ARM Linux (even though there is Chromium).&lt;/li&gt;&#xA;&lt;li&gt;For 90% of my use cases, I rely on FLOSS software. However, while I identify with the OSS ideology, I do not necessarily agree with the hardcore “Open Source or Nothing”. Truthfully, there are tons of amazing software that I require, which do not have an Open Source component at all: because building something like that can become muddled in a community driven aspect. While I alig with the GPL and MIT licenses, I align harder with “use what gets your job done”.&lt;/li&gt;&#xA;&lt;li&gt;I talked about the Mac and it’s &lt;a href=&#34;http://localhost:1313/blog/on-macos-and-libre-software&#34;&gt;prevalence in OSS software&lt;/a&gt; early this year. Since then, I have had my Microsoft Surface (running Ubuntu) fail spectacularly on me, and I have completely jumped ship to a MacBook on the laptop front. On the desktop front, I am still hardcore Linux, and I do not see this changing anytime soon, if ever (this is after macOS has become my primary in desktop computing: there’s just so much that Linux helps me get done as well, and again, I am on that “use what gets the job done” bandwagon).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;So, what does this mean for this project? Truthfully, while Linux is still instrumental to a lot of my computational workflows and I will possibly forever require at least one of my computers to run it forever, the scope of Linux resides in the more advanced stuff. While macOS is UNIX based and lets me do most of the Linux things, I find some more of the advanced things to be well executed on Linux only.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creativity is the Ultimate Form of Expression</title>
+      <link>http://localhost:1313/2024/11/creativity-is-ultimate-form-of.html</link>
+      <pubDate>Tue, 11 Jun 2024 16:05:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/11/creativity-is-ultimate-form-of.html</guid>
+      <description>&lt;p&gt;Go out and create something. Put time and effort into it. Sometimes, you may find yourself to be in a rut that is difficult to come out of. But, do create something and put your soul and effort into it.&lt;/p&gt;&#xA;&lt;p&gt;We are finally in a weird late stage capitialism point wherein we have successfully monetized everything, on a rolling basis. Mediocre products are sold at exorbitant pricing, and even our sanity and emotions are being taken away from us. Social media has monetized being famous, and gives an equal voice to everyone regardless of their qualifications or backgrounds. Your value is only based on ephemeral metrics and numbers, and the joy of creating has become transformed into a dread of meeting deadlines that fulfill sponsorship contracts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Side Projects and Life Updates</title>
+      <link>http://localhost:1313/2024/04/side-projects-and-life-updates.html</link>
+      <pubDate>Tue, 23 Apr 2024 01:03:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/04/side-projects-and-life-updates.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/5banner.png&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/5banner.png&#34; alt=&#34;Image&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;side-projects&#34;&gt;Side Projects&lt;/h2&gt;&#xA;&lt;p&gt;Ad my own thesis wraps up and I get a bit more time to pursue other avenues, I am trying to get into more side projects as well as start some of my own again. I felt that there needed to be a fine balance between my actual academic work, side projects, and other hobbies altogether (like photography) so that I do not burn myself out doing one thing only.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Metamorphosis</title>
+      <link>http://localhost:1313/2024/03/metamorphosis.html</link>
+      <pubDate>Mon, 11 Mar 2024 00:42:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/03/metamorphosis.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/newsletter4fin.png&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/newsletter4fin.png&#34; alt=&#34;Image&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Slightly late blog update this week, owing mainly to the amounts of midterms and the thesis progress that had to be made last week. However, we are back and kicking: and I hope that I will be able to keep this momentum up next week as well. In today’s newsletter, I would love to highlight some fun code I wrote for my Honors Thesis last semester.&lt;/p&gt;&#xA;&lt;p&gt;The banner for this newsletter was taken on my trip to Washington D.C. Fall 2023, during the U.S. Census Department’s Justice Week Event. I was one of the 6 people who worked on &lt;a href=&#34;https://suobset.github.io/assert&#34;&gt;ASSERT&lt;/a&gt;, a GIS Web-App that directs emergency responders (like Eversource, National Grid) to counties that are more vulnerable to energy inequity. A lot of data processing and web development later, we were able to successfully demo our product, which earnwed us a spot on the Census Department’s &lt;a href=&#34;https://opportunity.census.gov/showcase/?year=2023&amp;amp;partner-agency=Department+of+Energy&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

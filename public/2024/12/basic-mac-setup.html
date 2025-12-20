@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Basic Mac Setup | My New Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="
+
+
+I recently needed a Virtual Machine to containerize some work. Initially, I was on a Debian VM. However, as much as I love Linux, I ran into a couple of issues there:
+
+I use Chrome’s sync features, and there is no chrome on ARM Linux (even though there is Chromium).
+For 90% of my use cases, I rely on FLOSS software. However, while I identify with the OSS ideology, I do not necessarily agree with the hardcore “Open Source or Nothing”. Truthfully, there are tons of amazing software that I require, which do not have an Open Source component at all: because building something like that can become muddled in a community driven aspect. While I alig with the GPL and MIT licenses, I align harder with “use what gets your job done”.
+I talked about the Mac and it’s prevalence in OSS software early this year. Since then, I have had my Microsoft Surface (running Ubuntu) fail spectacularly on me, and I have completely jumped ship to a MacBook on the laptop front. On the desktop front, I am still hardcore Linux, and I do not see this changing anytime soon, if ever (this is after macOS has become my primary in desktop computing: there’s just so much that Linux helps me get done as well, and again, I am on that “use what gets the job done” bandwagon).
+
+So, what does this mean for this project? Truthfully, while Linux is still instrumental to a lot of my computational workflows and I will possibly forever require at least one of my computers to run it forever, the scope of Linux resides in the more advanced stuff. While macOS is UNIX based and lets me do most of the Linux things, I find some more of the advanced things to be well executed on Linux only.">
+    <meta name="generator" content="Hugo 0.153.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/2024/12/basic-mac-setup.html">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/2024/12/basic-mac-setup.html">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="Basic Mac Setup">
+  <meta property="og:description" content="I recently needed a Virtual Machine to containerize some work. Initially, I was on a Debian VM. However, as much as I love Linux, I ran into a couple of issues there:
+I use Chrome’s sync features, and there is no chrome on ARM Linux (even though there is Chromium). For 90% of my use cases, I rely on FLOSS software. However, while I identify with the OSS ideology, I do not necessarily agree with the hardcore “Open Source or Nothing”. Truthfully, there are tons of amazing software that I require, which do not have an Open Source component at all: because building something like that can become muddled in a community driven aspect. While I alig with the GPL and MIT licenses, I align harder with “use what gets your job done”. I talked about the Mac and it’s prevalence in OSS software early this year. Since then, I have had my Microsoft Surface (running Ubuntu) fail spectacularly on me, and I have completely jumped ship to a MacBook on the laptop front. On the desktop front, I am still hardcore Linux, and I do not see this changing anytime soon, if ever (this is after macOS has become my primary in desktop computing: there’s just so much that Linux helps me get done as well, and again, I am on that “use what gets the job done” bandwagon). So, what does this mean for this project? Truthfully, while Linux is still instrumental to a lot of my computational workflows and I will possibly forever require at least one of my computers to run it forever, the scope of Linux resides in the more advanced stuff. While macOS is UNIX based and lets me do most of the Linux things, I find some more of the advanced things to be well executed on Linux only.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-09T22:32:00+00:00">
+    <meta property="article:modified_time" content="2024-12-09T22:32:00+00:00">
+    <meta property="article:tag" content="Personal">
+    <meta property="article:tag" content="Software">
+
+  <meta itemprop="name" content="Basic Mac Setup">
+  <meta itemprop="description" content="I recently needed a Virtual Machine to containerize some work. Initially, I was on a Debian VM. However, as much as I love Linux, I ran into a couple of issues there:
+I use Chrome’s sync features, and there is no chrome on ARM Linux (even though there is Chromium). For 90% of my use cases, I rely on FLOSS software. However, while I identify with the OSS ideology, I do not necessarily agree with the hardcore “Open Source or Nothing”. Truthfully, there are tons of amazing software that I require, which do not have an Open Source component at all: because building something like that can become muddled in a community driven aspect. While I alig with the GPL and MIT licenses, I align harder with “use what gets your job done”. I talked about the Mac and it’s prevalence in OSS software early this year. Since then, I have had my Microsoft Surface (running Ubuntu) fail spectacularly on me, and I have completely jumped ship to a MacBook on the laptop front. On the desktop front, I am still hardcore Linux, and I do not see this changing anytime soon, if ever (this is after macOS has become my primary in desktop computing: there’s just so much that Linux helps me get done as well, and again, I am on that “use what gets the job done” bandwagon). So, what does this mean for this project? Truthfully, while Linux is still instrumental to a lot of my computational workflows and I will possibly forever require at least one of my computers to run it forever, the scope of Linux resides in the more advanced stuff. While macOS is UNIX based and lets me do most of the Linux things, I find some more of the advanced things to be well executed on Linux only.">
+  <meta itemprop="datePublished" content="2024-12-09T22:32:00+00:00">
+  <meta itemprop="dateModified" content="2024-12-09T22:32:00+00:00">
+  <meta itemprop="wordCount" content="1309">
+  <meta itemprop="keywords" content="Personal,Software">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Basic Mac Setup">
+  <meta name="twitter:description" content="I recently needed a Virtual Machine to containerize some work. Initially, I was on a Debian VM. However, as much as I love Linux, I ran into a couple of issues there:
+I use Chrome’s sync features, and there is no chrome on ARM Linux (even though there is Chromium). For 90% of my use cases, I rely on FLOSS software. However, while I identify with the OSS ideology, I do not necessarily agree with the hardcore “Open Source or Nothing”. Truthfully, there are tons of amazing software that I require, which do not have an Open Source component at all: because building something like that can become muddled in a community driven aspect. While I alig with the GPL and MIT licenses, I align harder with “use what gets your job done”. I talked about the Mac and it’s prevalence in OSS software early this year. Since then, I have had my Microsoft Surface (running Ubuntu) fail spectacularly on me, and I have completely jumped ship to a MacBook on the laptop front. On the desktop front, I am still hardcore Linux, and I do not see this changing anytime soon, if ever (this is after macOS has become my primary in desktop computing: there’s just so much that Linux helps me get done as well, and again, I am on that “use what gets the job done” bandwagon). So, what does this mean for this project? Truthfully, while Linux is still instrumental to a lot of my computational workflows and I will possibly forever require at least one of my computers to run it forever, the scope of Linux resides in the more advanced stuff. While macOS is UNIX based and lets me do most of the Linux things, I find some more of the advanced things to be well executed on Linux only.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        My New Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Basic Mac Setup</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-12-09T22:32:00Z">December 9, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><p><a href="/images/1.png"><img src="/images/1.png" alt="Image"></a></p>
+<blockquote>
+</blockquote>
+<p>I recently needed a Virtual Machine to containerize some work. Initially, I was on a Debian VM. However, as much as I love Linux, I ran into a couple of issues there:</p>
+<ol>
+<li>I use Chrome’s sync features, and there is no chrome on ARM Linux (even though there is Chromium).</li>
+<li>For 90% of my use cases, I rely on FLOSS software. However, while I identify with the OSS ideology, I do not necessarily agree with the hardcore “Open Source or Nothing”. Truthfully, there are tons of amazing software that I require, which do not have an Open Source component at all: because building something like that can become muddled in a community driven aspect. While I alig with the GPL and MIT licenses, I align harder with “use what gets your job done”.</li>
+<li>I talked about the Mac and it’s <a href="/blog/on-macos-and-libre-software">prevalence in OSS software</a> early this year. Since then, I have had my Microsoft Surface (running Ubuntu) fail spectacularly on me, and I have completely jumped ship to a MacBook on the laptop front. On the desktop front, I am still hardcore Linux, and I do not see this changing anytime soon, if ever (this is after macOS has become my primary in desktop computing: there’s just so much that Linux helps me get done as well, and again, I am on that “use what gets the job done” bandwagon).</li>
+</ol>
+<p>So, what does this mean for this project? Truthfully, while Linux is still instrumental to a lot of my computational workflows and I will possibly forever require at least one of my computers to run it forever, the scope of Linux resides in the more advanced stuff. While macOS is UNIX based and lets me do most of the Linux things, I find some more of the advanced things to be well executed on Linux only.</p>
+<p>However, because macOS is UNIX, I can get by with it being my primary desktop OS on my laptop: the thing that comes along with me everywhere I go. Which is great, because I can have one OS run most of my Command Line Utilities, industry standard software (some that will never get released on Linux), and get a rock solid &amp; stable environment that’s hard to mess up. Most of my work happens on a Mac, and that is fine.</p>
+<h2 id="so-how-does-macos-look-for-me-when-considering-the-bare-minimum">So, how does macOS look for me, when considering the bare minimum</h2>
+<p>Honestly, pretty amazing.</p>
+<p><a href="/images/0.png"><img src="/images/0.png" alt="Image"></a></p>
+<p>If I were to be stranded on an island and have only one option for an Operating System and a collection of bare minimum software to go with it, this would be it. Everything you see on this desktop, is all there is to this setup: 95% of which is just default out-of-the-box Mac.</p>
+<h3 id="the-eyesore-screenshot-utility-in-dock">The eyesore: Screenshot utility in Dock.</h3>
+<p>Simply put, the screenshot combo (and most keyboard shortcuts) will invoke the host OS, and not the guest VM, unless I lock the cursor. Locking the cursor is an additional headache that breaks the continuous flow between the host and the guest.</p>
+<p>Thus, an icon to the utility lives on the dock, for when I want to take screenshots and save it in the context of the VM, not the host OS.</p>
+<h3 id="goodbye-launchpad">Goodbye, Launchpad</h3>
+<p>I never got the appeal of the Launchpad. To me, it was one of those trickle down features of iOS, bought to the Mac only to make it more familiar to the masses.</p>
+<p>I mean, iOS is Apple’s largest OS. There are people who go their entire lives into the iOS ecosystem (including iPadOS, and more frequently, watchOS), without ever needing to touch macOS. It makes complete sense why Apple made Launchpad.</p>
+<p>I also do not use any of Apple’s pre-loaded stuff too much: especially in a barebones setting. So all of them get removed from the dock.</p>
+<p>To me, Launchpad is trying to bring a touchscreen first OS into a pointer based environment. I much rather prefer removing Launchpad from the dock, and pinning the <code>Applications</code> directory into the dock. This gives a alphabetical list of everything installed on your OS, in a nicer and more compact manner.</p>
+<p><a href="/images/3.png"><img src="/images/3.png" alt="Image"></a></p>
+<p>Something to note: most of these applications are Apple pre-installed and I have no way of removing them. There is no workaround. WHich is why, I do not even have to visit this directory in most cases: because the list of my essential software is rather short and already pinned on the Dock.</p>
+<h3 id="list-of-everything-else">List of Everything Else</h3>
+<ol>
+<li>
+<p><a href="https://www.google.com/chrome/">Chrome</a>: I like Chromium better than WebKit, and I rely on Google’s sync features to work between Linux and Apple. Firefox exists, and I used it for the longest time ever (up until 2 months ago). I switched because Chrome feels just faster. When bare minimum is not a constraint, I have all the big 3 browsers (Safari, Chrome, Firefox).</p>
+</li>
+<li>
+<p><a href="https://www.literatureandlatte.com/scrivener/overview">Scrivener</a>: A writing software that comes with a binder and a corkboard (along with tons of other cool stuff, but these two are the biggest features I use). As a developer, my closest analogy is that this is an IDE for writing. It provides you with everything you will ever need, to write anything. Binders, corkboards, bibliographies, character trackers, Zotero connectors, export to Markdown/Docx/TeX/virtually anything, and so on. Scrivener has sped up my writing process by light years, and having to go back to a typical WYSIWYG editor (Word, Google Docs, etc.) feels like caveman stuff (especially when those only work in a linear fashion). Currently, used for writing statements for grad school and stuff (the primary reason why I needed a VM).</p>
+</li>
+<li>
+<p><a href="https://www.barebones.com/products/bbedit/">BBEdit</a>: The essential Mac code and text editor, that I have been using and praising a heck ton. I even wrote them a thank you email once, and if I am not using vim or an IDE, I am using BBEdit. It’s blazing fast, no matter the size or complexity of the file I throw at it. This website has been entirely developed on BBEdit, including this post.</p>
+</li>
+<li>
+<p><a href="https://discord.com">Discord</a>: I use it to communicate with friends and professors at UMass Amherst (important during my grad school writing a letter era, yes my professors use Discord). I also use it to put files on a single person server, like Slack does.</p>
+</li>
+<li>
+<p><a href="https://support.apple.com/guide/terminal/welcome/mac">Terminal</a>: Specifically, a UNIX terminal (so no Powershell). I mainly need it for vim, git, executing local servers &amp; jupyter notebooks, and writing bash scripts (for my barebones needs).</p>
+</li>
+<li>
+<p><a href="https://drive.google.com">Google Drive</a>: File syncing for Scrivener.</p>
+</li>
+</ol>
+<p>Chess exists on the dock for posterity reasons, and to pay homage to Mac history.</p>
+<p>With this setup, I also never need to access the Applications directory. A Mac with the above will satisfy most of my basic workflows on the go, when I only get an hour and do not want to carry an entirely separate device for the sake of the hour.</p>
+<h2 id="something-to-compare">Something to Compare?</h2>
+<p>This is what my personal macOS desktop looks like. Some things to note:</p>
+<ul>
+<li>I actually like Stage Manager. I use it in combination with full screen apps, but it works quite well.</li>
+<li>I like techno purple and liminal spaces.</li>
+<li>Vertical dock on main OSes. Most of the content we read is vertical in nature. A horizontal dock spreads the content out wider on your screen, but does not fit more content. Our content, being vertically aligned, flows the best with a vertical dock. This does not matter on the barebones setup, where I am not spending all too much time and sticking to defaults for almost all of it. The host macOS on the work computer also has stage manager + vertical dock, for the same reasons.</li>
+<li>On a 2 monitor setup, I do not use full screen apps or stage manager at all, and turn off the “Displays have separate spaces” setting. I take either my terminal or editor, place it in one corner, and stretch it across the 2 screens.</li>
+</ul>
+<p><a href="/images/2.png"><img src="/images/2.png" alt="Image"></a></p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/personal/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Personal</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/software/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Software</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  My New Hugo Site 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
