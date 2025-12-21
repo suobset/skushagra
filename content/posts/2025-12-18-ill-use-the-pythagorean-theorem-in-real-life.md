@@ -15,7 +15,7 @@ This blog post isn't so much about SaberStat the product, as much as it is about
 
 A running HTTPD server on our respective laptops would use a Python script to collect this data and put it into a fancy CSV (which I cobbled up in 25-ish minutes, outside, during Amherst winter). If you're interested in how this was done, feel free to read the [post I wrote on the earlier (now-archived) version of this website](https://suobset.github.io/archive/web_v3/docs/independent/saberstat). Kelvin's approach to log X, Y, Z data for each sensor was also incorporated in the first (alpha) version of the app, which I had in about March 2024 (though the iPhone screenshot is a dummy, and the watch app just did what Kelvin's app did but worse):
 
-[![Image](/images/SaberStat%20Alpha.png)](/images/SaberStat%20Alpha.png)
+![Image](/images/SaberStatAlpha.jpg)
 
 UX design is my passion 
 

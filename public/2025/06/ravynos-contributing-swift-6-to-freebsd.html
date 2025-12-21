@@ -1,168 +1,202 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>RavynOS: Contributing Swift 6 to FreeBSD | My New Hugo Site</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>RavynOS: Contributing Swift 6 to FreeBSD :: Declarative</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
 Mini update to mention I am officially a volunteer contributor to ravynOS, as part of a larger project to try to bring Swift to FreeBSD. This is mainly for my learning and contribution purposes, without any compensation.
+Cover Image: Boston Seaport, Winter 2024
+" />
+<meta name="keywords" content="" />
 
+  <meta name="robots" content="noodp" />
 
-Cover Image: Boston Seaport, Winter 2024">
-    <meta name="generator" content="Hugo 0.153.0">
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
-
-    
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
+<link rel="canonical" href="http://localhost:1313/2025/06/ravynos-contributing-swift-6-to-freebsd.html" />
 
 
 
 
-    
 
-
-    
-      
-
-    
-
-    
-
-    
-      <link rel="canonical" href="http://localhost:1313/2025/06/ravynos-contributing-swift-6-to-freebsd.html">
-    
-
-    
-    
-    <meta property="og:url" content="http://localhost:1313/2025/06/ravynos-contributing-swift-6-to-freebsd.html">
-  <meta property="og:site_name" content="My New Hugo Site">
-  <meta property="og:title" content="RavynOS: Contributing Swift 6 to FreeBSD">
-  <meta property="og:description" content="Mini update to mention I am officially a volunteer contributor to ravynOS, as part of a larger project to try to bring Swift to FreeBSD. This is mainly for my learning and contribution purposes, without any compensation.
-Cover Image: Boston Seaport, Winter 2024">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-06-18T02:42:00+00:00">
-    <meta property="article:modified_time" content="2025-06-18T02:42:00+00:00">
-    <meta property="article:tag" content="Career">
-    <meta property="article:tag" content="Code">
-    <meta property="article:tag" content="Open Source">
-    <meta property="article:tag" content="Software">
-    <meta property="article:tag" content="Systems">
-
-  <meta itemprop="name" content="RavynOS: Contributing Swift 6 to FreeBSD">
-  <meta itemprop="description" content="Mini update to mention I am officially a volunteer contributor to ravynOS, as part of a larger project to try to bring Swift to FreeBSD. This is mainly for my learning and contribution purposes, without any compensation.
-Cover Image: Boston Seaport, Winter 2024">
-  <meta itemprop="datePublished" content="2025-06-18T02:42:00+00:00">
-  <meta itemprop="dateModified" content="2025-06-18T02:42:00+00:00">
-  <meta itemprop="wordCount" content="43">
-  <meta itemprop="keywords" content="Career,Code,Open Source,Software,Systems">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="RavynOS: Contributing Swift 6 to FreeBSD">
-  <meta name="twitter:description" content="Mini update to mention I am officially a volunteer contributor to ravynOS, as part of a larger project to try to bring Swift to FreeBSD. This is mainly for my learning and contribution purposes, without any compensation.
-Cover Image: Boston Seaport, Winter 2024">
-
-	
-  </head><body class="ma0 avenir bg-near-white development">
-
-    
-   
   
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
 
-  <header>
-    <div class="bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l center items-center justify-between">
-    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
-      
-        My New Hugo Site
-      
-    </a>
-    <div class="flex-l items-center">
-      
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
 
-      
-      <div class="ananke-socials"></div>
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
 
-    </div>
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="RavynOS: Contributing Swift 6 to FreeBSD">
+<meta property="og:description" content="
+Mini update to mention I am officially a volunteer contributor to ravynOS, as part of a larger project to try to bring Swift to FreeBSD. This is mainly for my learning and contribution purposes, without any compensation.
+Cover Image: Boston Seaport, Winter 2024
+" />
+<meta property="og:url" content="http://localhost:1313/2025/06/ravynos-contributing-swift-6-to-freebsd.html" />
+<meta property="og:site_name" content="Declarative" />
+
+  <meta property="og:image" content="http://localhost:1313/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-06-18 02:42:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/">
+  <div class="logo">
+    Terminal
   </div>
-</nav>
+</a>
 
     </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
-      
+    
+    
+  </div>
   
-  <article class="flex-l mw7 center ph3 flex-wrap justify-between">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        Posts
-      </aside><div id="sharing" class="mt3 ananke-socials"></div>
-<h1 class="f1 athelas mt3 mb1">RavynOS: Contributing Swift 6 to FreeBSD</h1>
-      
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2025-06-18T02:42:00Z">June 18, 2025</time>
-      
+</header>
 
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/2025/06/ravynos-contributing-swift-6-to-freebsd.html">RavynOS: Contributing Swift 6 to FreeBSD</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-06-18</time></div>
+
+  
+    <span class="post-tags">
       
+      #<a href="http://localhost:1313/tags/career/">Career</a>&nbsp;
       
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><p><a href="/images/IMG_4602.jpg"><img src="/images/IMG_4602.jpg" alt="Image"></a></p>
+      #<a href="http://localhost:1313/tags/code/">Code</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/open-source/">Open Source</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/software/">Software</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/systems/">Systems</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p><a href="/images/IMG_4602.jpg"><img src="/images/IMG_4602.jpg" alt="Image"></a></p>
 <p>Mini update to mention I am officially a volunteer contributor to <a href="https://ravynos.com/releases">ravynOS</a>, as part of a larger project to try to bring Swift to FreeBSD. This is mainly for my learning and contribution purposes, without any compensation.</p>
 <p><a href="/images/AVvXsEgI2Fe0_WFL4PeI6Jr7XM6PIqiZUqGPPUtRAvx5ItKDA4bEIQnkl1orZH4_rRHv_WJMIaiuTNHm0nemsiIyDaSwxVg1Wur1OBP1YzuBSKo5du0T9FcHw_63xaQDoLRB9O97kMPktWTqoX3Lt33nLa7C4ObJbfX4XGLtmLWmZcHcWDMQPSZKaiUVZBINtPQ"><img src="/images/AVvXsEgI2Fe0_WFL4PeI6Jr7XM6PIqiZUqGPPUtRAvx5ItKDA4bEIQnkl1orZH4_rRHv_WJMIaiuTNHm0nemsiIyDaSwxVg1Wur1OBP1YzuBSKo5du0T9FcHw_63xaQDoLRB9O97kMPktWTqoX3Lt33nLa7C4ObJbfX4XGLtmLWmZcHcWDMQPSZKaiUVZBINtPQ=w640-h354" alt=""></a></p>
 <hr>
 <p>Cover Image: Boston Seaport, Winter 2024</p>
-<ul class="pa0">
-  
-   <li class="list di">
-     <a href="/tags/career/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Career</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/code/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Code</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/open-source/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Open Source</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/software/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Software</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/systems/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Systems</a>
-   </li>
-  
-</ul>
-<div class="mt6 instapaper_ignoref">
-      
-      
-      </div>
-    </div></article>
 
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
-    &copy;  My New Hugo Site 2025 
-  </a>
-    <div><div class="ananke-socials"></div>
-</div>
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
   </div>
 </footer>
 
-  </body>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
 </html>

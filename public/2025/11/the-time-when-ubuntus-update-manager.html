@@ -1,126 +1,161 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>That time Ubuntu’s Update Manager locked my Frontend while dpkg died in the background - leaving locks everywhere and blocking reboot | My New Hugo Site</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>That time Ubuntu’s Update Manager locked my Frontend while dpkg died in the background - leaving locks everywhere and blocking reboot :: Declarative</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
 This post is half sysadmin note, half personal reminder.
-Every so often, Ubuntu’s desktop GUI based update process (Update Manager) will hang mid-upgrade -&gt; the GNOME session stops responding, the display freezes, and it looks like a hard crash. But in reality, the underlying system is fine. You know this because the fans are spinning on full speed, the cursor is active, you can still SSH in (or switch to a TTY), ps shows a live process table, and systemd is dutifully blocking shutdowns because it’s protecting the package database.">
-    <meta name="generator" content="Hugo 0.153.0">
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
+Every so often, Ubuntu’s desktop GUI based update process (Update Manager) will hang mid-upgrade -&gt; the GNOME session stops responding, the display freezes, and it looks like a hard crash. But in reality, the underlying system is fine. You know this because the fans are spinning on full speed, the cursor is active, you can still SSH in (or switch to a TTY), ps shows a live process table, and systemd is dutifully blocking shutdowns because it’s protecting the package database.
+" />
+<meta name="keywords" content="" />
 
-    
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/2025/11/the-time-when-ubuntus-update-manager.html" />
 
 
 
 
-    
 
-
-    
-      
-
-    
-
-    
-
-    
-      <link rel="canonical" href="http://localhost:1313/2025/11/the-time-when-ubuntus-update-manager.html">
-    
-
-    
-    
-    <meta property="og:url" content="http://localhost:1313/2025/11/the-time-when-ubuntus-update-manager.html">
-  <meta property="og:site_name" content="My New Hugo Site">
-  <meta property="og:title" content="That time Ubuntu’s Update Manager locked my Frontend while dpkg died in the background - leaving locks everywhere and blocking reboot">
-  <meta property="og:description" content="This post is half sysadmin note, half personal reminder.
-Every so often, Ubuntu’s desktop GUI based update process (Update Manager) will hang mid-upgrade -&gt; the GNOME session stops responding, the display freezes, and it looks like a hard crash. But in reality, the underlying system is fine. You know this because the fans are spinning on full speed, the cursor is active, you can still SSH in (or switch to a TTY), ps shows a live process table, and systemd is dutifully blocking shutdowns because it’s protecting the package database.">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-11-10T15:22:00+00:00">
-    <meta property="article:modified_time" content="2025-11-10T15:22:00+00:00">
-    <meta property="article:tag" content="Systems">
-    <meta property="article:tag" content="Software">
-    <meta property="article:tag" content="Open Source">
-
-  <meta itemprop="name" content="That time Ubuntu’s Update Manager locked my Frontend while dpkg died in the background - leaving locks everywhere and blocking reboot">
-  <meta itemprop="description" content="This post is half sysadmin note, half personal reminder.
-Every so often, Ubuntu’s desktop GUI based update process (Update Manager) will hang mid-upgrade -&gt; the GNOME session stops responding, the display freezes, and it looks like a hard crash. But in reality, the underlying system is fine. You know this because the fans are spinning on full speed, the cursor is active, you can still SSH in (or switch to a TTY), ps shows a live process table, and systemd is dutifully blocking shutdowns because it’s protecting the package database.">
-  <meta itemprop="datePublished" content="2025-11-10T15:22:00+00:00">
-  <meta itemprop="dateModified" content="2025-11-10T15:22:00+00:00">
-  <meta itemprop="wordCount" content="879">
-  <meta itemprop="keywords" content="Systems,Software,Open Source">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="That time Ubuntu’s Update Manager locked my Frontend while dpkg died in the background - leaving locks everywhere and blocking reboot">
-  <meta name="twitter:description" content="This post is half sysadmin note, half personal reminder.
-Every so often, Ubuntu’s desktop GUI based update process (Update Manager) will hang mid-upgrade -&gt; the GNOME session stops responding, the display freezes, and it looks like a hard crash. But in reality, the underlying system is fine. You know this because the fans are spinning on full speed, the cursor is active, you can still SSH in (or switch to a TTY), ps shows a live process table, and systemd is dutifully blocking shutdowns because it’s protecting the package database.">
-
-	
-  </head><body class="ma0 avenir bg-near-white development">
-
-    
-   
   
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
 
-  <header>
-    <div class="bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l center items-center justify-between">
-    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
-      
-        My New Hugo Site
-      
-    </a>
-    <div class="flex-l items-center">
-      
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
 
-      
-      <div class="ananke-socials"></div>
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
 
-    </div>
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="That time Ubuntu’s Update Manager locked my Frontend while dpkg died in the background - leaving locks everywhere and blocking reboot">
+<meta property="og:description" content="
+This post is half sysadmin note, half personal reminder.
+Every so often, Ubuntu’s desktop GUI based update process (Update Manager) will hang mid-upgrade -&gt; the GNOME session stops responding, the display freezes, and it looks like a hard crash. But in reality, the underlying system is fine. You know this because the fans are spinning on full speed, the cursor is active, you can still SSH in (or switch to a TTY), ps shows a live process table, and systemd is dutifully blocking shutdowns because it’s protecting the package database.
+" />
+<meta property="og:url" content="http://localhost:1313/2025/11/the-time-when-ubuntus-update-manager.html" />
+<meta property="og:site_name" content="Declarative" />
+
+  <meta property="og:image" content="http://localhost:1313/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-11-10 15:22:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/">
+  <div class="logo">
+    Terminal
   </div>
-</nav>
+</a>
 
     </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
-      
+    
+    
+  </div>
   
-  <article class="flex-l mw7 center ph3 flex-wrap justify-between">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        Posts
-      </aside><div id="sharing" class="mt3 ananke-socials"></div>
-<h1 class="f1 athelas mt3 mb1">That time Ubuntu’s Update Manager locked my Frontend while dpkg died in the background - leaving locks everywhere and blocking reboot</h1>
-      
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2025-11-10T15:22:00Z">November 10, 2025</time>
-      
+</header>
 
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/2025/11/the-time-when-ubuntus-update-manager.html">That time Ubuntu’s Update Manager locked my Frontend while dpkg died in the background - leaving locks everywhere and blocking reboot</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-11-10</time></div>
+
+  
+    <span class="post-tags">
       
+      #<a href="http://localhost:1313/tags/systems/">Systems</a>&nbsp;
       
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><p><a href="/images/AVvXsEj_5EOFMINhcQ4zEtf0mIyy8IdyQPU5kA2MWFMXgqX7Wx26TgLrpUNEZ45a4zy5tvBUb9v6xE6vgjA6npdWxcbm8ai5tlrmsROniIs7NQdLKtjC8fDQxGgKDaIhQCB3lOboRbrEt3aLFKMkuAP02WGpT-558Hjt7bRXmh-VHqnwYG9ByhsORJdllEDqBog"><img src="/images/AVvXsEj_5EOFMINhcQ4zEtf0mIyy8IdyQPU5kA2MWFMXgqX7Wx26TgLrpUNEZ45a4zy5tvBUb9v6xE6vgjA6npdWxcbm8ai5tlrmsROniIs7NQdLKtjC8fDQxGgKDaIhQCB3lOboRbrEt3aLFKMkuAP02WGpT-558Hjt7bRXmh-VHqnwYG9ByhsORJdllEDqBog=w640-h454" alt=""></a></p>
+      #<a href="http://localhost:1313/tags/software/">Software</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/open-source/">Open Source</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p><a href="/images/AVvXsEj_5EOFMINhcQ4zEtf0mIyy8IdyQPU5kA2MWFMXgqX7Wx26TgLrpUNEZ45a4zy5tvBUb9v6xE6vgjA6npdWxcbm8ai5tlrmsROniIs7NQdLKtjC8fDQxGgKDaIhQCB3lOboRbrEt3aLFKMkuAP02WGpT-558Hjt7bRXmh-VHqnwYG9ByhsORJdllEDqBog"><img src="/images/AVvXsEj_5EOFMINhcQ4zEtf0mIyy8IdyQPU5kA2MWFMXgqX7Wx26TgLrpUNEZ45a4zy5tvBUb9v6xE6vgjA6npdWxcbm8ai5tlrmsROniIs7NQdLKtjC8fDQxGgKDaIhQCB3lOboRbrEt3aLFKMkuAP02WGpT-558Hjt7bRXmh-VHqnwYG9ByhsORJdllEDqBog=w640-h454" alt=""></a></p>
 <p>This post is half sysadmin note, half personal reminder.</p>
 <p>Every so often, Ubuntu’s desktop GUI based update process (Update Manager) will hang mid-upgrade -&gt; the GNOME session stops responding, the display freezes, and it looks like a hard crash. But in reality, the underlying system is fine. You know this because the fans are spinning on full speed, the cursor is active, you can still SSH in (or switch to a TTY), <code>ps</code> shows a live process table, and <code>systemd</code> is dutifully blocking shutdowns because it’s protecting the package database.</p>
 <p>It’s one of those moments where you realize how much of the Ubuntu desktop is just thin layers on top of perfectly stable plumbing.</p>
 <hr>
-<h3 id="what-actually-happens-when-ubuntu-freezes-mid-update">What actually happens when Ubuntu “freezes” mid-update</h3>
+<h3 id="what-actually-happens-when-ubuntu-freezes-mid-update">What actually happens when Ubuntu “freezes” mid-update<a href="#what-actually-happens-when-ubuntu-freezes-mid-update" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>Ubuntu’s GUI update tool (<code>update-manager</code>) is basically a frontend to <code>aptd</code>, which itself manages a single long-lived <code>dpkg</code> session. That <code>dpkg</code> process owns a couple of locks under <code>/var/lib/dpkg/lock*</code>, and while those are held, <code>systemd</code> knows not to let you reboot - it treats them as “inhibitors.”</p>
 <p>If you try <code>sudo reboot</code> in that state, you’ll see messages like:</p>
 <pre tabindex="0"><code>`Operation inhibited by &#34;UpdateManager&#34;
@@ -128,7 +163,7 @@ Operation inhibited by &#34;APT&#34;`
 </code></pre><p><em>That’s not a bug, it’s a</em> [safety] <em>feature</em> [of systemd]. It’s preventing a mid-transaction reboot that could corrupt the package database in the best case, or render your system unbeatable because *initramfs *was mid-update in the worst case (requiring a whole OS reinstall).</p>
 <p>The problem is: if GNOME freezes (for example, a compositor crash, GPU driver reset, or a hanging post-install <code>debconf</code> prompt), <code>update-manager</code> never finishes, and the inhibitors never clear. So the system sits there in limbo: the desktop is unresponsive, and reboots are “inhibited,” but the OS itself is fine.</p>
 <hr>
-<h3 id="common-triggers">Common triggers</h3>
+<h3 id="common-triggers">Common triggers<a href="#common-triggers" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>From what I’ve seen, these freezes tend to happen when:</p>
 <ul>
 <li>A GUI package (<code>update-manager</code>, <code>software-properties-gtk</code>, etc.) is running in a full desktop session, and something goes wrong in the compositor (common with hybrid graphics laptops).</li>
@@ -138,12 +173,12 @@ Operation inhibited by &#34;APT&#34;`
 </ul>
 <p>You can’t fix this from the GUI because the GUI <em>is</em> the thing that’s broken. SSH access is your friend.</p>
 <hr>
-<h3 id="why-i-could-still-fix-it-easily">Why I could still fix it easily</h3>
+<h3 id="why-i-could-still-fix-it-easily">Why I could still fix it easily<a href="#why-i-could-still-fix-it-easily" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p><a href="https://www.skushagra.com/2025/10/direct-ethernet-connection-ssh-on-lan.html">I keep a direct Ethernet link between my Mac mini and the Asus gaming laptop</a>. Both stay on Wi-Fi for internet, but the Ethernet is a static local link: no router, no DHCP. Just two static IPs (say, 192.168.100.1 on the Mac and 192.168.100.2 on the Asus).</p>
 <p>That gives me a private LAN for SSH, scp, or rsync that works even if Wi-Fi drops or NetworkManager misbehaves. When I am remote, I RDP into the Mac mini which gives me the same setup to work with both machines.</p>
 <p>**So when the GNOME desktop froze, I just jumped in via SSH from the Mac and cleaned it up remotely. **If it was accepting SSH connections, it means the system was not broken. The Desktop Environment, in fact, was locked by dpkg to facilitate the update process but the update process itself was idling.</p>
 <hr>
-<h3 id="diagnosing-the-freeze">Diagnosing the freeze</h3>
+<h3 id="diagnosing-the-freeze">Diagnosing the freeze<a href="#diagnosing-the-freeze" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>When the desktop is unresponsive but SSH works, check what’s running:</p>
 <pre tabindex="0"><code>`[](#cb2-1)ps aux | grep -E &#39;update-manager|aptd|dpkg&#39;`
 </code></pre><p>You’ll usually see something like:</p>
@@ -152,7 +187,7 @@ Operation inhibited by &#34;APT&#34;`
 /usr/bin/dpkg --status-fd 74 --configure --pending`
 </code></pre><p>If they’re sitting at 0% CPU and not touching disk, they’re idle (and likely stuck). <code>systemd-inhibit --list</code> will confirm they’re holding reboot locks.</p>
 <hr>
-<h3 id="recovery-steps">Recovery steps</h3>
+<h3 id="recovery-steps">Recovery steps<a href="#recovery-steps" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <ol>
 <li><strong>Kill the stuck update processes</strong></li>
 </ol>
@@ -194,12 +229,12 @@ Operation inhibited by &#34;APT&#34;`
 
 `
 </code></pre><hr>
-<h3 id="why-this-matters">Why this matters</h3>
+<h3 id="why-this-matters">Why this matters<a href="#why-this-matters" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>Ubuntu’s safety mechanisms actually work; they just don’t degrade gracefully when the GUI layer crashes. Everything under the hood (APT, systemd, SSH) behaves predictably, but the desktop tools stop communicating with them.</p>
 <p>As long as you can SSH in, you can recover cleanly without risking the package database.</p>
 <p>And if you have a direct local network link (like the Ethernet bridge between my Mac and Asus), you’ll never lose access even when the main network stack goes down.</p>
 <hr>
-<h3 id="tldr">TL;DR</h3>
+<h3 id="tldr">TL;DR<a href="#tldr" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>If Ubuntu freezes mid-update:</p>
 <ul>
 <li>Don’t force power-off.</li>
@@ -210,37 +245,44 @@ Operation inhibited by &#34;APT&#34;`
 </ul>
 <p>If you&rsquo;re curious how I realized I needed an update in the first place? Non-working Nvidia driver that was fine just a couple weeks ago:</p>
 <p><a href="/images/AVvXsEj79wAgtroosDdZeESAwOmaxgriJN1UZk4N7EKgEf0T4lLtMgla601BuhL2Qir7ctFqe64u7VA5KwJdj2iMqUk-9A1_TSs4UhH9SebGupXMzBTfjHygGnnmTJ2ogSe4B90v7Plz_cJxkWJrwjJ144V37KEILkPsiEA-fT46g5yriwt4v2Xy8LvTOk4ECnM"><img src="/images/AVvXsEj79wAgtroosDdZeESAwOmaxgriJN1UZk4N7EKgEf0T4lLtMgla601BuhL2Qir7ctFqe64u7VA5KwJdj2iMqUk-9A1_TSs4UhH9SebGupXMzBTfjHygGnnmTJ2ogSe4B90v7Plz_cJxkWJrwjJ144V37KEILkPsiEA-fT46g5yriwt4v2Xy8LvTOk4ECnM=w640-h360" alt=""></a></p>
-<ul class="pa0">
-  
-   <li class="list di">
-     <a href="/tags/systems/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Systems</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/software/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Software</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/open-source/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Open Source</a>
-   </li>
-  
-</ul>
-<div class="mt6 instapaper_ignoref">
-      
-      
-      </div>
-    </div></article>
 
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
-    &copy;  My New Hugo Site 2025 
-  </a>
-    <div><div class="ananke-socials"></div>
-</div>
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
   </div>
 </footer>
 
-  </body>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
 </html>

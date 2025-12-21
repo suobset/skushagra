@@ -32,11 +32,8 @@ When my dad brought home that MacBook Air, something clicked. This wasn't just a
 ## Mac-assed Software
 I got my first personal Mac in 2020 - a 2016 MacBook Pro. The butterfly keyboard was already notorious by then, but I didn't care. The hardware blew me away. The trackpad wasn't just responsive, it was precise. The haptic feedback felt intentional. And those speakers - I still don't understand how they got that much sound out of a laptop that thin.
 
-[![](/images/AVvXsEhT0ca4f2XpZ7JE02nfyei-TbP8v_NkHRLaq3GSJUIh24JLKfUlZTM9HxVeorRs4quvtUduLjQLcSR4DyDK3Vhvcs9U5k53j2hbcacv9xJGiQetzzYfZR0Tkiod2cCFV34Z5YWdNtrHEnI-mzBSDCHPx7WiYD2bPvABbXvRImVse9jeyWE0_kSkZCYRPX4=w327-h400)](/images/AVvXsEhT0ca4f2XpZ7JE02nfyei-TbP8v_NkHRLaq3GSJUIh24JLKfUlZTM9HxVeorRs4quvtUduLjQLcSR4DyDK3Vhvcs9U5k53j2hbcacv9xJGiQetzzYfZR0Tkiod2cCFV34Z5YWdNtrHEnI-mzBSDCHPx7WiYD2bPvABbXvRImVse9jeyWE0_kSkZCYRPX4)
-
-The only picture I could find of that 2016 MacBook
-
-Editing this website in March 2022.
+[![The only picture I could find of that 2016 MacBook. Editing this website in March 2022.
+](/images/AVvXsEhT0ca4f2XpZ7JE02nfyei-TbP8v_NkHRLaq3GSJUIh24JLKfUlZTM9HxVeorRs4quvtUduLjQLcSR4DyDK3Vhvcs9U5k53j2hbcacv9xJGiQetzzYfZR0Tkiod2cCFV34Z5YWdNtrHEnI-mzBSDCHPx7WiYD2bPvABbXvRImVse9jeyWE0_kSkZCYRPX4=w327-h400)](/images/AVvXsEhT0ca4f2XpZ7JE02nfyei-TbP8v_NkHRLaq3GSJUIh24JLKfUlZTM9HxVeorRs4quvtUduLjQLcSR4DyDK3Vhvcs9U5k53j2hbcacv9xJGiQetzzYfZR0Tkiod2cCFV34Z5YWdNtrHEnI-mzBSDCHPx7WiYD2bPvABbXvRImVse9jeyWE0_kSkZCYRPX4)
 
 But it wasn't just the hardware that felt different. It was how everything fit together. The hardware and software weren't just coexisting, they were designed for each other.
 
@@ -56,9 +53,7 @@ It wasn't a conscious decision at first. I wasn't trying to be a Mac evangelist 
 
 In the meantime, I upgraded to an Apple Silicon MacBook Air in 2024 and incorporated a Mac mini in 2025. But these are side details. 
 
-[![](/images/AVvXsEgzn2Pz7hI6OCIJbZcPamaYS0guNo-dFc6Sq8RZFtbFFJ8IVhg3NIamuISoGc0tWjNapV9ey3TqkDczmIlsbSndlU5UsWWPlBnUxYGIwEUe2gvayj95tmOuuuQFJqa9qsL4DLtCMhZqHa3__f76NE5QqzkxI-LAgOR-_aMowbSMsdc480yRau2FpLNGn3Q=w640-h416)](/images/AVvXsEgzn2Pz7hI6OCIJbZcPamaYS0guNo-dFc6Sq8RZFtbFFJ8IVhg3NIamuISoGc0tWjNapV9ey3TqkDczmIlsbSndlU5UsWWPlBnUxYGIwEUe2gvayj95tmOuuuQFJqa9qsL4DLtCMhZqHa3__f76NE5QqzkxI-LAgOR-_aMowbSMsdc480yRau2FpLNGn3Q)
-
-Flow state (Scrivener)
+[![Flow State (Scrivener)](/images/AVvXsEgzn2Pz7hI6OCIJbZcPamaYS0guNo-dFc6Sq8RZFtbFFJ8IVhg3NIamuISoGc0tWjNapV9ey3TqkDczmIlsbSndlU5UsWWPlBnUxYGIwEUe2gvayj95tmOuuuQFJqa9qsL4DLtCMhZqHa3__f76NE5QqzkxI-LAgOR-_aMowbSMsdc480yRau2FpLNGn3Q=w640-h416)](/images/AVvXsEgzn2Pz7hI6OCIJbZcPamaYS0guNo-dFc6Sq8RZFtbFFJ8IVhg3NIamuISoGc0tWjNapV9ey3TqkDczmIlsbSndlU5UsWWPlBnUxYGIwEUe2gvayj95tmOuuuQFJqa9qsL4DLtCMhZqHa3__f76NE5QqzkxI-LAgOR-_aMowbSMsdc480yRau2FpLNGn3Q)
 
 In April 2024, I wrote an appreciation email to [Bare Bones Software](https://barebones.com) while sitting at a cafe. I didn't really plan to, it just happened. I'd been using BBEdit for years at that point, and I wanted them to know what their software meant to me. I compared it to flying an F-18 versus driving a Toyota Prius - not because the Prius is bad, but because the F-18 is built for a specific purpose and does that purpose incredibly well.
 
@@ -75,11 +70,7 @@ That's when I realized I'd stumbled into a community of people who cared about s
 ***
 ***
 
-*[![Image](/images/Screenshot%202025-12-17%20at%204.02.07%E2%80%AFPM.png)](/images/Screenshot%202025-12-17%20at%204.02.07%E2%80%AFPM.png)
-
-My Current BBEdit Setup
-
-*
+![Image](/images/bbeditscrnsht.jpg)
 
 ## The Macintosh PowerBook G3
 My fascination with computing history had been growing alongside my appreciation for well-crafted software since middle school. I'd been learning about early Apple, about the Macintosh, about the era when personal computers were still figuring out what they wanted to be. Alongside, I also listened to and resonated a lot with the free/libre software sides of the argument, the open source argument, and different takes on copyright, how to write software, why "write once run anywhere" is a good idea, why "write once run anywhere" is an awful idea, and so on. At the end of the day, I believe that I am a pragmatist when it comes to this stuff: I would want libre software to be the norm and often license my own code under the GPL v2/v3, but I understand how Open Source MIT licenses are more appealing, and so on.

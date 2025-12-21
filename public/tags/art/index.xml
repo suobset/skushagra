@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Art on My New Hugo Site</title>
+    <title>Art on Declarative</title>
     <link>http://localhost:1313/tags/art/</link>
-    <description>Recent content in Art on My New Hugo Site</description>
+    <description>Recent content in Art on Declarative</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Jun 2024 16:05:00 +0000</lastBuildDate>
