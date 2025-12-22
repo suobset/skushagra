@@ -5,7 +5,7 @@ draft: false
 tags: ["Code", "Hardware", "Open Source", "Software", "Systems"]
 url: "/2025/10/direct-ethernet-connection-ssh-on-lan.html"
 ---
-[![Image](/images/Screenshot%202025-10-18%20at%2019.45.55.png)](/images/Screenshot%202025-10-18%20at%2019.45.55.png)
+![Image](/images/SSHONALAN.jpg)
 
 Transformer Lab Server and STORMM Compilation all running on the CUDA laptop, with the Mac as a frontend (Terminal, TL frontend, and BBEdit). The two computers connect across a LAN using 1 direct Ethernet cable, and SSH.
 
@@ -111,7 +111,7 @@ Should see something like:
 ```
 Look for "active (running)" in green - that means SSH is up and ready.
 
-[![Image](/images/Screenshot%202025-10-18%20at%2019.12.04.png)](/images/Screenshot%202025-10-18%20at%2019.12.04.png)
+![Image](/images/activerunning.jpg)
 
 ### On the Mac mini
 
@@ -191,4 +191,4 @@ That's it - everything should be back to normal!
 
 1.
 
-[![Image](/images/Screenshot%202025-10-18%20at%2019.13.43.png)](/images/Screenshot%202025-10-18%20at%2019.13.43.png)
+![Image](/images/macsettingsssh.jpg)

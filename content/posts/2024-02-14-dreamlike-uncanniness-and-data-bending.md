@@ -28,19 +28,19 @@ The first steps I took in this journey were transitory spaces. They were the eas
 
 A trick I did in the beginning of this journey was to create a more “dreamlike ethereal” feeling by heavily distorting the colors of the pictures. Nevertheless, I have had some absolutely gorgeous images, and here are some that I have taken over the years since I first started:
 
-[![Image](/images/1.png)](/images/1.png)
+[![Image](/images/dream1.png)](/images/dream1.png)
 
 Distorted colors to achieve dreamlike feel, taken in 2020.
 
-[![Image](/images/2.png)](/images/2.png)
+[![Image](/images/dream2.png)](/images/dream2.png)
 
 Gas Station in Hatfield, MA. Increased saturation, dimmed brightness. Taken in 2023.
 
-[![Image](/images/3.png)](/images/3.png)
+[![Image](/images/dream3.png)](/images/dream3.png)
 
 Lederle at Night. Very minor edits, this is an actual liminal space I experience. Taken in 2023.
 
-[![Image](/images/4.png)](/images/4.png)
+[![Image](/images/dream4.png)](/images/dream4.png)
 
 A sunset through an abandoned lab at Lederle, minor edits. Taken in 2024.
 

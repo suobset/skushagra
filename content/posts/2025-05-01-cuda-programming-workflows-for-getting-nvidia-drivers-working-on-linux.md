@@ -23,7 +23,7 @@ Weirdly speaking, this is one of the few times when relying on a package manager
 
 When starting with a fresh operating system installation, getting the Nvidia driver set up correctly is the critical first step before installing the CUDA Toolkit. According to Nvidia's documentation, using distribution-specific packages (like `.deb` or `.rpm` files) is a recommended method for a clean installation. This approach integrates well with your system's package management. However, for developers who need the absolute latest driver version or prefer a consistent installation method across different distributions, obtaining the driver directly from Nvidia's website as a `.run` file is also a highly effective and often preferred method in the CUDA development community. This ensures you have the most recent driver that is guaranteed to be compatible with the latest CUDA toolkits.
 
-[![Image](/images/Screenshot%202025-05-02%20at%202.36.55%E2%80%AFPM.png)](/images/Screenshot%202025-05-02%20at%202.36.55%E2%80%AFPM.png)
+![CUDA Toolkits Page](/images/cudatoolkitpage.jpg)
 
 For a clean OS install, here's how to proceed with the `.run` file method:
 
@@ -88,7 +88,7 @@ Then, regenerate your initramfs/initrd: `sudo update-initramfs -u` (Debian/Ubunt
 
 After rebooting, your system should load with the newly installed Nvidia drivers. You can verify the installation by opening a terminal in your graphical environment and running `nvidia-smi`. This command should display information about your GPU and the installed driver version.
 
-[![Image](/images/Screenshot%202025-05-02%20at%201.56.23%E2%80%AFPM.png)](/images/Screenshot%202025-05-02%20at%201.56.23%E2%80%AFPM.png)
+![NVIDIA SMI](/images/nvidiasmi.jpg)
 
 Example nvidia-smi output from my workstation. Note Driver version 550 with CUDA 12.4 | 12.4 requires at least driver version 525
 
@@ -129,7 +129,7 @@ Here are the general steps involved in building Nvidia drivers from source:
 
 Building from source requires a deep understanding of your system's build environment and can be challenging to debug if issues arise.
 
-[![Image](/images/Screenshot%202025-05-02%20at%202.02.07%E2%80%AFPM.png)](/images/Screenshot%202025-05-02%20at%202.02.07%E2%80%AFPM.png)
+![](/images/cudapage2.jpg)
 
 - **Using Distribution Package Managers (e.g., `apt`, `dnf`, `pacman`):** Many Linux distributions include Nvidia drivers in their repositories. This is the easiest method from a user perspective: a simple `sudo apt install nvidia-driver-xxx` or equivalent command. **This method requires you have a complete in-depth understanding on which driver versions are compatible with which CUDA versions.** As mentioned earlier, the versions available in distribution repositories often lag behind the latest releases from Nvidia. This lag can be a significant issue for CUDA development, as CUDA toolkits are often built and tested against specific, newer driver versions. Using an older driver with a newer CUDA toolkit, or vice-versa, can lead to compatibility problems, performance issues, or even failure of CUDA applications to run. The softball glitch is an error message stating "Nvidia Driver and kernel mismatch" and have CUDA not run, the hard error message is a non-working GUI and a possibly corrupt initramfs (say goodbye to booting this system next time). While convenient for general desktop use, relying solely on the distro's package manager for Nvidia drivers when your primary focus is CUDA is generally not recommended.
 
@@ -174,7 +174,7 @@ For the most stable and performant CUDA environment, especially when using the l
 ### Sick Driver bro, do you even compute?
 Congratulations, you now most likely have a working GPU driver with working GUI (and have frantically re-cloned your git repositories and transferred your files back from an external drive). You still need to have a working CUDA + nvcc + Nvidia dev tools installation to actually code for the GPU. Fortunately, this is light years easier than wrestling with the driver installation, provided your driver is correctly installed and compatible.
 
-[![Image](/images/Screenshot%202025-05-02%20at%201.26.51%E2%80%AFPM.png)](/images/Screenshot%202025-05-02%20at%201.26.51%E2%80%AFPM.png)
+![](/images/cudapage.jpg)
 
 The [CUDA Toolkit](https://developer.nvidia.com/cuda-12-6-3-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_local) includes the CUDA compiler (`nvcc`), libraries, development tools, samples, and the CUDA runtime. Just like with the drivers, the recommended method for a CUDA development workflow is to download the installer directly from Nvidia. This ensures you get the specific version of the toolkit you need, which is often tied to the CUDA version supported by your installed driver.
 

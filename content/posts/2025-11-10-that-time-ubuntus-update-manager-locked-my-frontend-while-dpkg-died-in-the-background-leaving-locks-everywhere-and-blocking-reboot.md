@@ -5,9 +5,9 @@ draft: false
 tags: ["Systems", "Software", "Open Source"]
 url: "/2025/11/the-time-when-ubuntus-update-manager.html"
 ---
-[![](/images/AVvXsEj_5EOFMINhcQ4zEtf0mIyy8IdyQPU5kA2MWFMXgqX7Wx26TgLrpUNEZ45a4zy5tvBUb9v6xE6vgjA6npdWxcbm8ai5tlrmsROniIs7NQdLKtjC8fDQxGgKDaIhQCB3lOboRbrEt3aLFKMkuAP02WGpT-558Hjt7bRXmh-VHqnwYG9ByhsORJdllEDqBog=w640-h454)](/images/AVvXsEj_5EOFMINhcQ4zEtf0mIyy8IdyQPU5kA2MWFMXgqX7Wx26TgLrpUNEZ45a4zy5tvBUb9v6xE6vgjA6npdWxcbm8ai5tlrmsROniIs7NQdLKtjC8fDQxGgKDaIhQCB3lOboRbrEt3aLFKMkuAP02WGpT-558Hjt7bRXmh-VHqnwYG9ByhsORJdllEDqBog)
+![](/images/AVvXsEj_5EOFMINhcQ4zEtf0mIyy8IdyQPU5kA2MWFMXgqX7Wx26TgLrpUNEZ45a4zy5tvBUb9v6xE6vgjA6npdWxcbm8ai5tlrmsROniIs7NQdLKtjC8fDQxGgKDaIhQCB3lOboRbrEt3aLFKMkuAP02WGpT-558Hjt7bRXmh-VHqnwYG9ByhsORJdllEDqBog=w640-h454)
 
-This post is half sysadmin note, half personal reminder.
+This post is half sysadmin note, half personal reminder. 
 
 Every so often, Ubuntu’s desktop GUI based update process (Update Manager) will hang mid-upgrade -> the GNOME session stops responding, the display freezes, and it looks like a hard crash. But in reality, the underlying system is fine. You know this because the fans are spinning on full speed, the cursor is active, you can still SSH in (or switch to a TTY), `ps` shows a live process table, and `systemd` is dutifully blocking shutdowns because it’s protecting the package database. 
 
@@ -55,7 +55,7 @@ That gives me a private LAN for SSH, scp, or rsync that works even if Wi-Fi drop
 When the desktop is unresponsive but SSH works, check what’s running:
 
 ```
-`[](#cb2-1)ps aux | grep -E 'update-manager|aptd|dpkg'`
+`ps aux | grep -E 'update-manager|aptd|dpkg'`
 ```
 
 You’ll usually see something like:
@@ -74,15 +74,15 @@ If they’re sitting at 0% CPU and not touching disk, they’re idle (and likely
 1. **Kill the stuck update processes**
 
 ```
-`[](#cb4-1)sudo kill <PID>
-[](#cb4-2)sudo kill -9 <PID>   # only if the first doesn’t work`
+`sudo kill <PID>
+sudo kill -9 <PID>   # only if the first doesn’t work`
 ```
 
 1. **Repair the package system**
 
 ```
-`[](#cb5-1)sudo dpkg --configure -a
-[](#cb5-2)sudo apt-get install -f`
+`sudo dpkg --configure -a
+sudo apt-get install -f`
 ```
 
 These commands finish incomplete package installs and fix broken dependencies.
@@ -95,7 +95,7 @@ These commands finish incomplete package installs and fix broken dependencies.
 That means another `dpkg` or `aptd` process is still holding the lock. Check it:
 
 ```
-`[](#cb7-1)ps -fp 17110`
+`ps -fp 17110`
 ```
 
 If it’s idle, kill it.
@@ -108,35 +108,32 @@ If it’s idle, kill it.
 That’s a leftover post-install script. If it’s been idle for minutes, kill it too:
 
 ```
-`[](#cb9-1)sudo kill <PID>`
+`sudo kill <PID>`
 ```
 
 1. **Clean up again**
 
 ```
-`[](#cb10-1)sudo dpkg --configure -a
-[](#cb10-2)sudo apt-get install -f
-[](#cb10-3)sudo apt update
-[](#cb10-4)sudo apt full-upgrade`
+`sudo dpkg --configure -a
+sudo apt-get install -f
+sudo apt update
+sudo apt full-upgrade`
 ```
 
 1. **Reboot cleanly**
 
 ```
-`[](#cb11-1)sudo reboot`
+`sudo reboot`
 ```
 
 If it still refuses:
 
 ```
-`[](#cb12-1)sudo systemctl reboot -I`
+`sudo systemctl reboot -I`
 ```
 
-```
-`[![](/images/AVvXsEg3DM7S5G8ErLl-_UMKhRw53hqjPo490a4OQbU7jMsulImTAHO2xa5V5eAjupjr2m5_yZ_eHTqQRLLcIYRe7w8MEpS5piV2OG0d-WTor8ZVqor_EULJGZP4E_9-q6gdupC5xq-InK1wkOdx1vZ55iVk-_sea-NafZGVTKvCkUn5J4yPvR6tt_DTuHKESBs=w640-h454)](/images/AVvXsEg3DM7S5G8ErLl-_UMKhRw53hqjPo490a4OQbU7jMsulImTAHO2xa5V5eAjupjr2m5_yZ_eHTqQRLLcIYRe7w8MEpS5piV2OG0d-WTor8ZVqor_EULJGZP4E_9-q6gdupC5xq-InK1wkOdx1vZ55iVk-_sea-NafZGVTKvCkUn5J4yPvR6tt_DTuHKESBs)
 
-`
-```
+[![](/images/AVvXsEg3DM7S5G8ErLl-_UMKhRw53hqjPo490a4OQbU7jMsulImTAHO2xa5V5eAjupjr2m5_yZ_eHTqQRLLcIYRe7w8MEpS5piV2OG0d-WTor8ZVqor_EULJGZP4E_9-q6gdupC5xq-InK1wkOdx1vZ55iVk-_sea-NafZGVTKvCkUn5J4yPvR6tt_DTuHKESBs=w640-h454)](/images/AVvXsEg3DM7S5G8ErLl-_UMKhRw53hqjPo490a4OQbU7jMsulImTAHO2xa5V5eAjupjr2m5_yZ_eHTqQRLLcIYRe7w8MEpS5piV2OG0d-WTor8ZVqor_EULJGZP4E_9-q6gdupC5xq-InK1wkOdx1vZ55iVk-_sea-NafZGVTKvCkUn5J4yPvR6tt_DTuHKESBs)
 
 ---
 

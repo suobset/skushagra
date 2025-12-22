@@ -5,7 +5,7 @@ draft: false
 tags: ["Open Source", "Software", "Code", "Systems"]
 url: "/2024/05/classic-mac-programming.html"
 ---
-[![Image](/images/1.png)](/images/1.png)
+![Image](/images/classic1.png)
 
 The following series (which is separate from my newsletter), is going to be a comprehensive deep dive into programming for Mac OS version 9: the ancient pre-UNIX version of the Operating System which barely has much documentation on the Internet today. This post is mainly initialization, I just got the VM working and a pipeline to install 3rd party (old) software :)
 
@@ -17,13 +17,13 @@ On top of it, I just love Apple’s stuff to a great extent. Yes, I support and 
 
 Throughout my life, I have tinkered with Computers. Started off as Python Programming through Middle School, tinkering with C/C++ and modding Win 3.1 in High School (+ web dev and client dev), and now (as mentioned above) completing my thesis in Programming Language Performance (most of which included tinkering).
 
-[![Image](/images/2.png)](/images/2.png)
+[![Image](/images/classic2.png)](/images/classic2.png)
 
 Well, I believe I am at a point where I can now start tinkering with older OSes, and want to learn programming and backporting a modern program for this particular OS.
 
 However, even when I got the OS to work in a Virtual Machine on my M2 MacBook Air (that’s 30 years of hardware differences), I noticed that the system was actually very self-contained. It had a Java Runtime Environment shipped with the core OS (for Applets), and AppleScript (shown in banner image above) was a pretty powerful scripting language which does not have much documentation today (for the version shipped with this OS, I know that a more recent AppleScript is still present in current macOS).
 
-[![Image](/images/3.png)](/images/3.png)
+[![Image](/images/classic3.png)](/images/classic3.png)
 
 I felt that one of the best aspects of this Operating System was how there is a “Help” section built in. I tried some of the Java Applets built in, perused the source code for the same, and tried editing a website as well. All in all, I felt that MacOS 9 is actually very self-contrained and I may be able to learn more of programming for this specific platform based on the guides and help sections already included in the OS itself.
 

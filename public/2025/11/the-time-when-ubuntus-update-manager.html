@@ -150,7 +150,7 @@ Every so often, Ubuntu’s desktop GUI based update process (Update Manager) wil
   
 
   <div class="post-content"><div>
-        <p><a href="/images/AVvXsEj_5EOFMINhcQ4zEtf0mIyy8IdyQPU5kA2MWFMXgqX7Wx26TgLrpUNEZ45a4zy5tvBUb9v6xE6vgjA6npdWxcbm8ai5tlrmsROniIs7NQdLKtjC8fDQxGgKDaIhQCB3lOboRbrEt3aLFKMkuAP02WGpT-558Hjt7bRXmh-VHqnwYG9ByhsORJdllEDqBog"><img src="/images/AVvXsEj_5EOFMINhcQ4zEtf0mIyy8IdyQPU5kA2MWFMXgqX7Wx26TgLrpUNEZ45a4zy5tvBUb9v6xE6vgjA6npdWxcbm8ai5tlrmsROniIs7NQdLKtjC8fDQxGgKDaIhQCB3lOboRbrEt3aLFKMkuAP02WGpT-558Hjt7bRXmh-VHqnwYG9ByhsORJdllEDqBog=w640-h454" alt=""></a></p>
+        <p><img src="/images/AVvXsEj_5EOFMINhcQ4zEtf0mIyy8IdyQPU5kA2MWFMXgqX7Wx26TgLrpUNEZ45a4zy5tvBUb9v6xE6vgjA6npdWxcbm8ai5tlrmsROniIs7NQdLKtjC8fDQxGgKDaIhQCB3lOboRbrEt3aLFKMkuAP02WGpT-558Hjt7bRXmh-VHqnwYG9ByhsORJdllEDqBog=w640-h454" alt=""></p>
 <p>This post is half sysadmin note, half personal reminder.</p>
 <p>Every so often, Ubuntu’s desktop GUI based update process (Update Manager) will hang mid-upgrade -&gt; the GNOME session stops responding, the display freezes, and it looks like a hard crash. But in reality, the underlying system is fine. You know this because the fans are spinning on full speed, the cursor is active, you can still SSH in (or switch to a TTY), <code>ps</code> shows a live process table, and <code>systemd</code> is dutifully blocking shutdowns because it’s protecting the package database.</p>
 <p>It’s one of those moments where you realize how much of the Ubuntu desktop is just thin layers on top of perfectly stable plumbing.</p>
@@ -180,7 +180,7 @@ Operation inhibited by &#34;APT&#34;`
 <hr>
 <h3 id="diagnosing-the-freeze">Diagnosing the freeze<a href="#diagnosing-the-freeze" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>When the desktop is unresponsive but SSH works, check what’s running:</p>
-<pre tabindex="0"><code>`[](#cb2-1)ps aux | grep -E &#39;update-manager|aptd|dpkg&#39;`
+<pre tabindex="0"><code>`ps aux | grep -E &#39;update-manager|aptd|dpkg&#39;`
 </code></pre><p>You’ll usually see something like:</p>
 <pre tabindex="0"><code>`/usr/bin/python3 /usr/bin/update-manager
 /usr/bin/python3 /usr/sbin/aptd
@@ -191,44 +191,42 @@ Operation inhibited by &#34;APT&#34;`
 <ol>
 <li><strong>Kill the stuck update processes</strong></li>
 </ol>
-<pre tabindex="0"><code>`[](#cb4-1)sudo kill &lt;PID&gt;
-[](#cb4-2)sudo kill -9 &lt;PID&gt;   # only if the first doesn’t work`
+<pre tabindex="0"><code>`sudo kill &lt;PID&gt;
+sudo kill -9 &lt;PID&gt;   # only if the first doesn’t work`
 </code></pre><ol>
 <li><strong>Repair the package system</strong></li>
 </ol>
-<pre tabindex="0"><code>`[](#cb5-1)sudo dpkg --configure -a
-[](#cb5-2)sudo apt-get install -f`
+<pre tabindex="0"><code>`sudo dpkg --configure -a
+sudo apt-get install -f`
 </code></pre><p>These commands finish incomplete package installs and fix broken dependencies.</p>
 <ol>
 <li><strong>If dpkg refuses to run</strong> You might see something like:</li>
 </ol>
 <pre tabindex="0"><code>`dpkg: error: dpkg frontend lock was locked by PID 17110`
 </code></pre><p>That means another <code>dpkg</code> or <code>aptd</code> process is still holding the lock. Check it:</p>
-<pre tabindex="0"><code>`[](#cb7-1)ps -fp 17110`
+<pre tabindex="0"><code>`ps -fp 17110`
 </code></pre><p>If it’s idle, kill it.</p>
 <ol>
 <li><strong>Check for hanging post-install scripts</strong> Sometimes the last process left will look like:</li>
 </ol>
 <pre tabindex="0"><code>`/usr/bin/perl /usr/share/debconf/frontend /var/lib/dpkg/info/libreoffice-calc.postinst`
 </code></pre><p>That’s a leftover post-install script. If it’s been idle for minutes, kill it too:</p>
-<pre tabindex="0"><code>`[](#cb9-1)sudo kill &lt;PID&gt;`
+<pre tabindex="0"><code>`sudo kill &lt;PID&gt;`
 </code></pre><ol>
 <li><strong>Clean up again</strong></li>
 </ol>
-<pre tabindex="0"><code>`[](#cb10-1)sudo dpkg --configure -a
-[](#cb10-2)sudo apt-get install -f
-[](#cb10-3)sudo apt update
-[](#cb10-4)sudo apt full-upgrade`
+<pre tabindex="0"><code>`sudo dpkg --configure -a
+sudo apt-get install -f
+sudo apt update
+sudo apt full-upgrade`
 </code></pre><ol>
 <li><strong>Reboot cleanly</strong></li>
 </ol>
-<pre tabindex="0"><code>`[](#cb11-1)sudo reboot`
+<pre tabindex="0"><code>`sudo reboot`
 </code></pre><p>If it still refuses:</p>
-<pre tabindex="0"><code>`[](#cb12-1)sudo systemctl reboot -I`
-</code></pre><pre tabindex="0"><code>`[![](/images/AVvXsEg3DM7S5G8ErLl-_UMKhRw53hqjPo490a4OQbU7jMsulImTAHO2xa5V5eAjupjr2m5_yZ_eHTqQRLLcIYRe7w8MEpS5piV2OG0d-WTor8ZVqor_EULJGZP4E_9-q6gdupC5xq-InK1wkOdx1vZ55iVk-_sea-NafZGVTKvCkUn5J4yPvR6tt_DTuHKESBs=w640-h454)](/images/AVvXsEg3DM7S5G8ErLl-_UMKhRw53hqjPo490a4OQbU7jMsulImTAHO2xa5V5eAjupjr2m5_yZ_eHTqQRLLcIYRe7w8MEpS5piV2OG0d-WTor8ZVqor_EULJGZP4E_9-q6gdupC5xq-InK1wkOdx1vZ55iVk-_sea-NafZGVTKvCkUn5J4yPvR6tt_DTuHKESBs)
-
-`
-</code></pre><hr>
+<pre tabindex="0"><code>`sudo systemctl reboot -I`
+</code></pre><p><a href="/images/AVvXsEg3DM7S5G8ErLl-_UMKhRw53hqjPo490a4OQbU7jMsulImTAHO2xa5V5eAjupjr2m5_yZ_eHTqQRLLcIYRe7w8MEpS5piV2OG0d-WTor8ZVqor_EULJGZP4E_9-q6gdupC5xq-InK1wkOdx1vZ55iVk-_sea-NafZGVTKvCkUn5J4yPvR6tt_DTuHKESBs"><img src="/images/AVvXsEg3DM7S5G8ErLl-_UMKhRw53hqjPo490a4OQbU7jMsulImTAHO2xa5V5eAjupjr2m5_yZ_eHTqQRLLcIYRe7w8MEpS5piV2OG0d-WTor8ZVqor_EULJGZP4E_9-q6gdupC5xq-InK1wkOdx1vZ55iVk-_sea-NafZGVTKvCkUn5J4yPvR6tt_DTuHKESBs=w640-h454" alt=""></a></p>
+<hr>
 <h3 id="why-this-matters">Why this matters<a href="#why-this-matters" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>Ubuntu’s safety mechanisms actually work; they just don’t degrade gracefully when the GUI layer crashes. Everything under the hood (APT, systemd, SSH) behaves predictably, but the desktop tools stop communicating with them.</p>
 <p>As long as you can SSH in, you can recover cleanly without risking the package database.</p>

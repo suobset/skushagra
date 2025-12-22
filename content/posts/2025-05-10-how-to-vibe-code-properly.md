@@ -27,7 +27,7 @@ Human developers are needed to **translate vague ideas into concrete, actionable
 
 In fact, when I gave AI full freedom in a way that a novice might to build one aspect of the app, a chat interface that uses Gemini as a backend to talk to the user, alongside an hour of feeding it all the errors that it's own code gave and even hinting on how it might solve those errors, this is what I ended up with:
 
-[![Image](/images/Screenshot%202025-05-09%20at%2020.36.38.png)](/images/Screenshot%202025-05-09%20at%2020.36.38.png)
+![Image](/images/elementaryerrors.jpg)
 
 Do you see how elementary some of these errors are?
 
@@ -114,7 +114,7 @@ And guess what? We have a largely working Android client for this whole thing, w
 
 Know your stuff, and use AI as the best search engine + brick forge in existence. It excels in syntax, you need to excel in the semantics. 
 
-[![Image](/images/Screenshot%202025-05-09%20at%2019.04.46.png)](/images/Screenshot%202025-05-09%20at%2019.04.46.png)
+![Final product](/images/finalvibecode.jpg)
 
 Coming Soon
 

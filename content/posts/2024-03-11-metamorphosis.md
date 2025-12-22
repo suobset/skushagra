@@ -226,7 +226,7 @@ Here’s how the actual execution takes place:
 
 - Repeat until end
 
-[![Image](/images/image.png)](/images/image.png)
+![Image](/images/tracer1.png)
 
 Here’s what the snippet of an end trace for just Jumps looks like:
 
@@ -250,4 +250,4 @@ I know some of the explanations seem cut short, but I am saving them up for the 
 
 Until next time :D
 
-[![Image](/images/image2.png)](/images/image2.png)
+[![Image](/images/image2.png)](/images/tracer2.png)
