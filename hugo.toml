@@ -1,4 +1,4 @@
-baseURL = 'https://skushagra.com/'
+baseURL = "https://skushagra.com"
 languageCode = 'en-us'
 title = 'Declarative'
 [pagination]
