@@ -1,168 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  
-    <title>Google I/O &#39;25: Thoughts &amp; Takeaways :: Declarative</title>
-  
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="
-It&rsquo;s software spring once again: the couple of months that almost every tech company announces new software and services. We are currently a week out from seeing Apple&rsquo;s WWDC (with a rumored OS redesign, and AI enhancements), and I also just attended my fourthGoogle I/O a couple of weeks ago.
-For a couple of years now: Google has kept an equal footing between their multiple products: Android, AI, Web (Search/Workspace), and Cloud (GCP). There was a time when Google I/O was solely focused on Android and Services, but AI has increasingly been getting a spotlight since about 2020. As an avid user of all these aspects of Google&rsquo;s offering, I&rsquo;ll use this space to note down some of my own thoughts regarding all these aspects.
-" />
-<meta name="keywords" content="" />
-
-  <meta name="robots" content="noodp" />
-
-<link rel="canonical" href="http://localhost:1313/2025/06/google-io-25-thoughts-takeaways.html" />
-
-
-
-
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
-
-
-
-
-
-
-
-<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-
-
-<meta name="twitter:card" content="summary" />
-
-
-
-<meta property="og:locale" content="en" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Google I/O &#39;25: Thoughts &amp; Takeaways">
-<meta property="og:description" content="
-It&rsquo;s software spring once again: the couple of months that almost every tech company announces new software and services. We are currently a week out from seeing Apple&rsquo;s WWDC (with a rumored OS redesign, and AI enhancements), and I also just attended my fourthGoogle I/O a couple of weeks ago.
-For a couple of years now: Google has kept an equal footing between their multiple products: Android, AI, Web (Search/Workspace), and Cloud (GCP). There was a time when Google I/O was solely focused on Android and Services, but AI has increasingly been getting a spotlight since about 2020. As an avid user of all these aspects of Google&rsquo;s offering, I&rsquo;ll use this space to note down some of my own thoughts regarding all these aspects.
-" />
-<meta property="og:url" content="http://localhost:1313/2025/06/google-io-25-thoughts-takeaways.html" />
-<meta property="og:site_name" content="Declarative" />
-
-  <meta property="og:image" content="http://localhost:1313/og-image.png">
-
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="627">
-
-
-  <meta property="article:published_time" content="2025-06-04 19:32:00 &#43;0000 UTC" />
-
-
-
-
-
-
-
-
-
-
-
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google I/O &#39;25: Thoughts &amp; Takeaways - Declarative</title>
+  <meta name="description" content="fewer segfaults, more semantics">
+  <link rel="stylesheet" href="/css/classic-mac.css">
 </head>
 <body>
+  <div class="site-container">
+<a href="http://localhost:1313/" class="back-link">← Back to All Posts</a>
 
-
-<div class="container">
-
-  <header class="header">
-  <div class="header__inner">
-    <div class="header__logo">
-      <a href="http://localhost:1313/">
-  <div class="logo">
-    Terminal
-  </div>
-</a>
-
-    </div>
-    
-    
-  </div>
+<article>
+  <header class="post-header">
+    <h1 class="post-title">Google I/O &#39;25: Thoughts &amp; Takeaways</h1>
+    <div class="post-meta">June 04, 2025 · Events, Code, Hardware, Open Source, Software, Systems, AI</div>
+  </header>
   
-</header>
-
-
-  <div class="content">
-    
-<article class="post">
-  <h1 class="post-title">
-    <a href="http://localhost:1313/2025/06/google-io-25-thoughts-takeaways.html">Google I/O &lsquo;25: Thoughts &amp; Takeaways</a>
-  </h1>
-  <div class="post-meta"><time class="post-date">2025-06-04</time></div>
-
+  <hr class="divider">
   
-    <span class="post-tags">
-      
-      #<a href="http://localhost:1313/tags/events/">Events</a>&nbsp;
-      
-      #<a href="http://localhost:1313/tags/code/">Code</a>&nbsp;
-      
-      #<a href="http://localhost:1313/tags/hardware/">Hardware</a>&nbsp;
-      
-      #<a href="http://localhost:1313/tags/open-source/">Open Source</a>&nbsp;
-      
-      #<a href="http://localhost:1313/tags/software/">Software</a>&nbsp;
-      
-      #<a href="http://localhost:1313/tags/systems/">Systems</a>&nbsp;
-      
-      #<a href="http://localhost:1313/tags/ai/">AI</a>&nbsp;
-      
-    </span>
-  
-  
-
-
-  
-
-  <div class="post-content"><div>
-        <p><a href="/images/53835785546_d0902c0b40_b.jpg"><img src="/images/53835785546_d0902c0b40_b.jpg" alt="Image"></a></p>
+  <div class="post-content">
+    <p><a href="/images/53835785546_d0902c0b40_b.jpg"><img src="/images/53835785546_d0902c0b40_b.jpg" alt="Image"></a></p>
 <p>It&rsquo;s software spring once again: the couple of months that almost every tech company announces new software and services. We are currently a week out from seeing <a href="https://developer.apple.com/wwdc25/">Apple&rsquo;s WWDC</a> (with a rumored OS redesign, and AI enhancements), and I also just attended <a href="https://g.dev/suobset">my fourth</a><a href="https://io.google/2025/">Google I/O</a> a couple of weeks ago.</p>
 <p><a href="/images/AVvXsEiQ2MVlZySk3COMSzfyM_mtzgedOcB2SQCGIYpyY2qI1w5tI269OkF-ZyQsF5PffV6zKu0z9oAZNOE53qYU0hVWePd8r_VIX5ZlCM-h1_jMZWypdeZCMSjthXnm-idLvwGuAnD2Ii8iGgbSlZbENkEGPl39ytuVVxbUyGrSKm4j6v9weL1K48P_BGVW1UA"><img src="/images/AVvXsEiQ2MVlZySk3COMSzfyM_mtzgedOcB2SQCGIYpyY2qI1w5tI269OkF-ZyQsF5PffV6zKu0z9oAZNOE53qYU0hVWePd8r_VIX5ZlCM-h1_jMZWypdeZCMSjthXnm-idLvwGuAnD2Ii8iGgbSlZbENkEGPl39ytuVVxbUyGrSKm4j6v9weL1K48P_BGVW1UA=w640-h170" alt=""></a></p>
 <p>For a couple of years now: Google has kept an equal footing between their multiple products: Android, AI, Web (Search/Workspace), and Cloud (GCP). There was a time when Google I/O was solely focused on Android and Services, but AI has increasingly been getting a spotlight since about 2020. As an avid user of all these aspects of Google&rsquo;s offering, I&rsquo;ll use this space to note down some of my own thoughts regarding all these aspects.</p>
-<h2 id="android">Android<a href="#android" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h2 id="android">Android</h2>
 <p><a href="/images/AVvXsEgFukAF4YWnA9Qj7gzn10Cxzx8xtn8bvZ19wshNmOCxa_2URAUsUN0vDpdjZZhr1mAUKsmc8L7rBi1CjAAXhvSjZmlHN7EK6r6W9o44XANzkPT9Amce883dsskRREXQrB0JpPYBBNJQZWIGAoTo89_3kIm3zL57uduyGPrvkA8yPHmjlepT4LMn1Vj803o"><img src="/images/AVvXsEgFukAF4YWnA9Qj7gzn10Cxzx8xtn8bvZ19wshNmOCxa_2URAUsUN0vDpdjZZhr1mAUKsmc8L7rBi1CjAAXhvSjZmlHN7EK6r6W9o44XANzkPT9Amce883dsskRREXQrB0JpPYBBNJQZWIGAoTo89_3kIm3zL57uduyGPrvkA8yPHmjlepT4LMn1Vj803o=w640-h360" alt=""></a></p>
 <p>Source: Google</p>
 <p>Our favorite bot turns 16, and while dessert names had been forgone from the mainline a long time ago, internally this version has been christened &ldquo;Baklava&rdquo;. From an OS and devops position, one of the most notable changes with this version is the introduction of the &ldquo;<a href="https://www.androidfaithful.com/android-trunk-stable-explained/">Trunk Stable Project</a>&rdquo; for Android development: which shifts all Android development to internal Google repositories, with the company releasing de-Googled bits in the Open Source Repository.</p>
@@ -176,7 +38,7 @@ For a couple of years now: Google has kept an equal footing between their multip
 <p>Beyond these deep system-level enhancements, Android 16 is bringing some pretty exciting user-facing changes. Visually, Android 16 is set to be a treat with the full rollout of <strong><a href="https://blog.google/products/android/material-3-expressive-android-wearos-launch/">Material 3 Expressive</a></strong>. Think more vibrant colors, intuitive motion, and adaptive components that should make the whole experience feel more personal and dynamic. This new design language isn&rsquo;t just for phones; it&rsquo;s also making its way to Wear OS 6 + Chrome OS, which is a nice touch for consistency across devices. There are tons of thoughts I have when it comes to UI/UX design across Operating Systems, and I am honestly waiting on seeing what Apple delivers on in about a week to fully form my thoughts regarding this, and make a post about the same.</p>
 <p>Android 16 is adding support for an <strong><a href="https://www.ietf.org/archive/id/draft-lim-apv-00.html">Advanced Professional Video</a> (APV) codec</strong>, promising near-lossless video quality with better compression, which is great for those shooting high-res content. We&rsquo;re also seeing <strong>Ultra HDR image enhancements</strong> and better tools for developers to integrate features like motion photo capture. The OS is also getting smarter about how it handles common tasks. The <strong>Quick Settings panel is getting a revamp</strong>, with Wi-Fi and Bluetooth toggles reportedly returning to a more straightforward one-click operation (thank goodness!). Multitasking is also being refined with better <strong>desktop windowing capabilities</strong> and more flexible split-screen options, especially for tablets. This is a special one, and it seems they&rsquo;re partnering with Samsung for their DeX expertise. Essentially, plug in your phone to a monitor, keyboard, and mouse, and you&rsquo;ll get an entire desktop environment with windowing and multitasking capabilities.</p>
 <p>Lastly, Google emphasized Android&rsquo;s expansion into new form factors. <strong><a href="https://www.android.com/xr/">Android XR</a></strong> got a lot of airtime, with Gemini integration coming to glasses and headsets, and partnerships with companies like Samsung and XREAL. This push into XR, along with continued refinements for foldables, tablets, Wear OS, Android Auto, and Google TV, shows Google&rsquo;s ambition for Android to be a truly ubiquitous platform. My biggest hope is that they deliver on this. Android on tablets only recently has gotten good, and the gap between Chrome OS and Android being separate entities is closing day-by-day.</p>
-<h2 id="takeaways">Takeaways<a href="#takeaways" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h2 id="takeaways">Takeaways</h2>
 <p>Wrapping up the Android story from a developer&rsquo;s perspective, the I/O 2025 Developer Keynote hammered home a few core themes.</p>
 <ul>
 <li>First, <strong>AI is not just a feature, it&rsquo;s foundational.</strong> The deep integration of Gemini across the Android ecosystem, especially within Android Studio (with features like Compose UI generation from Figma designs, code explanations, and even generating unit tests for UI logic), is a clear signal that Google wants AI to be an indispensable part of the development workflow, aiming to boost productivity and help tackle complex problems.</li>
@@ -184,7 +46,7 @@ For a couple of years now: Google has kept an equal footing between their multip
 <li>Third, <strong>developer productivity and app quality remain key focus areas.</strong> Beyond the AI enhancements in Studio, Google highlighted improvements in Jetpack Compose, including better performance and new components. They also showcased advancements in app quality tools, like more insightful crash reporting with Gemini analysis in App Quality Insights, and streamlined testing with better backup/restore support in Studio. The new &ldquo;Version Upgrade Agent&rdquo; in Android Studio, designed to help manage dependency updates, also looks like a welcome addition.</li>
 <li>Finally, <strong>platform modernization continues.</strong> The shift to 16KB page sizes and the establishment of Vulkan as the official graphics API, while requiring some adaptation from developers, are crucial for the long-term health, performance, and security of the Android platform. Google seems committed to providing tools and guidance to navigate these transitions. Overall, the message was clear: Google is investing heavily in making Android development more intelligent, adaptable, and efficient.</li>
 </ul>
-<h2 id="artificial-intelligence">Artificial Intelligence<a href="#artificial-intelligence" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h2 id="artificial-intelligence">Artificial Intelligence</h2>
 <p><a href="/images/AVvXsEiey8OrS8AUeH9qXXxGoszuPdWCL14h9vyl4Mco2_c6O2A2Fs0DcVEzk_ktBxqtmuqpRSLymmZcFdJdV9c5Lsyu4iIOeMG3H3Vrszov6PFqHkqQku5r4fr0VxpKQ1-mH6iHHwscdqZiLjQL5elV3cA9SijGQ6ZieGOi6GrcZ1R5ZqGX71lm8xvgb-nspxg"><img src="/images/AVvXsEiey8OrS8AUeH9qXXxGoszuPdWCL14h9vyl4Mco2_c6O2A2Fs0DcVEzk_ktBxqtmuqpRSLymmZcFdJdV9c5Lsyu4iIOeMG3H3Vrszov6PFqHkqQku5r4fr0VxpKQ1-mH6iHHwscdqZiLjQL5elV3cA9SijGQ6ZieGOi6GrcZ1R5ZqGX71lm8xvgb-nspxg=w640-h360" alt=""></a></p>
 <p>Source: Google</p>
 <p>If you thought that Google did a tremendous job with Android and its Operating Systems, the next day was filled with AI to the brim. From consumer chat-bots and image-generators to deep level integrations in Android Studio, context understanding, and devops + cloud: Google has a lot of goals and plans with Gemini, and they&rsquo;re moving <em>fast</em>.</p>
@@ -219,7 +81,7 @@ For a couple of years now: Google has kept an equal footing between their multip
 </li>
 </ul>
 <p>While the &ldquo;AI will augment, not replace&rdquo; line is one we hear often, Google&rsquo;s focus on building AI as a tool <em>within</em> existing workflows, coupled with these tangible steps towards safety, transparency, and accountability, lends some credence to this. The <a href="https://labs.google/">labs</a> webpage continues to be the place for early access to some of these experiments, and it&rsquo;s clear they want users to be part of the journey in shaping this technology responsibly.</p>
-<h2 id="takeaways-1">Takeaways<a href="#takeaways-1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h2 id="takeaways-1">Takeaways</h2>
 <p>From a developer standpoint, the AI segment of I/O 2025 was less about a single groundbreaking algorithm and more about <strong>democratizing access to powerful, multimodal AI and embedding it deeply into developer workflows and end-user products.</strong></p>
 <ul>
 <li>
@@ -242,7 +104,7 @@ For a couple of years now: Google has kept an equal footing between their multip
 </li>
 </ul>
 <p>In essence, the AI developer track at I/O 2025 was a call to action: Google is providing increasingly powerful and accessible AI building blocks, and they want developers to start using them to create the next generation of intelligent applications, with a strong undercurrent of doing so responsibly.</p>
-<h2 id="cloud">Cloud<a href="#cloud" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h2 id="cloud">Cloud</h2>
 <p>I&rsquo;ll keep this one quick and short: the crux is that all existing GCP products got updates with the inclusion and integration of the new Gemini models, and Google is delivering on some very ambitious agentic workflows and tooling that enhance how cloud clusters are managed, deployed, and how developer productivity is shifting.</p>
 <p><strong><a href="https://cloud.google.com/vertex-ai">Vertex AI</a></strong> remains the cornerstone, now supercharged with the latest Gemini 2.5 Pro and Flash models. Managing the sheer resources (compute, memory, and high-speed interconnects) required for training and serving these massive models is a monumental task for any underlying operating system. Vertex AI aims to abstract much of this complexity, offering features like &ldquo;thought summaries&rdquo; for model auditability and the &ldquo;Deep Think&rdquo; mode for highly complex reasoning tasks in Gemini 2.5 Pro. These advanced reasoning capabilities likely involve sophisticated state management and optimized execution paths within the cloud infrastructure.</p>
 <p>Developer productivity in the cloud is getting a massive boost with AI-powered coding tools. <strong>Gemini Code Assist</strong>, now powered by Gemini 2.5 and benefiting from that huge 2 million token context window for enterprise users, is becoming an indispensable coding companion. <strong><a href="https://jules.google">Jules</a></strong>, the autonomous AI coding agent, takes this further, promising to handle tasks like writing tests and initial feature scaffolding. This hints at AI models performing complex program transformations and understanding developer intent at a high level.</p>
@@ -253,43 +115,28 @@ For a couple of years now: Google has kept an equal footing between their multip
 <hr>
 <p>Cover image: UMass Amherst Observatory at Orchard Hill, taken on a Google Pixel 6a in 2023.</p>
 
-      </div></div>
-
+  </div>
   
-
-  
+  <nav class="post-nav">
     
-
-  
+    <a href="http://localhost:1313/2025/05/loop-fallacy.html">← Loop Fallacy: Re-evaluating …</a>
+    
+    
+    <a href="http://localhost:1313/2025/06/ravynos-contributing-swift-6-to-freebsd.html">RavynOS: Contributing Swift 6 … →</a>
+    
+  </nav>
 </article>
 
-  </div>
-
-  
-    <footer class="footer">
-  <div class="footer__inner">
     
-      <div class="copyright">
-        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
-    
-      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
-      </div>
+    <footer class="site-footer">
+      <hr class="divider-double">
+      
+      <p class="footer-text">
+  <script id="umaring_js" src="https://umaring.mkr.cx/ring.js?id=kush"></script>
+  <div id="umaring"></div><br>
+        © 2025 · Built with <a href="https://gohugo.io">Hugo</a>
+      </p>
+    </footer>
   </div>
-</footer>
-
-
-
-
-
-
-<script type="text/javascript" src="/bundle.min.js"></script>
-
-
-
-
-
-  
-</div>
-
 </body>
 </html>

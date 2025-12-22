@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ partial "header" . }}
+
+<section>
+  <h2 class="section-title">{{ .Title }}<span class="cursor"></span></h2>
+  <ul class="post-list">
+    {{ range .Pages }}
+    <li class="post-item">
+      <span class="post-date">{{ len .Pages }} posts</span>
+      <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

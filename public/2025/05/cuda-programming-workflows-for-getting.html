@@ -1,165 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  
-    <title>CUDA Programming: Workflows for getting Nvidia drivers working on Linux :: Declarative</title>
-  
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="
-As part of my current job, I have needed to do OS reinstalls on a frequent basis. Given that my work revolves around CUDA, here are some of the steps I follow in my workflow to get Nvidia drivers playing well in Linux.
-**Disclaimer: *I take no responsibility if your system breaks or crashes. This is purely for learning and informational purposes. Please back your files up. The steps herein are not official official, they are largely based on what has worked in my experience so far. It might not work sometime in the future, wherein &ldquo;sometime&rdquo; can range from 10 minutes to 30 years.**FOLLOW THE NVIDIA DOCUMENTATION ALONGSIDE THIS, EVEN IF IT FEELS LIKE READING A WALL OF TEXT!!!
-" />
-<meta name="keywords" content="" />
-
-  <meta name="robots" content="noodp" />
-
-<link rel="canonical" href="http://localhost:1313/2025/05/cuda-programming-workflows-for-getting.html" />
-
-
-
-
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
-
-
-
-
-
-
-
-<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-
-
-<meta name="twitter:card" content="summary" />
-
-
-
-<meta property="og:locale" content="en" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="CUDA Programming: Workflows for getting Nvidia drivers working on Linux">
-<meta property="og:description" content="
-As part of my current job, I have needed to do OS reinstalls on a frequent basis. Given that my work revolves around CUDA, here are some of the steps I follow in my workflow to get Nvidia drivers playing well in Linux.
-**Disclaimer: *I take no responsibility if your system breaks or crashes. This is purely for learning and informational purposes. Please back your files up. The steps herein are not official official, they are largely based on what has worked in my experience so far. It might not work sometime in the future, wherein &ldquo;sometime&rdquo; can range from 10 minutes to 30 years.**FOLLOW THE NVIDIA DOCUMENTATION ALONGSIDE THIS, EVEN IF IT FEELS LIKE READING A WALL OF TEXT!!!
-" />
-<meta property="og:url" content="http://localhost:1313/2025/05/cuda-programming-workflows-for-getting.html" />
-<meta property="og:site_name" content="Declarative" />
-
-  <meta property="og:image" content="http://localhost:1313/og-image.png">
-
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="627">
-
-
-  <meta property="article:published_time" content="2025-05-01 22:30:00 &#43;0000 UTC" />
-
-
-
-
-
-
-
-
-
-
-
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CUDA Programming: Workflows for getting Nvidia drivers working on Linux - Declarative</title>
+  <meta name="description" content="fewer segfaults, more semantics">
+  <link rel="stylesheet" href="/css/classic-mac.css">
 </head>
 <body>
+  <div class="site-container">
+<a href="http://localhost:1313/" class="back-link">← Back to All Posts</a>
 
-
-<div class="container">
-
-  <header class="header">
-  <div class="header__inner">
-    <div class="header__logo">
-      <a href="http://localhost:1313/">
-  <div class="logo">
-    Terminal
-  </div>
-</a>
-
-    </div>
-    
-    
-  </div>
+<article>
+  <header class="post-header">
+    <h1 class="post-title">CUDA Programming: Workflows for getting Nvidia drivers working on Linux</h1>
+    <div class="post-meta">May 01, 2025 · Open Source, Hardware, Code, Systems</div>
+  </header>
   
-</header>
-
-
-  <div class="content">
-    
-<article class="post">
-  <h1 class="post-title">
-    <a href="http://localhost:1313/2025/05/cuda-programming-workflows-for-getting.html">CUDA Programming: Workflows for getting Nvidia drivers working on Linux</a>
-  </h1>
-  <div class="post-meta"><time class="post-date">2025-05-01</time></div>
-
+  <hr class="divider">
   
-    <span class="post-tags">
-      
-      #<a href="http://localhost:1313/tags/open-source/">Open Source</a>&nbsp;
-      
-      #<a href="http://localhost:1313/tags/hardware/">Hardware</a>&nbsp;
-      
-      #<a href="http://localhost:1313/tags/code/">Code</a>&nbsp;
-      
-      #<a href="http://localhost:1313/tags/systems/">Systems</a>&nbsp;
-      
-    </span>
-  
-  
-
-
-  
-
-  <div class="post-content"><div>
-        <p><a href="/images/52335347740_df74a7804c_k.jpg"><img src="/images/52335347740_df74a7804c_k.jpg" alt="Image"></a></p>
+  <div class="post-content">
+    <p><a href="/images/52335347740_df74a7804c_k.jpg"><img src="/images/52335347740_df74a7804c_k.jpg" alt="Image"></a></p>
 <p>As part of my current job, I have needed to do OS reinstalls on a frequent basis. Given that my work revolves around CUDA, here are some of the steps I follow in my workflow to get Nvidia drivers playing well in Linux.</p>
 <p>**Disclaimer: *I take no responsibility if your system breaks or crashes. This is purely for learning and informational purposes. Please back your files up. The steps herein are not official official, they are largely based on what has worked in my experience so far. It might not work sometime in the future, wherein &ldquo;sometime&rdquo; can range from 10 minutes to 30 years.**FOLLOW THE NVIDIA DOCUMENTATION ALONGSIDE THIS, EVEN IF IT FEELS LIKE READING A WALL OF TEXT!!!</p>
-<h3 id="do-you-have-the-luxury-of-installing-an-os-right-now-without-losing-anything-crucialrestoring-from-a-backup"><strong>Do you have the luxury of installing an OS right now, without losing anything crucial/restoring from a backup?</strong><a href="#do-you-have-the-luxury-of-installing-an-os-right-now-without-losing-anything-crucialrestoring-from-a-backup" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h3 id="do-you-have-the-luxury-of-installing-an-os-right-now-without-losing-anything-crucialrestoring-from-a-backup"><strong>Do you have the luxury of installing an OS right now, without losing anything crucial/restoring from a backup?</strong></h3>
 <p>If so, please just download and install a distribution that comes with Nvidia drivers pre-compiled. Tons of distros exist to fill in this niche: my personal favorite being <a href="https://pop.system76.com/">Pop!_OS</a>, based on Ubuntu with up to date apt repositories, and Nvidia drivers + kernels + CUDA developer toolkit ready to go right out of the box. Even popular commercially-backed distros like Ubuntu and Fedora now give the option to install Nvidia Drivers automatically during the install step (you will still need to install the CUDA developer toolkit, but that is much easier and can likely be handled by your distro&rsquo;s package manager).</p>
 <p>The only downside to this approach is that the latest CUDA driver available can usually become whatever version the distro was packed with when it was released. For a rolling release distro like Fedora, this is a non-issue. However, for LTS distros like Ubuntu: you can often end up with slightly older but still working and rock solid versions of the driver and kernel. Despite this, I would generally recommend this path: as the drivers are only slightly old and will be perfectly fine for 99% of your development requirements.</p>
 <p>However, I understand that you may either want a distro of your choice, or have other constraints, or just want the latest drivers available (I fall in this third category). Let&rsquo;s assume for now that you have a clean install of the Linux distro of your choice.</p>
-<h3 id="first-off-do-not-solely-rely-on-your-distro"><strong>First off, do not solely rely on your distro&rsquo;s package manager</strong><a href="#first-off-do-not-solely-rely-on-your-distro" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h3 id="first-off-do-not-solely-rely-on-your-distro"><strong>First off, do not solely rely on your distro&rsquo;s package manager</strong></h3>
 <p>Weirdly speaking, this is one of the few times when relying on a package manager might be more detrimental than helpful. Nvidia regularly pushes a lot of updates to the GPU kernel and driver, which are not updated on the package manager port of CUDA/nvidia-driver. While newer drivers are backwards compatible with older kernels, the flip side is not true: causing issues ranging anywhere between &ldquo;my GUI is gone&rdquo; to Linux kernel panics and system crashes.</p>
 <p>When starting with a fresh operating system installation, getting the Nvidia driver set up correctly is the critical first step before installing the CUDA Toolkit. According to Nvidia&rsquo;s documentation, using distribution-specific packages (like <code>.deb</code> or <code>.rpm</code> files) is a recommended method for a clean installation. This approach integrates well with your system&rsquo;s package management. However, for developers who need the absolute latest driver version or prefer a consistent installation method across different distributions, obtaining the driver directly from Nvidia&rsquo;s website as a <code>.run</code> file is also a highly effective and often preferred method in the CUDA development community. This ensures you have the most recent driver that is guaranteed to be compatible with the latest CUDA toolkits.</p>
 <p><img src="/images/cudatoolkitpage.jpg" alt="CUDA Toolkits Page"></p>
@@ -207,7 +75,7 @@ As part of my current job, I have needed to do OS reinstalls on a frequent basis
 </ol>
 <p>After rebooting, your system should load with the newly installed Nvidia drivers. You can confirm this by opening a terminal in your graphical environment and running <code>nvidia-smi</code>. This command should display details about your GPU and the installed driver version.</p>
 <p>This <code>.run</code> file method, while manual, provides direct access to the latest compatible driver from Nvidia, which is crucial for ensuring optimal performance and compatibility with the CUDA Toolkit on a clean system.</p>
-<h3 id="what-if-you-do-not-have-a-clean-os-install">What if you do not have a clean OS install?<a href="#what-if-you-do-not-have-a-clean-os-install" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h3 id="what-if-you-do-not-have-a-clean-os-install">What if you do not have a clean OS install?</h3>
 <p>If you&rsquo;re not starting from a fresh operating system installation, the process requires a bit more care. The primary challenge is ensuring that any existing graphics drivers (especially the open-source Nouveau driver or older Nvidia installations) are completely removed before installing the new ones. Failure to do so is a common cause of installation failures, black screens, or system instability.</p>
 <p>Here&rsquo;s a general workflow:</p>
 <ol>
@@ -246,7 +114,7 @@ options nouveau modeset=0
 <p>After rebooting, your system should load with the newly installed Nvidia drivers. You can verify the installation by opening a terminal in your graphical environment and running <code>nvidia-smi</code>. This command should display information about your GPU and the installed driver version.</p>
 <p><img src="/images/nvidiasmi.jpg" alt="NVIDIA SMI"></p>
 <p>Example nvidia-smi output from my workstation. Note Driver version 550 with CUDA 12.4 | 12.4 requires at least driver version 525</p>
-<h3 id="alternate-install-methods-as-a-last-ditch-before-os-reinstall-not-recommended">Alternate Install Methods as a last ditch before OS reinstall (not recommended)<a href="#alternate-install-methods-as-a-last-ditch-before-os-reinstall-not-recommended" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h3 id="alternate-install-methods-as-a-last-ditch-before-os-reinstall-not-recommended">Alternate Install Methods as a last ditch before OS reinstall (not recommended)</h3>
 <p>While the <code>.run</code> file from Nvidia&rsquo;s website is generally the most reliable method for CUDA development due to its directness and access to the latest compatible versions, there are other ways to install Nvidia drivers. However, these often come with drawbacks when working with CUDA:</p>
 <ul>
 <li><strong>Building from tarball archives:</strong><a href="https://docs.nvidia.com/cuda/archive/12.6.3/cuda-toolkit-release-notes/index.html">Nvidia provides tarballs</a> for their drivers. Installing from the archives give you the most control over the build process and can be useful for specific, highly customized environments or debugging. However, it is significantly more complex, time-consuming, and prone to errors related to build dependencies, kernel headers, and configuration issues. For a standard development workflow focusing on CUDA, the complexity usually outweighs the benefits.</li>
@@ -340,7 +208,7 @@ options nouveau modeset=0
 <p>While simpler, remember the potential version lag when using package managers for CUDA development. Some distributions, like Pop!_OS, offer better-integrated Nvidia driver installations via their repositories, but this is not universal.</p>
 <p>For the most stable and performant CUDA environment, especially when using the latest CUDA toolkits, obtaining the driver directly from Nvidia&rsquo;s website via the <code>.run</code> file remains the preferred approach.</p>
 <p><strong>If at this point things seem messed up, my go-to has honestly been to do an OS reinstall from scratch and follow the preferred Nvidia method to install CUDA drivers and kernels</strong>. This has never failed me, so far.</p>
-<h3 id="sick-driver-bro-do-you-even-compute">Sick Driver bro, do you even compute?<a href="#sick-driver-bro-do-you-even-compute" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h3 id="sick-driver-bro-do-you-even-compute">Sick Driver bro, do you even compute?</h3>
 <p>Congratulations, you now most likely have a working GPU driver with working GUI (and have frantically re-cloned your git repositories and transferred your files back from an external drive). You still need to have a working CUDA + nvcc + Nvidia dev tools installation to actually code for the GPU. Fortunately, this is light years easier than wrestling with the driver installation, provided your driver is correctly installed and compatible.</p>
 <p><img src="/images/cudapage.jpg" alt=""></p>
 <p>The <a href="https://developer.nvidia.com/cuda-12-6-3-download-archive?target_os=Linux&amp;target_arch=x86_64&amp;Distribution=Ubuntu&amp;target_version=24.04&amp;target_type=deb_local">CUDA Toolkit</a> includes the CUDA compiler (<code>nvcc</code>), libraries, development tools, samples, and the CUDA runtime. Just like with the drivers, the recommended method for a CUDA development workflow is to download the installer directly from Nvidia. This ensures you get the specific version of the toolkit you need, which is often tied to the CUDA version supported by your installed driver.</p>
@@ -387,43 +255,28 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PAT
 <p>Nvidia website and table screenshots: nvidia.com</p>
 <p>nvidia-smi screenshot was the output generated from my workstation with a RTX 3080.</p>
 
-      </div></div>
-
+  </div>
   
-
-  
+  <nav class="post-nav">
     
-
-  
+    <a href="http://localhost:1313/2025/05/intel-foundry-direct-connect-2025.html">← Intel Foundry Direct Connect …</a>
+    
+    
+    <a href="http://localhost:1313/2025/05/zero-android-experience-to-working.html">How to vibe code properly. →</a>
+    
+  </nav>
 </article>
 
-  </div>
-
-  
-    <footer class="footer">
-  <div class="footer__inner">
     
-      <div class="copyright">
-        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
-    
-      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
-      </div>
+    <footer class="site-footer">
+      <hr class="divider-double">
+      
+      <p class="footer-text">
+  <script id="umaring_js" src="https://umaring.mkr.cx/ring.js?id=kush"></script>
+  <div id="umaring"></div><br>
+        © 2025 · Built with <a href="https://gohugo.io">Hugo</a>
+      </p>
+    </footer>
   </div>
-</footer>
-
-
-
-
-
-
-<script type="text/javascript" src="/bundle.min.js"></script>
-
-
-
-
-
-  
-</div>
-
 </body>
 </html>

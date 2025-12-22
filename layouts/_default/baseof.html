@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="stylesheet" href="{{ "css/classic-mac.css" | relURL }}">
+  {{- block "head" . }}{{- end }}
+</head>
+<body>
+  <div class="site-container">
+    {{- block "main" . }}{{- end }}
+    
+    <footer class="site-footer">
+      <hr class="divider-double">
+      <!--<pre class="ascii-footer">⠀⠀
+⠀⠀⠀⠀⠀
+      </pre> -->
+      <p class="footer-text">
+  <script id="umaring_js" src="https://umaring.mkr.cx/ring.js?id=kush"></script>
+  <div id="umaring"></div><br>
+        © {{ now.Year }} · Built with <a href="https://gohugo.io">Hugo</a>
+      </p>
+    </footer>
+  </div>
+  {{- block "footer" . }}{{- end }}
+</body>
+</html>

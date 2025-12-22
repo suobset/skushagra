@@ -1,0 +1,30 @@
+<header class="site-header">
+  <pre class="ascii-header">
+ _____     ______     ______     __         ______     ______     ______     ______   __     __   __   ______    
+/\  __-.  /\  ___\   /\  ___\   /\ \       /\  __ \   /\  == \   /\  __ \   /\__  _\ /\ \   /\ \ / /  /\  ___\   
+\ \ \/\ \ \ \  __\   \ \ \____  \ \ \____  \ \  __ \  \ \  __<   \ \  __ \  \/_/\ \/ \ \ \  \ \ \'/   \ \  __\   
+ \ \____-  \ \_____\  \ \_____\  \ \_____\  \ \_\ \_\  \ \_\ \_\  \ \_\ \_\    \ \_\  \ \_\  \ \__|    \ \_____\ 
+  \/____/   \/_____/   \/_____/   \/_____/   \/_/\/_/   \/_/ /_/   \/_/\/_/     \/_/   \/_/   \/_/      \/_____/ 
+                                                                                                                 
+  </pre>
+  {{ with .Site.Params.description }}
+  <p class="site-description">{{ . }}</p>
+  {{ end }}
+  
+  <nav class="site-nav">
+    <a href="{{ .Site.BaseURL }}">Home</a>
+    {{ with .Site.GetPage "/about" }}<a href="{{ .Permalink }}">About</a>{{ end }}
+    <div class="dropdown">
+      <button class="dropdown-toggle" onclick="this.parentElement.classList.toggle('open')">
+        Links ▾
+      </button>
+      <div class="dropdown-menu">
+        {{ with .Site.Params.github }}<a href="https://github.com/{{ . }}" target="_blank">GitHub</a>{{ end }}
+        {{ with .Site.Params.linkedin }}<a href="https://linkedin.com/in/{{ . }}" target="_blank">LinkedIn</a>{{ end }}
+        {{ with .Site.Params.orcid }}<a href="https://orcid.org/{{ . }}" target="_blank">ORCiD</a>{{ end }}
+        {{ with .Site.Params.instagram }}<a href="https://instagram.com/{{ . }}" target="_blank">Instagram</a>{{ end }}
+      </div>
+    </div>
+  </nav>
+</header>
+<hr class="divider">

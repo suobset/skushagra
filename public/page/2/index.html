@@ -1,582 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
 	<meta name="generator" content="Hugo 0.153.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  
-    <title>Declarative</title>
-  
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-
-  <meta name="robots" content="noodp" />
-
-<link rel="canonical" href="http://localhost:1313/" />
-
-
-
-
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
-
-
-
-
-
-
-
-<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-
-
-<meta name="twitter:card" content="summary" />
-
-
-
-<meta property="og:locale" content="en" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Declarative">
-<meta property="og:description" content="" />
-<meta property="og:url" content="http://localhost:1313/" />
-<meta property="og:site_name" content="Declarative" />
-
-  <meta property="og:image" content="http://localhost:1313/og-image.png">
-
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="627">
-
-
-
-
-
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Declarative" />
-
-
-
-
-
-
-
-
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Declarative</title>
+  <meta name="description" content="fewer segfaults, more semantics">
+  <link rel="stylesheet" href="/css/classic-mac.css">
 </head>
 <body>
-
-
-<div class="container">
-
-  <header class="header">
-  <div class="header__inner">
-    <div class="header__logo">
-      <a href="http://localhost:1313/">
-  <div class="logo">
-    Terminal
-  </div>
-</a>
-
-    </div>
-    
-    
-  </div>
+  <div class="site-container">
+<header class="site-header">
+  <pre class="ascii-header">
+ _____     ______     ______     __         ______     ______     ______     ______   __     __   __   ______    
+/\  __-.  /\  ___\   /\  ___\   /\ \       /\  __ \   /\  == \   /\  __ \   /\__  _\ /\ \   /\ \ / /  /\  ___\   
+\ \ \/\ \ \ \  __\   \ \ \____  \ \ \____  \ \  __ \  \ \  __&lt;   \ \  __ \  \/_/\ \/ \ \ \  \ \ \'/   \ \  __\   
+ \ \____-  \ \_____\  \ \_____\  \ \_____\  \ \_\ \_\  \ \_\ \_\  \ \_\ \_\    \ \_\  \ \_\  \ \__|    \ \_____\ 
+  \/____/   \/_____/   \/_____/   \/_____/   \/_/\/_/   \/_/ /_/   \/_/\/_/     \/_/   \/_/   \/_/      \/_____/ 
+                                                                                                                 
+  </pre>
   
-</header>
-
-
-  <div class="content">
-    
+  <p class="site-description">fewer segfaults, more semantics</p>
   
-  <div class="posts">
-    
-    
-
-    
-    
-      
-    
-    
-
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/2025/05/zero-android-experience-to-working.html">How to vibe code properly.</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2025-05-10</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="http://localhost:1313/tags/open-source/">Open Source</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/software/">Software</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/code/">Code</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/ai/">AI</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p><a href="/images/53834999307_ba06e9c18f_k.jpg"><img src="/images/53834999307_ba06e9c18f_k.jpg" alt="Image"></a></p>
-<p><em>Update: Automator, the codebase I started making here, now has a public dev repo. I&rsquo;ll be working more on it and update it on this Blog + a couple other forums as determined. <a href="https://github.com/suobset/automator">Check it out!</a></em></p>
-<ul>
-<li></li>
-<li></li>
-</ul>
-<p>As a developer, I would like to showcase herein <strong>how to best use AI to help teach yourself development for a platform you have never laid your hands on</strong>. I do compilers and low level systems; in this article, I will be making a minimal prototype Android app that uses a LLM-like interface to help you navigate your phone. For the sake of brevity, I have only documented what I did on the first couple days of this project, as I figure and polish the app further for a proper OSS release.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/2025/05/zero-android-experience-to-working.html">[]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/2025/05/cuda-programming-workflows-for-getting.html">CUDA Programming: Workflows for getting Nvidia drivers working on Linux</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2025-05-01</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="http://localhost:1313/tags/open-source/">Open Source</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/hardware/">Hardware</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/code/">Code</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/systems/">Systems</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p><a href="/images/52335347740_df74a7804c_k.jpg"><img src="/images/52335347740_df74a7804c_k.jpg" alt="Image"></a></p>
-<p>As part of my current job, I have needed to do OS reinstalls on a frequent basis. Given that my work revolves around CUDA, here are some of the steps I follow in my workflow to get Nvidia drivers playing well in Linux.</p>
-<p>**Disclaimer: *I take no responsibility if your system breaks or crashes. This is purely for learning and informational purposes. Please back your files up. The steps herein are not official official, they are largely based on what has worked in my experience so far. It might not work sometime in the future, wherein &ldquo;sometime&rdquo; can range from 10 minutes to 30 years.**FOLLOW THE NVIDIA DOCUMENTATION ALONGSIDE THIS, EVEN IF IT FEELS LIKE READING A WALL OF TEXT!!!</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/2025/05/cuda-programming-workflows-for-getting.html">[]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/2025/05/intel-foundry-direct-connect-2025.html">Intel Foundry Direct Connect 2025: Perspectives of a low level software developer</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2025-04-30</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="http://localhost:1313/tags/open-source/">Open Source</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/events/">Events</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/hardware/">Hardware</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/code/">Code</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/career/">Career</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p><a href="/images/AVvXsEhK6bNjMQlfieVNcB2VqTn4UFTaR4JSqbvka9Zw4qrZpRkFGHRW1MWbr5s3UugAPi_Ms_y68jC6dicYsMN4XdXvpXq6WzmwZnQk3ef9L7ehAcXWE0_L2nE9Qt8A__CwURMJpfXijTCBUgQKgsL23-6XV4kFXiqPewD5n9vTXHLYTt7pmSfQLgDCA8uUzOo"><img src="/images/AVvXsEhK6bNjMQlfieVNcB2VqTn4UFTaR4JSqbvka9Zw4qrZpRkFGHRW1MWbr5s3UugAPi_Ms_y68jC6dicYsMN4XdXvpXq6WzmwZnQk3ef9L7ehAcXWE0_L2nE9Qt8A__CwURMJpfXijTCBUgQKgsL23-6XV4kFXiqPewD5n9vTXHLYTt7pmSfQLgDCA8uUzOo=w640-h426" alt=""></a></p>
-<p>I love seeing the Boston Dynamics Spot cameo in unexpected places. Over here, Chip is used for QC purposes.</p>
-<p>I recently attended a livestream event from Intel Foundry (think Intel&rsquo;s hardware R&amp;D + Manufacturing wing which partners with other companies and manufactures processors), and as someone who spends a good chunk of time buried in low-level systems – delving into OSes and how compilers really work – this was pretty fascinating stuff. Seeing how the foundational layer of computing, the actual silicon manufacturing, is evolving felt directly relevant to the software I tinker with: even though I know very little in this hardware domain.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/2025/05/intel-foundry-direct-connect-2025.html">[]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/2025/04/hard-pivot.html">Hard Pivot</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2025-04-26</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="http://localhost:1313/tags/personal/">Personal</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p><a href="/images/53986434946_0784dd27b5_o.jpg"><img src="/images/53986434946_0784dd27b5_o.jpg" alt="Image"></a></p>
-<p>I am revamping the website under this domain for the fourth time in its lifespan since 2017. The website naturally goes over an update every 3-ish years, but I have my reasons to pivot it solely to a blog, and not necessarily into a portfolio + blog as it was before.</p>
-<p>Posts before this specific posts have been ported from the previous instance, but run the risk of having broken links and outdated info. They should be taken for what they are: archives. Moving forward, the focus of this blog is going to be more on my career, and hobbies (programming, photography, music, art). There&rsquo;s a specific reason for this:</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/2025/04/hard-pivot.html">[]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/2025/03/linkedin-expert-contributions-1.html">LinkedIn Expert Contributions</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2025-03-02</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="http://localhost:1313/tags/open-source/">Open Source</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/software/">Software</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/hardware/">Hardware</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/code/">Code</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/career/">Career</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/systems/">Systems</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p><a href="/images/AVvXsEgCpGAjZS5dbT8xIRO47J6kyVy_Ul7mVuQJ8PSR4JVrCE953V6Lan8TSoGBZ697YA023eHswYPI46O4XP5MIcIx9N4Fd376ihHc5-TIQpgwf9wgnnmiV-s005yDwey2TiGjAFEAzcTVEr0PQqOwTZ4H6b0_oiy47joFl99YV1ncG0uocGosp9-JvqP_0ho"><img src="/images/AVvXsEgCpGAjZS5dbT8xIRO47J6kyVy_Ul7mVuQJ8PSR4JVrCE953V6Lan8TSoGBZ697YA023eHswYPI46O4XP5MIcIx9N4Fd376ihHc5-TIQpgwf9wgnnmiV-s005yDwey2TiGjAFEAzcTVEr0PQqOwTZ4H6b0_oiy47joFl99YV1ncG0uocGosp9-JvqP_0ho=w320-h240" alt=""></a></p>
-<p>The following is one of possibly many posts I’ll be using to consolidate contributions to LinkedIn’s Quora-esque <a href="https://www.linkedin.com/pulse/topics/home/">collaborative articles</a> wherein contributors can answer questions and respond to/upvote other answers. I really like the feature, especially the fact that each contribution is capped to 750 characters (so no redundancy).</p>
-<p>For some questions, I have added footnotes that go beyond my 750 character contribution to the topic itself. I appreciate that I can tell my initial thoughts on LinkedIn, and expand upon them here.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/2025/03/linkedin-expert-contributions-1.html">[]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/2024/12/basic-mac-setup.html">Basic Mac Setup</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2024-12-09</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="http://localhost:1313/tags/personal/">Personal</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/software/">Software</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p><a href="/images/1.png"><img src="/images/1.png" alt="Image"></a></p>
-<blockquote>
-</blockquote>
-<p>I recently needed a Virtual Machine to containerize some work. Initially, I was on a Debian VM. However, as much as I love Linux, I ran into a couple of issues there:</p>
-<ol>
-<li>I use Chrome’s sync features, and there is no chrome on ARM Linux (even though there is Chromium).</li>
-<li>For 90% of my use cases, I rely on FLOSS software. However, while I identify with the OSS ideology, I do not necessarily agree with the hardcore “Open Source or Nothing”. Truthfully, there are tons of amazing software that I require, which do not have an Open Source component at all: because building something like that can become muddled in a community driven aspect. While I alig with the GPL and MIT licenses, I align harder with “use what gets your job done”.</li>
-<li>I talked about the Mac and it’s <a href="/blog/on-macos-and-libre-software">prevalence in OSS software</a> early this year. Since then, I have had my Microsoft Surface (running Ubuntu) fail spectacularly on me, and I have completely jumped ship to a MacBook on the laptop front. On the desktop front, I am still hardcore Linux, and I do not see this changing anytime soon, if ever (this is after macOS has become my primary in desktop computing: there’s just so much that Linux helps me get done as well, and again, I am on that “use what gets the job done” bandwagon).</li>
-</ol>
-<p>So, what does this mean for this project? Truthfully, while Linux is still instrumental to a lot of my computational workflows and I will possibly forever require at least one of my computers to run it forever, the scope of Linux resides in the more advanced stuff. While macOS is UNIX based and lets me do most of the Linux things, I find some more of the advanced things to be well executed on Linux only.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/2024/12/basic-mac-setup.html">[]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/2024/11/on-github-bots-or-people-using-bots-to.html">On GitHub Bots (or people using bots to boost followers)</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2024-11-20</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="http://localhost:1313/tags/open-source/">Open Source</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/code/">Code</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>One of the more infuriariting things I have come across on the GitHub platform is people using bots to mass follow other people, in hopes for a follow back (or more importantly, some stars and forks on their projects).</p>
-<p>However, when unreciprocated with a follow and some stars, their main goal is to unfollow and refollow, thus coming on the top of my timeline again.</p>
-<p>They keep this up for a very long period of times, sometimes almost thrice a week for 2 months.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/2024/11/on-github-bots-or-people-using-bots-to.html">[]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/2024/11/creativity-is-ultimate-form-of.html">Creativity is the Ultimate Form of Expression</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2024-06-11</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="http://localhost:1313/tags/art/">Art</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/personal/">Personal</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Go out and create something. Put time and effort into it. Sometimes, you may find yourself to be in a rut that is difficult to come out of. But, do create something and put your soul and effort into it.</p>
-<p>We are finally in a weird late stage capitialism point wherein we have successfully monetized everything, on a rolling basis. Mediocre products are sold at exorbitant pricing, and even our sanity and emotions are being taken away from us. Social media has monetized being famous, and gives an equal voice to everyone regardless of their qualifications or backgrounds. Your value is only based on ephemeral metrics and numbers, and the joy of creating has become transformed into a dread of meeting deadlines that fulfill sponsorship contracts.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/2024/11/creativity-is-ultimate-form-of.html">[]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/2024/05/classic-mac-programming.html">Classic Mac Programming</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2024-05-21</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="http://localhost:1313/tags/open-source/">Open Source</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/software/">Software</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/code/">Code</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/systems/">Systems</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p><img src="/images/classic1.png" alt="Image"></p>
-<p>The following series (which is separate from my newsletter), is going to be a comprehensive deep dive into programming for Mac OS version 9: the ancient pre-UNIX version of the Operating System which barely has much documentation on the Internet today. This post is mainly initialization, I just got the VM working and a pipeline to install 3rd party (old) software :)</p>
-<p>I do not exactly have a plan in mind, but I hope to be able to share the “why”, and possibly the “how”, in this blog post. I have always been interested in vintage computing, having dabbled with Windows 3.1 in High School for kicks and giggles, to having just completed my Undergraduate Honors Thesis on comparing performance differences between 2 programming languages on the Assembly level. To me, working through the difficulties of programming and figuring out this puzzle is the fun bit in of itself, and what better platform to take than one that shares very little resemblance to any modern OS (Win 9x uses the Windows API which is still used today, and recent macOS is UNIX based).</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/2024/05/classic-mac-programming.html">[]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/2025/09/cics-honors-thesis-undergrad-archive.html">CICS Honors Thesis</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2024-05-15</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="http://localhost:1313/tags/academia/">Academia</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/career/">Career</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/code/">Code</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/icons/">iCons</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/software/">Software</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/undergrad/">Undergrad</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/systems/">Systems</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p><a href="/images/AVvXsEgyjD3Q-ENoZWtRk7Bj5OEXgXB9ZV0KAAU_2h1ezOTbORbumxoFvUg8KSYoX7DHV_dMJbQ23y9YsbW94ftRmSoH6bLSC2eUn4Qxfkrm1xb0NvkxRZ1S1aVMX_1tdbZqDP-niXLV0ZNSL_b2VxA9GwRMdGkz7vTq8uIo56h7rSAftOV6XHc-rHJj_HFUiSs"><img src="/images/AVvXsEgyjD3Q-ENoZWtRk7Bj5OEXgXB9ZV0KAAU_2h1ezOTbORbumxoFvUg8KSYoX7DHV_dMJbQ23y9YsbW94ftRmSoH6bLSC2eUn4Qxfkrm1xb0NvkxRZ1S1aVMX_1tdbZqDP-niXLV0ZNSL_b2VxA9GwRMdGkz7vTq8uIo56h7rSAftOV6XHc-rHJj_HFUiSs=w640-h495" alt=""></a></p>
-<p><a href="/images/syslab-all.jpg"><img src="/images/syslab-all.jpg" alt="Image"></a></p>
-<p>Worked with Prof. Joe Chiu and Prof. Tim Richards from UMass CICS on my Honors Thesis. I have put a short poster on the project hypothesis below, but obviously not all data is recorded because this is an ongoing project. Moreover, the poster is about 6 months old and a lot has changed in the project (focused on Clang, Cargo, and LLVM).</p>
-<p>Regardless, the poster still gives a good idea of what to expect, without giving compromising details, and thus I&rsquo;ll leave it here. Also, there is a git repository which stays private for the forseeable future :)</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/2025/09/cics-honors-thesis-undergrad-archive.html">[]</a>
-          </div>
-        
-      </article>
-    
-
-    <div class="pagination">
-  <div class="pagination__buttons">
-    
-      <a href="/" class="button inline prev">
-        &lt; [<span class="button__text">Newer posts</span>]
-      </a>
-    
-    
-      ::
-    
-    
-      <a href="/page/3/" class="button inline next">
-        [<span class="button__text">Older posts</span>] &gt;
-      </a>
-    
-  </div>
-</div>
-
-  </div>
-
-  </div>
-
   
-    <footer class="footer">
-  <div class="footer__inner">
+  <nav class="site-nav">
+    <a href="http://localhost:1313/">Home</a>
     
-      <div class="copyright">
-        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
-    
-      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+    <div class="dropdown">
+      <button class="dropdown-toggle" onclick="this.parentElement.classList.toggle('open')">
+        Links ▾
+      </button>
+      <div class="dropdown-menu">
+        <a href="https://github.com/suobset" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/suobset" target="_blank">LinkedIn</a>
+        <a href="https://orcid.org/0000-0003-0656-5478" target="_blank">ORCiD</a>
+        <a href="https://instagram.com/suobset" target="_blank">Instagram</a>
       </div>
-  </div>
-</footer>
+    </div>
+  </nav>
+</header>
+<hr class="divider">
 
-
-
-
-
-
-<script type="text/javascript" src="/bundle.min.js"></script>
-
-
-
-
-
+<section>
+  <h2 class="section-title">Posts<span class="cursor"></span></h2>
   
-</div>
+  
+  
+  <ul class="post-list">
+    
+    <li class="post-item">
+      <span class="post-date">May 10, 2025</span>
+      <a href="http://localhost:1313/2025/05/zero-android-experience-to-working.html" class="post-link">How to vibe code properly.</a>
+    </li>
+    
+    <li class="post-item">
+      <span class="post-date">May 01, 2025</span>
+      <a href="http://localhost:1313/2025/05/cuda-programming-workflows-for-getting.html" class="post-link">CUDA Programming: Workflows for getting Nvidia drivers working on Linux</a>
+    </li>
+    
+    <li class="post-item">
+      <span class="post-date">Apr 30, 2025</span>
+      <a href="http://localhost:1313/2025/05/intel-foundry-direct-connect-2025.html" class="post-link">Intel Foundry Direct Connect 2025: Perspectives of a low level software developer</a>
+    </li>
+    
+    <li class="post-item">
+      <span class="post-date">Apr 26, 2025</span>
+      <a href="http://localhost:1313/2025/04/hard-pivot.html" class="post-link">Hard Pivot</a>
+    </li>
+    
+    <li class="post-item">
+      <span class="post-date">Mar 02, 2025</span>
+      <a href="http://localhost:1313/2025/03/linkedin-expert-contributions-1.html" class="post-link">LinkedIn Expert Contributions</a>
+    </li>
+    
+    <li class="post-item">
+      <span class="post-date">Dec 09, 2024</span>
+      <a href="http://localhost:1313/2024/12/basic-mac-setup.html" class="post-link">Basic Mac Setup</a>
+    </li>
+    
+    <li class="post-item">
+      <span class="post-date">Nov 20, 2024</span>
+      <a href="http://localhost:1313/2024/11/on-github-bots-or-people-using-bots-to.html" class="post-link">On GitHub Bots (or people using bots to boost followers)</a>
+    </li>
+    
+    <li class="post-item">
+      <span class="post-date">Jun 11, 2024</span>
+      <a href="http://localhost:1313/2024/11/creativity-is-ultimate-form-of.html" class="post-link">Creativity is the Ultimate Form of Expression</a>
+    </li>
+    
+    <li class="post-item">
+      <span class="post-date">May 21, 2024</span>
+      <a href="http://localhost:1313/2024/05/classic-mac-programming.html" class="post-link">Classic Mac Programming</a>
+    </li>
+    
+    <li class="post-item">
+      <span class="post-date">May 15, 2024</span>
+      <a href="http://localhost:1313/2025/09/cics-honors-thesis-undergrad-archive.html" class="post-link">CICS Honors Thesis</a>
+    </li>
+    
+  </ul>
+  
+  
+  <nav class="pagination">
+    
+    <a href="/" class="pagination-arrow">←</a>
+    
+    
+    <span class="pagination-text">Page</span>
+    <input 
+      type="number" 
+      class="pagination-input" 
+      value="2" 
+      min="1" 
+      max="3"
+      data-base-url="/"
+      onchange="goToPage(this)"
+    >
+    <span class="pagination-text">of 3</span>
+    
+    
+    <a href="/page/3/" class="pagination-arrow">→</a>
+    
+  </nav>
+  
+  <script>
+    function goToPage(input) {
+      const page = parseInt(input.value);
+      const max = parseInt(input.max);
+      if (page >= 1 && page <= max) {
+        const baseUrl = input.dataset.baseUrl;
+        if (page === 1) {
+          window.location.href = baseUrl;
+        } else {
+          
+          const url = baseUrl.replace(/\/$/, '') + '/page/' + page + '/';
+          window.location.href = url;
+        }
+      }
+    }
+  </script>
+  
+</section>
 
+    
+    <footer class="site-footer">
+      <hr class="divider-double">
+      
+      <p class="footer-text">
+  <script id="umaring_js" src="https://umaring.mkr.cx/ring.js?id=kush"></script>
+  <div id="umaring"></div><br>
+        © 2025 · Built with <a href="https://gohugo.io">Hugo</a>
+      </p>
+    </footer>
+  </div>
 </body>
 </html>

@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ partial "header" . }}
+
+<hr class="divider">
+
+<section>
+  <h2 class="section-title">{{ .Title }}<span class="cursor"></span></h2>
+  
+  {{ with .Content }}
+  <div class="post-content" style="margin-bottom: 24px;">
+    {{ . }}
+  </div>
+  {{ end }}
+  
+  <ul class="post-list">
+    {{ range .Pages }}
+    <li class="post-item">
+      <span class="post-date">{{ .Date.Format "Jan 02, 2006" }}</span>
+      <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

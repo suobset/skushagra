@@ -4,3 +4,9 @@
 [submodule "themes/terminal"]
 	path = themes/terminal
 	url = https://github.com/panr/hugo-theme-terminal.git
+[submodule "themes/digio"]
+	path = themes/digio
+	url = https://github.com/danapixels/digio-theme.git
+[submodule "themes/texify"]
+	path = themes/texify
+	url = https://github.com/michaelneuper/hugo-texify3.git
