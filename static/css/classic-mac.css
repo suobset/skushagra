@@ -55,8 +55,8 @@ body::before {
   z-index: 1000;
 }
 
-/* Footer badges - lift above scanlines */
-.site-footer img {
+/* All images - lift above scanlines */
+img {
   position: relative;
   z-index: 1001;
 }
