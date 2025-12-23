@@ -309,7 +309,20 @@ body::before {
   color: var(--link);
 }
 
+a:visited {
+  color: var(--amber-dim);
+}
+
+a:hover {
+  color: var(--amber-bright);
+}
+
+.post-content a:visited {
+  color: var(--amber-dim);
+}
+
 .post-content a:hover {
+  color: var(--amber-bright);
   text-shadow: 0 0 8px var(--amber-glow);
 }
 
