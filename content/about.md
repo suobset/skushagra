@@ -5,6 +5,8 @@ date: 2025-12-22
 
 I'm **Kushagra Srivastava**, a CS Masters student at Northeastern University specializing in operating systems and compilers. I build systems-level software and care deeply about how computers actually work.
 
+[Prefer my Resume?](/resume)
+
 ## What I Work On
 
 My focus is low-level systems programming—the kind of work where you're thinking about memory layouts, build systems, and why something takes 40 minutes to compile when it should take 9.

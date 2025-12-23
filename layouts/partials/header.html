@@ -16,9 +16,10 @@
     {{ with .Site.GetPage "/about" }}<a href="{{ .Permalink }}">About</a>{{ end }}
     <div class="dropdown">
       <button class="dropdown-toggle" onclick="this.parentElement.classList.toggle('open')">
-        Links ▾
+        More ▾
       </button>
       <div class="dropdown-menu">
+      	{{ with .Site.GetPage "/resume" }}<a href="{{ .Permalink }}">Resume</a>{{ end }}
         {{ with .Site.Params.github }}<a href="https://github.com/{{ . }}" target="_blank">GitHub</a>{{ end }}
         {{ with .Site.Params.linkedin }}<a href="https://linkedin.com/in/{{ . }}" target="_blank">LinkedIn</a>{{ end }}
         {{ with .Site.Params.orcid }}<a href="https://orcid.org/{{ . }}" target="_blank">ORCiD</a>{{ end }}
