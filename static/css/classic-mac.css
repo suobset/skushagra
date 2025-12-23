@@ -312,11 +312,11 @@ img {
 }
 
 .post-content a {
-  color: var(--link);
+  color: var(--amber);
 }
 
 a:visited {
-  color: var(--amber-dim);
+  color: var(--amber);
 }
 
 a:hover {
@@ -428,8 +428,14 @@ a:hover {
   color: var(--amber-dim);
 }
 
-.footer-text a {
-  color: var(--amber-dim);
+.footer-text a,
+.footer-text a:visited,
+.footer-text a:link {
+  color: var(--amber);
+}
+
+.footer-text a:hover {
+  color: var(--amber-bright);
 }
 
 /* Pixel art decoration class */
