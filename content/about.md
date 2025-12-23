@@ -3,6 +3,8 @@ title: "About"
 date: 2025-12-22
 ---
 
+![Lightsaber OHill](/images/53835785546_d0902c0b40_b.jpg)
+
 I'm **Kushagra Srivastava**, a CS Masters student at Northeastern University specializing in operating systems and compilers. I build systems-level software and care deeply about how computers actually work.
 
 [Prefer my Resume?](/resume)

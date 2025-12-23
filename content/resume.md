@@ -5,6 +5,8 @@ date: 2025-12-22
 
 # Kushagra Srivastava
 
+![Lightsaber OHill 8831](https://suobset.github.io/finechive-helper/88x31/kush8831.png)
+
 [LinkedIn](https://linkedin.com/in/suobset) | [GitHub](https://github.com/suobset) | [skushagra.com](https://skushagra.com)
 
 [Prefer a quick read?](/about)
