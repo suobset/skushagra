@@ -1,11 +1,9 @@
 ---
-title: "I'll Use the Pythagorean Theorem in Real Life!!"
+title: "A Very AArch64 Christmas"
 date: 2025-12-18T22:34:00+00:00
 draft: false
 tags: ["Code", "Software", "Open Source"]
 ---
-
-# A Very AArch64 Christmas
 
 <video controls width="100%">
   <source src="/images/festive-lldb.mov" type="video/mov">
