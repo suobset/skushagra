@@ -1,13 +1,11 @@
 ---
 title: "A Very AArch64 Christmas"
-date: 2025-12-18T22:34:00+00:00
+date: 2025-12-25
 draft: false
 tags: ["Code", "Software", "Open Source"]
 ---
 
-<video controls width="100%">
-  <source src="/images/festive-lldb.mov" type="video/mov">
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A5f3-JDv9qU?si=FprKsPROW3aLjOJW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Every year I try to send a Christmas greeting that's a little more unhinged than the last. Last year it was ASCII art in Vim on my iPhone. It was ok, and did spark an interest in running Vim on [iSH](https://ish.app/) on iOS, but nothing out of the box. 
 
