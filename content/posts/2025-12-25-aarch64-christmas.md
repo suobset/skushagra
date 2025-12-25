@@ -9,11 +9,11 @@ tags: ["Code", "Software", "Open Source"]
 
 [Watch it in action](https://youtu.be/A5f3-JDv9qU?si=H72SI3ynyeWYbzFH)
 
+[GitHub gist with the Assembly](https://gist.github.com/suobset/597fc6305dcc528de5588f80b6ef9465)
+
 Every year I try to send a Christmas greeting that's a little more unhinged than the last. Last year it was ASCII art in Vim on my iPhone. It was ok, and did spark an interest in running Vim on [iSH](https://ish.app/) on iOS, but nothing out of the box. 
 
 This year I wanted to top it, and I figured, why not hide a Christmas tree inside ARM64 assembly and reveal it through a debugger?
-
-The full source is available as a [GitHub Gist](https://gist.github.com/suobset/597fc6305dcc528de5588f80b6ef9465) if you want to follow along. Let's walk through how it works.
 
 ## The Concept
 
