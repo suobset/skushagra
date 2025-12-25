@@ -5,7 +5,9 @@ draft: false
 tags: ["Code", "Software", "Open Source"]
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A5f3-JDv9qU?si=FprKsPROW3aLjOJW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![Screenshot](/images/festive-scrnshot.png)
+
+[Watch it in action](https://youtu.be/A5f3-JDv9qU?si=H72SI3ynyeWYbzFH)
 
 Every year I try to send a Christmas greeting that's a little more unhinged than the last. Last year it was ASCII art in Vim on my iPhone. It was ok, and did spark an interest in running Vim on [iSH](https://ish.app/) on iOS, but nothing out of the box. 
 
