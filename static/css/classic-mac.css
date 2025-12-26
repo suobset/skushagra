@@ -1,20 +1,77 @@
-/* Amber Terminal + Classic Mac Typography */
+/* Synthwave '84 Terminal + IBM Plex Mono */
 
 @font-face {
-  font-family: 'ChicagoFLF';
-  src: url('/fonts/ChicagoFLF.ttf') format('truetype');
+  font-family: 'IBM Plex Mono';
+  src: url('/fonts/IBMPlexMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('/fonts/IBMPlexMono-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('/fonts/IBMPlexMono-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('/fonts/IBMPlexMono-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('/fonts/IBMPlexMono-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('/fonts/IBMPlexMono-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
 }
 
 :root {
-  --bg: #0a0a08;
-  --bg-light: #121210;
-  --amber: #ffb000;
-  --amber-dim: #cc8800;
-  --amber-bright: #ffc832;
-  --amber-glow: rgba(255, 176, 0, 0.15);
-  --text: #ffb000;
-  --text-dim: #997a00;
-  --link: #ffc832;
+  /* Synthwave '84 palette */
+  --bg: #141414;
+  --bg-light: #1e1e1e;
+  
+  /* Text colors */
+  --text: #ffffff;
+  --text-bright: #ffffff;
+  --text-dim: #848bbd;
+  
+  /* Synthwave accents */
+  --cyan: #36f9f6;
+  --pink: #ff7edb;
+  --orange: #f97e72;
+  --yellow: #fede5d;
+  --green: #72f1b8;
+  --red: #fe4450;
+  --blue: #34fef9;
+  --purple: #b893ce;
+  
+  /* Semantic mappings */
+  --accent: var(--cyan);
+  --link: var(--cyan);
+  --link-hover: var(--pink);
+  --link-visited: var(--purple);
+  --border: #495495;
+  
+  /* Glow effects */
+  --glow-cyan: rgba(54, 249, 246, 0.3);
+  --glow-pink: rgba(255, 126, 219, 0.3);
 }
 
 * {
@@ -28,7 +85,7 @@ html {
 body {
   margin: 0;
   padding: 40px 20px;
-  font-family: 'ChicagoFLF', 'Monaco', 'Consolas', monospace;
+  font-family: 'IBM Plex Mono', 'Monaco', 'Consolas', monospace;
   font-size: 1rem;
   line-height: 1.6;
   background: var(--bg);
@@ -47,8 +104,8 @@ body::before {
   pointer-events: none;
   background: repeating-linear-gradient(
     0deg,
-    rgba(0, 0, 0, 0.1) 0px,
-    rgba(0, 0, 0, 0.1) 1px,
+    rgba(0, 0, 0, 0.15) 0px,
+    rgba(0, 0, 0, 0.15) 1px,
     transparent 1px,
     transparent 2px
   );
@@ -73,9 +130,10 @@ img {
   white-space: pre;
   font-size: 10px;
   line-height: 1.2;
-  color: var(--amber-dim);
+  color: var(--pink);
   margin-bottom: 8px;
   overflow-x: auto;
+  text-shadow: 0 0 10px var(--glow-pink);
 }
 
 /* Site header */
@@ -86,12 +144,12 @@ img {
 
 .site-title {
   font-size: 1.75rem;
-  font-weight: normal;
+  font-weight: 600;
   margin: 16px 0 8px 0;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--amber-bright);
-  text-shadow: 0 0 10px var(--amber-glow);
+  color: var(--cyan);
+  text-shadow: 0 0 10px var(--glow-cyan);
 }
 
 .site-title a {
@@ -100,7 +158,7 @@ img {
 }
 
 .site-description {
-  color: var(--amber-dim);
+  color: var(--text-dim);
   margin: 0 0 20px 0;
   font-size: 0.875rem;
 }
@@ -117,8 +175,8 @@ img {
   color: var(--text);
   text-decoration: none;
   padding: 4px 12px;
-  border: 1px solid var(--amber-dim);
-  transition: all 0.1s;
+  border: 1px solid var(--border);
+  transition: all 0.15s;
   font-size: inherit;
   line-height: 1.6;
   display: inline-block;
@@ -126,8 +184,10 @@ img {
 }
 
 .site-nav > a:hover {
-  background: var(--amber);
+  background: var(--pink);
   color: var(--bg);
+  border-color: var(--pink);
+  box-shadow: 0 0 15px var(--glow-pink);
 }
 
 /* Dropdown */
@@ -138,20 +198,22 @@ img {
 
 .dropdown-toggle {
   background: none;
-  border: 1px solid var(--amber-dim);
+  border: 1px solid var(--border);
   color: var(--text);
   padding: 4px 12px;
   font-family: inherit;
   font-size: inherit;
   line-height: 1.6;
   cursor: pointer;
-  transition: all 0.1s;
+  transition: all 0.15s;
   box-sizing: border-box;
 }
 
 .dropdown-toggle:hover {
-  background: var(--amber);
+  background: var(--pink);
   color: var(--bg);
+  border-color: var(--pink);
+  box-shadow: 0 0 15px var(--glow-pink);
 }
 
 .dropdown-menu {
@@ -161,7 +223,7 @@ img {
   left: 0;
   margin-top: 4px;
   background: var(--bg);
-  border: 1px solid var(--amber-dim);
+  border: 1px solid var(--border);
   min-width: 140px;
   z-index: 100;
 }
@@ -171,8 +233,9 @@ img {
 }
 
 .dropdown.open .dropdown-toggle {
-  background: var(--amber);
+  background: var(--pink);
   color: var(--bg);
+  border-color: var(--pink);
 }
 
 .dropdown-menu a {
@@ -180,7 +243,7 @@ img {
   padding: 8px 12px;
   color: var(--text);
   text-decoration: none;
-  border-bottom: 1px solid var(--text-dim);
+  border-bottom: 1px solid var(--bg-light);
 }
 
 .dropdown-menu a:last-child {
@@ -188,7 +251,7 @@ img {
 }
 
 .dropdown-menu a:hover {
-  background: var(--amber);
+  background: var(--pink);
   color: var(--bg);
 }
 
@@ -196,7 +259,7 @@ img {
 .divider {
   border: none;
   height: 1px;
-  background: var(--amber-dim);
+  background: var(--border);
   margin: 32px 0;
 }
 
@@ -205,12 +268,12 @@ img {
   height: 3px;
   background: 
     linear-gradient(
-      var(--amber-dim) 0px, 
-      var(--amber-dim) 1px, 
+      var(--border) 0px, 
+      var(--border) 1px, 
       transparent 1px, 
       transparent 2px, 
-      var(--amber-dim) 2px, 
-      var(--amber-dim) 3px
+      var(--border) 2px, 
+      var(--border) 3px
     );
   margin: 32px 0;
 }
@@ -218,9 +281,10 @@ img {
 /* Section title */
 .section-title {
   font-size: 1.25rem;
-  font-weight: normal;
+  font-weight: 600;
   margin: 0 0 24px 0;
-  color: var(--amber-bright);
+  color: var(--cyan);
+  text-shadow: 0 0 10px var(--glow-cyan);
 }
 
 /* Post list - date first like Chicago7 */
@@ -235,7 +299,7 @@ img {
   align-items: baseline;
   gap: 24px;
   padding: 12px 0;
-  border-bottom: 1px dashed var(--text-dim);
+  border-bottom: 1px dashed var(--border);
 }
 
 .post-item:last-child {
@@ -243,34 +307,35 @@ img {
 }
 
 .post-date {
-  color: var(--amber-dim);
+  color: var(--text-dim);
   font-size: 0.875rem;
   flex-shrink: 0;
   min-width: 100px;
 }
 
 .post-link {
-  color: var(--text);
+  color: var(--cyan);
   text-decoration: underline;
   text-underline-offset: 3px;
+  transition: all 0.15s;
 }
 
 .post-link:hover {
-  color: var(--amber-bright);
-  text-shadow: 0 0 8px var(--amber-glow);
+  color: var(--pink);
+  text-shadow: 0 0 8px var(--glow-pink);
 }
 
 /* Single post */
 .back-link {
   display: inline-block;
-  color: var(--amber-dim);
+  color: var(--text-dim);
   text-decoration: none;
   margin-bottom: 24px;
   font-size: 0.875rem;
 }
 
 .back-link:hover {
-  color: var(--amber);
+  color: var(--cyan);
 }
 
 .post-header {
@@ -279,15 +344,15 @@ img {
 
 .post-title {
   font-size: 1.5rem;
-  font-weight: normal;
+  font-weight: 600;
   margin: 0 0 12px 0;
-  color: var(--amber-bright);
-  text-shadow: 0 0 10px var(--amber-glow);
+  color: var(--cyan);
+  text-shadow: 0 0 10px var(--glow-cyan);
 }
 
 .post-meta {
   font-size: 0.875rem;
-  color: var(--amber-dim);
+  color: var(--text-dim);
 }
 
 /* Post content */
@@ -298,9 +363,10 @@ img {
 .post-content h1,
 .post-content h2,
 .post-content h3 {
-  font-weight: normal;
-  color: var(--amber-bright);
+  font-weight: 600;
+  color: var(--pink);
   margin: 32px 0 16px 0;
+  text-shadow: 0 0 8px var(--glow-pink);
 }
 
 .post-content h1 { font-size: 1.375rem; }
@@ -311,25 +377,31 @@ img {
   margin: 0 0 16px 0;
 }
 
-.post-content a {
-  color: var(--amber);
+a {
+  color: var(--cyan);
+  transition: all 0.15s;
 }
 
 a:visited {
-  color: var(--amber);
+  color: var(--purple);
 }
 
 a:hover {
-  color: var(--amber-bright);
+  color: var(--pink);
+  text-shadow: 0 0 8px var(--glow-pink);
+}
+
+.post-content a {
+  color: var(--cyan);
 }
 
 .post-content a:visited {
-  color: var(--amber-dim);
+  color: var(--purple);
 }
 
 .post-content a:hover {
-  color: var(--amber-bright);
-  text-shadow: 0 0 8px var(--amber-glow);
+  color: var(--pink);
+  text-shadow: 0 0 8px var(--glow-pink);
 }
 
 .post-content ul,
@@ -343,7 +415,7 @@ a:hover {
 }
 
 .post-content li::marker {
-  color: var(--amber-dim);
+  color: var(--pink);
 }
 
 /* Code */
@@ -351,7 +423,8 @@ a:hover {
   font-family: inherit;
   background: var(--bg-light);
   padding: 2px 6px;
-  border: 1px solid var(--text-dim);
+  border: 1px solid var(--border);
+  color: var(--orange);
 }
 
 .post-content pre {
@@ -359,23 +432,24 @@ a:hover {
   padding: 16px;
   overflow-x: auto;
   margin: 16px 0;
-  border: 1px solid var(--amber-dim);
-  border-left: 3px solid var(--amber);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--cyan);
 }
 
 .post-content pre code {
   background: none;
   padding: 0;
   border: none;
+  color: var(--text);
 }
 
 /* Blockquote */
 .post-content blockquote {
   margin: 16px 0;
   padding: 12px 16px;
-  border-left: 3px solid var(--amber);
+  border-left: 3px solid var(--yellow);
   background: var(--bg-light);
-  color: var(--amber-dim);
+  color: var(--text-dim);
 }
 
 .post-content blockquote p:last-child {
@@ -385,28 +459,27 @@ a:hover {
 /* Images */
 .post-content img {
   max-width: 100%;
-  border: 1px solid var(--amber-dim);
+  border: 1px solid var(--border);
   margin: 16px 0;
-  image-rendering: pixelated;
 }
 
 /* Post navigation */
 .post-nav {
   margin-top: 48px;
   padding-top: 24px;
-  border-top: 1px solid var(--amber-dim);
+  border-top: 1px solid var(--border);
   display: flex;
   justify-content: space-between;
   font-size: 0.875rem;
 }
 
 .post-nav a {
-  color: var(--amber-dim);
+  color: var(--text-dim);
   text-decoration: none;
 }
 
 .post-nav a:hover {
-  color: var(--amber);
+  color: var(--cyan);
 }
 
 /* Footer */
@@ -425,17 +498,17 @@ a:hover {
 
 .footer-text {
   font-size: 0.75rem;
-  color: var(--amber-dim);
+  color: var(--text-dim);
 }
 
 .footer-text a,
 .footer-text a:visited,
 .footer-text a:link {
-  color: var(--amber);
+  color: var(--cyan);
 }
 
 .footer-text a:hover {
-  color: var(--amber-bright);
+  color: var(--pink);
 }
 
 /* Pixel art decoration class */
@@ -449,9 +522,10 @@ a:hover {
   display: inline-block;
   width: 10px;
   height: 1em;
-  background: var(--amber);
+  background: var(--cyan);
   animation: blink 1s step-end infinite;
   vertical-align: text-bottom;
+  box-shadow: 0 0 10px var(--glow-cyan);
 }
 
 @keyframes blink {
@@ -460,7 +534,7 @@ a:hover {
 
 /* Selection */
 ::selection {
-  background: var(--amber);
+  background: var(--pink);
   color: var(--bg);
 }
 
@@ -472,16 +546,16 @@ a:hover {
 
 ::-webkit-scrollbar-track {
   background: var(--bg);
-  border: 1px solid var(--text-dim);
+  border: 1px solid var(--border);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--amber-dim);
-  border: 1px solid var(--amber);
+  background: var(--bg-light);
+  border: 1px solid var(--border);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--amber);
+  background: var(--pink);
 }
 
 /* About page */
@@ -496,8 +570,9 @@ a:hover {
   width: 120px;
   height: 120px;
   object-fit: cover;
-  border: 2px solid var(--amber-dim);
+  border: 2px solid var(--cyan);
   flex-shrink: 0;
+  box-shadow: 0 0 15px var(--glow-cyan);
 }
 
 .about-intro {
@@ -529,7 +604,7 @@ a:hover {
 .pagination {
   margin-top: 48px;
   padding-top: 24px;
-  border-top: 1px solid var(--amber-dim);
+  border-top: 1px solid var(--border);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -541,12 +616,12 @@ a:hover {
   text-decoration: none;
   font-size: 1.25rem;
   padding: 4px 8px;
-  transition: all 0.1s;
+  transition: all 0.15s;
 }
 
 .pagination-arrow:hover:not(.disabled) {
-  color: var(--amber-bright);
-  text-shadow: 0 0 8px var(--amber-glow);
+  color: var(--cyan);
+  text-shadow: 0 0 8px var(--glow-cyan);
 }
 
 .pagination-arrow.disabled {
@@ -555,7 +630,7 @@ a:hover {
 }
 
 .pagination-text {
-  color: var(--amber-dim);
+  color: var(--text-dim);
   font-size: 0.875rem;
 }
 
@@ -563,8 +638,8 @@ a:hover {
   width: 50px;
   padding: 6px 8px;
   background: var(--bg);
-  border: 1px solid var(--amber-dim);
-  color: var(--amber);
+  border: 1px solid var(--border);
+  color: var(--text);
   font-family: inherit;
   font-size: 0.875rem;
   text-align: center;
@@ -579,8 +654,8 @@ a:hover {
 
 .pagination-input:focus {
   outline: none;
-  border-color: var(--amber);
-  box-shadow: 0 0 8px var(--amber-glow);
+  border-color: var(--cyan);
+  box-shadow: 0 0 10px var(--glow-cyan);
 }
 
 /* Responsive */
