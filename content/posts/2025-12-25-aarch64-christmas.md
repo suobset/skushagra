@@ -3,6 +3,8 @@ title: "A Very AArch64 Christmas"
 date: 2025-12-25
 draft: false
 tags: ["Code", "Software", "Open Source"]
+aliases:
+    - /posts/hiding-christmas-tree-in-memory/
 ---
 
 ![Screenshot](/images/festive-scrnshot.png)
