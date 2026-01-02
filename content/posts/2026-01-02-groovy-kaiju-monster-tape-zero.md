@@ -56,7 +56,7 @@ Never Ending Dandy Baby was the snippet I heard on Instagram!!! I recognized it 
 
 And we beautifully transition into Track 10—Want Some More. This is the softest, mellowest track on this album. This one was a little emotional for me; it's such a perfect ending for this beautiful musical journey.
 
-![Writing as we go](/images/groovykaijumonstapezero2.jpg)
+![Writing as we go](/images/groovyjkaijumonstapezero2.jpg)
 
 ## Closing Thoughts
 
