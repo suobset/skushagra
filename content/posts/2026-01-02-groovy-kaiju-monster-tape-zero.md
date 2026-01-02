@@ -5,8 +5,6 @@ draft: false
 tags: ["Personal", "Art", "Music"]
 ---
 
-# Groovy Kaiju: Monster Tape Zero
-
 ![Album Package + Lovely Note](/images/groovykaijumonstapezero1.jpg)
 
 For the year of 2026, I will be buying a CD from an upcoming artist I have never even heard of, and writing about them on my blog. What credentials do I have to review music? None. So bear with me a little here as I write my first couple of reviews.
