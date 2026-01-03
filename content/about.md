@@ -19,15 +19,7 @@ My focus is low-level systems programming—the kind of work where you're thinki
 
 ## Current Projects
 
-**[STORMM](https://psivant.com/)** — Molecular dynamics simulation software at Psivant Therapeutics.
-
-**[tra86](https://tra86.skushagra.com/)** — An x86 assembly stack tracer I built for my honors thesis at UMass Amherst. The thesis compared Rust and C++ performance at the assembly level using modified GDB tracing.
-
-**[SelfSelect / Automator](https://github.com/suobset/automator)** — An LLM-powered automation platform. The Android version uses Gemini to translate natural language commands into YAML scripts executed via Accessibility Services. I'm now building a desktop version using MCP servers with support for Hindi language input.
-
-**[RavynOS / Swift on FreeBSD](https://ravynos.com/)** — Contributing to the effort of bringing Swift 6 to FreeBSD as part of the RavynOS project, working toward a macOS-compatible open source operating system.
-
-**SaberStat** — An Apple Watch app for lightsaber dueling that uses IMU sensors for hit detection. Still refining the signal processing for acceleration magnitude and peak finding.
+[Listed here](/projects)
 
 ## Background
 
