@@ -9,6 +9,8 @@ I'm **Kushagra Srivastava**, a CS Masters student at Northeastern University spe
 
 [Prefer my Resume?](/resume)
 
+[Want to see what I have worked on?](/projects)
+
 ## What I Work On
 
 My focus is low-level systems programming—the kind of work where you're thinking about memory layouts, build systems, and why something takes 40 minutes to compile when it should take 9.

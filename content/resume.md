@@ -11,6 +11,8 @@ date: 2025-12-22
 
 [Prefer a quick read?](/about)
 
+[Want to see what I have worked on?](/projects)
+
 ---
 
 ## Education
