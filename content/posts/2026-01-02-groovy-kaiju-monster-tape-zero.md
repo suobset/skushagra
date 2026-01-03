@@ -5,8 +5,6 @@ draft: false
 tags: ["Personal", "Art", "Music"]
 ---
 
-# Groovy Kaiju: Monster Tape Zero
-
 ![Album Package + Lovely Note](/images/groovykaijumonstapezero1.jpg)
 
 For the year of 2026, I will be buying a CD from an upcoming artist I have never even heard of, and writing about them on my blog. What credentials do I have to review music? None. So bear with me a little here as I write my first couple of reviews.
@@ -56,7 +54,7 @@ Never Ending Dandy Baby was the snippet I heard on Instagram!!! I recognized it 
 
 And we beautifully transition into Track 10—Want Some More. This is the softest, mellowest track on this album. This one was a little emotional for me; it's such a perfect ending for this beautiful musical journey.
 
-![Writing as we go](/images/groovykaijumonstapezero2.jpg)
+![Writing as we go](/images/groovyjkaijumonstapezero2.jpg)
 
 ## Closing Thoughts
 
