@@ -11,7 +11,7 @@ I do a lot of projects, which can range a lot between what they achieve and the 
 
 ## Ongoing Projects
 
-**[Blot](https://blot.skushagra.com/)** — An x86 assembly stack tracer I built for my honors thesis at UMass Amherst. The thesis compared Rust and C++ performance at the assembly level using modified GDB tracing.
+**[Blot](https://blot.skushagra.com/)** — A simple, native bitmap editor for macOS.
 
 **[SelfSelect / Automator](https://github.com/suobset/automator)** — An LLM-powered automation platform. The Android version uses Gemini to translate natural language commands into YAML scripts executed via Accessibility Services. I'm now building a desktop version using MCP servers with support for Hindi language input.
 
