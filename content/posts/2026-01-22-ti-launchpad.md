@@ -1,5 +1,5 @@
 ---
-title: "A Little Note on the TI LaunchPad."
+title: "A Little Note on the TI LaunchPad"
 date: 2026-01-22
 tags: ["Code", "Open Source", "Software", "Hardware"]
 ---
