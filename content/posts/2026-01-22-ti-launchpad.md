@@ -145,13 +145,11 @@ Here's how I'd actually think about platform choice:
 - You're learning embedded development
 - You're prototyping and need fast iteration
 - You need a specific library that exists in the Arduino ecosystem
-- You're building something where development speed matters more than debugging depth
 - You're working with others who know Arduino
 - You don't need real-time power profiling
 - Standard Flash endurance is sufficient
 
 **TI (or similar vendor-specific toolchains) might be better if:**
-- You need integrated hardware debugging for your workflow
 - You're doing power optimization and need EnergyTrace-level profiling
 - You need specific hardware features (FRAM, specific peripherals)
 - You're already invested in the ecosystem for another project
@@ -166,4 +164,4 @@ The honest answer is: I don't know yet. I have enough projects between eCTF, cou
 
 Maybe something with the FRAM. Maybe I'll play with the segmented LCD on the FR4133. Maybe I'll just blink LEDs and appreciate that I can set a hardware breakpoint while doing it.
 
-I can already do hard C — I did x86 assembly for [tra86](https://tra86.skushagra.com/), I write C for [STORMM](https://www.skushagra.com/2025/08/stormm-alpha-v020.html). The point isn't that TI is "better" than Arduino. The point is that right now, for what I'm working on, TI's toolchain fits how I think about embedded development.
+I’ll probably update soon on this front. 
