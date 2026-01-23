@@ -55,8 +55,6 @@ The throughline from dragging blocks around on a budget netbook in 5th grade to 
 
 Everything else followed from that initial spark.
 
-The throughline from "make the cat move" to "write an x86 Assembly tracer-debugger to calculate CPU clock cycles per instruction" is absurd if you think about it linearly. But it's not linear. It's one thing leading to another, each layer of abstraction peeled back revealing something more interesting underneath. Scratch was the first layer. 
-
 $150 felt like the least I could do.
 
 ## Consider Supporting Them
