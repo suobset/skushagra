@@ -1,5 +1,5 @@
 ---
-title: "A Little Note on the TI LaunchPad"
+title: "A Little Note on the TI LaunchPad [MSP-EXP430FR4133 // LP-MSPM0L1306]"
 date: 2026-01-22
 tags: ["Code", "Open Source", "Software", "Hardware"]
 ---
