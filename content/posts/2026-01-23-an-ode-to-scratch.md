@@ -16,7 +16,7 @@ But that post skipped over something important. Before I was installing Linux an
 
 Scratch 1.4, specifically. The desktop version, before it went browser-based. The one with the orange cat and the dark gray interface. I made little games—nothing impressive, just sprites moving around, responding to keypresses, playing sounds. I didn't know I was learning programming. I just knew I was making things happen on screen, and it felt like magic.
 
-![Scratch 1.4](/images/blog/Jan2026/Scratch14.png)
+![Scratch 1.4](/images/blog/Jan2026/Scratch14.jpg)
 
 (The exact version of Scratch I used back then; and yes I was on Windows XP way until Windows 7 was mainstream, perhaps longer).
 
