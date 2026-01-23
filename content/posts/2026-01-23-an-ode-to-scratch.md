@@ -43,11 +43,11 @@ The [Scratch Foundation](https://www.scratchfoundation.org) recently launched a 
 
 Members get perks: exclusive sprite packs, editor themes (Cat Blocks turns hat blocks into cats, which is delightful), avatar frames, 10% off the Scratch Shop, access to Story Xperiential (a storytelling curriculum from Pixar/Khan Academy veterans at a massive discount), newsletters, webinars, and probably more stuff coming.
 
-I am using exactly **zero** of these benefits. I don't have kids. I'm not making Scratch projects. I'm a grad student with limited income. This was purely a donation.
+I am using exactly **zero** of these benefits. I just got married last year, and we don't have any kids yet (for at least the next couple of years). I'm not making Scratch projects. This was purely a donation.
 
 ## Why I Did This
 
-I've never been the type to donate impulsively. I sometimes give $5 to Wikipedia because it's load-bearing infrastructure for my entire intellectual life, and that's about it. I think twice about most purchases. I'm not wealthy.
+I've never been the type to donate impulsively. I sometimes give $5 to Wikipedia because it's load-bearing infrastructure for my entire intellectual life, and that's about it. I think twice about most purchases.
 
 But Scratch earned this.
 
