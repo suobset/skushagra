@@ -6,6 +6,8 @@ tags: ["Code", "Open Source", "Software", "Hardware"]
 
 Last week(ish), I spent about $40 (including shipping) on two TI development boards: an [MSP-EXP430FR4133](https://www.ti.com/tool/MSP-EXP430FR4133), and an [LP-MSPM0L1306](https://www.ti.com/tool/LP-MSPM0L1306) for general tinkering. Until now, I've mostly used Arduino boards for embedded projects. However, having some experience with TI's toolchain from [MITRE's eCTF competition](https://ectf.mitre.org/) made me curious about trying something different. 
 
+**Obvious disclaimer**: Absolutely no details on the eCTF here, or anything. I just got exposed to these boards thanks to the competition, but I am buying my own for my personal projects; and just writing about why these have been a breath of fresh air.
+
 ![Texas Instruments MSP-EXP430FR4133 (Credit: ti.com)](/images/blog/Jan2026/launchpad.png)
 
 This post isn't about which platform is "better." That's a meaningless question without context. It's about understanding what each platform does well, and why TI feels like a better fit for my current workflow, in general.
