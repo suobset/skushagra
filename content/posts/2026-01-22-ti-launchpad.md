@@ -4,7 +4,7 @@ date: 2026-01-22
 tags: ["Code", "Open Source", "Software", "Hardware"]
 ---
 
-Last week(ish), I spent about $40 (including shipping) on two TI development boards: an [MSP-EXP430FR4133](https://www.ti.com/tool/MSP-EXP430FR4133), and an [LP-MSPM0L1306](https://www.ti.com/tool/LP-MSPM0L1306) for general tinkering. Until now, I've mostly used Arduino boards for embedded projects. However, having some experience with TI's toolchain from [MITRE's eCTF competition](https://ectf.mitre.org/) made me curious about trying something different. 
+Last week(ish), I spent about $40 (including shipping) on two [Texas Instruments](https://www.ti.com/) development boards: an [MSP-EXP430FR4133](https://www.ti.com/tool/MSP-EXP430FR4133), and an [LP-MSPM0L1306](https://www.ti.com/tool/LP-MSPM0L1306) for general tinkering. Until now, I've mostly used Arduino boards for embedded projects. However, having some experience with TI's toolchain from [MITRE's eCTF competition](https://ectf.mitre.org/) made me curious about trying something different. 
 
 ![Texas Instruments MSP-EXP430FR4133 (Credit: ti.com)](/images/blog/Jan2026/launchpad.png)
 
