@@ -134,11 +134,7 @@ debug: firmware.elf
 
 But Arduino has this too now. The `arduino-cli` and PlatformIO both support command-line workflows. This isn't a TI-specific advantage anymore.
 
-Though, `ardunio-cli` can be a bit clunky for complex projects, whereas TI's toolchain feels more straightforward for multi-file C projects with custom linker scripts. This means less fighting with the build system when you want to do something non-standard. Yes, Arduino can utilize Makefiles or CMake, but it's not the default path.
-
-TI's toolchain feels more "traditional" to me — using `arm-none-eabi-gcc`, `mspdebug`, and standard Makefiles. Arduino's abstractions sometimes feel like they get in the way of that traditional workflow, especially when you want to do something non-standard. For example, integrating custom linker scripts or startup code can be more straightforward in TI's environment.
-
-Coming from a background of writing C and assembly for x86 and other architectures, TI's toolchain feels more familiar. The concepts of linker scripts, startup files, and direct register manipulation align more closely with what I've done in other contexts. Arduino abstracts some of that away, which is great for beginners but can feel limiting when you want to dig deeper.
+However, `arduino-cli` can be clunky for complex projects — TI's toolchain feels more straightforward for multi-file C projects with custom linker scripts and startup code. Less fighting with the build system when you want to do something non-standard. Coming from x86 assembly and systems programming, TI's approach just feels more familiar: `arm-none-eabi-gcc`, `mspdebug`, standard Makefiles, direct register manipulation. Arduino's abstractions are great for beginners, but they can get in the way when you want to dig deeper.
 
 
 ## Choosing Based on Context
