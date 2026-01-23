@@ -22,7 +22,7 @@ Scratch 1.4, specifically. The desktop version, before it went browser-based. Th
 
 ## What Scratch Actually Teaches You
 
-People dismiss Scratch as "baby's first code," and sure, that's technically accurate. But the mental models it builds are surprisingly deep.
+It's hard to remember exactly what I learnt back then on Scratch. However, looking back, I think I have some takeaways:
 
 **Algorithmic thinking**: You learn to break problems into steps. "I want the cat to walk across the screen" becomes "move right, switch costume, wait, repeat." You're decomposing problems before you know that's a skill.
 
@@ -43,11 +43,11 @@ The [Scratch Foundation](https://www.scratchfoundation.org) recently launched a 
 
 Members get perks: exclusive sprite packs, editor themes (Cat Blocks turns hat blocks into cats, which is delightful), avatar frames, 10% off the Scratch Shop, access to Story Xperiential (a storytelling curriculum from Pixar/Khan Academy veterans at a massive discount), newsletters, webinars, and probably more stuff coming.
 
-I am using exactly zero of these benefits. I don't have kids. I'm not making Scratch projects. I'm a grad student with limited income. This was purely a donation.
+I am using exactly **zero** of these benefits. I don't have kids. I'm not making Scratch projects. I'm a grad student with limited income. This was purely a donation.
 
 ## Why I Did This
 
-I've never been the type to donate impulsively. I give $5/year to Wikipedia because it's load-bearing infrastructure for my entire intellectual life, and that's about it. I think twice about most purchases. I'm not wealthy.
+I've never been the type to donate impulsively. I sometimes give $5 to Wikipedia because it's load-bearing infrastructure for my entire intellectual life, and that's about it. I think twice about most purchases. I'm not wealthy.
 
 But Scratch earned this.
 
