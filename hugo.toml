@@ -2,7 +2,7 @@ baseURL = "https://skushagra.com"
 languageCode = 'en-us'
 title = 'Declarative'
 [pagination]
-  pagerSize = 11
+  pagerSize = 12
 [params]
   description = 'by Kush S.'
   github = "suobset"

@@ -1,6 +1,6 @@
 ---
 title: "A Note on the TI LaunchPad [FR4133 // L1306]"
-date: 2026-01-22
+date: 2026-01-21
 tags: ["Code", "Open Source", "Software", "Hardware"]
 ---
 
