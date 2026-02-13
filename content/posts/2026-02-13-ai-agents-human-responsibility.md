@@ -16,6 +16,8 @@ I read through the [AI Agent's website](https://crabby-rathbun.github.io/mjrathb
 
 I opened a GH issue on the website's repository expressing my feelings here: [Issue #34 on crabby-rathbun/mjrathbun-website](https://github.com/crabby-rathbun/mjrathbun-website/issues/34).
 
+![GitHub Issue Screenshot](/images/blog/Feb2026/Feb13GHScrnsht.png)
+
 It will probably be taken down at some point. Hence, I will reproduce my thoughts here as the source of truth.
 
 ---
