@@ -28,7 +28,14 @@
       <hr class="divider-double">
       <!-- ><pre class="ascii-footer">⠀--><!-- ></pre> -->
       <p class="footer-text">
-  			<script id="umaring_js" src="https://umaring.github.io/kush.js"></script>
+  			<script>
+      (function() {
+        var s = document.createElement('script');
+        s.id = 'umaring_js';
+        s.src = 'https://umaring.github.io/kush.js';
+        document.getElementById('umaring').parentNode.appendChild(s);
+      })();
+    </script>
   			<div id="umaring"></div><br>
         © 2017 - {{ now.Year }} · Built w/ <a href="https://gohugo.io">Hugo</a> + a custom theme.<br>
         Views are my own and not representative of any organization/institution.<br>
