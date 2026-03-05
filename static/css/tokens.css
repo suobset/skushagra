@@ -1,0 +1,113 @@
+:root,
+html[data-theme="terminal"] {
+  --font-body: "IBM Plex Mono", "Monaco", "Consolas", monospace;
+  --font-heading: "IBM Plex Mono", "Monaco", "Consolas", monospace;
+  --font-meta: "IBM Plex Mono", "Monaco", "Consolas", monospace;
+
+  --bg: #111014;
+  --surface: #1b1a22;
+  --surface-soft: #232231;
+  --text: #f8f3d6;
+  --text-muted: #c4bc9e;
+  --heading: #ffd67a;
+  --border: #4e4a66;
+  --accent: #ffb454;
+  --accent-2: #bb80ff;
+  --focus: #7fffd4;
+  --link: #ffd67a;
+  --link-visited: #d9b3ff;
+  --link-hover: #ffc97a;
+  --selection-bg: #ffd67a;
+  --selection-text: #111014;
+  --shadow-subtle: 0 0 0 1px rgba(255, 214, 122, 0.15);
+  --glow-accent: rgba(255, 180, 84, 0.2);
+  --glass-panel: rgba(27, 26, 34, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.18);
+}
+
+html[data-theme="news"] {
+  --font-body: "Iowan Old Style", "Baskerville", "Palatino Linotype", "Times New Roman", serif;
+  --font-heading: "Iowan Old Style", "Baskerville", "Palatino Linotype", "Times New Roman", serif;
+  --font-meta: "IBM Plex Mono", "Monaco", "Consolas", monospace;
+
+  --bg: #fdf6e3;
+  --surface: #f8f1de;
+  --surface-soft: #eee8d5;
+  --text: #002b36;
+  --text-muted: #586e75;
+  --heading: #002b36;
+  --border: #93a1a1;
+  --accent: #268bd2;
+  --accent-2: #2aa198;
+  --focus: #dc322f;
+  --link: #005f9e;
+  --link-visited: #6c71c4;
+  --link-hover: #cb4b16;
+  --selection-bg: #268bd2;
+  --selection-text: #fdf6e3;
+  --shadow-subtle: 0 0 0 1px rgba(88, 110, 117, 0.16);
+  --glow-accent: rgba(38, 139, 210, 0.08);
+  --glass-panel: rgba(248, 241, 222, 0.9);
+  --glass-border: rgba(7, 54, 66, 0.2);
+}
+
+html[data-theme="swiss"] {
+  --font-body: "Avenir Next", "Helvetica Neue", "Nimbus Sans", sans-serif;
+  --font-heading: "Avenir Next", "Helvetica Neue", "Nimbus Sans", sans-serif;
+  --font-meta: "IBM Plex Mono", "Monaco", "Consolas", monospace;
+
+  --bg: #f3f3f2;
+  --surface: #ffffff;
+  --surface-soft: #f0f0ef;
+  --text: #101010;
+  --text-muted: #3d3d3d;
+  --heading: #0f0f0f;
+  --border: #bbbbbb;
+  --accent: #d6001c;
+  --accent-2: #0a0a0a;
+  --focus: #005fcc;
+  --link: #101010;
+  --link-visited: #5a5a5a;
+  --link-hover: #d6001c;
+  --selection-bg: #d6001c;
+  --selection-text: #ffffff;
+  --shadow-subtle: 0 0 0 1px rgba(16, 16, 16, 0.12);
+  --glow-accent: rgba(214, 0, 28, 0.08);
+  --glass-panel: rgba(255, 255, 255, 0.92);
+  --glass-border: rgba(16, 16, 16, 0.15);
+}
+
+html[data-theme="glass"] {
+  --font-body: "IBM Plex Mono", "Monaco", "Consolas", monospace;
+  --font-heading: "Avenir Next", "Helvetica Neue", "Nimbus Sans", sans-serif;
+  --font-meta: "IBM Plex Mono", "Monaco", "Consolas", monospace;
+
+  --bg: #0b0f19;
+  --surface: rgba(19, 25, 40, 0.62);
+  --surface-soft: rgba(30, 38, 58, 0.5);
+  --text: #edf4ff;
+  --text-muted: #c6d6eb;
+  --heading: #f6f9ff;
+  --border: rgba(214, 229, 255, 0.32);
+  --accent: #63c6ff;
+  --accent-2: #9eacff;
+  --focus: #7cf2d6;
+  --link: #9ed8ff;
+  --link-visited: #d4c3ff;
+  --link-hover: #c4e6ff;
+  --selection-bg: #63c6ff;
+  --selection-text: #0b0f19;
+  --shadow-subtle: 0 10px 40px rgba(0, 0, 0, 0.28);
+  --glow-accent: rgba(99, 198, 255, 0.16);
+  --glass-panel: rgba(26, 34, 54, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.22);
+}
+
+html[data-theme="glass"][data-transparency="reduced"] {
+  --surface: rgba(19, 25, 40, 0.92);
+  --surface-soft: rgba(30, 38, 58, 0.84);
+  --glass-panel: rgba(19, 25, 40, 0.9);
+  --glass-border: rgba(255, 255, 255, 0.34);
+  --text: #f5f9ff;
+  --text-muted: #dce8f8;
+}

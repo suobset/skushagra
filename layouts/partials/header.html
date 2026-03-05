@@ -11,20 +11,64 @@
   <p class="site-description">{{ . }}</p>
   {{ end }}
   
-  <nav class="site-nav">
-    <a href="{{ .Site.BaseURL }}">Home</a>
-    {{ with .Site.GetPage "/about" }}<a href="{{ .Permalink }}">About</a>{{ end }}
-    {{ with .Site.GetPage "/projects" }}<a href="{{ .Permalink }}">Projects</a>{{ end }}
-    <div class="dropdown">
-      <button class="dropdown-toggle" onclick="this.parentElement.classList.toggle('open')">
+  {{ $currentPath := .RelPermalink }}
+  <nav class="site-nav" aria-label="Primary">
+    <a href="{{ .Site.BaseURL }}" class="nav-link{{ if .IsHome }} is-active{{ end }}"{{ if .IsHome }} aria-current="page"{{ end }}>Home</a>
+    {{ with .Site.GetPage "/about" }}
+    <a href="{{ .Permalink }}" class="nav-link{{ if eq $currentPath .RelPermalink }} is-active{{ end }}"{{ if eq $currentPath .RelPermalink }} aria-current="page"{{ end }}>About</a>
+    {{ end }}
+    {{ with .Site.GetPage "/projects" }}
+    <a href="{{ .Permalink }}" class="nav-link{{ if eq $currentPath .RelPermalink }} is-active{{ end }}"{{ if eq $currentPath .RelPermalink }} aria-current="page"{{ end }}>Projects</a>
+    {{ end }}
+    <div class="dropdown" data-dropdown>
+      <button
+        id="more-toggle"
+        class="dropdown-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="more-menu"
+        data-menu-toggle
+      >
         More ▾
       </button>
-      <div class="dropdown-menu">
-      	{{ with .Site.GetPage "/resume" }}<a href="{{ .Permalink }}">Resume</a>{{ end }}
-        {{ with .Site.Params.github }}<a href="https://github.com/{{ . }}" target="_blank">GitHub</a>{{ end }}
-        {{ with .Site.Params.linkedin }}<a href="https://linkedin.com/in/{{ . }}" target="_blank">LinkedIn</a>{{ end }}
-        {{ with .Site.Params.orcid }}<a href="https://orcid.org/{{ . }}" target="_blank">ORCiD</a>{{ end }}
-        {{ with .Site.Params.instagram }}<a href="https://instagram.com/{{ . }}" target="_blank">Instagram</a>{{ end }}
+      <div id="more-menu" class="dropdown-menu" role="menu" aria-labelledby="more-toggle" hidden>
+      	{{ with .Site.GetPage "/resume" }}<a href="{{ .Permalink }}" role="menuitem">Resume</a>{{ end }}
+        {{ with .Site.Params.github }}<a href="https://github.com/{{ . }}" role="menuitem" target="_blank" rel="noopener noreferrer">GitHub</a>{{ end }}
+        {{ with .Site.Params.linkedin }}<a href="https://linkedin.com/in/{{ . }}" role="menuitem" target="_blank" rel="noopener noreferrer">LinkedIn</a>{{ end }}
+        {{ with .Site.Params.orcid }}<a href="https://orcid.org/{{ . }}" role="menuitem" target="_blank" rel="noopener noreferrer">ORCiD</a>{{ end }}
+        {{ with .Site.Params.instagram }}<a href="https://instagram.com/{{ . }}" role="menuitem" target="_blank" rel="noopener noreferrer">Instagram</a>{{ end }}
+      </div>
+    </div>
+    <div class="dropdown settings-dropdown" data-dropdown>
+      <button
+        id="settings-toggle"
+        class="dropdown-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="settings-menu"
+        data-menu-toggle
+      >
+        Settings ▾
+      </button>
+      <div id="settings-menu" class="dropdown-menu settings-menu" role="menu" aria-labelledby="settings-toggle" hidden>
+        <form class="settings-form" id="settings-form">
+          <fieldset class="settings-group" role="radiogroup" aria-label="Theme">
+            <legend>Theme</legend>
+            <label><input type="radio" name="theme" value="terminal"> Terminal</label>
+            <label><input type="radio" name="theme" value="news"> Newspaper</label>
+            <label><input type="radio" name="theme" value="swiss"> Swiss</label>
+            <label><input type="radio" name="theme" value="glass"> Glass</label>
+          </fieldset>
+          <div class="settings-group">
+            <label><input type="checkbox" id="setting-crt"> CRT FX</label>
+          </div>
+          <div class="settings-group">
+            <label><input type="checkbox" id="setting-vim"> Vim keys</label>
+          </div>
+          <div class="settings-group glass-only-setting" id="glass-only-setting">
+            <label><input type="checkbox" id="setting-reduce-transparency"> Reduce transparency</label>
+          </div>
+        </form>
       </div>
     </div>
   </nav>
