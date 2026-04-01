@@ -1,5 +1,5 @@
 ---
-title: "Kinect & LibFreenect Haberdashery"
+title: "Xbox Kinect & LibFreenect Haberdashery"
 date: 2026-04-01
 tags: ["Code", "Open Source", "Software", "Hardware"] 
 ---
