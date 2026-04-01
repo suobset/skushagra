@@ -4,8 +4,6 @@ date: 2026-04-01
 tags: ["Code", "Open Source", "Software", "Hardware"] 
 ---
 
-# Xbox Kinect Haberdashery
-
 I got an Xbox 360 Kinect for $3 at a thrift store. Great find, except I do not have an Xbox 360 around.
 
 There are two ways to write about projects like this.
@@ -21,6 +19,8 @@ This post is about the second thing.
 ## Setup
 
 Obviously, the Kinect uses a whole bunch of proprietary Microsoft software from ages ago. However, I am forever indebted to the fact that so many people have reverse engineered the device and compiled [libfreenect](https://github.com/OpenKinect/libfreenect).
+
+> [OpenKinect/libfreenect](https://github.com/OpenKinect/libfreenect)
 
 ![LibFreenect on GitHub](/images/blog/Apr2026/libfreenect/9.png)
 
@@ -56,7 +56,7 @@ Once everything works, we can do an OOTB demo and get into our little experiment
 
 The above is an example of the basic OOTB demo from [OpenKinect/libfreenect](https://github.com/OpenKinect/libfreenect), which shows IR data, cameras, can adjust height of camera, and toggle to night camera. 
 
-Video version of the above + video version of the ASCII code discussed below + code available in the repository: [suobset/freenect-demos](https://github.com/suobset/freenect-demos).
+> Video version of the above + video version of the ASCII code discussed below + code available in the repository: [suobset/freenect-demos](https://github.com/suobset/freenect-demos).
 
 ![Freenect Demos](/images/blog/Apr2026/libfreenect/4.png)
 
