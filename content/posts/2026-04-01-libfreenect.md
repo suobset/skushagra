@@ -488,12 +488,3 @@ while (!g_should_stop) {
 * too narrow → flicker
 
 But, we are not trying to understand everything. All that we are trying to do is ask "what is closer than everything else right now?". For a small, contained demo, this is more than enough. 
-
----
-
-I tend to build things where I can understand the whole stack; sometimes that’s low-level systems work, sometimes it’s small tools that solve a very specific problem.
-
-If you find this kind of work useful or interesting, you can support it here:
-https://github.com/sponsors/suobset
-
-Thank you <3
