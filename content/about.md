@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2025-12-22
+date: 2026-04-08
 ---
 
 ![Lightsaber OHill](/images/53835785546_d0902c0b40_b.jpg)
@@ -15,7 +15,7 @@ I'm **Kushagra Srivastava**, a CS Masters student at Northeastern University spe
 
 My focus is low-level systems programming—the kind of work where you're thinking about memory layouts, build systems, and why something takes 40 minutes to compile when it should take 9.
 
-**Current interests:** Operating systems, compiler development, molecular dynamics simulation, LLMs as an accessibility tool, and making software that respects both the machine and the person using it.
+**Current interests:** Cybersecurity, Embedded Systems, Operating systems, compiler development, molecular dynamics simulation, LLMs as an accessibility tool, and making software that respects both the machine and the person using it.
 
 ## Current Projects
 
@@ -23,20 +23,18 @@ My focus is low-level systems programming—the kind of work where you're thinki
 
 ## Background
 
-I'm currently pursuing my Masters in Computer Science at Northeastern University, focusing on operating systems and compilers.
+I'm currently pursuing my Masters in Computer Science at Northeastern University, focusing on Cybersecurity on Embedded systems, bringing my previous experience from working on operating systems and compilers. Currently, I am engaged in some Masters level projects which I will be writing more about soon.
 
-Before this, I worked at Psivant Therapeutics as a Systems/Software Developer on STORMM, a molecular dynamics framework. That role taught me a lot about large-scale scientific software and high performance computation.
+Before this, I worked at [PsiThera](https://psithera.com) as a Systems/Software Developer on [STORMM](https://stormm.psithera.com/), a molecular dynamics framework. A majority of [my contributions](https://github.com/Psivant/stormm/releases/tag/v0.2.0) surrounded around UNIX Standardization, Optimization, Engineering, and making STORMM a valuable Open Source project with a low barrier of entry (from no longer needing 120GB RAM to having comprehensive documentation at hand). That role taught me a lot about large-scale scientific software and high performance computation.
 
-I studied Computer Science at UMass Amherst (BS, Honors), where my thesis compared Rust and C++ performance at the assembly level. My first Linux experience was Ubuntu on an Intel Atom netbook in 7th grade—I wrote code on underpowered hardware because that's what I had. That's probably why I care so much about efficient software now.
+I studied Computer Science at UMass Amherst (BS, Honors), where my thesis compared [Rust and C++ performance at the assembly level](/2025/09/cics-honors-thesis-undergrad-archive.html); that paper exists in the W.E.B. Du Bois Library and you can read a copy [here](https://github.com/cics-syslab/RUST-tracing-tool/blob/main/manuscript/docx/Comparing%20RUST%20and%20C%2B%2B%20Performance%20Metrics%20-%20Kush%20S.pdf). 
 
-## Interests
+I was also a Research Assistant at the [LinKaGe Lab](https://linkage.cs.umass.edu/) at UMass Amherst and Smith College, where I revived old CentOS systems that were hacked into; safeguarded them on a network; retrieved software from decades ago; and rewrote the library's entire bibliography system as a web app that could be hosted on internal servers.
 
-**Retro computing** — PowerBook G3, Acer eeePC, Macintosh System 9, SUN Solaris, and anything that makes you appreciate how far we've come (or haven't). I own actual hardware!!
+Lastly, I published a whole bunch of papers at UMass Amherst under the [Integrated Concentration in STEM](https://icons.cns.umass.edu) program. I have those listen on an [archived version of this website](https://suobset.github.io/archive/web_v3/docs/undergraduate/icons). As part of iCons, I have also worked with [The US Census Department](), on a product called [ASSERT](/2025/09/assert-undergrad-archive.html)
 
-**Right-to-repair** — I believe strongly that you should be able to fix what you own.
+My first Linux experience was Ubuntu on an Intel Atom netbook in 7th grade—I wrote code on underpowered hardware because that's what I had. That's probably why I care so much about efficient software now.
 
-**Lightsaber battles** — Seriously enough to build an Apple Watch app for it.
+---
 
-I think programming is an art form. I prefer well-crafted, platform-native software over cross-platform compromises. I'll take a thoughtfully designed tool over a feature-bloated one every time.
-
-This site runs on [Hugo](https://gohugo.io) with a custom theme I built—amber terminal aesthetics meets classic Mac typography. No JavaScript frameworks were harmed in the making of this blog.
+The best is yet to come.
