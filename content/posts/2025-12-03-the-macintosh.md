@@ -111,3 +111,9 @@ BBEdit from 2001 doesn't have AI code completion (though it has AI worksheets th
 That's what I'm exploring with this project. Not nostalgia for old hardware, but an investigation into what we lost when we decided that "cross-platform" was more important than "well-designed for one platform."
 
 The PowerBook G3 sitting on my desk, running software from 2001, can still do meaningful work in 2024. It's a testament to the software design philosophy that created tools meant to last.
+
+---
+
+Update: Another ancient Mac that I never mentioned here about. My 2011 MacBook Air:
+
+![2011 Air on Pop OS](/images/blog/Updates/mac2.png)
