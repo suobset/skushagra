@@ -3,7 +3,7 @@ title: "About"
 date: 2026-04-08
 ---
 
-![Lightsaber OHill](/images/53835785546_d0902c0b40_b.jpg)
+[![Kush S.](/images/blog/Updates/self.jpg)](/easter)
 
 I'm **Kushagra Srivastava**, a CS Masters student at Northeastern University specializing in operating systems and compilers. I build systems-level software and care deeply about how computers actually work.
 
@@ -23,7 +23,7 @@ My focus is low-level systems programming—the kind of work where you're thinki
 
 ## Background
 
-I'm currently pursuing my Masters in Computer Science at Northeastern University, focusing on Cybersecurity on Embedded systems, bringing my previous experience from working on operating systems and compilers. Currently, I am engaged in some Masters level projects which I will be writing more about soon.
+I'm currently pursuing my Masters in Computer Science at Northeastern University, focusing on Cybersecurity on Embedded systems, bringing my previous experience from working on operating systems and compilers. Currently, I am engaged in some Masters level projects which I will be writing more about soon. I am also affiliated with some projects with [CactiLab at Northeastern](https://cactilab.github.io/).
 
 Before this, I worked at [PsiThera](https://psithera.com) as a Systems/Software Developer on [STORMM](https://stormm.psithera.com/), a molecular dynamics framework. A majority of [my contributions](https://github.com/Psivant/stormm/releases/tag/v0.2.0) surrounded around UNIX Standardization, Optimization, Engineering, and making STORMM a valuable Open Source project with a low barrier of entry (from no longer needing 120GB RAM to having comprehensive documentation at hand). That role taught me a lot about large-scale scientific software and high performance computation.
 
@@ -33,8 +33,8 @@ I was also a Research Assistant at the [LinKaGe Lab](https://linkage.cs.umass.ed
 
 Lastly, I published a whole bunch of papers at UMass Amherst under the [Integrated Concentration in STEM](https://icons.cns.umass.edu) program. I have those listen on an [archived version of this website](https://suobset.github.io/archive/web_v3/docs/undergraduate/icons). As part of iCons, I have also worked with [The US Census Department](), on a product called [ASSERT](/2025/09/assert-undergrad-archive.html)
 
-My first Linux experience was Ubuntu on an Intel Atom netbook in 7th grade—I wrote code on underpowered hardware because that's what I had. That's probably why I care so much about efficient software now.
-
 ---
 
 The best is yet to come.
+
+![Lightsaber OHill](/images/53835785546_d0902c0b40_b.jpg)

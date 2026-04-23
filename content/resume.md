@@ -13,6 +13,8 @@ date: 2025-12-22
 
 [Want to see what I have worked on?](/projects)
 
+**This space is a little outdated, and will be updated if needed.**
+
 ---
 
 ## Education
