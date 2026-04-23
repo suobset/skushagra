@@ -31,7 +31,9 @@ I studied Computer Science at UMass Amherst (BS, Honors), where my thesis compar
 
 I was also a Research Assistant at the [LinKaGe Lab](https://linkage.cs.umass.edu/) at UMass Amherst and Smith College, where I revived old CentOS systems that were hacked into; safeguarded them on a network; retrieved software from decades ago; and rewrote the library's entire bibliography system as a web app that could be hosted on internal servers.
 
-Lastly, I published a whole bunch of papers at UMass Amherst under the [Integrated Concentration in STEM](https://icons.cns.umass.edu) program. I have those listen on an [archived version of this website](https://suobset.github.io/archive/web_v3/docs/undergraduate/icons). As part of iCons, I have also worked with [The US Census Department](), on a product called [ASSERT](/2025/09/assert-undergrad-archive.html)
+Lastly, I published a whole bunch of papers at UMass Amherst under the [Integrated Concentration in STEM](https://icons.cns.umass.edu) program. I have those listen on an [archived version of this website](https://suobset.github.io/archive/web_v3/docs/undergraduate/icons). As part of iCons, I have also worked with [The US Census Department](), on a product called [ASSERT](/2025/09/assert-undergrad-archive.html).
+
+**Outside of the wondrous world of computers and low level systems, I love spending time with my wife, taking [pictures](https://flickr.com/photos/suobset), creating music, and writing journals using ink pens.**
 
 ---
 
