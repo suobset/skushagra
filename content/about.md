@@ -33,7 +33,7 @@ I was also a Research Assistant at the [LinKaGe Lab](https://linkage.cs.umass.ed
 
 Lastly, I published a whole bunch of papers at UMass Amherst under the [Integrated Concentration in STEM](https://icons.cns.umass.edu) program. I have those listen on an [archived version of this website](https://suobset.github.io/archive/web_v3/docs/undergraduate/icons). As part of iCons, I have also worked with [The US Census Department](), on a product called [ASSERT](/2025/09/assert-undergrad-archive.html).
 
-**Outside of the wondrous world of computers and low level systems, I love spending time with my wife, taking [pictures](https://flickr.com/photos/suobset), creating music, and writing journals using ink pens.**
+**Outside of the wondrous world of computers and low level systems, I love spending time with my [wife](https://roseporta.com/), taking [pictures](https://flickr.com/photos/suobset), creating music, and writing journals using ink pens.**
 
 ---
 
